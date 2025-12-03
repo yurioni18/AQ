@@ -1,0 +1,475 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "Calculate the EV/EBITDA and EV/Revenue metrics for Qualcomm (QCOM) in FY 2025. Use the shares outstanding and share price at close from Sep 28, 2025 for the EV calculation. Express the answer using two decimal points of rounding."
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "Include Common shares outstanding = 1,074M as input",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Include Common shares outstanding = 1,074M as input"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Include Share price used = $169.2 as input",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Include Share price used = $169.2 as input"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Calculate Market capitalization = $169.2 * 1074 = $181,720.8M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Calculate Market capitalization = $169.2 * 1074 = $181,720.8M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Include Short-term debt = $0M as input",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Include Short-term debt = $0M as input"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Include Long-term debt = $14,811M as input",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Include Long-term debt = $14,811M as input"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Calculate Total debt = $14,811M ",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Calculate Total debt = $14,811M "
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Include Cash and cash equivalents = $5,520M as input",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Include Cash and cash equivalents = $5,520M as input"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Calculate Enterprise Value (EV) = $181,720.8M + $14,811M - $5,520M = $191,011.8M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Calculate Enterprise Value (EV) = $181,720.8M + $14,811M - $5,520M = $191,011.8M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Include Net income = $5,541M as input",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Include Net income = $5,541M as input"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Include Interest = $664M as input",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Include Interest = $664M as input"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Include Tax = $7,122M as input",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Include Tax = $7,122M as input"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Include Depreciation & amortization = $1,602M as input",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Include Depreciation & amortization = $1,602M as input"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Subtract Investment and other income = $972M as input",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Subtract Investment and other income = $972M as input"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Calculate EBITDA = $13,957M (5,541 + 664 +7,122 + 1,602 - 972)",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Calculate EBITDA = $13,957M (5,541 + 664 +7,122 + 1,602 - 972)"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Calculate EV/EBITDA = 13.69×",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Calculate EV/EBITDA = 13.69×"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Include Revenue = $44,284M as input",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Include Revenue = $44,284M as input"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Calculate EV/Revenue = 4.31×",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Calculate EV/Revenue = 4.31×"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Round EV/EBITDA to two decimal points = 13.69x",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Round EV/EBITDA to two decimal points = 13.69x"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Round EV/Revenue to two decimal points = 4.31x",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Round EV/Revenue to two decimal points = 4.31x"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": true,
+  "use_docker": false,
+  "extra": {
+    "expected_answer": "EV/EBITDA = 13.69×; EV/Revenue = 4.31×.",
+    "steps": "1. Calculate the Enterprise Value using EV = market capitalization + total debt - cash and cash equivalents \n \n 2. Extract common shares outstanding = 1,074M, short-term debt = $0M, long-term debt = $14,811M, total debt = $14,811M, and cash and cash equivalents = $5,520M \n \n 3. Add short-term and long-term debt to get total debt = $14,811M \n \n 4. Calculate market capitalization = $169.2 * 1074 = $181,720.8M \n \n 5. Use the formula to calculate EV = $191,011.8M ($181,720.8 + $14,811 - $5,520) \n \n 6. Calculate EBITDA using EBITDA = net income + interest + tax + depreciation & amortization - investment and other income\n \n 7. Extract net income = $5,541M, interest = $664M, tax = $7,122, depreciation and amortization = $1,602M, investment and other income = $972M. Use the formula in step 7 to calculate EBITDA = $13,957M. \n \n 8. Calculate EV/EBITDA = $191,011.8M/$13,957M = 13.69x \n \n 9. From the 10-K Filing: Extract revenue = $44,284 \n \n 10. Calculate EV/Revenue = $191,011.8M/$44,284M = 4.31x",
+    "filing_links": [
+      "https://www.sec.gov/Archives/edgar/data/804328/000080432825000085/qcom-20250928.htm#i863bbeb855a44eeab08806ae58fc3327_190"
+    ]
+  }
+}
