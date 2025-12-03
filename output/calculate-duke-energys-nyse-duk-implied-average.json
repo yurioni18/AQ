@@ -1,0 +1,42 @@
+{
+  "id": "calculate-duke-energys-nyse-duk-implied-average",
+  "title": "Calculate Duke Energy's (NYSE: DUK) implied average retail electricity price per MWh for FY 2024. Round to the nearest two decimals.",
+  "description": "1) Define the average retail revenue per MWh as Retail electric revenue (Electric Utilities & Infrastructure) / Total retail electric sales in MWh for 2024. \n \n 2) Find Duke Energy's FY 2024 retail electric revenue for Electric Utilities & Infrastructure as $24,593 million. \n \n 3) Find FY 2024 total retail electric sales as 214,585 GWh from the Electric Utilities & Infrastructure segment in the 2024 earnings release report (\"Gigawatt-hour (GWh) Sales\" segment\n  \n 4) Convert the 214585 GWh to MWh as 214,585 GWh × 1,000 = 214,585,000 MWh. \n \n 5) Calculate the implied average retail price per MWh as $24,593 million / 214,585,000 MWh =$114.60726\n \n 6) Round to two decimals= $114.61 per MWh.",
+  "answer": "Implied average retail electricity price for FY 2024: $114.61 per MWh.",
+  "rubric": [
+    {
+      "operator": "correctness",
+      "criteria": "Defines the average retail revenue per MWh as Retail electric revenue (Electric Utilities & Infrastructure) / Total retail electric sales in MWh for 2024."
+    },
+    {
+      "criteria": "States FY 2024 Retail electric revenue for Electric Utilities & Infrastructure as $24,593 million.",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "States the FY2024 total retail electric sales as 214,585 GWh from the Electric Utilities & Infrastructure segment."
+    },
+    {
+      "criteria": "Converts the 214,585 GWh to 214,585,000 MWh using a factor of 1,000.",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Calculates the unrounded implied average retail price per MWh as $114.60726."
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Rounds the implied average retail price to two decimals and reports $114.61 per MWh as the final answer."
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 102,
+    "filing_links": [
+      "[\"https://stocklight.com/stocks/us/nyse-duk/duke-energy-corporation/annual-reports/nyse-duk-2025-10K-25676034.pdf\"]"
+    ],
+    "pass_at_10": "9",
+    "mean": "0.9",
+    "variance": "0.09"
+  }
+}

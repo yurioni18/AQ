@@ -1,0 +1,65 @@
+{
+  "id": "using-ea-nasdaq-ea-quarterly-earnings-reports",
+  "title": "Using EA (NASDAQ: EA) quarterly earnings reports, compute the absolute difference between the actual GAAP EPS CQGR (Compound Quarterly Growth Rate) and the estimated GAAP EPS CQGR of Q4 2025, Q1 2026 , Q2 2026. Use the midpoint of the GAAP EPS estimates for the estimated GAAP EPS CQGR . Give your answer as a percentage to two decimal places.",
+  "description": "1) Using EA's Q4 FY 2025 filings (three months ended Mar 31, 2025), Q1 FY2026 (three months ended Jun 30, 2025) and Q2 FY2026 (three months ended Sep 30, 2025).\n \n 2) Collect actual GAAP diluted EPS from 10-Q filings: \n Q4 FY2025 = $0.98 (three months ended Mar 31, 2025); \n Q1 FY2026 = $0.79 (three months ended Jun 30, 2025); \n Q2 FY2026 = $0.54 (three months ended Sep 30, 2025).\n \n 3) Compute CQGR from Q4 FY2025 (quarter ended Mar 31, 2025) to Q2 FY2026 (quarter ended Sep 30, 2025) across n = 2 quarters using the formula:\n CQGR = (Ending EPS / Beginning EPS)^(1/2) − 1.\n \n 4) Calculate actual GAAP EPS CQGR: ((0.54 / 0.98)^(1/2) − 1) = −0.2576925 = −25.77% (per quarter).\n \n 5) Collect GAAP EPS estimate ranges from EA earnings reports and take midpoints: \n Q4 FY2025 guidance range $0.65–$1.00 - midpoint $0.825 (from Q3 FY2025 release); \n Q2 FY2026 guidance range $0.29–$0.46 - midpoint $0.375 (from Q1 FY2026 release).\n \n 6) Compute the estimated GAAP EPS CQGR using the midpoints: ((0.375 / 0.825)^(1/2) − 1) = −0.3258001 = −32.58% (per quarter).\n \n 7) Compute the absolute difference between actual and estimated CQGRs: |−25.77% − (−32.58%)| = 6.81% \n \n 8) Format answer to 2 decimal places: 6.81%",
+  "answer": "6.81%",
+  "rubric": [
+    {
+      "criteria": "Use EA'S quarterly releases: Q4 FY2025 (three months ended Mar 31, 2025), Q1 FY2026 (three months ended Jun 30, 2025), Q2 FY2026 (three months ended Sep 30, 2025).",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "CQGR formula and period specification: CQGR = (Ending EPS / Beginning EPS)^(1/2) − 1 with n = 2 quarters."
+    },
+    {
+      "criteria": "Calculated actual GAAP EPS CQGR = −25.77% (per quarter), computed as ((0.54 / 0.98)^(1/2) − 1).",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Calculated estimated GAAP EPS CQGR = −32.58% (per quarter), computed as ((0.375 / 0.825)^(1/2) − 1).",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Absolute difference between actual and estimated CQGRs -> 6.81%"
+    },
+    {
+      "criteria": "Actual GAAP diluted EPS Q1 FY2026 IS $0.79",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Include Actual GAAP diluted EPS Q2 FY2026 = $0.54"
+    },
+    {
+      "criteria": "Actual GAAP diluted EPS Q4 FY2025 is $0.98",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Final answer reported to two decimal places - 6.81%"
+    },
+    {
+      "criteria": "Estimated GAAP EPS guidance midpoint: Q4 FY2025 midpoint is $0.825 (range $0.65–$1.00)",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Estimated GAAP EPS guidance midpoint: Q2 FY2026 midpoint is $0.375 (range $0.29–$0.46) ",
+      "operator": "correctness"
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 5,
+    "filing_links": [
+      "[\"https://s204.q4cdn.com/701424631/files/doc_financials/2025/q4/Q4-FY25-Earnings-Slides-FINAL.pdf\"",
+      "\"https://s204.q4cdn.com/701424631/files/doc_financials/2026/q1/Q1-FY26-Earnings-Slides-FINAL.pdf\"",
+      "\"https://s204.q4cdn.com/701424631/files/doc_financials/2026/q2/Q2-FY26-Earnings-Release-FINAL.pdf\"",
+      "\"https://s204.q4cdn.com/701424631/files/doc_financials/2025/q3/Q3-FY25-Earnings-Press-Release-FINAL.pdf\"]"
+    ],
+    "pass_at_10": "1",
+    "mean": "0.1",
+    "variance": "0.09"
+  }
+}

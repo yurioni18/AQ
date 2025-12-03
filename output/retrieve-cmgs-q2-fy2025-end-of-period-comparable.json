@@ -1,0 +1,65 @@
+{
+  "id": "retrieve-cmgs-q2-fy2025-end-of-period-comparable",
+  "title": "Retrieve CMG’s Q2-FY2025 end-of-period comparable restaurant base for the Chipotle restaurants segment. Assume none of the restaurants opened over the last four quarters were closed. Express your answer as a whole number.",
+  "description": "Recognize that restaurants enter CMG's comparable base in their 13th month of operations. Given that none of the restaurants opened over the last four quarters were closed, the EOP comparable base is simply = EOP restaurants − restaurants opened over the last four quarters.\n \n 1) Identify Q2 FY2025 quarter-end and total Chipotle company-owned restaurants at period end: Q2 FY2025 ended June 30, 2025; company-owned restaurants at end of period = 3,839 restaurants. Chipotle defines comparable restaurant sales for company-owned restaurants in operation at least 13 full calendar months, so comps base excludes units opened within the last four quarters. (SEC Form 10-Q for quarter ended June 30, 2025; Restaurant Activity table and comps definition.)\n \n 2) Tally company-owned restaurants opened over the last four quarters through Q2 FY2025: Q2 FY2025 opened 61; Q1 FY2025 opened 57; Q4 FY2024 opened 119; Q3 FY2024 opened 86. Sum of openings = 61 + 57 + 119 + 86 = 323 restaurants. (Q2 FY2025 openings from SEC Form 10-Q; prior-quarter openings from company press releases and supplemental data tables dated 2025-04-23, 2025-02-04, and 2024-10-29.)\n \n 3) Compute Q2 FY2025 end-of-period comparable restaurant base for the Chipotle restaurants segment, assuming none of the restaurants opened over the last four quarters were closed: 3,839 − 323 = 3,516 restaurants. (Inputs and assumption per Steps 1–2 and company definition of comparable restaurants.)",
+  "answer": "3,516 restaurants",
+  "rubric": [
+    {
+      "operator": "correctness",
+      "criteria": "Company-owned restaurants at end of Q2 FY2025 = 3,839 restaurants"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Chipotle defines comparable company-owned restaurants as restaurants in operation at least 13 full calendar months"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Comparable base excludes units opened within the last four quarters"
+    },
+    {
+      "criteria": "Restaurants opened in Q3 FY2024 = 86",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Restaurants opened in Q4 FY2024 = 119"
+    },
+    {
+      "criteria": "Restaurants opened in Q1 FY2025 = 57",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Restaurants opened in Q2 FY2025 = 61"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Total openings over last 4 quarters = 323"
+    },
+    {
+      "criteria": "Assume that none of the restaurants opened over the last four quarters were closed.",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Recognize that the EOP comparable base is simply = EOP restaurants − restaurants opened over the last four quarters.",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Compute Q2 FY2025 EOP comparable restaurant base as 3,839 − 323 = 3,516 restaurants."
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 42,
+    "filing_links": [
+      "[\"https://www.sec.gov/Archives/edgar/data/1058090/000105809025000056/cmg-20250630.htm\"",
+      "\"https://www.sec.gov/Archives/edgar/data/1058090/000105809025000031/cmg-20250331.htm\"",
+      "\"https://www.sec.gov/Archives/edgar/data/1058090/000105809025000014/cmg-20241231.htm\"",
+      "\"https://www.sec.gov/Archives/edgar/data/1058090/000105809024000050/cmg-20240930.htm\"]"
+    ],
+    "pass_at_10": "4",
+    "mean": "0.4",
+    "variance": "0.24"
+  }
+}

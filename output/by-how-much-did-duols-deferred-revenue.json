@@ -1,0 +1,38 @@
+{
+  "id": "by-how-much-did-duols-deferred-revenue",
+  "title": "By how much did DUOL's deferred revenue attributable to subscriptions increase during 2024? Express your answer in $ millions rounded to one decimal.",
+  "description": "Step 1: Identify the necessary formula for obtaining the change in deferred revenue attributable to subscriptions. In this case it is equal to 2024 Subscription Bookings - 2024 Subscription Revenue \n  \n Step 2: Find Subscription Bookings and Subscription revenue from Duolingo's FY 2024 Form 10-K, Item 7 (Management's Discussion and Analysis of Financial Condition and Results of Operations):\n \n Subscription bookings = $730.737 million\n Subscription revenue = $607.531 million\n \n Step 3: Calculate the change in deferred revenue attributable to subscriptions using the formula 2024 Subscription Bookings - 2024 Subscription Revenue\n \n $730.737 million − $607.531 million = $123.206 million\n Rounded to one decimal place = $123.2 million",
+  "answer": "$123.2 million",
+  "rubric": [
+    {
+      "operator": "correctness",
+      "criteria": "Identify the deferred revenue attributable to subscriptions formula as Formula: 2024 Subscription Bookings - 2024 Subscription Revenue"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Find Subscription bookings from item 7 = $730.737 million"
+    },
+    {
+      "criteria": "Find Subscription revenue from item 7 = $607.531 million",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Calculate the difference = $123.206 million (730.737 − 607.531)"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Rounded the difference to one decimal place = $123.2 million (Final Answer: $123.2 million)"
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 39,
+    "filing_links": [
+      "[\"https://investors.duolingo.com/node/10676/html#i6507bcd781ac4d60ac709644ddc2642b\"]"
+    ],
+    "pass_at_10": "4",
+    "mean": "0.4",
+    "variance": "0.24"
+  }
+}

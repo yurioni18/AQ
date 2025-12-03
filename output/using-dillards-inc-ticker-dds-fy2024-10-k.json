@@ -1,0 +1,62 @@
+{
+  "id": "using-dillards-inc-ticker-dds-fy2024-10-k",
+  "title": "Using Dillard's Inc (ticker: DDS) FY2024 10-K calculate EV/Sales multiple. Assume that the market cap is $10bn. Show the answer rounded to 2 decimals.",
+  "description": "1. Identify FY2024 net sales from Dillard’s FY2024 Form 10-K (fiscal year ended February 1, 2025): Net sales = $6,482.636 million.\n \n 2. Gather EV inputs from the FY2024 Form 10-K balance sheet disclosures (as of February 1, 2025): \n long-term debt = $321.567 million; \n Subordinated debentures = $200 mln; \n cash and cash equivalents = $717.854 mln; \n short-term investments = $325.675 million; \n no preferred stock or noncontrolling interests are presented on the consolidated balance sheet (treated as $0 in EV).\n \n 3. Compute enterprise value using the provided equity value: \n EV = Market cap ($10,000.0 million) + Total debt ($521.6 million) − Cash and short-term investments ($1,043.5 million) = $9,478.1 million.\n \n 4. Calculate EV/Sales and round to two decimals: EV/Sales = $9,478.1 million ÷ $6,482.636 million = 1.46x.",
+  "answer": "1.46x.",
+  "rubric": [
+    {
+      "criteria": "Net sales = $6,482.636 million",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Long-term debt = $321.567 million",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Subordinated debentures = $200 million",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Cash and cash equivalents = $717.854 million",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Short-term investments = $325.675 million"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Preferred stock and noncontrolling interests treated as $0"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Market cap (equity value) = $10,000.0 million"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Total debt = $521.6 million"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Cash and short-term investments total = $1,043.5 million"
+    },
+    {
+      "criteria": "Computed enterprise value (EV) = $9,478.1 million",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "EV/Sales = 1.46x (rounded to two decimals)",
+      "operator": "correctness"
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 18,
+    "filing_links": [
+      "[\"https://www.sec.gov/Archives/edgar/data/28917/000002891725000004/dds-20250201x10k.htm#ITEM8FINANCIALSTATEMENTSANDSUPPLEMENTARY\"]"
+    ],
+    "pass_at_10": "2",
+    "mean": "0.2",
+    "variance": "0.16"
+  }
+}

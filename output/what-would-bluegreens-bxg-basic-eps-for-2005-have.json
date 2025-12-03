@@ -1,0 +1,50 @@
+{
+  "id": "what-would-bluegreens-bxg-basic-eps-for-2005-have",
+  "title": "What would Bluegreen’s (BXG) Basic EPS for 2005 have been if they didn't call the remainder of its convertible bonds in November 19, 2004. Use $8.24 as the average conversion price. Express the answer in $ rounded to 2 decimal places of precision.",
+  "description": "1) Retrieve Bluegreen’s reported FY2005 net income attributable to Bluegreen: $46.551 million.\n \n 2) Calculate the after-tax cost of interest to adjust the net income by. Given 27.4 million of convertible bonds, BXG would be accruing interest on them without conversion. Using the 8.25% rate attached to them, the annual interest expense would be 27400 thousand x0.0825 = 2,260.5 thousand\n \n 3) The after-tax cost of interest would therefore be (1-0.4)x2,260.5 thousand = 1,356.3 thousand\n \n 4) Subtract the adjustment from the reported net income of 46,551 thousand to yield 45,194.7 thousand.\n \n 5) Now, the adjusted number of shares outstanding needs to be calculated if the bonds weren't converted. Given the conversion price of 8.24, this means that 27400 thousand/8.24 = 3325 thousand additional shares were recorded. \n \n 6) Adjusting out the 3325 thousand shares from 30381 thousand total shares, 27056 thousand shares would be outstanding in the question.\n \n 7) Calculate that 45195/27056 = 1.67 to be the basic EPS",
+  "answer": "$1.67",
+  "rubric": [
+    {
+      "operator": "correctness",
+      "criteria": "State that Bluegreen's FY2005 net income is 46.551 million\n"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Calculate pre-tax interest expense to be 27,400 thousand × 8.25% = 2,260.5 thousand"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Apply the 40% tax rate to find that after-tax interest = (1−0.4) × 2,260.5 thousand = 1,356.3 thousand"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Calculate adjusted net income to be 46,551 thousand − 1,356.3 thousand = 45,194.7 thousand"
+    },
+    {
+      "criteria": "Using the conversion price of $8.24, calculate the additional shares from conversion to be 27,400 thousand / 8.24 = 3,325 thousand",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Find that the basic number of shares outstanding is 30,381 thousand",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Adjusted shares outstanding = 30,381 thousand − 3,325 thousand = 27,056 thousand"
+    },
+    {
+      "criteria": "Find that EPS is 45,195 / 27,056 = 1.67 (rounded to the nearest 2 decimals)",
+      "operator": "correctness"
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 35,
+    "filing_links": [
+      "[\"https://www.sec.gov/Archives/edgar/data/778946/000117120009000096/i00051_bxg-10k.htm\"]"
+    ],
+    "pass_at_10": "4",
+    "mean": "0.4",
+    "variance": "0.24"
+  }
+}

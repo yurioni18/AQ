@@ -1,0 +1,70 @@
+{
+  "id": "calculate-snowflake-inc-nyse-snows-evsales",
+  "title": "Calculate Snowflake Inc. (NYSE: SNOW)'s EV/Sales multiple for the Fiscal year ended January 31, 2025. Show the enterprise value build-up and do not just pull the EV figure. Use the stock price from March 7, 2025, to calculate equity value. Format the final answer as \"#.##x\".",
+  "description": "First, calculate the company's Enterprise Value\n \n - Equity value is calculated with 334,100,000 shares outstanding and a share price of $158.91 on March 7, 2025 = $53,091,831,000\n - Debt-like items include Operating lease liabilities, current, which total 35,923,000; Operating lease liabilities, non-current, which total $377,818,000; and Convertible senior notes, net, which total $2,271,529,000\n - Cash-like items include Cash and cash equivalents, which total $2,628,798,000; Short-term investments, which total $2,008,873,000; and Long-term investments (because the investments are non-operating in nature), which total $656,476,000\n \n EV = Equity value + debt-like items - cash-like items = $50,489,668,000\n \n Sales for FY2025 are $3,626,396,000\n \n EV/Sales = $50,489,668,000/$3,626,396,000 = 13.92x",
+  "answer": "13.92x",
+  "rubric": [
+    {
+      "criteria": "Shares outstanding are found to be 334,100,000",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Share price used is $158.91"
+    },
+    {
+      "criteria": "Equity value calculated = $53,091,831,000",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Operating lease liabilities, current = $35,923,000",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Operating lease liabilities, non-current = $377,818,000"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Convertible senior notes, net = $2,271,529,000"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Cash and cash equivalents = $2,628,798,000"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Short-term investments = $2,008,873,000"
+    },
+    {
+      "criteria": "Long-term investments = $656,476,000",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Enterprise Value (EV) computed = $50,489,668,000",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Sales for FY2025 = $3,626,396,000"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "EV/Sales calculated = 13.92x"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Answer is formatted as \"#.##x\""
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 3,
+    "filing_links": [
+      "[\"https://www.bamsec.com/filing/164014725000052?cik=1640147\"]"
+    ],
+    "pass_at_10": "1",
+    "mean": "0.1",
+    "variance": "0.09"
+  }
+}

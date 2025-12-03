@@ -1,0 +1,66 @@
+{
+  "id": "using-nvidias-nasdaq-nvda-form-10-k-for-the",
+  "title": "Using NVIDIA’s (NASDAQ: NVDA) Form 10-K for the fiscal year ended January 26, 2025, calculate NVIDIA’s FY 2025 EV/EBITDA, expressed as a ratio rounded to 2 decimals.",
+  "description": "1. Pull Nvidia's FY 2025 EBIT (operating income): $81,453 million (Form 10-K, FY 2025).\n \n 2. Pull Nvidia's FY 2025 D&A (depreciation & amortization): $1,864 million (Form 10-K, FY 2025).\n \n 3. Calculate Nvidia's FY 2025 EBITDA as EBIT plus D&A: $81,453 million + $1,864 million = $83,317 million.\n \n 4. Pull Nvidia's total shares outstanding from the balance sheet \"24,477 shares issued and outstanding as of January 26, 2025\": 24,477 million (Form 10-K, FY 2025).\n \n 5. Pull Nvidia's latest close price before end of FY 2025: $142.59/share (Yahoo Finance, closing share price on January 24, 2025).\n \n 6. Calculate nvidia's market cap at FY 2025 end as total shares outstanding multiplied by latest close price: 24,477 million shares × $142.59/share = $3,490,175.43 million. \n \n 7. Pull Nvidia's total debt in FY 2025: $8,463 million (Form 10-K, FY 2025).\n \n 8. Pull Nvidia's cash & cash equivalents FY 2025: $8,589 million (Form 10-K, FY 2025).\n \n 9. Pull Nvidia's marketable securities FY 2025: $34,621 million (Form 10-K, FY 2025).\n \n 10. Calculate Enterprise Value (EV) as market cap plus total debt minus cash &cash equivalents minus marketable securities: $3,490,175.43 million + $8,463 million − $8,589 million - $34,621 million = $3,455,428.43 million.\n \n 11. Calculate FY 2025 EV/EBITDA as EV divided by EBITDA: $3,455,428.43 million ÷ $83,317 million = 41.47x.",
+  "answer": "41.47×",
+  "rubric": [
+    {
+      "criteria": "FY2025 EBIT (operating income) = $81,453 million as input",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "FY2025 depreciation and amortization (D&A) = $1,864 million as input",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "calculate FY2025 EBITDA correctly as: EBIT + D&A = $83,317 million"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Total shares outstanding = 24,477 million as input"
+    },
+    {
+      "criteria": "pull latest NVDA close price per share on January 24, 2025 = $142.59",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "calculate market cap as total shares outstanding x share price: 24,477 million × $142.59 = $3,490,175.43 million"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "pull total debt = $8,463 million as input"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "pull cash and cash equivalents = $8,589 million as input"
+    },
+    {
+      "criteria": "pull marketable securities = $34,621 million as input",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "calculate Enterprise Value correctly as $3,490,175.43 million + $8,463 million − $8,589 million − $34,621 million = $3,455,428.43 million"
+    },
+    {
+      "criteria": "FY2025 EV/EBITDA = $3,455,428.43 million ÷ $83,317 million = 41.47×.",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Round final answer to two decimal points: 41.47×",
+      "operator": "correctness"
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 52,
+    "filing_links": [
+      "[\"https://www.sec.gov/ix?doc=/Archives/edgar/data/0001045810/000104581025000023/nvda-20250126.htm\"]"
+    ],
+    "pass_at_10": "6",
+    "mean": "0.6",
+    "variance": "0.24"
+  }
+}

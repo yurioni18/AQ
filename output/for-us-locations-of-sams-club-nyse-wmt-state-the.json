@@ -1,0 +1,50 @@
+{
+  "id": "for-us-locations-of-sams-club-nyse-wmt-state-the",
+  "title": "For US locations of Sam's Club (NYSE: WMT), state the change in fuel sales between FY 2024 and FY 2025. Express the answer in $M.",
+  "description": "1. Find US Sam's Clubs fuel sales in FY 2024. From Walmart's FY 2025 10-K, fuel sales are not disclosed separately, but can be found by subtracting net sales including fuel ($86,179M) and net sales excluding fuel sales ($75,057M). Net fuel sales: $86,179M-$75,057M = $11,122M.\n \n 2. Find US Sam's Clubs fuel sales in FY 2025. From Walmart's FY 2025 10-K, fuel sales are not disclosed separately, but can be found by subtracting net sales including fuel ($90,238M) and net sales excluding fuel sales ($79,777M). Net fuel sales: $90,238M-$79,777M = $10,461M.\n \n 3. Compare US Sam's Clubs fuel sales between FY 2024 and FY 2025. $10,461M (FY 2025) - $11,122M (FY 2024) = -$661M.",
+  "answer": "−$661M",
+  "rubric": [
+    {
+      "operator": "correctness",
+      "criteria": "Find US Sam's Club FY 2024 net sales including fuel: $86,179M"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Find US Sam's Club FY 2024 net sales excluding fuel: $75,057M"
+    },
+    {
+      "criteria": "Calculate US Sam's Club FY 2024 net fuel sales: $86,179M-$75,057M = $11,122M",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Find US Sam's Club FY 2025 net sales including fuel: $90,238M",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Find US Sam's Club FY 2025 net sales excluding fuel: $79,777M"
+    },
+    {
+      "criteria": "Calculate US Sam's Club FY 2025 net fuel sales: $90,238M-$79,777M = $10,461M",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Calculate difference between FY 2024 and FY 2025 net fuel sales: $10,461M (FY 2025) - $11,122M (FY 2024) = -$661M",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Final answer states -$661M"
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 59,
+    "filing_links": [
+      "[\"https://stock.walmart.com/sec-filings/all-sec-filings/content/0000104169-25-000021/wmt-20250131.htm#i55dba7a5534b4e0a8906aac30b2ec33b_130\"]"
+    ],
+    "pass_at_10": "6",
+    "mean": "0.6",
+    "variance": "0.24"
+  }
+}

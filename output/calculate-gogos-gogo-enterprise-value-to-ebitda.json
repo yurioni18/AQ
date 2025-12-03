@@ -1,0 +1,75 @@
+{
+  "id": "calculate-gogos-gogo-enterprise-value-to-ebitda",
+  "title": "Calculate Gogo's (GOGO) Enterprise Value to EBITDA ratio at the end of Q2 FY2025 using a share price of $15 per share. Assume that leases are not factored into the value of debt calculation. Use LTM adjusted EBITDA for the multiple. Show the enterprise value and EBITDA calculation. Express your answer in the following format: 0.00x",
+  "description": "1. Determine the inputs needed to calculate enterprise value:\n Enterprise Value = Equity Value + Total Debt - Cash and Cash Equivalents\n \n 2. Determine there are 133,334,288 shares outstanding per balance sheet\n \n 3. Using a share price of $15 as stated, the calculated equity value is 2,000,014,320. Round to $Ms: 2,000.014M.\n \n 3. Find total debt, which consists the long term debt and current portion of long term debt:\n CMLTD: 2.5M\n LTD: 832.513M\n Total Debt = 2.5 + 832.513 = 835.013M\n \n 4. Find cash and cash equivalents, which is $102.085 million\n \n 5. Calculate enterprise value\n Enterprise Value = 2,000.014M + 835.013M - 102.085M = 2732.942M\n \n 6. Calculate LTM Adjusted EBITDA as of Q2 FY2025 by adding adjusted EBITDA for the last four quarters together\n Q2 FY2025 last 6 months adj EBITDA = 123.777M\n FY 2024 adj EBITDA = 142.496M\n Q2 FY 2024 last 6 months adj EBITDA = 73.752M\n LTM Adjusted EBITDA (as of Q2 FY2025) = 123.777 + 142.496 - 73.752 = 192.521M\n \n 7. Divide enterprise value by LTM Adjusted EBITDA:\n EV/EBITDA = 2732.942M / 192.52M = 14.20x",
+  "answer": "14.20x",
+  "rubric": [
+    {
+      "criteria": "Enterprise Value = Equity Value + Total Debt - Cash and Cash Equivalents",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Shares outstanding = 133,334,288"
+    },
+    {
+      "criteria": "Equity value = shares outstanding x $15 share price = 2,000,014,320 (or $2,000.014M)",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "CMLTD (current portion of long term debt) = 2.5M",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Long term debt (LTD) = 832.513M"
+    },
+    {
+      "criteria": "Total debt used in EV calculation by adding current portion and long term debt = 835.0M",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Cash and cash equivalents = 102.085M",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Enterprise Value calculated 2,000.014M + 835.013M - 102.085M = 2732.942M"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Q2 FY2025 last 6 months adjusted EBITDA = 123.777M"
+    },
+    {
+      "criteria": "FY2024 adjusted EBITDA = 142.496M",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Q2 FY2024 last 6 months adjusted EBITDA = 73.752M"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "LTM Adjusted EBITDA (as of Q2 FY2025) = 123.777 + 142.496 - 73.752 = 192.521M"
+    },
+    {
+      "criteria": "Divide Enterprise Value by LTM Adj. EBITDA = 14.196x",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Round answer to two decimal points 14.20x",
+      "operator": "correctness"
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 86,
+    "filing_links": [
+      "[\"https://www.bamsec.com/filing/95017025105003?cik=1537054\"",
+      "\"https://www.bamsec.com/filing/95017025039384?cik=1537054\"]"
+    ],
+    "pass_at_10": "9",
+    "mean": "0.9",
+    "variance": "0.09"
+  }
+}

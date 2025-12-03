@@ -1,0 +1,70 @@
+{
+  "id": "how-did-strides-ticker-lrn-adjusted-operating",
+  "title": "How did Stride's (ticker: LRN) adjusted operating income compare to management projections (at midpoint) on a quarterly basis in FY2025? Format as % BEAT or MISS. Use guidance provided on a quarterly basis. If the company did not provide guidance for one or more quarters, indicate this in the answer as \"no guidance.\" Format the answer as: \"[X]Q FY2025 [X.XX] % beat/miss / no guidance; ...\".",
+  "description": "1) Identify Actual AOI for each quarter of FY2025:\n Q1 FY2025: $58.4M\n Q2 FY2025: $135.6M\n Q3 FY2025: $141.7M\n Q4 FY2025: $130.6M\n \n 2) Identify quarterly AOI guidance by reviewing Stride’s FY2024 Q4 release (pre-FY2025) and FY2025 Q1–Q3 releases: \n Q1 FY2025: no quarterly guidance was issued (FY2024 Q4 release explicitly said no separate guidance before Q1 results; \n Q2 FY2025: AOI $115–$125 million, midpoint = ($115M + $125M)/2 = $120.0M.\n Q3 FY2025: AOI $130–$140 million, midpoint = ($130M + $140M)/2 = $135.0M.\n Q4 FY2025: Full FY2025 AOI $455-$465 million, midpoint = ($455M + $465M)/2 = $460.0M. To calculate midpoint of 4Q AOI guidance, subtract YTD actual results (1Q-3Q) from Full year guidance. Q4 FY2025 AOI midpoint = $460M - $58.4M - $135.6M - $141.7M = $124.3M\n \n 3) Compute beat/miss vs guidance midpoint for each Q: \n Q1 FY2025: no guidance\n Q2 FY2025 beat/miss = (135.6 − 120.0) / 120.0 × 100 = 13.00%\n Q3 FY2025 beat/miss = (141.744 − 135.0) / 135.0 × 100 = 5.00%\n Q4 FY2025 beat/miss = (130.6 - 124.3) / 124.3 *100 = 5.00%\n \n \n 4) Produce final formatted answer string covering all FY2025 quarters, indicating “no guidance” where applicable and using two-decimal precision for beats/misses as computed above. (Sources as cited in Steps 1–3.)\n 1Q FY2025 no guidance; 2Q FY2025 13.00% BEAT; 3Q FY2025 5.00% BEAT; 4Q FY2025 5.00% BEAT.",
+  "answer": "1Q FY2025 no guidance; 2Q FY2025 13.00% BEAT; 3Q FY2025 5.00% BEAT; 4Q FY2025 5.00% BEAT.",
+  "rubric": [
+    {
+      "criteria": "Q1 FY2025 Actual AOI = $58.4M; ",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Q2 FY2025 Actual AOI = $135.6M;"
+    },
+    {
+      "criteria": "Q3 FY2025 Actual AOI = $141.7M;",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Q4 FY2025 Actual AOI = $130.6M",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Q1 FY2025: no guidance provided by company",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Q2 FY2025 AOI guidance range $115–$125M with midpoint $120.0M",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Q3 FY2025 AOI guidance range $130–$140M with midpoint $135.0M",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Full FY2025 AOI guidance $455–$465M midpoint $460.0M -> Q4 AOI midpoint computed as $460.0M − $58.4M − $135.6M − $141.7M = $124.3M"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Q2 FY2025 percent beat vs midpoint =13.00% BEAT"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Q3 FY2025 percent beat vs midpoint = 5.00% BEAT"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Q4 FY2025 percent beat vs midpoint = 5.00% BEAT"
+    },
+    {
+      "criteria": "Final formatted answer string present as: 1Q FY2025 no guidance; 2Q FY2025 13.00% BEAT; 3Q FY2025 5.00% BEAT; 4Q FY2025 5.00% BEAT.",
+      "operator": "correctness"
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 25,
+    "filing_links": [
+      "[\"https://s26.q4cdn.com/126400783/files/doc_financials/2024/q4/Stride-Posts-Another-Record-Year-2024.pdf\"",
+      "\"https://s26.q4cdn.com/126400783/files/doc_news/Strong-Demand-Drives-Record-Enrollment-2024.pdf\"",
+      "\"https://s26.q4cdn.com/126400783/files/doc_financials/2025/q2/Stride-Posts-Record-Quarterly-Results-2025.pdf\"",
+      "\"https://s26.q4cdn.com/126400783/files/doc_financials/2025/q3/Strong-Demand-Delivers-Another-Record-Quarter-for-Stride-2025.pdf\"",
+      "\"https://s26.q4cdn.com/126400783/files/doc_financials/2025/q4/Stride-Achieves-Another-Record-Year-2025.pdf\"]"
+    ],
+    "pass_at_10": "2",
+    "mean": "0.2",
+    "variance": "0.16"
+  }
+}

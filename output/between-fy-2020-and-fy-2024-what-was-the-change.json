@@ -1,0 +1,35 @@
+{
+  "id": "between-fy-2020-and-fy-2024-what-was-the-change",
+  "title": "Between FY 2020 and FY 2024, what was the change in the percentage of CVS Health (NYSE: CVS) Pharmacy and Consumer Wellness revenues made from operations excluding \"pharmacy\"? Express the answer as a percentage rounded to two decimal points of precision.",
+  "description": "1. Find the percent of CVS Pharmacy & Consumer Wellness revenues made from non-pharmacy operations in FY 2020. Using CVS's FY 2020 10-K, making sure to use Retail/LTC (predecessor to Pharmacy & Consumer Wellness): front store and other = 23.1%. \n \n 2. Find the percent of CVS Pharmacy & Consumer Wellness revenues made from non-pharmacy operations in FY 2024. Using CVS's FY 2024 10-K: front store and other = 19.1%. \n \n 3. Compute the change in CVS Pharmacy & Consumer Wellness revenues made from non-pharmacy operations (FY 2024 minus FY 2020): 19.1% - 23.1% = -4.00%.",
+  "answer": "−4.00%",
+  "rubric": [
+    {
+      "criteria": "Find FY2020 non-pharmacy (front store and other) percentage = 23.1% (Retail/LTC predecessor per FY2020 10-K)",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Find FY2024 non-pharmacy (front store and other) percentage = 19.1% (Pharmacy & Consumer Wellness per FY2024 10-K)"
+    },
+    {
+      "criteria": "Computed the change as: -4.00% = (19.1% − 23.1%)",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Final answer rounded to two decimal places"
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 104,
+    "filing_links": [
+      "[\"https://s206.q4cdn.com/752775519/files/doc_financials/2024/ar/CVS-Health-2024-Annual-Report.pdf\"",
+      "\"https://d18rn0p25nwr6d.cloudfront.net/CIK-0000064803/e88bf5ef-0bf3-4b1f-9637-eb5b0cb32b4a.pdf\"]"
+    ],
+    "pass_at_10": "9",
+    "mean": "0.9",
+    "variance": "0.09"
+  }
+}

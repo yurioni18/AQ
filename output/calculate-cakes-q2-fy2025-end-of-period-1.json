@@ -1,0 +1,63 @@
+{
+  "id": "calculate-cakes-q2-fy2025-end-of-period-1",
+  "title": "Calculate CAKE’s Q2-FY2025 end-of-period comparable restaurant base for The Cheesecake Factory segment. Assume none of the restaurants opened over the last six quarters were closed. Express your answer as a whole number.",
+  "description": "1. Recognize CAKE's comparable restaurants convention. \"Restaurants enter comps in their 19th month of operation; relocated and closed restaurants are excluded from comps. Therefore, EOP comparable base = total reported EOP Q2-FY2025 The Cheesecake Factory restaurants - minus restaurants opened during the last 6 quarters.\n \n 2. Identify EOP The Cheesecake Factory restaurants open at Q2-FY2025: 216 restaurants.\n \n 3. Sum The Cheesecake Factory restaurants opened during the last six quarters:\n  - Q2-FY2025: 2; Q1-FY2025: 0; Q4-FY2024: 2; Q3-FY2024: 0; Q2-FY2024: 1; Q1-FY2024: 0\n \n Total openings = 5 restaurants. \n \n 4. EOP comparable restaurant base for The Cheesecake Factory segment: 216 − 5 = 211 restaurants.",
+  "answer": "211 restaurants.",
+  "rubric": [
+    {
+      "operator": "correctness",
+      "criteria": "Recognize that restaurants enter comps in their 19th month of operation."
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Recognize from the assumptions that closed restaurants are excluded from comps."
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Reported EOP The Cheesecake Factory restaurants at Q2-FY2025 = 216"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Restaurants opened in Q2-FY2025=2 "
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Identify restaurants opened in Q1-FY2025 as = 0"
+    },
+    {
+      "criteria": "Identify restaurants opened in Q4-FY2024 as = 2",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Identify restaurants opened in Q3-FY2024 as = 0"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Identify restaurants opened in Q2-FY2024 as = 1"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Total restaurants opened in the last six quarters = 5"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Calculated end-of-period comparable restaurant base for The Cheesecake Factory at Q2-FY2025 = 211"
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 56,
+    "filing_links": [
+      "[\"https://www.sec.gov/Archives/edgar/data/887596/000141057825000195/cake-20241231x10k.htm\"",
+      "\"https://www.sec.gov/Archives/edgar/data/887596/000141057825000195/cake-20241231x10k.htm\"",
+      "\"https://www.sec.gov/Archives/edgar/data/887596/000141057824001151/cake-20240702x10q.htm\"",
+      "\"https://www.sec.gov/Archives/edgar/data/887596/000141057824001742/cake-20241001x10q.htm\"",
+      "\"https://www.sec.gov/Archives/edgar/data/887596/000141057825001073/cake-20250401x10q.htm\"",
+      "\"https://www.sec.gov/Archives/edgar/data/887596/000141057825001564/cake-20250701x10q.htm\"]"
+    ],
+    "pass_at_10": "6",
+    "mean": "0.6",
+    "variance": "0.24"
+  }
+}

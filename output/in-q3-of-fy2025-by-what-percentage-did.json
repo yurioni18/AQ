@@ -1,0 +1,39 @@
+{
+  "id": "in-q3-of-fy2025-by-what-percentage-did",
+  "title": "In Q3 of FY2025, by what percentage did CrowdStrike beat or miss on the midpoint of its guidance range for non-GAAP diluted EPS? Use guidance that was provided on a quarterly basis. Provide your answer in %. Round to two decimal places.",
+  "description": "1. Find Q3 FY2025 quarterly guidance for non-GAAP diluted EPS, which was between $0.80-$0.81 per share and issued during Q2 FY2025 financial results\n \n 2. Calculate the midpoint of guidance, which is ($0.80 + $0.81) / 2 = $0.805 per share\n \n 3. Find actual Q3 FY2025 non-GAAP diluted EPS, which was $0.93 per share\n \n 4. Calculate whether CrowdStrike beat or miss compared to the guidance midpoint. Use the following calculation: [($0.93 − $0.805) / $0.805] x 100 = Beat by 15.53%",
+  "answer": "15.53% (beat)",
+  "rubric": [
+    {
+      "operator": "correctness",
+      "criteria": "Correctly states Q3 FY2025 quarterly guidance range for non-GAAP diluted EPS was between $0.80-$0.81"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Correctly calculates midpoint of non-GAAP diluted EPS guidance for Q3 FY2025 as $0.805"
+    },
+    {
+      "criteria": "Correctly states actual Q3 FY2025 non-GAAP diluted EPS was reported at $0.93",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Correctly states CrowdStrike beat guidance for non-GAAP diluted EPS",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Correctly states beat relative to guidance midpoint was 15.53%"
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 70,
+    "filing_links": [
+      "[\"https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-reports-third-quarter-fiscal-year-2025-financial\"",
+      "\"https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-reports-second-quarter-fiscal-year-2025-financial\"]"
+    ],
+    "pass_at_10": "7",
+    "mean": "0.7",
+    "variance": "0.21"
+  }
+}

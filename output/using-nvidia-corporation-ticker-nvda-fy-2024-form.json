@@ -1,0 +1,95 @@
+{
+  "id": "using-nvidia-corporation-ticker-nvda-fy-2024-form",
+  "title": "Using NVIDIA CORPORATION (ticker: NVDA) FY 2024 Form 10-K and FRED annual nominal GDP data (current US$) for Taiwan, calculate the year-over-year % change in gross profit generated from customers in Taiwan from FY 2023 to FY 2024, assuming (i) FY 2023 revenue from Taiwan is exactly the amount reported in the most recent 10-K filing, (ii) the year-over-year % change in revenue from Taiwan from FY 2023 to FY 2024 is equal to the annual nominal % growth rate of Taiwan’s GDP in 2024, and (iii) gross margins on revenue from Taiwan are equal to NVIDIA’s consolidated gross margin in both periods. Provide the answer in % rounded to 2 decimals.",
+  "description": "Consolidated gross margin, taken as of NVIDIA FY 2024 Form 10-K, take:https://s201.q4cdn.com/141608511/files/docfinancials/2024/q4/1cbe8fe7-e08a-46e3-8dcc-b429fc06c1a4.pdf\n \n  Fiscal 2024 gross margin = 72.7%\n  Fiscal 2023 gross margin = 56.9% \n \n In FRED series TWNNGDPDUSD, Taiwan nominal GDP can be read: https://fred.stlouisfed.org/series/TWNNGDPDUSD.\n  2023 GDP = 707,256,832,084.7 USD\n  2024 GDP = 746,022,524,856.7 USD\n \n Calculate Taiwan nominal GDP growth (i.e. assumed rate of growth of revenues of Taiwan):\n  Growth rate = (2024 GDP - 2023 GDP) / 2023 GDP\n  Difference = 746,022,524,856.7 - 707,256,832,084.7 = 38,765,692,772.0\n  Growth rate = 38,765,692,772.0 / 707,256,832,084.7 = 0.0548\n  So Taiwan nominal GDP growth = 5.48%\n \n Assume Taiwan revenues in FY 2023 is R2023 (the precise amount eliminates further on).\n  Assuming that, in 2024, Taiwan will earn the same amount of revenue as in 2023, the Taiwan revenue will be: R2023 x 1.0548.\n \n Determine the gross profit in Taiwan in each year based on the consolidated gross margins of NVIDIA:\n  Gross profit in Taiwan in FY 2023: GP2023 = R2023 x 0.569.\n  Taiwan FY 2024 gross profit: GP2024 = (R2023 x 1.0548) x 0.727.\n \n To establish the factor of gross-profit growth:\n  GP2024 / GP2023 = (R2023 x 1.0548 x 0.727) / (R2023 x 0.569)\n  R2023 cancels, so: GP2024 / GP2023 = 1.0548 x (0.727 / 0.569)\n  0.727 / 0.569 = 1.2777\n  GP2024 / GP_2023 =1.0548 x 1.2777 = 1.3477\n \n Calculate this factor as the year over year percentage change in gross profit:\n  Gross profit YoY change = (1.3477 - 1) x 100% = 34.77%\n \n Final result\n Assuming the given, annual percent change in gross profit of the customers in Taiwan (FY 2023 to FY 2024) is:\n \n 34.77%",
+  "answer": "34.77%",
+  "rubric": [
+    {
+      "operator": "correctness",
+      "criteria": "Uses NVIDIA FY 2024 10-K link as source for gross margins.\n"
+    },
+    {
+      "criteria": "Extracts FY 2024 gross margin as 72.7%.\n",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Extracts FY 2023 gross margin as 56.9%."
+    },
+    {
+      "criteria": "Uses FRED TWNNGDPDUSD link as source for Taiwan GDP.\n",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Extracts 2023 Taiwan GDP as 707,256,832,084.7.\n",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Extracts 2024 Taiwan GDP as 746,022,524,856.7.",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Computes GDP growth as (GDP_2024 − GDP_2023) / GDP_2023.\n"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "States GDP growth ≈ 0.0548 (5.48%)."
+    },
+    {
+      "criteria": "Defines FY 2023 Taiwan revenue as R2023.\n",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Sets FY 2024 Taiwan revenue as R2023 × 1.0548.",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Computes GP2023 = R2023 × 0.569.\n"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Computes GP2024 = R2023 × 1.0548 × 0.727."
+    },
+    {
+      "criteria": "Forms ratio GP2024 / GP2023 = (R2023 × 1.0548 × 0.727) / (R2023 × 0.569).\n",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Cancels R2023 and simplifies to 1.0548 × (0.727 / 0.569)."
+    },
+    {
+      "criteria": "Computes 0.727 / 0.569 ≈ 1.2777.\n",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Computes gross profit factor ≈ 1.3477.",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Converts to YoY change as (1.3477 − 1) × 100%.\n"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "States final gross profit YoY change ≈ 34.77%.\n"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Rounds final answer to two decimal places as “34.77%”."
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 85,
+    "filing_links": [
+      "[\"https://s201.q4cdn.com/141608511/files/doc_financials/2024/q4/1cbe8fe7-e08a-46e3-8dcc-b429fc06c1a4.pdf\"",
+      "\"https://fred.stlouisfed.org/series/TWNNGDPDUSD\"]"
+    ],
+    "pass_at_10": "9",
+    "mean": "0.9",
+    "variance": "0.09"
+  }
+}

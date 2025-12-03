@@ -1,0 +1,112 @@
+{
+  "id": "using-nvidias-nasdaq-nvda-10-k-filings-from",
+  "title": "Using NVIDIA's (NASDAQ: NVDA) 10-K filings from FY2022, FY 2023 and FY2024, which year (out of 2022, 2023 and 2024) had the highest Interest Coverage Ratio? Use EBITDA to calculate Interest Coverage Ratio. Format your answer in \" [YEAR] - Interest Coverage Ratio (to 2 decimal places).",
+  "description": "1. Using input from NVIDIA’s Form 10-K (USD millions) for years 2022 to 2024.\n \n 2. Collect inputs from NVIDIA’s Form 10-K (USD millions) - with all numbers derived from Form 10-K for fiscal year ended Jan 28, 2024 - \n \n FY2024: Net income $29,760; income tax expense $4,058; interest expense $257; depreciation & amortization $1,508. \n \n FY2023= income tax expense -187; Net income $4,368; interest expense $262; depreciation & amortization $1,543\n \n FY2022: Net income $9,752; income tax expense $189; interest expense $236; depreciation & amortization $1,174.\n \n 3. Using formula: Interest Coverage Ratio (ICR) = EBITDA / Interest Expense where \n EBITDA = Net Income + Income Tax Expense (benefit) + Interest Expense + Depreciation & Amortization.\n \n \n 4. Compute EBITDA and ICR (USD millions; ICR rounded to 2 decimals): FY2024 EBITDA = 29,760 + 4,058 + 257 + 1,508 = 35,583;\n ICR = 35,583 / 257 = 138.46. \n FY2023 EBITDA = 4,368 + (−187) + 262 + 1,543 = 5,987; ICR = 5,987 / 262 = 22.85. \n FY2022 EBITDA = 9,752 + 189 + 236 + 1,174 = 11,351; ICR = 11,351 / 236 = 48.10. (All inputs from the same Form 10-K cited above.)\n \n 5. Recognise FY2024 has the highest ICR of 138.46 - as 22.85 (FY2023) < 48.10 (FY2022) < 138.46 (FY2024)\n \n 6. Format to 2 decimal places as: 2024 - 138.46",
+  "answer": "2024 - 138.46",
+  "rubric": [
+    {
+      "criteria": "FY2023 net income = 4,368",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "FY2023 depreciation & amortisation = 1,544"
+    },
+    {
+      "criteria": " FY2022 depreciation & amortisation = 1,174",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "FY2024 depreciation & amortisation = 1,508"
+    },
+    {
+      "criteria": "Interest Coverage Ratio formula: ICR = EBITDA / Interest Expense",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "EBITDA formula: EBITDA = net Income + income Tax expense + interest Expense + depreciation & amortisation",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Includes FY2024 EBITDA = 35,583"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "FY2024 ICR = 138.463"
+    },
+    {
+      "criteria": "FY2023 EBITDA = 5,987",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "FY2023 ICR = 22.85",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "FY2022 EBITDA = 11,351",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "FY2022 ICR is 48.10"
+    },
+    {
+      "criteria": "Identify 138.46 (FY 2024) as highest Interest Coverage Ratio ",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Final answer : '2024 - 138.46'",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "FY2023: income tax expense = -187",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": " interest expense for FY2023 = 262"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "FY2022 net income = 9,752"
+    },
+    {
+      "criteria": "FY2022 income tax expense = 189",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Include FY2022 interest expense = 236"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "FY2024 Net income = 29,760"
+    },
+    {
+      "criteria": "FY2024 income tax expense -> 4,058",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "includes FY2024 interest expense = 257"
+    },
+    {
+      "criteria": "Using inputs from NVIDIA’s FY2023,FY2022 and FY2024 Form 10-Ks (USD millions) ",
+      "operator": "correctness"
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 7,
+    "filing_links": [
+      "[\"https://www.sec.gov/ix?doc=/Archives/edgar/data/0001045810/000104581023000017/nvda-20230129.htm\"",
+      "\"https://www.sec.gov/ix?doc=/Archives/edgar/data/0001045810/000104581022000036/nvda-20220130.htm\"",
+      "\"https://www.sec.gov/ix?doc=/Archives/edgar/data/0001045810/000104581024000029/nvda-20240128.htm\"]"
+    ],
+    "pass_at_10": "1",
+    "mean": "0.1",
+    "variance": "0.09"
+  }
+}

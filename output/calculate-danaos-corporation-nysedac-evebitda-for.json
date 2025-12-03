@@ -1,0 +1,50 @@
+{
+  "id": "calculate-danaos-corporation-nysedac-evebitda-for",
+  "title": "Calculate Danaos Corporation (NYSE:DAC) EV/EBITDA for fiscal year 2024 using their 2024 20F filing. Use $1.52B as Danaos's market cap on December 31st, 2024. Ignore lease liabilities and round to the nearest three decimals.",
+  "description": "1. Find FY 2024 EBITDA from Danaos's Form 20F. Record EBITDA as $697.550 million from the filing. \n 2. Find the 2024 EV components from the 20F filing. Cash and cash equivalents=$453.384 million, Total debt outstanding (gross of deferred finance costs and including current portion) as of FY2024=$744.546 million, Marketable securities =$60.850 million, \n 3. Find EV using provided market cap = 1520+744.546-453.384-60.850=$1750.312 million\n 4. Find EV/EBITDA using 2024 reported EBITDA = $1750.312 million / $697.550 = 2.510 (rounded to 3 decimals)",
+  "answer": "EV/EBITDA = 2.510",
+  "rubric": [
+    {
+      "operator": "correctness",
+      "criteria": "Report FY2024 EBITDA as $697.550 million"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Report Cash and cash equivalents as $453.384 million"
+    },
+    {
+      "criteria": "Report total debt outstanding as $744.546 million",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Report marketable securities as $60.850 million",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Report market capitalization as $1,520 million",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Calculate EV 1520 + 744.546 - 453.384 - 60.850 = $1750.312 million"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Calculate EV/EBITDA as 1750.312 / 697.550 = 2.509965"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Round to 3 decimals = 2.510x"
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 33,
+    "filing_links": [
+      "[\"https://s2.q4cdn.com/951507448/files/doc_financials/2024/ar/Danaos-Corporation-Annual-Report-2024-2.pdf\"]"
+    ],
+    "pass_at_10": "3",
+    "mean": "0.3",
+    "variance": "0.21"
+  }
+}

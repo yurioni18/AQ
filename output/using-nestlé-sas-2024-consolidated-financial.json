@@ -1,0 +1,62 @@
+{
+  "id": "using-nestlé-sas-2024-consolidated-financial",
+  "title": "Using Nestlé S.A.’s 2024 consolidated financial statements,If interest paid, taxes paid, and dividends paid to non-controlling interests are treated as non-operating and non-recurring for valuation purposes, what would be the adjusted operating cash flow for 2024 (in CHF millions) after removing these items from reported operating cash flow?",
+  "description": "To calculate adjusted operating profit we have to add a number of items of cashflow\n 1. In Nestlé S.A.’s 2024 consolidated financial statements document, stroll down to Consolidated cash flow statement for the year ended December 31, 2024, and select the concern items\n 2. The operating cashflow in the year 2024 is CHF 16,675. Operating cash item is gotten by deducting a number of non-cash item and adjusted working capital from the operating profit\n 3. Interest paid for 2024 is CHF 1,539 from operating activities and it should be added back to compute adjusted operating cash flow. \n 4. Tax paid for 2024 is CHF 2,411 and should be added back. This is the tax that was paid in the period by the entity\n 5. Dividend paid to non-controlling interest under financing activities is CHF 174 and should be added back to operating cashflow. This is the dividend paid to the other party (usually less than 50%) who share in the ownership of the entity\n Dividend paid to non-controlling interest under financing activities is part of the line item to be added to arrive at the adjusted profit because we need it to identify only the amount attributed to the parent only.\n 6. Calculate \n 16,675 +1,539 + 2,411 +174 = 20,799\n \n 7. Final answer CHF 20,799 million",
+  "answer": "The adjusted operating cash flow for 2024 is CHF 20,799 million.",
+  "rubric": [
+    {
+      "criteria": "Reported operating cash flow for 2024 is CHF 16,675 million",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Interest paid of CHF 1,539 million identify ",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "it should then add back to operating cash flow when computing the adjusted operating cash flow",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Taxes paid of CHF 2,411 million is identify ",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "it should then add back to operating cash flow when computing the adjusted operating cash flow"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Dividends paid to non-controlling interests of CHF 174 million "
+    },
+    {
+      "criteria": "it is financing activity item",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "should be added back to operating cash flow in order to identify what is attributed to parent company ",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Calculate \n16,675 +1,539 + 2,411 +174 = 20,799",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "7.\tFinal answer CHF 20,799 million"
+    },
+    {
+      "criteria": "Final answer is in CHF millions",
+      "operator": "correctness"
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 73,
+    "filing_links": [
+      "[\"https://www.nestle.com/sites/default/files/2025-02/2024-financial-statements-en.pdf?utm_source\"]"
+    ],
+    "pass_at_10": "8",
+    "mean": "0.8",
+    "variance": "0.16"
+  }
+}

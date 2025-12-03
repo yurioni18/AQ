@@ -1,0 +1,70 @@
+{
+  "id": "using-trupanion-ticker-trup-fy2023-10-k-calculate",
+  "title": "Using Trupanion (ticker: TRUP) FY2023 10-K calculate EV/Revenue multiple. Use diluted WASO for market cap calculation. Assume share price of $50. Show the answer rounded to 2 decimals.",
+  "description": "1) Pull FY2023 total revenue from Trupanion’s FY2023 Form 10-K: \n FY2023 revenue = $1,108,605,000\n \n 2) Pull diluted weighted-average shares outstanding (WASO) for FY2023: \n FY2023 WASO = 41,436,882 shares.\n \n 3) Compute market capitalization using diluted WASO and the assumed $50 share price: Market Cap = 41,436,882 × $50 = $2,071,844,100.\n \n 4) Pull FY2023 year-end balance sheet items: \n cash and cash equivalents = $147,501,000; \n Short-term investments = $129,667,000; \n Long-term investments = $12,866,000; \n long‑term debt current portion = $1,350,000; \n long‑term debt (noncurrent) = $127,580,000; \n preferred stock outstanding = $0. \n \n 5) Compute Enterprise value: \n EV = market cap + short-term debt + long-term debt + preferred equity - cash and equivalents - short-term investments - long-term investments = $2,071,844,100 + $1,350,000 + $127,580,000 +$0 - $147,501,000 - $129,667,000 - $12,866,000 = $1,910,740,100\n \n 5) Compute EV/Revenue multiple: EV/Revenue = $1,910,740,100 ÷ $1,108,605,000 = 1.72×",
+  "answer": "1.72",
+  "rubric": [
+    {
+      "operator": "correctness",
+      "criteria": "FY2023 revenue = $1,108,605,000"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "FY2023 diluted WASO = 41,436,882 shares"
+    },
+    {
+      "criteria": "Assumed share price = $50",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Market Cap = 41,436,882 × $50 = $2,071,844,100"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Cash and cash equivalents = $147,501,000"
+    },
+    {
+      "criteria": "Short-term investments = $129,667,000",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Long-term investments = $12,866,000"
+    },
+    {
+      "criteria": "Long-term debt current portion = $1,350,000",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Long-term debt (noncurrent) = $127,580,000"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Preferred stock outstanding = $0"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Enterprise value formula used = market cap + current portion of long-term debt + long-term debt (noncurrent) + preferred equity - cash and equivalents - short-term investments - long-term investments"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Enterprise value = $1,910,740,100"
+    },
+    {
+      "criteria": "EV/Revenue multiple (rounded to 2 decimals) = 1.72",
+      "operator": "correctness"
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 79,
+    "filing_links": [
+      "[\"https://www.sec.gov/Archives/edgar/data/1371285/000137128524000029/trup-20231231.htm\"]"
+    ],
+    "pass_at_10": "8",
+    "mean": "0.8",
+    "variance": "0.16"
+  }
+}

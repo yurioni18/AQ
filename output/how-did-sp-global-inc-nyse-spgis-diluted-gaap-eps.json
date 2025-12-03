@@ -1,0 +1,47 @@
+{
+  "id": "how-did-sp-global-inc-nyse-spgis-diluted-gaap-eps",
+  "title": "How did S&P Global Inc (NYSE: SPGI)'s diluted GAAP EPS compare to management projections (at midpoint) on an annual basis in 2024? Format as % BEAT or MISS and express answer with two decimal points. Use guidance provided on an annual basis.",
+  "description": "First, you have to find the actual FY 2024 diluted GAAP EPS, which is $12.35 per share \n \n Next, you have to find the latest FY 2024 annual GAAP diluted EPS guidance and then use that guidance to find the midpoint\n - The guidance range that was given in the 3Q 2024 report was $11.95 to $12.15\n - Therefore, the midpoint is ($11.95 + $12.15)/2 = $12.05 per share\n \n Finally, you have to calculate percent beat vs guidance at midpoint: (12.35 − 12.05) / 12.05 = 0.30 / 12.05 = 2.49%, which represents a 2.49% BEAT",
+  "answer": "2.49% BEAT",
+  "rubric": [
+    {
+      "criteria": "Find that the FY 2024 diluted GAAP EPS is $12.35 per share",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Find that the most recent guidance for FY 2024 is from Q3 2024 press release.",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Find that the FY 2024 annual GAAP diluted EPS guidance range reported in Q3 2024 is from $11.95 to $12.15",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Calculate the midpoint of the guidance to be $12.05 per share",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Calculate the difference between actual guidance and the midpoint: (12.35/12.05)-1 = 2.49%"
+    },
+    {
+      "criteria": "Since the difference is positive this is a BEAT",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Round final answer to two decimal points and use given format: 2.49% BEAT"
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 91,
+    "filing_links": [
+      "[\"https://www.sec.gov/Archives/edgar/data/64040/000006404024000175/spgi3q2024-earningsrelease.htm\"",
+      "\"https://www.bamsec.com/filing/6404025000052?cik=64040\"]"
+    ],
+    "pass_at_10": "9",
+    "mean": "0.9",
+    "variance": "0.09"
+  }
+}

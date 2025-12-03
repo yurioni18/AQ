@@ -1,0 +1,51 @@
+{
+  "id": "how-did-actual-combined-revenue-from-pfizers-nyse",
+  "title": "How did actual combined revenue from Pfizer’s (NYSE: PFE) Paxlovid and Comirnaty in FY 2024 compare to guidance released in Q4 2023? Report it as % BEAT or MISS, rounded to two decimal points of precision (ex: XX.XX% MISS).",
+  "description": "1) Find guidance from Q4 2023 for FY 2024 combined product performance. Using the Q4 2023 press release issued Dec 13th, 2023: Pfizer guided to $8.0B combined revenue from their Comirnaty and Paxlovid products. \n \n 2) Find actual FY 2024 Comirnaty and Paxlovid product revenues. From Pfizer's 2024 10-K: Paxlovid revenue: $5,716 million; Comirnaty revenue: $5,353M. Combined product revenues: $5,716M + $5,353M = 11.069B.\n \n 3) Compare actual and guidance combined Comirnaty and Paxlovid revenues in FY 2024: (11.069B - $8.0B)/$8.0B x 100 = 38.36% (rounded to two decimal points of precision) \n \n 3) Classify FY 2024 combined Comirnaty and Paxlovid revenues performance as BEAT or MISS. Since the actual value is greater than the guidance value, the performance is classified as BEAT. Final Answer: 38.36% BEAT.",
+  "answer": "38.36% BEAT",
+  "rubric": [
+    {
+      "operator": "correctness",
+      "criteria": "Find guidance from Q4 2023 for FY 2024 combined Comirnaty and Paxlovid revenue: $8.0B"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Find actual FY 2024 Comirnaty revenue: $5,353M"
+    },
+    {
+      "criteria": "Find actual FY 2024 Paxlovid revenue: $5,716M",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Calculate the combined revenue for Comirnaty and Paxlovid: $5,716M + $5,353M = 11.069B"
+    },
+    {
+      "criteria": "Compare the actual and guidance Comirnaty and Paxlovid revenues in FY 2024: (11.069B - $8.0B)/$8.0B x 100 = 38.36%",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Classify the performance as a BEAT, because the actual value is greater than the guidance value ",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Final answer includes the value \"38.36%\" as this is the percent difference between the actual and guidance revenues"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Final answer is rounded to two decimal points of precision"
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 101,
+    "filing_links": [
+      "[\"https://s206.q4cdn.com/795948973/files/doc_financials/2024/ar/10K_Final.pdf\"",
+      "\"https://www.pfizer.com/news/press-release/press-release-detail/pfizer-provides-full-year-2024-guidance\"]"
+    ],
+    "pass_at_10": "9",
+    "mean": "0.9",
+    "variance": "0.09"
+  }
+}

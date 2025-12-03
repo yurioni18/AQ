@@ -1,0 +1,98 @@
+{
+  "id": "calculate-the-evebitda-and-evrevenue-metrics-for-1",
+  "title": "Calculate the EV/EBITDA and EV/Revenue metrics for Adobe (ADBE) in FY 2023. Use the shares outstanding and share price at close from Dec 1, 2023 for the EV calculation. Express the answer using two decimal points of rounding.",
+  "description": "1. Calculate the Enterprise Value using EV = market capitalization + total debt - cash and cash equivalents - short-term investments \n \n 2. Extract common shares outstanding = 455M, short-term debt = $0M, long-term debt = $3,634M, cash and cash equivalents = $7,141M, short-term investments = $701M.\n Summary:\n Total debt = $3,634\n Total Cash and Investments = $7,842M\n \n 3. Use the closing share price on December 1, 2023 found on a public website like Yahoo Finance = $612.47. Calculate Market capitalization by taking share price x shares outstanding = $278,673.85M\n \n 4. Use Step 1 formula to calculate EV = $274,465.85M (278,673.85 + 3,634 - 7141 - 701)\n \n 5. Calculate EBITDA using EBITDA = net income + tax + depreciation & amortization – total non-operating income (expense)\n Extract net income = $5,428M, total non-operating income (expense) = $149M, tax = $1,371, depreciation and amortization = $872M. Use the formula to calculate EBITDA = $7,522M. \n Note that instead of total non-operating income (expense) can also do Interest expense + Investment gains (losses) + other income (expenses) = (113) + 16 + 246 = 149\n \n 6. Calculate EV/EBITDA = $274,465.85M/$7,522M = 36.49x \n \n 7. From the 10-K Filing: Extract revenue = $19,409M \n \n 8. Calculate EV/Revenue = $274,465.85M/$19,409M = 14.14x",
+  "answer": "EV/Revenue ≈ 14.14× and EV/EBITDA ≈ 36.49×",
+  "rubric": [
+    {
+      "operator": "correctness",
+      "criteria": "Include common shares outstanding = 455M as input"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Include short-term debt = $0M as input"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Include long-term debt = $3,634M as input"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Calculate total debt = $3,634M"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Include cash and cash equivalents = $7,141M as input"
+    },
+    {
+      "criteria": "Include short-term investments = $701M as input",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Calculate EV = $274,465.85M",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Include net income = $5,428M as input",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Include total non-operating income (expense) = $149M as input"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Include tax = $1,371M as input"
+    },
+    {
+      "criteria": "Include depreciation and amortization = $872M as input",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Calculate EBITDA = $7,522M"
+    },
+    {
+      "criteria": "Calculate EV/EBITDA = 36.49x",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Include revenue = $19,409M as input"
+    },
+    {
+      "criteria": "Calculate EV/Revenue = 14.14x",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Round EV/EBITDA to two decimal points = 36.49x",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Round EV/Revenue to two decimal points = 14.14x"
+    },
+    {
+      "criteria": "Total Cash and Investments = $7,842M",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Share Price on December 1, 2023 is $612.47",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Market Capitalization calculated as share price x shares outstanding = $278,673.85M"
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 46,
+    "filing_links": [
+      "[\"https://www.sec.gov/Archives/edgar/data/796343/000079634324000006/adbe-20231201.htm#\"]"
+    ],
+    "pass_at_10": "6",
+    "mean": "0.6",
+    "variance": "0.24"
+  }
+}

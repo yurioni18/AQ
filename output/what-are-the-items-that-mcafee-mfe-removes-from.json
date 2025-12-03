@@ -1,0 +1,50 @@
+{
+  "id": "what-are-the-items-that-mcafee-mfe-removes-from",
+  "title": "What are the items that McAfee (MFE) removes from GAAP Net Income in calculating Non-GAAP Net Income for the year 2009? What is the dollar impact of each of these? Express the answer in $M rounded to 2 decimal places of precision",
+  "description": "1) Identify all of the listed adjustments to GAAP net income to retrieve for FY2009 GAAP net income:\n \n 2) Stock-based compensation expense +$109094\n \n 3) Amortization of purchased technology +$77961\n \n 4) Amortization of intangibles +$40718\n \n 5) Acquisition-related costs +34448\n \n 6) Restructuring costs +13830\n \n 7) litigation related costs +5525\n \n 8) Loss on sale of assets +474\n \n 9) Sum all the impacts together to get 282.05M and round each individual figure to the nearest 2 decimals",
+  "answer": "Items removed from GAAP Net Income for FY2009 and their impacts (in $M): Stock-based compensation expense +$109.09M; Amortization of purchased technology +$77.96M; Amortization of intangibles +$40.72M; Acquisition-related costs +34.45M; Restructuring costs +13.83M; litigation related costs +5.53M; loss on sale of assets +0.474M; total impact is 282.05M",
+  "rubric": [
+    {
+      "criteria": "Stock-based compensation expense +$109.09M",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Amortization of purchased technology +$77.96M",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Amortization of intangibles +$40.72M"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Acquisition-related costs +$34.45M"
+    },
+    {
+      "criteria": "Restructuring costs +$13.83M",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "litigation related costs +$5.53M"
+    },
+    {
+      "criteria": "loss on sale of assets +$0.474M",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Total impact is 282.05M",
+      "operator": "correctness"
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 62,
+    "filing_links": [
+      "[\"https://www.sec.gov/Archives/edgar/data/890801/000095012311019014/d75827e10vk.htm\"]"
+    ],
+    "pass_at_10": "7",
+    "mean": "0.7",
+    "variance": "0.21"
+  }
+}

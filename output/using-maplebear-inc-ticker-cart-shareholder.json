@@ -1,0 +1,90 @@
+{
+  "id": "using-maplebear-inc-ticker-cart-shareholder",
+  "title": "Using Maplebear Inc. (ticker: CART) shareholder letters on quarterly and annual results determine the quarter in FY2024 with the largest beat of actual Gross Transaction Value relative guidance. Use midpoints of guidance ranges in your calculations. Format the answer as: \"[X]Q FY 2024, [X.XX] % Beat\"",
+  "description": "1) Extract quarterly GTV guidance ranges from quarterly shareholder letters for each quarter of FY2024 (located in the section \"QX’24 Financial Outlook\" of letter):\n Q1: $8000 -$8200M\n Q2: $8000 - $8150M\n Q3: $8100 - $8250M\n Q4: $8500 - $8650M\n \n 2) Calculate midpoints (as sum of lower and upper limit of the guidance range divided by 2):\n Q1: ($8000 +$8200M) /2 = $8100M\n Q2: ( $8000 + $8150M) /2 = $8075M\n Q3: ($8100 + $8250M) /2 = $8175M\n Q4: ($8500 + $8650M) /2 = $8575M\n \n 3) Extract actual quarterly GTVs for each quarter of FY2024:\n 1Q: $8319M\n 2Q: $8194M\n 3Q: $8303M\n 4Q: $8645\n \n 4) Calculate beat/miss relative to midpoint for each Q:\n 1Q: $8319M / $8100M - 1 = 2.7%\n 2Q: $8194M / $8075M -1 = 1.5%\n 3Q: $8303M / $8175M -1 = 1.6%\n 4Q: $8645M / $8575M -1 = 0.8%\n  \n 5) Find the largest value of the beat and determine the number of corresponding quarter. 1Q has the largest beat, so the answer is: \"1Q FY 2024, 2.70 % Beat\"",
+  "answer": "1Q FY 2024, 2.70 % Beat",
+  "rubric": [
+    {
+      "criteria": "Q1 guidance range (located in 4Q'FY23 shareholder letter): $8000 -$8200M",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Q2 guidance range (located in 1Q'FY24 shareholder letter): $8000 - $8150M",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Q3 guidance range (located in 2Q'FY24 shareholder letter): $8100 - $8250M",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Q4 guidance range (located in 3Q'FY24 shareholder letter): $8500 - $8650M"
+    },
+    {
+      "criteria": "Q1 midpoint: $8100M",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Q2 midpoint: $8075M",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Q3 midpoint: $8175M"
+    },
+    {
+      "criteria": "Q4 midpoint: $8575M",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Q1 actual GTV (located in 1Q'FY24 shareholder letter): $8319M"
+    },
+    {
+      "criteria": "Q2 actual GTV(located in 2Q'FY24 shareholder letter): $8194M",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Q3 actual GTV(located in 3Q'FY24 shareholder letter): $8303M",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Q4 actual GTV(located in 4Q'FY24 shareholder letter): $8645"
+    },
+    {
+      "criteria": "Q1 beat vs midpoint: 2.7%",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Q2 beat vs midpoint: 1.5%"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Q3 beat vs midpoint: 1.6%"
+    },
+    {
+      "criteria": "Q4 beat vs midpoint: 0.8%",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Final answer: 1Q FY 2024, 2.70 % Beat",
+      "operator": "correctness"
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 96,
+    "filing_links": [
+      "[\"https://investors.instacart.com/static-files/c858fabf-2254-4376-8018-2a3d60801dd4\"",
+      "\"https://investors.instacart.com/static-files/f8376b11-7642-4a87-b834-b2e9d85448ae\"",
+      "\"https://investors.instacart.com/static-files/92950401-34bb-42f6-a3d4-c4e5677ea154\"",
+      "\"https://investors.instacart.com/static-files/45c59490-b81c-4401-ba22-be639847baa7\"",
+      "\"https://investors.instacart.com/static-files/27fac1c6-da32-40ca-8ef4-c8261b5ee12b\"]"
+    ],
+    "pass_at_10": "9",
+    "mean": "0.9",
+    "variance": "0.09"
+  }
+}

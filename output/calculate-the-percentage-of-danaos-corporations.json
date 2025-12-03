@@ -1,0 +1,30 @@
+{
+  "id": "calculate-the-percentage-of-danaos-corporations",
+  "title": "Calculate the percentage of Danaos Corporation's (NYSE:DAC) FY 2024 total comprehensive income that was attributable to unrealized fair-value movements on the Company’s investment in Star Bulk Carriers Corp. (NASDAQ: SBLK). Round to the nearest two decimals.",
+  "description": "1) Find FY 2024 total comprehensive income as $510.622 million. \n \n 2) Identify FY 2024 unrealized fair value movement on the SBLK investment as a $25.2 million loss in FY2024. \n \n 3. Calculate the percentage of FY2024 total comprehensive income as -25.2 million/510.622 million *100=-4.94% since the fair value movement was negative.",
+  "answer": "-4.94%",
+  "rubric": [
+    {
+      "operator": "correctness",
+      "criteria": "Find Danaos's FY2024 total comprehensive income as $510.622 million"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Find Danaos's FY2024 unrealized fair value movement on its SBLK investment as -$25.2 million"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Calculated the percentage as (-$25.2 million / $510.622 million) * 100 = -4.94% "
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 100,
+    "filing_links": [
+      "[\"https://d18rn0p25nwr6d.cloudfront.net/CIK-0001369241/d611031e-afbb-4782-8b77-f84cd3d4582a.pdf\"]"
+    ],
+    "pass_at_10": "9",
+    "mean": "0.9",
+    "variance": "0.09"
+  }
+}

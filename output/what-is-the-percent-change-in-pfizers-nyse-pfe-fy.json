@@ -1,0 +1,70 @@
+{
+  "id": "what-is-the-percent-change-in-pfizers-nyse-pfe-fy",
+  "title": "What is the percent change in Pfizer's (NYSE: PFE) FY 2024 Q3 business innovation revenues as a percent of total revenues against FY 2023 Q3 business innovation revenues as a percent of total revenues? Express the answer as a percentage rounded to two decimal points of precision (ex: ±XX.XX%).",
+  "description": "1) Find Q3 2024 business innovation revenues as a percentage of total revenues. Firstly, Pfizer defines its business innovation segment as including Pfizer CentreOne (PC1) and Pfizer Ignite, so these separate segments can be added up to represent the consolidated business innovation segment. From the Q3 2024 press release: PC1 revenue = $285m; Ignite revenue = $25m; Total revenue = $17,702m. Business innovation revenues as a percentage of total revenues = [($285m + $25m)/ $17,702m] x 100 = 1.75121455% \n \n 2) Find Q3 2023 business innovation revenues as a percentage of total revenues. From the Q3 2024 press release (same as above): PC1 revenue = $293m; Ignite revenue = $10m; Total revenue = $13,491m. Business innovation revenues as a percentage of total revenues = [($293m + $10m)/ $13,491m] x 100 = 2.24594174% \n \n 3) Calculate the percent change of the Q3 2024 ratio vs. the Q3 2023 ratio: [(1.75121455% − 2.24594174%) / 2.24594174%] × 100 = −22.0276%. Rounded to two decimal points of precision: −22.03%.",
+  "answer": "-22.03%",
+  "rubric": [
+    {
+      "operator": "correctness",
+      "criteria": "Clarifies that Pfizer's Business innovation segment revenues includes revenues from Pfizer CentreOne (PC1) and Pfizer Ignite"
+    },
+    {
+      "criteria": "Finds Q3 2024 PC1 revenue: $285m",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Finds Q3 2024 Ignite revenue: $25m",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Finds Q3 2024 total revenue: $17,702m"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Calculates business innovation revenues as a percentage of total revenues using the formula: [(PC1 revenue + Ignite revenue)/total revenue] x 100"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Calculates Q3 2024 business innovation revenues as a percentage of total revenues: [($285m + $25m)/ $17,702m] x 100 = 1.75121455% "
+    },
+    {
+      "criteria": "Finds Q3 2023 PC1 revenue: $293m",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Finds Q3 2023 Ignite revenue: $10m"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Finds Q3 2023 total revenue: $13,491m"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Calculates Q3 2023 business innovation revenues as a percentage of total revenues: [($293m + $10m)/ $13,491m] x 100 = 2.24594174% "
+    },
+    {
+      "criteria": "Calculates the percent change of the Q3 2024 ratio vs. the Q3 2023 ratio: [(1.75121455% − 2.24594174%) / 2.24594174%] × 100 = −22.0276%. ",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Final answer is rounded to two decimal points of precision"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Final answer includes the value \"−22.03%\", as this corresponds to the percent change of the Q3 2024 ratio vs. the Q3 2023 ratio"
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 21,
+    "filing_links": [
+      "[\"https://s206.q4cdn.com/795948973/files/doc_financials/2024/q3/Q3-2024-PFE-Earnings-Release-Final.pdf\"]"
+    ],
+    "pass_at_10": "2",
+    "mean": "0.2",
+    "variance": "0.16"
+  }
+}

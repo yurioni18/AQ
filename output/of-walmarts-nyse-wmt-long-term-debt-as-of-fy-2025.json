@@ -1,0 +1,38 @@
+{
+  "id": "of-walmarts-nyse-wmt-long-term-debt-as-of-fy-2025",
+  "title": "Of Walmart's (NYSE: WMT) long term debt as of FY 2025 (including deferred loan costs, discounts, fair value hedges, foreign-held debt and secured debt) with a fixed rate, what percentage has a maturity date of after FY 2030? Express the answer as a percentage rounded to two decimal points of precision.",
+  "description": "1. Find Walmart's total long term debt with a fixed rate as of FY 2025. Using Walmart's FY 2025 10-K and its liability maturity table, total long term debt with a fixed rate: $35,999M. (the table states that long term debt with a fixed rate includes deferred loan costs, discounts, fair value hedges, foreign-held debt and secured debt).\n \n 2. Find Walmart's long term debt with a fixed rate that is expected to mature after FY 2030. Using Walmart's FY 2025 10-K and its liability maturity table, long term debt with a fixed rate maturing after FY 2030: $22,914. \n \n 3. Calculate percentage of Walmart's long term debt with a fixed rate that is expected to mature after FY 2030. ($22,914 ÷ $35,999) × 100 = 63.6518%. Round to two decimal points: 63.65%.",
+  "answer": "63.65%",
+  "rubric": [
+    {
+      "operator": "correctness",
+      "criteria": "Find Walmart's total long term debt with a fixed rate as of FY 2025: $35,999M"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Find Walmart's long term debt with a fixed rate maturing after FY 2030: $22,914"
+    },
+    {
+      "criteria": "Calculates percentage of Walmart's long term debt with a fixed rate expected to mature after FY 2030: (22,914 ÷ 35,999) × 100 = 63.6518%",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Final answer is rounded to two decimal points of precision",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Final Answer explicitly states value as 63.65%"
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 72,
+    "filing_links": [
+      "[\"https://stock.walmart.com/sec-filings/all-sec-filings/content/0000104169-25-000021/wmt-20250131.htm#i55dba7a5534b4e0a8906aac30b2ec33b_130\"]"
+    ],
+    "pass_at_10": "7",
+    "mean": "0.7",
+    "variance": "0.21"
+  }
+}

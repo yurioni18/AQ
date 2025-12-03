@@ -1,0 +1,55 @@
+{
+  "id": "calculate-six-flags-fun-enterprise-value-to",
+  "title": "Calculate Six Flags' (FUN) Enterprise Value to EBITDA ratio at the end of Q2 FY2025 using a share price of $30.40 per share. Assume that leases are not factored into the value of debt calculation. Use LTM adjusted EBITDA for the multiple. Show the enterprise value and EBITDA calculation. Express your answer in the following format: 0.00x",
+  "description": "1. Determine the inputs needed to calculate enterprise value:\n Enterprise Value = Equity Value + Total Debt - Cash and Cash Equivalents\n \n 2. Determine there are 101254 thousand shares outstanding\n \n 3. Using a share price of $30.4 as stated, the calculated equity value is 3078.12M.\n \n 3. Find total debt, which consists the long term debt and current portion of long term debt:\n CMLTD: 15.038M\n LTD: 5273.143M\n \n 4. Find cash and cash equivalents, which is $107.386 million\n \n 5. Calculate enterprise value\n Enterprise Value = 3078.12M + 5288.18M - 107.39M = 8258.92M\n \n 6. Calculate LTM Adjusted EBITDA as of Q2 FY2025 by adding adjusted EBITDA for the last four quarters together\n Q2 FY2025 last 6 months adj EBITDA = 71.828M\n FY 2024 adj EBITDA = 875.291M\n Q2 FY 2024 last 6 months adj EBITDA = 108.284M\n LTM Adjusted EBITDA (as of Q2 FY2025) = 71.828 + 875.291 - 108.284 = 838.835M\n \n 7. Divide enterprise value by LTM Adjusted EBITDA:\n EV/EBITDA = 8258.92M / 838.84M = 9.85x",
+  "answer": "9.85x",
+  "rubric": [
+    {
+      "criteria": "Enterprise Value = Equity Value + Total Debt - Cash and Cash Equivalents",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Equity value = 3078.12M calculated using 101254 thousand shares and $30.4 per share",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Total debt = CMLTD 15.038M + LTD 5273.143M = 5288.18M",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Cash and cash equivalents = 107.386M",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Enterprise value = 3078.12M + 5288.18M - 107.39M = 8258.92M",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Utilize that LT Adjusted EBITDA = Q2 FY25 6 months EBITDA + FY24 EBITDA - Q2 FY24 6 months EBITDA"
+    },
+    {
+      "criteria": "LTM Adjusted EBITDA = 71.828M + 875.291M - 108.284M = 838.835M",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "EV/EBITDA = 8258.92M / 838.84M = 9.85x"
+    },
+    {
+      "criteria": "Final Answer: 9.85x",
+      "operator": "correctness"
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 76,
+    "filing_links": [
+      "[\"https://www.bamsec.com/filing/199900125000154?cik=1999001\"",
+      "\"https://www.bamsec.com/filing/199900125000052?cik=1999001https://d18rn0p25nwr6d.cloudfront.net/CIK-0001999001/f9c951a5-db71-424c-8435-24e868199013.pdf\"]"
+    ],
+    "pass_at_10": "8",
+    "mean": "0.8",
+    "variance": "0.16"
+  }
+}

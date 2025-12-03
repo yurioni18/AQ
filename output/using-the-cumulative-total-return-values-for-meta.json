@@ -1,0 +1,38 @@
+{
+  "id": "using-the-cumulative-total-return-values-for-meta",
+  "title": "Using the cumulative total return values for Meta platforms, Inc. (META) shown in the chart of the 10-k report, calculate the total percentage-point increase in Meta's return from its lowest point in 2022 to its highest point in 2024. Report your final answer as a single number in percentage points.",
+  "description": "1) Retrieve META’s “Stock Performance Graph” from the FY 2024 Form 10-K and read Meta’s cumulative total return values at the specified year-end points. The graph is indexed to $100 at 12/31/2019; Meta’s plotted value is at its 2022 low near $60 at 12/31/2022 and at its 2024 high near $290 at 12/31/2024. Note: the 10-K presents a graph (image) without a numeric table, so values are read directly from the chart. (Meta Platforms, Inc., Form 10-K for year ended Dec. 31, 2024, “Stock Performance Graph.”)\n \n 2)Identify the values at Dec 2022 and Dec 2024 which is $60 and $290 respectively.\n \n 3) Compute the percentage-point increase from the 2022 low to the 2024 high: 290 − 60 = 230 percentage points.",
+  "answer": "230 percentage points",
+  "rubric": [
+    {
+      "criteria": "The correct graph was identified from the 10-K document, labelled \"Comparison of Five-Year Cumulative Total Return for Meta Platforms, Inc\"\n\n",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "The Form 10-K presents the stock performance graph as an image without an accompanying numeric table."
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Meta’s cumulative total return value at 12/31/2022 is $60."
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Meta’s cumulative total return value at 12/31/2024 is $290."
+    },
+    {
+      "criteria": "Computed percentage-point increase from 12/31/2022 to 12/31/2024 is 290 − 60 = 230 percentage points.",
+      "operator": "correctness"
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 53,
+    "filing_links": [
+      "[\"https://d18rn0p25nwr6d.cloudfront.net/CIK-0001326801/a8eb8302-b52c-4db5-964f-a2d796c05f4b.pdf\"]"
+    ],
+    "pass_at_10": "6",
+    "mean": "0.6",
+    "variance": "0.24"
+  }
+}

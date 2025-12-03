@@ -1,0 +1,47 @@
+{
+  "id": "using-stride-inc-ticker-lrn-10-k-for-fiscal-year-1",
+  "title": "Using Stride, Inc, (ticker: LRN) 10-K for fiscal year ended June 30, 2025 calculate the year over year % change of enrollment per school (defined as enrollment for the year divided by number of schools where school-as-service offering was provided during corresponding school year) for Career Learning segment from FY2024 to FY2025. Show answer in % rounded to 2 decimals.",
+  "description": "1. Find enrollments for FY2025 and FY2024 from the FY2025 10-K Enrollment Data table (located in MD&A section) for Career Learning business segment: \n FY2025 = 96.3 thousand; \n FY2024 = 72.7 thousand.\n \n 2. Extract the number of schools/programs where School-as-a-Service was provided in the Career Learning market for each corresponding school year (located in \"ITEM 1. BUSINESS\" section) in 10-k's for FY2025 and FY2024, respectively: \n 2024–2025 school year = 56; \n 2023–2024 school year = 56. \n \n 3. Compute enrollment per school for each year by dividing enrollment by number of schools: \n FY2025 = 96,300 ÷ 56 = 1,719.64 students per school \n FY2024 = 72,700 ÷ 56 = 1,298.21 students per school.\n \n 4. Calculate YoY % change of enrollment per school from FY2024 to FY2025:\n  [(1,719.64 − 1,298.21) ÷ 1,298.21] × 100 = 32.46%",
+  "answer": "32.46%",
+  "rubric": [
+    {
+      "criteria": "FY2025 Career Learning enrollment (data located in FY2025 10-K Enrollment Data table (MD&A section))= 96.3 thousand.",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "FY2024 Career Learning enrollment (data located in FY2025 10-K Enrollment Data table (MD&A section))= 72.7 thousand."
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Number of schools where School-as-a-Service offering was provided in the 2024–2025 school year (data located in ITEM 1. BUSINESS section of FY2025 10-k) for Career learning segment= 56."
+    },
+    {
+      "criteria": "Number of schools where School-as-a-Service offering was provided in the 2023–2024 school year (data located in ITEM 1. BUSINESS section of FY2024 10-k) for Career learning segment= 56.",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Enrollment per school for FY2025 = 96,300 ÷ 56 = 1,719.64 students per school."
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Computed enrollment per school for FY2024 = 72,700 ÷ 56 = 1,298.21 students per school."
+    },
+    {
+      "criteria": "Year-over-year percentage change in enrollment per school from FY2024 to FY2025 = [(1,719.64 − 1,298.21) ÷ 1,298.21] × 100 = 32.46%",
+      "operator": "correctness"
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 83,
+    "filing_links": [
+      "[\"https://www.sec.gov/Archives/edgar/data/1157408/000155837025010334/lrn-20250630x10k.htm#ITEM8FINANCIALSTATEMENTS_424005\"",
+      "\"https://www.sec.gov/Archives/edgar/data/1157408/000155837024011134/lrn-20240630x10k.htm\"]"
+    ],
+    "pass_at_10": "8",
+    "mean": "0.8",
+    "variance": "0.16"
+  }
+}

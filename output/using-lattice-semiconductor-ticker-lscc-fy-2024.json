@@ -1,0 +1,75 @@
+{
+  "id": "using-lattice-semiconductor-ticker-lscc-fy-2024",
+  "title": "Using LATTICE SEMICONDUCTOR (ticker: LSCC) FY 2024 10-K and FRED annual nominal GDP data (current US$) calcualte year over year % change in gross profit generated from customers in China from FY 2023 to FY 2024 assuming FY2023 Revenue from China is as reported in the most recent 10-K filing, year over year % change of revenue in China from FY2023 to FY2024 is equal to annual nominal % growth rate of GDP of China in 2024, gross margins of renenue in China is equal to consolidated gross margin in both periods. Provide answer in % rounded to 2 decimals.",
+  "description": "1. Extract FY2023 revenue from customers in China from LSCC’s FY 2024 Form 10-K (Note 3): \n FY2023 revenue from customers in China = $239,192 thousand \n \n 2. Extract FY2023 Consolidated Revenue: $737,154\n \n 3. Extract FY2024 Consolidated Revenue: $509,401\n \n 4. Extract FY2023 Consolidated gross profit: $514,670\n \n 5. Extract FY2024 Consolidated gross profit: $340,400\n \n 6. Calculate consolidated gross margin for FY2023 and FY2024:\n FY2023 Gross margin = 69.8%\n FY2024 Gross margin = 66.8%\n \n \n 7. Pull FRED annual nominal GDP (current US$) for China and compute 2024 nominal growth: GDP2024 = $18,743,803,170,827.2; GDP2023 = $18,270,356,654,533.2; growth g = (GDP2024/GDP2023 − 1) = 0.0259133702 = 2.59133702%. (FRED series “Gross Domestic Product for China,” MKTGDPCNA646NWDB, updated Jul 2, 2025.)\n \n 8. Project FY2024 China revenue using the assumption that China revenue grows at China’s 2024 nominal GDP rate: China Revenue FY2024 = $239,192,000 × (1 + 0.0259133702) = $245,390,270.85.\n \n 9. Compute gross profit by applying consolidated gross margin to China revenue in each year, then calculate YoY % change:\n  - Gross profit FY2023 = $239,192,000 × 0.698 = $166,956,016.00.\n  - Gross profit FY2024 = $245,390,270.85 × 0.668 = $163,920,700.93.\n  - YoY % change = [(Gross profit FY2024 − Gross profit FY2023) / Gross profit FY2023] × 100 = [($163,920,700.93 − $166,956,016.00) / $166,956,016.00] × 100 = −1.8180% → −1.82%",
+  "answer": "-1.82%",
+  "rubric": [
+    {
+      "criteria": "FY2023 revenue from customers in China = $239,192 thousand",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "FY2023 Consolidated Revenue = $737,154"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "FY2024 Consolidated Revenue = $509,401"
+    },
+    {
+      "criteria": "FY2023 Consolidated gross profit = $514,670",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "FY2024 Consolidated gross profit = $340,400",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "FY2023 Gross margin = 69.8%"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "FY2024 Gross margin = 66.8%"
+    },
+    {
+      "criteria": "GDP2024 (China) = $18,743,803,170,827.2",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "GDP2023 (China) = $18,270,356,654,533.2"
+    },
+    {
+      "criteria": "China nominal GDP growth 2024 = 0.0259133702 (2.59133702%)",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Projected China Revenue FY2024 = $245,390,270.85",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Gross profit FY2023 (China) = $166,956,016.00",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Gross profit FY2024 (China) = $163,920,700.93"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Year‑over‑year % change in China gross profit = -1.82%"
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 12,
+    "filing_links": [
+      "[\"https://www.sec.gov/Archives/edgar/data/855658/000143774925003987/lscc20241228_10k.htm\"",
+      "\"https://fred.stlouisfed.org/series/MKTGDPCNA646NWDB\"]"
+    ],
+    "pass_at_10": "1",
+    "mean": "0.1",
+    "variance": "0.09"
+  }
+}

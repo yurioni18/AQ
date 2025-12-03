@@ -1,0 +1,59 @@
+{
+  "id": "using-nvdas-10-ks-answer-the-following-question",
+  "title": "Using NVDA’s 10-Ks, answer the following question: In FY2024, NVDA reported that one indirect customer represented 19% of total revenue for the fiscal year. This indirect customer purchased NVDA products through a specific direct customer for which NVDA provided additional disclosure. In FY2025, what percentage of NVDA’s total revenue was attributable to this direct customer?",
+  "description": "Identify the direct customer referenced in FY2024: NVIDIA’s FY2024 Form 10-K states that one indirect customer represented approximately 19% of total revenue and primarily purchased through “Customer A.” NVIDIA also disclosed that sales to Customer A represented 13% of FY2024 total revenue (NVIDIA Form 10-K, fiscal year ended January 28, 2024).\n \n Look up FY2025 concentration of revenue: NVIDIA’s FY2025 Form 10-K shows that Direct Customer A represented 12% of total revenue for FY2025 (fiscal year ended January 26, 2025). Customer B represented 11%, and Customer C represented 11%. Note that both Customers A and C represented less than 10% of total revenue in FY2024, so neither can be the FY2024 10-K’s Customer A.\n \n Conclude that the FY2024 10-K’s Customer A is the FY2025 10-K’s Customer B. This makes sense because in the FY2025 10-K, Customer B is reported to have represented 13% of total revenues in FY2024, which matches the FY2024 disclosure for Customer A.\n \n Customer B represented 11% of total FY2025 revenues.",
+  "answer": "11%",
+  "rubric": [
+    {
+      "criteria": "One indirect customer represented approximately 19% of NVDA’s total revenue in FY2024 and primarily purchased through \"Customer A\".",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Sales to Customer A represented 13% of NVDA’s FY2024 total revenue."
+    },
+    {
+      "operator": "correctness",
+      "criteria": "NVDA’s FY2025 Form 10-K shows Direct Customer A represented 12% of total revenue for FY2025."
+    },
+    {
+      "criteria": "NVDA’s FY2025 Form 10-K shows Customer B represented 11% of total revenue for FY2025.",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "NVDA’s FY2025 Form 10-K shows Customer C represented 11% of total revenue for FY2025."
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Customer A represented less than 10% of total revenue in FY2024 (as claimed in the answer)."
+    },
+    {
+      "criteria": "Customer C represented less than 10% of total revenue in FY2024 (as claimed in the answer).",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Customer B represented 13% of total revenues in FY2024 (as stated in the answer)."
+    },
+    {
+      "criteria": "The answer concludes that the FY2024 \"Customer A\" corresponds to the FY2025 \"Customer B.\"",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Final Answer: 11% (percentage of NVDA’s total revenue in FY2025 attributable to the direct customer identified).",
+      "operator": "correctness"
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 54,
+    "filing_links": [
+      "[\"https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/nvda-20250126.htm\"",
+      "\"https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/nvda-20240128.htm\"]"
+    ],
+    "pass_at_10": "6",
+    "mean": "0.6",
+    "variance": "0.24"
+  }
+}

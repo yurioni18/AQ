@@ -1,0 +1,67 @@
+{
+  "id": "calculate-cakes-q2-fy2025-end-of-period",
+  "title": "Calculate CAKE’s Q2-FY2025 end-of-period comparable restaurant base for the North Italia segment. Assume none of the restaurants opened over the last six quarters were closed. Express your answer as a whole number.",
+  "description": "1. Identify the company's comparable convention: CAKE includes a restaurant in comps beginning in its 19th month of operation.\n \n 2. Idenitfy North Italia restaurants open at Q2 FY2025 EOP 46 restaurants. \n \n 3. Gather North Italia openings over the last six fiscal quarters:\n Q1 FY2024 = 2\n Q2 FY2024 = 1\n Q3 FY2024 = 0\n Q4 FY2024 = 3\n Q1 FY2025 = 3\n Q2 FY2025 = 1\n \n 4. Compute the total sum of North Italia openings over the last six quarters: 2 + 1 + 0 + 3 + 3 + 1 = 10 restaurants\n \n 5. Compute Q2 FY2025 EOP comparable restaurants for North Italia as Q2 FY2025 EOP Open restaurants - Cumulative openings over the last 6 quarters (Q1 24 -- Q2 25): 46 - 10 = 36 restaurants.",
+  "answer": "36 restaurants.",
+  "rubric": [
+    {
+      "operator": "correctness",
+      "criteria": "CAKE includes a restaurant in comps beginning in its 19th month of operation."
+    },
+    {
+      "criteria": "North Italia restaurants open at Q2 FY2025 end-of-period: 46",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "North Italia openings Q1 FY2024: 2",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "North Italia openings Q2 FY2024: 1",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "North Italia openings Q3 FY2024: 0"
+    },
+    {
+      "criteria": "North Italia openings Q4 FY2024: 3",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "North Italia openings Q1 FY2025: 3"
+    },
+    {
+      "criteria": "North Italia openings Q2 FY2025: 1",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Total North Italia openings over the last six quarters: 10"
+    },
+    {
+      "criteria": "Compute Q2 FY2025 EOP comparable restaurants for North Italia as Q2 FY2025 EOP Open restaurants - Cumulative openings over the last 6 quarters",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Q2 FY2025 end-of-period comparable North Italia restaurants: 36",
+      "operator": "correctness"
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 23,
+    "filing_links": [
+      "[\"https://www.sec.gov/Archives/edgar/data/887596/000141057825001564/cake-20250701x10q.htm\"",
+      "\"https://www.sec.gov/Archives/edgar/data/887596/000141057825001073/cake-20250401x10q.htm\"",
+      "\"https://www.sec.gov/Archives/edgar/data/887596/000141057825000195/cake-20241231x10k.htm\"",
+      "\"https://www.sec.gov/Archives/edgar/data/887596/000141057824001742/cake-20241001x10q.htm\"",
+      "\"https://www.sec.gov/Archives/edgar/data/887596/000141057824001151/cake-20240702x10q.htm\"",
+      "\"https://www.sec.gov/Archives/edgar/data/887596/000141057824000636/cake-20240402x10q.htm\"]"
+    ],
+    "pass_at_10": "2",
+    "mean": "0.2",
+    "variance": "0.16"
+  }
+}

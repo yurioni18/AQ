@@ -1,0 +1,42 @@
+{
+  "id": "what-rate-did-oracle-use-in-calculating-income",
+  "title": "What rate did Oracle use in calculating income tax expense associated with foreign income in fiscal 2010? Express the answer as a percentage with two decimal places.",
+  "description": "1. Retrieve Oracle’s FY 2010 foreign pretax income and foreign tax amounts from its Form 10-K for the year ended May 31, 2010: foreign income before provision for income taxes = $3,961 million; foreign current income tax provision = $1,013 million; foreign deferred income tax benefit = $55 million; therefore, total foreign income tax expense = $1,013m − $55m = $958 million.\n \n 2. Compute the rate Oracle used in calculating income tax expense associated with foreign income for fiscal 2010 as total foreign income tax expense divided by foreign pretax income: $958m ÷ $3,961m = 0.241858... = 24.19% (rounded to two decimals)",
+  "answer": "24.19%",
+  "rubric": [
+    {
+      "operator": "correctness",
+      "criteria": "Final Answer is 24.19%"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Foreign pretax income = $3,961 million"
+    },
+    {
+      "criteria": "Foreign current income tax provision = $1,013 million",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Foreign deferred income tax benefit = $55 million"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Total foreign income tax expense = $958 million computed as $1,013m − $55m"
+    },
+    {
+      "criteria": "Final answer expressed as a percentage with two decimal places",
+      "operator": "correctness"
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 48,
+    "filing_links": [
+      "[\"https://www.sec.gov/Archives/edgar/data/1341439/000119312510151896/d10k.htm\"]"
+    ],
+    "pass_at_10": "6",
+    "mean": "0.6",
+    "variance": "0.24"
+  }
+}

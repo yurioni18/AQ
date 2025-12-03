@@ -1,0 +1,38 @@
+{
+  "id": "what-was-the-total-intrinsic-value-of-options",
+  "title": "What was the total intrinsic value of options exercised by McAfee (MFE) in 2008. Give the value stated in the note and the approximate intrinsic value calculated by the number of options * the average price of options exercised. Express the answer in $M rounded to 2 decimal places of precision",
+  "description": "1) Locate the value disclosed in the stock-based compensation note: “The total intrinsic value of options exercised during 2008 was $90.1 million\" from note 2. Record as $90.10M.\n \n 2) Compute the requested approximation = (number of options exercised in 2008) × (average intrinsic value per option), where intrinsic value per option = weighted-average share price at exercise − weighted-average exercise price\n \n 3) Retrieve that the number of options exercised over the period is 5862.\n \n 4) Retrieve that the average price of the options exercised was 34.59 less the average exercise price of 19.91 = 14.68\n \n 5) Multiple the number of options by step 4 to yield 86.05M implied through the approximate intrinsic value.",
+  "answer": "Note-stated total intrinsic value (2008): $90.10M. Approximate intrinsic value (options × avg. price): 86.05M",
+  "rubric": [
+    {
+      "criteria": "Note-stated total intrinsic value of options exercised during 2008 = $90.10M",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "States approximation formula as: (number of options exercised in 2008) × (weighted-average exercise price of options exercised in 2008)",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Number of options exercised in 2008 reported as 5862"
+    },
+    {
+      "criteria": "Calculates price difference 34.59 - 19.91 = 14.68",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Approximate intrinsic value computed and reported as $86.05M"
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 6,
+    "filing_links": [
+      "[\"https://www.sec.gov/Archives/edgar/data/890801/000095012311019014/d75827e10vk.htm\"]"
+    ],
+    "pass_at_10": "1",
+    "mean": "0.1",
+    "variance": "0.09"
+  }
+}

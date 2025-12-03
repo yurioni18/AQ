@@ -1,0 +1,70 @@
+{
+  "id": "for-the-2025-fiscal-quarter-ended-june-27-2025",
+  "title": "For the 2025 Fiscal Quarter ended June 27, 2025 (Q4'25), did Western Digital report operating income above or below its guided midpoint range, and what portion of this variation can be attributed to strength in higher-capacity drive sales and cost control?",
+  "description": "0) Confirm period and filings: WDC's FY25 results cover the fiscal year end June 27, 2025, and the Form 10K for that year was filed on August 14, 2025 \n \n 1) Find the Q4 FY25 guided midpoint for non-GAAP operating income from the company's Business Outlook issued on April 30, 2025: \n a) Revenue 2.45B +/- 0.15B\n b) non-GAAP gross margin: 40.0%-41.0%, midpoint 40.5%\n c) non‑GAAP operating expenses 330M-340M (midpoint 335M)\n d) Calculate implied operating income midpoint: 2.45B (revenue midpoint) * 40.5% (gross margin midpoint) - 335M (non-GAAP opex midpoint) = 657.25M\n \n 2) Compare actual values to guidance:\n a) WDC reported Q4 FY25 non-GAAP operating income of 732M and non-GAAP gross margin of 41.3%.\n b) Variation vs midpoint: 732 - 657.25 = +74.75M (above guidance)\n c) Revenue reported in non-GAAP as $2.61Bn.\n \n 3) Estimate portion of variation due to higher-capacity drive sales and cost control from margin information, since the company did not break out a pricing-only amount\n a) gross-margin rate beat vs point: 41.3% - 40.5% = 0.8%\n b) incremental gross profit from rate beat = 0.8% * 2.605B = 20.84M, which we treat as operating-income uplift attributable to high capacity drive sales and cost control as cited by management\n c) Share of total operating-income variance = 20.84M / 74.75M = 27.9%",
+  "answer": "#ERROR!",
+  "rubric": [
+    {
+      "criteria": "Guided revenue: 2.45B ± 0.15B",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Guided non-GAAP gross margin range: 40.0% - 41.0% with midpoint 40.5%",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Guided non-GAAP operating expenses: 330M - 340M with midpoint 335M",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Implied non-GAAP operating income midpoint = 657.25M"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Reported Q4 FY25 non-GAAP operating income = 732M"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Report Q4 FY25 non-GAAP Revenue as $2.605B."
+    },
+    {
+      "criteria": "Reported Q4 FY25 non-GAAP gross margin = 41.3%",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Operating-income variance vs midpoint = +74.75M (732 - 657.25)"
+    },
+    {
+      "criteria": "Gross-margin rate beat vs midpoint = 0.8 percentage points (41.3% - 40.5%)",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Revenue used for incremental gross profit calculation = 2.605B"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Incremental gross profit from 0.8% rate beat = 20.84M (0.8% * 2.605B)"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Share of operating-income variance attributable to those factors = 27.9% (20.84M / 74.75M)"
+    },
+    {
+      "criteria": "Conclusion: non-GAAP operating income in Q4'25 beat midpoint guidance for the quarter by 74.75m. Additionally, we can attribute ~28% of non-GAAP operating income variance to increased higher-capacity drive sales and cost control",
+      "operator": "correctness"
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 65,
+    "filing_links": [
+      "[\"https://www.sec.gov/ix?doc=/Archives/edgar/data/0000106040/000010604025000038/wdc-20250627.htm\"]"
+    ],
+    "pass_at_10": "7",
+    "mean": "0.7",
+    "variance": "0.21"
+  }
+}

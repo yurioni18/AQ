@@ -1,0 +1,46 @@
+{
+  "id": "what-were-the-primary-sources-of-synergies-for",
+  "title": "What were the primary sources of synergies for Expand Energy Corp (NASDAQ: EXE)'s merger with Southwestern Energy, and how have the projected synergies changed over time since the announcement of the merger?",
+  "description": "First, take note of the primary sources of synergies that were cited when the merger was announced: “annual operational and overhead synergies of approximately $400 million” driven by longer laterals, lower drilling and completion costs, G&A reductions, and utilization of shared operational infrastructure.\n \n Then, take note of the initial synergy target per year when the deal was announced in January 2024: ~$400 M per year (run-rate) of operational and overhead synergies.\n \n Then, take note of the first guidance update in October 2024, which raised the annual synergy target by $100 M to $500 M annually by the end of FY 2027.\n \n There was another guidance update in October 2025, increasing the total annual synergy outlook to $600 M by the end of FY 2026 and was on track to hit $500 M by the end of FY 2025.",
+  "answer": "Primary synergy sources were longer laterals, lower drilling and completion costs, G&A reductions, and the utilization of shared operational infrastructure.\n \n The merger was originally expected to generate $400 M in annual synergies, but that figure has since been revised to $500 M for FY 2025 and $600 M for FY 2026.",
+  "rubric": [
+    {
+      "operator": "correctness",
+      "criteria": "Originally announced annual synergy target of approximately $400 M (run-rate)"
+    },
+    {
+      "criteria": "Most recent October 2025 guidance update increased the annual synergy outlook to $600 M by the end of FY 2026",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Most recent October 2025 guidance indicated the deal was on track to hit $500 M in annual synergies by the end of FY 2025"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Primary synergy sources includes: lower drilling and completion costs"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Primary synergy sources includes: G&A reductions"
+    },
+    {
+      "criteria": "Primary synergy sources includes: utilization of shared operational infrastructure",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Primary synergy sources includes: longer laterals"
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 8,
+    "filing_links": [
+      "[\"https://investors.expandenergy.com/news-releases/news-release-details/expand-energy-corporation-reports-third-quarter-2025-results\"]"
+    ],
+    "pass_at_10": "1",
+    "mean": "0.1",
+    "variance": "0.09"
+  }
+}

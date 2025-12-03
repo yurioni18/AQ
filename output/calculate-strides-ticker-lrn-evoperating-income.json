@@ -1,0 +1,54 @@
+{
+  "id": "calculate-strides-ticker-lrn-evoperating-income",
+  "title": "Calculate Stride's (ticker: LRN) EV/Operating Income multiple for fiscal year 2025 using their latest 10-K filing. Assume share price = $130 and F/D S/O = 50 million. Show answer as a number (multiple) rounded to 1 decimal.",
+  "description": "1) Record FY2025 operating income (located in Income statement): \n Income from operations = $360.094 million.\n \n 2) Record net debt components for FY2025 from the same 10‑K (located in Balance Sheet): \n Total debt = $416.322 million, \n Current portion of finance lease liablity = $42.316 million, \n Long-term finance lease liability = $44.567 million; \n Cash and cash equivalents = $782.497 million, \n Marketable Securities = $202.769 million.\n \n 3) Compute enterprise valueusing inputs for equity value (as stated in promt): \n Equity value = $130 × 50,000,000 = $6,500,000,000; \n EV = $6,500,000,000 + $416,322,000 + $42,316,000 + $44,567,000 − $782,497,000 - $202,769,000= $6,017,939,000. [Debt and cash from Form 10‑K, FY2025].\n \n 4) Compute EV/Operating Income: \n $6,017,939,000 ÷ $360,094,000 = 16.7x.",
+  "answer": "16.7x",
+  "rubric": [
+    {
+      "criteria": "Income from operations (located in Income Statement)= $360.094 million.",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Long-term debt (located in Balance Sheet)= $416.322 million.",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Current portion of finance lease liability (located in Balance Sheet) = $42.316 million."
+    },
+    {
+      "criteria": "Long-term finance lease liability (located in Balance Sheet) = $44.567 million.",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Cash and cash equivalents (located in Balance Sheet) = $782.497 million."
+    },
+    {
+      "criteria": "Marketable Securities (located in Balance Sheet) = $202.769 million.",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Equity value (Using stated in the promt assumptions) = Share Price × F/D/S/O = $130 × 50,000,000 = $6,500,000,000.",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Enterprise value (EV) = Market Cap + Long-term debt + Current portion of finance lease liability + Long-term finance lease liability - Cash and cash equivalents - Marketable Securities = $6,017,939,000.",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "EV/Operating Income multiple (rounded to 1 decimal) = 16.7x."
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 24,
+    "filing_links": [
+      "[\"https://www.sec.gov/Archives/edgar/data/1157408/000155837025010334/lrn-20250630x10k.htm\"]"
+    ],
+    "pass_at_10": "2",
+    "mean": "0.2",
+    "variance": "0.16"
+  }
+}

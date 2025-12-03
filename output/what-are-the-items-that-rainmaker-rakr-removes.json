@@ -1,0 +1,43 @@
+{
+  "id": "what-are-the-items-that-rainmaker-rakr-removes",
+  "title": "What are the items that Rainmaker (RAKR) removes from GAAP Income in calculating Non-GAAP Net Income in FY 2007? What is the dollar impact of each of these? Express each adjustment in $M as a whole number. Finally, what is the cumulative overall effect of all of the adjustments? Express in $M and round to two decimal points.",
+  "description": "1. Retrieve the 2007 stock compensation adjustment of 1814 thousand from the 2007 10-K. \n \n 2. Retrieve the 2007 amortization of intangibles of 3065 thousand from the 2007 10-K.\n \n 3. Retrieve the 2007 income tax effect of -1322 thousand from the 2007 8-K titled 'RAINMAKER REPORTS RECORD FOURTH QUARTER AND FISCAL 2007 REVENUE'\n \n 4. Total all of the adjustments to reach a total effect of 3557 thousand after rounding between steps.",
+  "answer": "Rainmaker made the following adjustments:\n Stock Compensation 1.814M or ~2M\n Amortization of Intangibles 3.065M or ~3M\n Income Tax Effect -1.322M or ~1M\n Overall Effect 3.557M or 3.56M",
+  "rubric": [
+    {
+      "operator": "correctness",
+      "criteria": "Stock Compensation = 1.814M or 2M"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Amortization of Intangibles = 3.065M or 3M"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Income Tax Effect = -1.322M or -1M"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Overall Effect is 3.557M or 4M"
+    },
+    {
+      "criteria": "Final answer is rounded to two decimal points = 3.56M",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Amounts are expressed in $M"
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 60,
+    "filing_links": [
+      "[\"https://www.sec.gov/Archives/edgar/data/1094007/000119312509069511/d10k.htm\"",
+      "\"https://www.bamsec.com/filing/119312508029334?cik=1094007\"]"
+    ],
+    "pass_at_10": "7",
+    "mean": "0.7",
+    "variance": "0.21"
+  }
+}

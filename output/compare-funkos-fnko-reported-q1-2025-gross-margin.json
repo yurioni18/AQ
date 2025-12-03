@@ -1,0 +1,35 @@
+{
+  "id": "compare-funkos-fnko-reported-q1-2025-gross-margin",
+  "title": "Compare Funko’s (FNKO) reported Q1 2025 gross margin to gross margin guidance issued with Q4 2024 results. Report the outcome as “% BEAT” or “% MISS,”, rounded to two decimal places.",
+  "description": "1) Locate reported Q1 2025 gross margin: Funko’s May 8, 2025 press release states gross margin of 40.3% for Q1 2025.\n \n 2) Locate gross margin guidance issued with Q4 2024 results: Funko’s March 6, 2025 press release (Q4 2024 results) guided 2025 first-quarter gross margin at approximately 39%.\n \n 3) Compute beat/miss and report: 40.3% (reported) − 39.0% (guided) = 1.30 percentage points, rounded to two decimals → 1.30% BEAT.",
+  "answer": "1.30% BEAT",
+  "rubric": [
+    {
+      "criteria": "Reported Q1 2025 gross margin = 40.3% (May 8, 2025 press release).",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Guided Q1 2025 gross margin = approximately 39.0% (March 6, 2025 press release).",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Computed difference between reported and guided gross margin = 1.30 percentage points (40.3% − 39.0%), rounded to two decimals.",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Final reported outcome = \"1.30% BEAT\".",
+      "operator": "correctness"
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 32,
+    "filing_links": [
+      "[\"https://d18rn0p25nwr6d.cloudfront.net/CIK-0001704711/2a29a00b-f084-4c7f-95c4-9ba84c20195a.pdf\"",
+      "\"https://d18rn0p25nwr6d.cloudfront.net/CIK-0001704711/c121efda-8279-44ba-a199-b511e6112990.pdf\"]"
+    ],
+    "pass_at_10": "3",
+    "mean": "0.3",
+    "variance": "0.21"
+  }
+}

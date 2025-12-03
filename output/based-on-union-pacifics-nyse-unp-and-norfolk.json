@@ -1,0 +1,36 @@
+{
+  "id": "based-on-union-pacifics-nyse-unp-and-norfolk",
+  "title": "Based on Union Pacific's (NYSE: UNP) and Norfolk Southern's (NYSE: NSC) FY 2024 10-K filings and the S-4 Registration Statement (September 2025), evaluate the financial justification for the proposed merger:\n \n Calculate the operating ratio spread between UNP and NSC for FY 2024. If NSC achieves UNP's operating ratio post-merger, estimate the incremental operating income NSC would generate (using NSC's FY 2024 revenue as the base). Express in $M rounded to 0 decimal places.\n The S-4 projects $2.75B in annual synergies. What percentage of NSC's FY 2024 operating income do these synergies represent? Round to 1 decimal place.\n Based on the $320/share offer and the 25% premium cited, calculate NSC's implied 30-day VWAP as of July 16, 2025. Round to 2 decimal places.\n \n Format answer as:\n \n Operating Ratio Spread: [X.X] percentage points\n Incremental Operating Income at UNP Efficiency: $[X]M\n Synergies as % of NSC Operating Income: [X.X]%\n Implied NSC 30-day VWAP: $[X.XX]",
+  "description": "Operating ratios: UNP came in at 59.9% for FY24 (pulled from their 10-K), NSC at 66.4% (from NSC's 10-K). Difference of 6.5 percentage points.\n \n NSC had $12,123M revenue and $4,071M operating income last year (both from NSC 10-K).\n \n For the efficiency question — 6.5% of $12,123M gets you $788M. That's how much more NSC would theoretically earn if they matched UNP's ratio.\n \n Synergies are $2.75B annually (cited in the S-4). As a percentage of NSC's operating income: 2,750 divided by 4,071 equals 67.6%.\n \n VWAP math: $320 offer at a 25% premium (per S-4) means the base was $320/1.25 = $256.\n \n Operating Ratio Spread: 6.5 percentage points\n Incremental Operating Income at UNP Efficiency: $788M\n Synergies as % of NSC Operating Income: 67.6%\n Implied NSC 30-day VWAP: $256.00",
+  "answer": "Operating Ratio Spread: 6.5 percentage points\n Incremental Operating Income at UNP Efficiency: $788M\n Synergies as % of NSC Operating Income: 67.6%\n Implied NSC 30-day VWAP: $256.00",
+  "rubric": [
+    {
+      "operator": "correctness",
+      "criteria": "Operating Ratio Spread: 6.5 percentage points"
+    },
+    {
+      "criteria": "Incremental Operating Income at UNP Efficiency: $788M",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Synergies as % of NSC Operating Income: 67.6%"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Implied NSC 30-day VWAP: $256.00"
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 75,
+    "filing_links": [
+      "[\"https://www.sec.gov/ix?doc=/Archives/edgar/data/0000100885/000010088525000042/unp-20241231.htm\"",
+      "\"https://www.sec.gov/ix?doc=/Archives/edgar/data/0000702165/000070216525000008/nsc-20241231.htm\"",
+      "\"https://www.sec.gov/Archives/edgar/data/100885/000119312525224307/d908896ds4a.htm\"]"
+    ],
+    "pass_at_10": "8",
+    "mean": "0.8",
+    "variance": "0.16"
+  }
+}

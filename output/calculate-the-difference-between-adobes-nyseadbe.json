@@ -1,0 +1,34 @@
+{
+  "id": "calculate-the-difference-between-adobes-nyseadbe",
+  "title": "Calculate the difference between Adobe's (NYSE:ADBE) adjusted effective tax rate and its GAAP effective tax rate in FY 2024.",
+  "description": "1. Use the correct filing. The correct filing is the FY 2024 10K for the year ended November 29, 2024. \n 2. Find Adobe's GAAP effective tax rate as disclosed in the 10K. The GAAP tax rate for Adobe was 20%. \n 3. Find Adobe's adjusted effective tax rate which was disclosed in the 10K. The adjusted tax rate was 18.5%. \n 4. Find the difference between Adjusted and GAAP tax rate : 18.5-20.0%= -1.5%",
+  "answer": "The adjusted effective tax rate was 1.5 percentage points lower than the GAAP rate (18.5% vs. 20.0%), i.e., −1.5 pp.",
+  "rubric": [
+    {
+      "operator": "correctness",
+      "criteria": "Identify the correct filing as the 2024 FY 10K for the year ended November 29th 2024. "
+    },
+    {
+      "criteria": "State Adobe's GAAP effective tax rate as 20%.",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "State Adobe's adjusted effective tax rate as 18.5%."
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Find the difference between the adjusted and GAAP rates as 18.5%-20%=-1.5%"
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 14,
+    "filing_links": [
+      "[\"https://www.adobe.com/cc-shared/assets/investor-relations/pdfs/adbe-10k-fy24-final.pdf\"]"
+    ],
+    "pass_at_10": "1",
+    "mean": "0.1",
+    "variance": "0.09"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "id": "did-ubers-year-over-year-ttm-adjusted-ebitda",
+  "title": "Did UBER’s year-over-year TTM Adjusted EBITDA growth rate accelerate or decelerate QoQ in Q2-FY2025? By how much? Express your answer as a percentage, rounded to two decimal places.",
+  "description": "Gather Uber’s quarterly adj. EBITDA figures\n \n Q2-FY2025 = 2,119\n Q2-FY2024 = 1,570\n Q1-FY2025 = 1,868\n Q1-FY2024 = 1,382\n Q4-FY2024 = 1,842\n Q4-FY2023 = 1,283\n Q3-FY2024 = 1,690\n Q3-FY2023 = 1,092\n Q2-FY2023 = 916\n \n Compute TTM Adjusted EBITDA:\n \n Q2-FY2025 = 1690 + 1842 + 1868 + 2119 = 7519\n Q2-FY2024 = 1092 + 1283 + 1382 + 1570 = 5327\n Q1-FY2025 = 1570 + 1690 + 1842 + 1868 = 6970\n Q1-FY2024 = 916 + 1092 + 1283 + 1382 = 4673\n \n Calculate year over year TTM growth for each comparison period:\n \n Q2-FY2025: (7519 / 5327 - 1) * 100 = 41.1488642763%\n Q1-FY2025: (6970 / 4673 - 1) * 100 = 49.1547185962%\n \n 41.1488642763% - 49.1547185962% = -8.0058543199%.\n \n Then, the answer rounded to two decimals is: decelerated by 8.01%.",
+  "answer": "Uber’s YoY TTM Adjusted EBITDA growth rate decelerated QoQ in Q2 FY2025 by 8.01 percentage points.",
+  "rubric": [
+    {
+      "criteria": "Idenitfy Q2 FY2025 adj. EBITDA as = $2,119m",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Identify Q2 FY2024 adj. EBITDA as = $1,570m",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Identify Q1 FY2025 adj. EBITDA as = $1,868m"
+    },
+    {
+      "criteria": "Identify Q1 FY2024 adj. EBITDA as = $1,382m",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Identify Q4 FY2024 adj. EBITDA as = $1,842m"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Identify Q4 FY2023 adj. EBITDA as = $1,283m"
+    },
+    {
+      "criteria": "Identify Q3-FY2024 adj. EBITDA as = $1,690m",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Identify Q3-FY2023 adj. EBITDA as = $1,092m"
+    },
+    {
+      "criteria": "Identify Q2 FY2023 adj. EBITDA as = $916m",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Calculate TTM Q2-FY2025 adj. EBITDA as = $7,519m",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Compute TTM Q2-FY2024 adj. EBITDA as = $5,327m"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Compute TTM Q1-FY2025 adj. EBITDA as = $6,970m"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Compute TTM Q1-FY2024 adj. EBITDA as = $4,673m"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Compute year over year TTM growth Q2-FY2025 as = 41.1488642763%"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Compute year over year TTM growth Q1-FY2025 as = 49.1547185962%"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Uber’s year over year TTM Q2-FY2025 Adjusted EBITDA growth rate decelerated quarter over quarter by 8.01%."
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 69,
+    "filing_links": [
+      "[\"https://www.sec.gov/Archives/edgar/data/1543151/000154315125000023/uber-20250630.htm\"",
+      "\"https://www.sec.gov/Archives/edgar/data/1543151/000154315125000015/uber-20250331.htm\"",
+      "\"https://www.sec.gov/Archives/edgar/data/1543151/000154315124000036/uber-20240930.htm\"",
+      "\"https://www.sec.gov/Archives/edgar/data/1543151/000154315124000027/uber-20240630.htm\"",
+      "\"https://www.sec.gov/Archives/edgar/data/1543151/000154315124000020/uber-20240331.htm\"",
+      "\"https://www.sec.gov/Archives/edgar/data/1543151/000154315123000039/uber-20230930.htm\"",
+      "\"https://www.sec.gov/Archives/edgar/data/1543151/000154315123000025/uber-20230630.htm\"",
+      "\"https://www.sec.gov/Archives/edgar/data/1543151/000154315125000008/uber-20241231.htm\"",
+      "\"https://www.sec.gov/Archives/edgar/data/1543151/000154315124000012/uber-20231231.htm\"]"
+    ],
+    "pass_at_10": "7",
+    "mean": "0.7",
+    "variance": "0.21"
+  }
+}

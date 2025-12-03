@@ -1,0 +1,54 @@
+{
+  "id": "using-stride-inc-ticker-lrn-10-k-for-fiscal-year",
+  "title": "Using Stride, Inc, (ticker: LRN) 10-K for fiscal year ended June 30, 2025 calculate aEBITDA margin for 2025. Make sure to factor Impairments of fixed assets, SBC and non-cash operating lease expense.",
+  "description": "1. Find FY2025 revenue in Income Statement from the FY2025 10-K to use as the margin denominator: Revenues = $2,405,317\n \n 2. Find FY2025 Operating Income in Income Statement and D&A in Cash Flow Statement from the FY2025 10-K to calculate simple EBITDA.\n Operating Income = $360,094 thousand\n D&A = $114,669 thousand\n Simple EBITDA = $360,094 thousand + $114,669 thousand = $474,763 thousand\n \n \n 3. Find FY2025 SBC, impairment of long-lived assets and non-cash operating lease expense in Cash Flow Statement from the FY2025 10-K to make necessary adjustments as required in the promt.\n stock-based compensation = $36,794 thousand\n impairment of long-lived assets = $59,478 thousand \n non-cash operating lease expense = $12,265 thousand\n Adjusted EBITDA = $474,763 thousand + $36,794 thousand + $59,478 thousand + $12,265 thousand = $583,300 thousand\n \n 4. Calculate FY2025 aEBITDA margin by dividing adjusted EBITDA by revenue that was found on the first step: $583,300 thousand ÷ $2,405,317 thousand = 24.25%",
+  "answer": "24%",
+  "rubric": [
+    {
+      "operator": "correctness",
+      "criteria": "FY2025 Revenues (located in Income Statement) = $2,405,317 thousand"
+    },
+    {
+      "criteria": "FY2025 Operating Income (located in Income Statement) = $360,094 thousand",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "FY2025 D&A (located in Cash Flow Statement) = $114,669 thousand"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Simple EBITDA (Operating Income + D&A) = $474,763 thousand"
+    },
+    {
+      "criteria": "FY2025 SBC (located in Cash Flow Statement) = $36,794 thousand",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "FY2025 Impairment of long-lived assets (located in Cash Flow Statement) = $59,478 thousand",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "FY2025 Non-cash operating lease expense (located in Cash Flow Statement) = $12,265 thousand"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Adjusted EBITDA (Simple EBITDA + SBC + Impairment + Non-cash operating lease) = $583,300 thousand"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Adjusted EBITDA margin = 583,300 ÷ 2,405,317 = 24.25%"
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 58,
+    "filing_links": [
+      "[\"https://www.sec.gov/Archives/edgar/data/1157408/000155837025010334/lrn-20250630x10k.htm#ITEM7MANAGEMENTSDISCUSSION_284747\"]"
+    ],
+    "pass_at_10": "6",
+    "mean": "0.6",
+    "variance": "0.24"
+  }
+}

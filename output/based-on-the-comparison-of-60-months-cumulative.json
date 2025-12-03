@@ -1,0 +1,50 @@
+{
+  "id": "based-on-the-comparison-of-60-months-cumulative",
+  "title": "Based on the \"Comparison of 60 Months Cumulative Total Return\" graph of Tesla (TSLA) FY 2024, assume that that the common stock grows at CAGR from base period Dec-19 to Dec-24. What would be the cumulative return on Dec-28 based on the graph. Answer to the nearest whole number.",
+  "description": "1) Identify the base and end points from Tesla'a FY 2024 10-k graph titled \" Comparison of 60 Months Cumulative Total Return. It compares cumulative total return assuming $100 invested on January 1, 2020 and measured through December 31, 2024 (i.e., base period Dec-19 to Dec-24.\n \n 2) Retrive the start and end points in the graph which is $100 for Dec-19 and 1447.97 for Dec-24\n \n 4) Compute the 5‑year CAGR from Dec‑19 to Dec‑24: CAGR = ( 1447.97 / 100)^(1/5) − 1 = (14.479741842954462)^(1/5) − 1 = 70.6680% per year. [https://www.sec.gov/Archives/edgar/data/1318605/000162828025003063/tsla-20241231.htm, Form 10‑K 2024; calculation]\n \n 5) Project the index four more years at that CAGR to Dec‑28: Index_2028 = Index_2024 × (1 + CAGR)^4 = 1,447.97 × (1.7066802539572283)^4 = 12,284.84. [calculation]\n \n 6) Convert projected Index_2028 to cumulative return vs. the $100 base: Cum. return_2028 = 12,284.84 − 100 = 12,184.84%, which rounds to 12,185%. [calculation]",
+  "answer": "12185%",
+  "rubric": [
+    {
+      "operator": "correctness",
+      "criteria": "\nBase value at Dec -19 from the chart is $100."
+    },
+    {
+      "operator": "correctness",
+      "criteria": "\nEnd value at Dec-24 from the chart is 1447.97"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "\nThe CAGR formula is applied as: (1447.97 / 100)^(1/5) − 1"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Calculated 5-year CAGR = 70.6680% per year"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Projection formula used: Index_2028 = Index_2024 × (1 + CAGR)^4"
+    },
+    {
+      "criteria": "Projected Index_2028 = 12,284.84",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Computed cumulative return_2028 = 12,284.84 − 100 = 12,184.84%",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Final reported cumulative return (rounded to nearest whole number): 12,185%"
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 61,
+    "filing_links": [
+      "[\"https://ir.tesla.com/_flysystem/s3/sec/000162828025003063/tsla-20241231-gen.pdf\"]"
+    ],
+    "pass_at_10": "7",
+    "mean": "0.7",
+    "variance": "0.21"
+  }
+}

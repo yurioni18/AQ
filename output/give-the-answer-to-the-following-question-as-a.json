@@ -1,0 +1,54 @@
+{
+  "id": "give-the-answer-to-the-following-question-as-a",
+  "title": "Give the answer to the following question as a percentage rounded to two decimals: What was Tesla’s total employee headcount as of December 31, 2024, and what percentage of employees were part of the manufacturing development program?",
+  "description": "Step 1) Locate total employee headcount\n In the Human Capital Resources of Tesla’s FY 2024 Form 10-K locate the employee headcount as of 2024-12-31. It states, the “employee headcount worldwide was 125,665” employees. This will be the denominator for the calculation. \n \n Step 2) Locate Manufacturing Development Program hires\n In the “Development Programs” subsection of Tesla’s FY 2024 Form 10-K locate the hires as of 2024-12-31. It states, “hired over 800 graduates” \n \n Step 3) Find the Percentage\n Formula is: Percentage = (Program Hires/Total Employees)× 100\n So plugging in the numbers, 800 ÷ 125,665 × 100 = 0.6366%\n \n Step 4) Round to two decimals \n 0.6366% rounds up to 0.64% to fit question criteria.",
+  "answer": "Total headcount: 125,665 employees; manufacturing development program hires were at least 0.64% of employees.",
+  "rubric": [
+    {
+      "operator": "correctness",
+      "criteria": "Total Employee Headcount described as \"“employee headcount worldwide was 125,665”. "
+    },
+    {
+      "criteria": "Employee headcount number used in formula was 125,665 ",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Manufacturing Development Program hires described as 'hired over 800 graduates'",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Hires number used in formula was 800"
+    },
+    {
+      "criteria": "The formula stated to find the answer was Percentage = (Program Hires/Total Employees) × 100",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "The raw answer was formatted as follows: 800 ÷ 125,665 × 100 = 0.6366%",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "The answer was a percentage ",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "The answer was rounded to two decimals",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "The answer was 0.64%"
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 90,
+    "filing_links": [
+      "[\"https://www.sec.gov/Archives/edgar/data/1318605/000162828025003063/tsla-20241231.htm\"]"
+    ],
+    "pass_at_10": "9",
+    "mean": "0.9",
+    "variance": "0.09"
+  }
+}

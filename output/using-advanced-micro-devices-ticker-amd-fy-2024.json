@@ -1,0 +1,95 @@
+{
+  "id": "using-advanced-micro-devices-ticker-amd-fy-2024",
+  "title": "Using ADVANCED MICRO DEVICES (ticker: AMD) FY 2024 Form 10-K and FRED annual nominal GDP data (current US$), calculate the year-over-year % change in gross profit generated from customers in China from FY 2023 to FY 2024, assuming (i) FY 2023 revenue from China is exactly the amount reported in the most recent 10-K filing, (ii) the year-over-year % change in revenue from China from FY 2023 to FY 2024 is equal to the annual nominal % growth rate of China’s GDP in 2024, and (iii) gross margins on revenue from China are equal to AMD’s consolidated gross margin in both periods. Provide the answer in % rounded to 2 decimals.",
+  "description": "Step 1 – Identify the objective\n Calculate the year-over-year percentage change in gross profit generated from customers in China from FY 2023 to FY 2024. Gross profit is calculated as revenue from China multiplied by AMD’s consolidated gross margin.\n \n Step 2 – Extract consolidated gross margin values from AMD’s FY 2024 Form 10-K\n url :https://ir.amd.com/financial-information/sec-filings/content/0001193125-25-067185/0001193125-25-067185.pdf\n Locate the consolidated gross margin figures for both years.\n FY 2023 gross margin: 46%\n FY 2024 gross margin: 49%\n These margins will be applied directly to China revenue because the question states that China revenue carries AMD’s consolidated gross margin.\n \n Step 3 – Extract China’s nominal GDP values from FRED\n Retrieve the annual nominal GDP for China in current US dollars.\n url :https://fred.stlouisfed.org/series/MKTGDPCNA646NWDB\n 2023 GDP: 18,270,356,654,533.20\n 2024 GDP: 18,743,803,170,827.20\n \n Step 4 – Calculate China’s nominal GDP growth rate\n Compute the year-over-year growth rate using the GDP numbers.\n Growth rate = (GDP 2024 / GDP 2023) – 1\n Growth rate = (18,743,803,170,827.20 / 18,270,356,654,533.20) – 1\n Growth rate = 0.025913\n China’s nominal GDP growth rate for 2024 is 2.59%.\n This becomes the assumed revenue growth rate for China.\n \n Step 5 – Project FY 2024 revenue from China\n Apply the GDP-based growth rate to FY 2023 revenue from China.\n Revenue 2024 = Revenue 2023 × (1 + 0.025913)\n An exact revenue value is not needed because it cancels out later.\n \n Step 6 – Compute FY 2023 and FY 2024 gross profit from China\n Gross profit 2023 = Revenue 2023 × 0.46\n Gross profit 2024 = Revenue 2023 × (1 + 0.025913) × 0.49\n \n Step 7 – Calculate the year-over-year percentage change in gross profit\n Percent change = (Gross profit 2024 / Gross profit 2023 – 1) × 100\n Percent change = [(1 + 0.025913) × (0.49 / 0.46) – 1] × 100\n Percent change = [1.025913 × 1.065217 – 1] × 100\n Percent change = (1.092821 – 1) × 100\n Percent change = 9.2821%\n \n Step 8 – State the final answer\n Year-over-year percentage change in gross profit generated from China for FY 2024 is 9.28%.",
+  "answer": "9.28%",
+  "rubric": [
+    {
+      "criteria": "Correctly states objective as Year over year % change in China gross profit FY 2023–FY 2024.",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Correctly defines China gross profit as China revenue multiplied by AMD’s consolidated gross margin."
+    },
+    {
+      "criteria": "Correctly identifies AMD FY 2024 Form 10-K as the source for consolidated gross margins.",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Correctly uses FY 2023 consolidated gross margin of 46%.",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Correctly uses FY 2024 consolidated gross margin of 49%."
+    },
+    {
+      "criteria": "Correctly identifies FRED series MKTGDPCNA646NWDB as the China nominal GDP source.\n",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Correctly uses 2023 China nominal GDP of 18,270,356,654,533.20.\n"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Correctly uses 2024 China nominal GDP of 18,743,803,170,827.20.\n"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Correctly applies the GDP growth formula (GDP 2024 / GDP 2023) − 1.\n"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Correctly computes China GDP growth as approximately 0.025913 (2.59%).\n"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Correctly assumes China revenue growth equals China GDP growth rate.\n"
+    },
+    {
+      "criteria": "Correctly expresses 2024 China revenue as Revenue 2023 × (1 + 0.025913).\n",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Correctly computes 2023 China gross profit as Revenue 2023 × 0.46.\n"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Correctly computes 2024 China gross profit as Revenue 2023 × (1 + 0.025913) × 0.49.\n"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Correctly applies gross profit percent change formula (Gross profit 2024 / Gross profit 2023 − 1) × 100.\n"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Correctly substitutes into the percent change formula as ((1 + 0.025913) × 0.49 / 0.46 − 1) × 100.\n"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Correctly evaluates the expression to approximately 9.2821%.\n"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Correctly reports final YoY % change in China gross profit as 9.28%"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Reports final YoY % change in China gross profit as a percentage rounded to two decimal points"
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 45,
+    "filing_links": [
+      "[\"https://ir.amd.com/financial-information/sec-filings/content/0001193125-25-067185/0001193125-25-067185.pdf\"",
+      "\"https://fred.stlouisfed.org/series/MKTGDPCNA646NWDB?\"]"
+    ],
+    "pass_at_10": "5",
+    "mean": "0.5",
+    "variance": "0.25"
+  }
+}

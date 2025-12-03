@@ -1,0 +1,66 @@
+{
+  "id": "using-vf-corporations-nyse-vfcs-10-k-from-2025",
+  "title": "Using VF Corporations (NYSE: VFC)'s 10-K from 2025, calculate the return on equity (ROE) for FY 2025 if average shareholders equity grows at the same rate as the Productivity Growth Rate (Labor Productivity) as of 2024-12-31, assuming all other relevant inputs remain at their current level. Round your answer to 2 decimal points. Show your full solution; include formulas, calculations, intermediate steps, and assumptions.",
+  "description": "1. Define formula and assumptions. Use ROE = Net income / Average stockholders’ equity. Hold net income at its current FY 2025 level from VF’s FY 2025 10‑K; project FY 2025 average equity by growing FY 2024 average equity at the Labor Productivity growth rate as of 2024‑12‑31. All amounts from the 10‑K are in U.S. dollars and presented in thousands unless stated otherwise. (10‑K, 2025; see “(In thousands, except share amounts)” on the financial statements pages.)\n \n 2. Retrieve FY 2025 net income (loss). From the Consolidated Statements of Operations for the year ended March 29, 2025: Net income (loss) = $(189,716) thousand (i.e., −$189.716 million). (10‑K, 2025.)\n \n 3. Retrieve year‑end total stockholders’ equity for FY 2023 and FY 2024 to compute FY 2024 average equity. FY 2023 (Balance, March 2023) Total stockholders’ equity = $2,910,713 thousand; FY 2024 (Balance Sheet, March 2024) Total stockholders’ equity = $1,658,365 thousand. (10‑K, 2025.)\n \n 4. Calculate FY 2024 average stockholders’ equity. Formula: Average equity FY 2024 = (Ending equity FY 2023 + Ending equity FY 2024) / 2 = ($2,910,713k + $1,658,365k) / 2 = $2,284,539k. (Inputs from 10‑K, 2025.)\n \n 5. Record the Labor Productivity growth rate as of 2024‑12‑31. Nonfarm business labor productivity increased 2.0% from Q4 2023 to Q4 2024. Use 2.0% as the growth rate. (BLS “Productivity and Costs — Fourth Quarter and Annual Averages 2024, Revised,” released March 6, 2025.)\n \n 6. Project FY 2025 average stockholders’ equity using the productivity growth rate. Formula: Projected average equity FY 2025 = Average equity FY 2024 × (1 + growth rate) = $2,284,539k × 1.02 = $2,330,229.78k. (10‑K, 2025; BLS prod2, Mar. 6, 2025.)\n \n 7. Compute and round FY 2025 ROE under the assumption. Formula: ROE FY 2025 = Net income FY 2025 / Projected average equity FY 2025 = (−$189,716k) / ($2,330,229.78k) = −0.081415 → −8.1415%. Rounded to two decimals: −8.14%. (10‑K, 2025; BLS prod2, Mar. 6, 2025.)",
+  "answer": "−8.14%",
+  "rubric": [
+    {
+      "criteria": "ROE = Net income / Average stockholders’ equity",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Assume net income held at its FY2025 level from VF Corporation's FY2025 10‑K",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Assume FY2025 average stockholders’ equity is projected by growing FY2024 average equity at the Labor Productivity growth rate as of 2024-12-31"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Amounts are stated in U.S. dollars and presented in thousands"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "FY2025 net income (loss) = $(189,716) thousand (negative $189.716 million) from Consolidated Statements of Operations for year ended March 29, 2025"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Total stockholders’ equity at FY2023 year‑end (March 2023) = $2,910,713 thousand"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Total stockholders’ equity at FY2024 year‑end (March 2024) = $1,658,365 thousand"
+    },
+    {
+      "criteria": "FY2024 average stockholders’ equity = (2,910,713k + 1,658,365k) / 2 = 2,284,539k",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Labor Productivity growth rate used = 2.0% (Nonfarm business labor productivity change Q4 2023 to Q4 2024; BLS release March 6, 2025)"
+    },
+    {
+      "criteria": "Projected average equity FY2025 = 2,284,539k × 1.02 = 2,330,229.78k",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Computed FY2025 ROE = (−189,716k) / (2,330,229.78k) = −0.081415",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Final answer: −8.14% (rounded to two decimals)",
+      "operator": "correctness"
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 64,
+    "filing_links": [
+      "[\"https://www.sec.gov/Archives/edgar/data/103379/000010337923000006/vfc-20230401.htm\"]"
+    ],
+    "pass_at_10": "7",
+    "mean": "0.7",
+    "variance": "0.21"
+  }
+}

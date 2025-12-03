@@ -1,0 +1,50 @@
+{
+  "id": "using-kimberly-clarks-kmb-fy-2024-10-k-what-is",
+  "title": "Using Kimberly-Clark’s (KMB) FY 2024 10-K, what is the adjusted EBITDA? Express your answer in $ millions rounded to 2 decimals.",
+  "description": "1. Navigate to Kimberly-Clark’s FY 2024 Form 10-K and extract the necessary inputs to find EBITDA. This includes Operating Profit and Depreciation. From the FY 2024 10-K Consolidated Results of Operations, find that Operating Profit (EBIT) in 2024 = $3,210. From the CONSOLIDATED STATEMENTS OF CASH FLOWS, find that depreciation and amortization in FY 2024 is $781 million. To find EBITDA, use the formula EBITDA = EBIT + depreciation and amortization. EBITDA = $3210 + $781 = $3991 million. \n \n 2. Identify the necessary adjustments. From the Consolidated Results of Operations, under the \"Gross and Operating Profits\" section, find that the following adjustments need to be made. First, there is a $565 million gain from the sale of KMB's PPE business. Second, there are charges of $456 million related to the 2024 Transformation Initiative and charges of $136 million from the impairment of intangible assets and litigation and regulatory matters associated with a previously exited business. \n \n 3. Make the necessary adjustments. Adjusted EBITDA = $3991 - $565 + $456 + $136 = $4018.00 million",
+  "answer": "$4,018.00 million",
+  "rubric": [
+    {
+      "criteria": "Final adjusted EBITDA reported as $4,018.00 million (rounded to 2 decimals).\n",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "EBITDA = $3,991 million.\n"
+    },
+    {
+      "criteria": "Identified $565 million gain from sale of PPE business as an adjustment that is subtracted from EBITDA.\n",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Identified $456 million of charges related to the 2024 Transformation Initiative as an adjustment that is added to EBITDA.\n",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Identified $136 million of charges for impairment of intangible assets and litigation and regulatory matters associated with a previously exited business as an adjustment that is added to EBITDA.\n"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Arithmetic combining EBITDA and adjustments: $3,991 - $565 + $456 + $136 = $4,018.00 million.\n"
+    },
+    {
+      "criteria": "EBIT (operating profit) is located as $3,210 million\n",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "depreciation and amortization is determined as $781\n"
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 43,
+    "filing_links": [
+      "[\"https://www.kimberly-clark.com/-/media/kimberly/pdf/annual-report/KMB%20KimberlyClark%20Corporation%20%2010K%2020250213pdf.pdf?rev=-1&hash=BA335D8288941E876B90DF670D1587B4\"]"
+    ],
+    "pass_at_10": "4",
+    "mean": "0.4",
+    "variance": "0.24"
+  }
+}

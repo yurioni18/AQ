@@ -1,0 +1,47 @@
+{
+  "id": "compare-eli-lillys-nyse-lly-actual-dps-growth-in",
+  "title": "Compare Eli Lilly's (NYSE: LLY) actual DPS growth in FY 2023 against guidance as of Dec. 2022. Report it as % BEAT or MISS, rounded to two decimal points of precision (ex: XX.XX% MISS).",
+  "description": "1) Find the DPS growth guidance as of December 2022. Using the press release on December 12, 2022, it can be found that Lilly announced a 15% increase for FY 2023 as its guidance for dividend growth. \n \n 2) Calculate actual FY 2023 DPS growth. Using Eli Lilly's FY 2023 10-K: 2023 DPS = $4.52; 2022 DPS = $3.92. DPS growth in FY 2023: (4.52 - 3.92)/3.92 × 100 = 15.3061% ≈ 15.31%. (rounded to two decimal points of precision)\n \n 3) Compare actual FY 2023 DPS growth to guidance. 15.31% (actual) - 15% (guidance) = 0.31%\n \n 4) Classify Eli Lilly's FY 2023 DPS growth as BEAT or MISS in regards to its guidance. Because actual DPS growth is greater than the guidance value, this should be classified as BEAT. Final answer: 0.31% BEAT.",
+  "answer": "0.31% BEAT",
+  "rubric": [
+    {
+      "criteria": "Find Eli Lilly's DPS growth guidance as of December 2022 from the Dec 12th, 2022 press release: 15%.",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Find Eli Lilly's actual FY 2023 DPS: $4.52"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Find Eli Lilly's actual FY 2022 DPS: $3.92"
+    },
+    {
+      "criteria": "Calculate actual FY 2023 DPS growth: (4.52 - 3.92)/3.92 × 100 = 15.31%",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Calculate difference between actual and guidance DPS growth in FY 2023: 15.31% (actual) - 15% (guidance) = 0.31%",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Classify Eli Lilly's FY 2023 DPS growth as BEAT because the actual DPS growth is greater than the guidance value",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Final answer is rounded to 2 decimal points of precision",
+      "operator": "correctness"
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 26,
+    "filing_links": [
+      "[\"https://investor.lilly.com/news-releases/news-release-details/lilly-announces-2023-financial-guidance-plans-launch-four-new\"",
+      "\"https://investor.lilly.com/static-files/b5c56281-bc31-48c3-9e63-5e6cd588dff5\"]"
+    ],
+    "pass_at_10": "2",
+    "mean": "0.2",
+    "variance": "0.16"
+  }
+}

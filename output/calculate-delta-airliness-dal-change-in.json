@@ -1,0 +1,51 @@
+{
+  "id": "calculate-delta-airliness-dal-change-in",
+  "title": "Calculate Delta Airlines's (DAL) change in Revenue/ASM from 2014 FY to 2024 FY? What does that indicate about the competitiveness of the airline industry?",
+  "description": "1) Interpret Revenue/ASM as total revenue per available seat mile, which Delta explicitly reports and defines as the total amount of revenue earned per ASM. \n 2) Retrieve FY 2014 TRASM as 16.84¢/ASM\n 3) Retrieve FY 2024 TRASM as 21.37¢/ASM).\n 4) Calculate the percentage increase in TRASM as (21.37¢-16.84¢)/16.84¢=26.90%\n 5) Interpret that the increase shows improved unit monetization helped by premium and loyalty revenue but that as per Delta's filings, the US airline market remains extremely competitive and that carriers need to rely on diversified, non‑ticket streams in order to lift TRASM.",
+  "answer": "Delta’s TRASM rose from 16.84¢/ASM in FY2014 to 21.37¢/ASM in FY2024, an absolute increase of 4.53¢/ASM (≈+26.9%). This ~27% gain shows improved unit monetization (including premium, loyalty and non‑ticket revenue), but Delta notes — and industry data confirm — core ticket markets remain highly competitive, with airlines relying increasingly on diversified revenue streams to lift TRASM.",
+  "rubric": [
+    {
+      "criteria": "Define Revenue/ASM (TRASM) as total revenue per available seat mile",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Find the FY2014 TRASM as 16.84¢",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Find the FY2024 TRASM as 21.37¢",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Calculate the absolute increase in TRASM from 2014 to 2024 as 4.53¢",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Calculate the percentage increase in TRASM from 2014 to 2024 as ~26.90%",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Interpret that the TRASM increase comes from improved unit monetization that was driven by premium, loyalty, and non‑ticket revenue"
+    },
+    {
+      "criteria": "Note that the company's filings state that the US airline market remains highly competitive ",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Note that carriers need to rely increasingly on diversified, non‑ticket revenue streams to increase TRASM",
+      "operator": "correctness"
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 99,
+    "filing_links": [
+      "[\"https://www.sec.gov/Archives/edgar/data/27904/000002790425000004/dal-20241231.htm\"",
+      "\"https://www.annualreports.com/HostedData/AnnualReportArchive/d/NYSE_DAL_2014.pdf\"]"
+    ],
+    "pass_at_10": "9",
+    "mean": "0.9",
+    "variance": "0.09"
+  }
+}

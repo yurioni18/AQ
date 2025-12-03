@@ -1,0 +1,138 @@
+{
+  "id": "using-waystar-holding-corps-form-10-k-for-the",
+  "title": "Using Waystar Holding Corp.’s Form 10-K for the year ended December 31, 2024, compute the following in one response:\n \n Non-GAAP operating performance bridge (2024): Reconcile GAAP operating income (loss) to Adjusted EBITDA by explicitly listing and summing all add-backs the company includes (e.g., D&A, share-based compensation, restructuring/transaction/IPO costs, impairment, etc.). Report Adjusted EBITDA margin in % (2 decimals).\n \n CFO before working capital (2024): From the cash flow statement reconciliation, compute Net cash provided by operating activities + (increase)/decrease in net working capital. Report the resulting CFO before WC in $M (2 decimals) and as % of revenue (2 decimals).\n \n Free cash flow & conversion (2024): FCF = CFO − Purchases of property and equipment (treat capex outflows as positive). Report FCF in $M (2 decimals) and FCF/Revenue in % (2 decimals).\n \n Rounding & units: All $ amounts in USD $M with strict trailing zeros to 2 decimals; percentages to 2 decimals with %; ratios in x to 2 decimals. Cite the exact 10-K sections you pull from (e.g., Item 7 MD&A, Item 8 statements, non-GAAP reconciliations, debt footnote, RPO/deferred revenue disclosures).",
+  "description": "AT first looking at the WAY 10-K Item 8, Consolidated Statements of Operations, build the 2024 Non-GAAP operating performance bridge from GAAP operating income to Adjusted EBITDA and compute margin. Do this by, pulling GAAP operating income and revenue: Operating income (loss from operations) = $123.73M; Revenue = $943.55M. - List the company’s 2024 Adjusted EBITDA add-backs (per the 10-K reconciliation) and convert to $M with 2 decimals: For Depreciation & amortization: $186.63M. This can be found in Item 7 MD&A, Non‑GAAP financial measures—Adjusted EBITDA reconciliation. For Stock‑based compensation: $54.44M. For Acquisition & integration costs: $0.86M. For Costs related to amended debt agreements: $14.14M. For IPO‑related costs: $2.14M. Fror Asset & lease impairments: $0.00M For Other (lease‑related relocation costs): $1.57M. \n Then, Sum to Adjusted EBITDA and compute margin:\n Adjusted EBITDA = $123.73M + $186.63M + $54.44M + $0.86M + $14.14M + $2.14M + $1.57M = $383.50M \n  Adjusted EBITDA margin = $383.50M ÷ $943.55M = 40.64%\n \n 2) Compute 2024 CFO before working capital as Net cash provided by operating activities plus (increase)/decrease in net working capital, and express as % of revenue.\n - Net cash provided by operating activities (CFO) = $169.77M. [Item 8, Consolidated Statements of Cash Flows, 2024 Form 10‑K].\n - Sum 2024 “Changes in:” operating assets and liabilities (working capital) from the cash flow statement:\n  • Accounts receivable: $(21.82)M. [Item 8, CFS—Changes in accounts receivable, 2024 Form 10‑K].\n  • Income tax refundable: $3.97M. [Item 8, CFS—Income tax refundable, 2024 Form 10‑K].\n  • Prepaid expenses and other current assets: $(2.32)M. [Item 8, CFS—Prepaid and other current assets, 2024 Form 10‑K].\n  • Deferred costs: $(16.50)M. [Item 8, CFS—Deferred costs, 2024 Form 10‑K].\n  • Other long‑term assets: $(0.47)M. [Item 8, CFS—Other long‑term assets, 2024 Form 10‑K].\n  • Accounts payable and accrued expenses: $18.23M. [Item 8, CFS—Accounts payable and accrued expenses, 2024 Form 10‑K].\n  • Deferred revenue: $(0.84)M. [Item 8, CFS—Deferred revenue, 2024 Form 10‑K].\n  • Operating lease ROU assets and lease liabilities: $(0.42)M. [Item 8, CFS—Operating lease ROU assets and lease liabilities, 2024 Form 10‑K].\n  • Other long‑term liabilities: $0.00M. [Item 8, CFS—Other long‑term liabilities, 2024 Form 10‑K].\n - Net working capital change (sum of “Changes in:” lines) = $(20.17)M; therefore CFO before WC = $169.77M + $20.17M = $189.94M. [Item 8, Consolidated Statements of Cash Flows, 2024 Form 10‑K].\n - CFO before WC as % of revenue = $189.94M ÷ $943.55M = 20.13%. [Item 8, Statements of Operations and Statements of Cash Flows, 2024 Form 10‑K].\n \n 3) Compute 2024 Free Cash Flow (FCF) and FCF/Revenue using capex from the 10-K investing cash flows.\n - The 10‑K combines “Purchase of property and equipment and capitalization of internally developed software costs” into one line item; the standalone “purchases of property and equipment” amount is not separately disclosed. Use the combined line as capex for FCF. 2024 amount = $27.27M (cash outflow). [Item 8, Consolidated Statements of Cash Flows—Investing activities, 2024 Form 10‑K].\n - FCF = CFO − Purchases of property and equipment = $169.77M − $27.27M = $142.50M. [Item 8, Consolidated Statements of Cash Flows, 2024 Form 10‑K].\n - FCF/Revenue = $142.50M ÷ $943.55M = 15.10%. [Item 8, Statements of Operations and Statements of Cash Flows, 2024 Form 10‑K].",
+  "answer": "$383.50M; 40.64% (Item 8, Consolidated Statements of Operations; Item 7 MD&A, Non‑GAAP reconciliation). \n \n $189.905M; 20.13% (Item 8, Consolidated Statements of Cash Flows; Item 8, Statements of Operations)\n \n $142.50M; 15.10% (Item 8, Consolidated Statements of Cash Flows—investing activities; Item 8, Statements of Operations).",
+  "rubric": [
+    {
+      "criteria": "Operating income (loss from operations) = $123.73M",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Revenue = $943.55M"
+    },
+    {
+      "criteria": "Depreciation & amortization = $186.63M",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Stock-based compensation = $54.44M",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Acquisition & integration costs = $0.86M",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Costs related to amended debt agreements = $14.14M",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "IPO-related costs = $2.14M",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Asset & lease impairments = $0.00M"
+    },
+    {
+      "criteria": "Other (lease-related relocation costs) = $1.57M",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Adjusted EBITDA (sum) = $383.50M"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Adjusted EBITDA margin = 40.64%"
+    },
+    {
+      "criteria": "Net cash provided by operating activities (CFO) = $169.77M",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Change in accounts receivable = $(21.82)M"
+    },
+    {
+      "criteria": "Change in income tax refundable = $3.97M",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Change in prepaid expenses and other current assets = $(2.32)M",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Change in deferred costs = $(16.50)M",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Change in other long-term assets = $(0.47)M",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Change in accounts payable and accrued expenses = $18.23M",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Change in deferred revenue = $(0.84)M",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Change in operating lease ROU assets and lease liabilities = $(0.42)M",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Change in other long-term liabilities = $0.00M",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Net working capital change (sum of changes) = $(20.17)M"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "CFO before working capital = $189.94M"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "CFO before working capital as % of revenue = 20.13%"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Purchases of property and equipment (capex combined line) = $27.27M"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Free cash flow (FCF) = $142.50M"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "FCF/Revenue = 15.10%"
+    },
+    {
+      "criteria": "Answer cites Item 7 MD&A, Non‑GAAP financial measures—Adjusted EBITDA reconciliation for adjusted EBITDA add-backs",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Answer cites Item 8 Consolidated Statements of Operations for GAAP operating income and revenue"
+    },
+    {
+      "criteria": "Answer cites Item 8 Consolidated Statements of Cash Flows (including investing activities) for CFO, working capital changes, and capex",
+      "operator": "correctness"
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 40,
+    "filing_links": [
+      "[\"https://investors.waystar.com/static-files/ed897814-6176-4ea2-914f-b1a72e959968\"]"
+    ],
+    "pass_at_10": "4",
+    "mean": "0.4",
+    "variance": "0.24"
+  }
+}

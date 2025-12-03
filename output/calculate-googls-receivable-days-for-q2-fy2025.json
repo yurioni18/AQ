@@ -1,0 +1,46 @@
+{
+  "id": "calculate-googls-receivable-days-for-q2-fy2025",
+  "title": "Calculate GOOGL's receivable days for Q2 FY2025. Use quarter-end figures.",
+  "description": "1. Prompt specifies that quarter-end figures must be used, so no need to calculate averages. \n \n 2. Identify the number of days to be used. Q2 FY2025 is the quarter ended 2025-06-30. This quarter has 91 days. \n \n 2) Retrieve quarter-end accounts receivable: $55,048 million as of 2025-06-30. \n \n 3) Retrieve quarterly revenue: Total revenues were $96,428 million.\n \n 4) Calculate receivable days using quarter-end figures: \n \n DSO = (55,048 / 96,428) * 91 = 0.5711 * 91 = 51.95 = 52 days",
+  "answer": "Receivable days (DSO) for GOOGL in Q2 FY2025 ≈ 51.95 days (≈ 52.0 days).",
+  "rubric": [
+    {
+      "operator": "correctness",
+      "criteria": "Only applied quarter end figures "
+    },
+    {
+      "criteria": "Identifies June 30, 2025 as the quarter-end date for GOOGL's Quarter 2 FY2025.",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Identifies the quarter length as 91 days."
+    },
+    {
+      "criteria": "States GOOGL's reported Quarter 2 FY2025 accounts receivable as $55,048 million.",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "States GOOGL's reported Quarter 2 FY2025 total revenues as $96,428 million."
+    },
+    {
+      "criteria": "Applies the DSO formula: Accounts receiveable / Revenues * Days, to get to the required figure.",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Calculates DSO as (55,048 / 96,428) * 91 = 5.95 = 52 days."
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 71,
+    "filing_links": [
+      "[\"https://www.sec.gov/Archives/edgar/data/1652044/000165204425000062/goog-20250630.htm\"]"
+    ],
+    "pass_at_10": "7",
+    "mean": "0.7",
+    "variance": "0.21"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "what-is-the-3-year-cagr-from-fy2021-to-fy2024-for",
+  "title": "What is the 3-year CAGR from FY2021 to FY2024 for the Curtiss-Wright Corporation (NYSE: CW)'s operating income within its Aerospace & Industrial segment? Express the answer as a % rounded to 2 decimal places.",
+  "description": "Find the FY2021 Aerospace & Industrial segment operating income $121.817 M\n \n Find the FY2024 Aerospace & Industrial segment operating income $148.023 M\n \n Calculate the CAGR between FY2021 and FY2024 operating income by dividing the final value by the initial value, raised to the power of 1/n (where n is the number of years) minus 1\n \n (148.023 / 121.817)^(1/3) − 1 = 6.71%.",
+  "answer": "6.71%",
+  "rubric": [
+    {
+      "operator": "correctness",
+      "criteria": "Find that the FY2021 Aerospace & Industrial operating income = $121.817 M"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Find that the FY2024 Aerospace & Industrial operating income = $148.023 M"
+    },
+    {
+      "criteria": "Calculate the 3-year CAGR as (148.023 / 121.817)^(1/3) − 1 = 6.71%",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Present the final answer as a %, rounded to two decimal places"
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 89,
+    "filing_links": [
+      "[\"https://www.curtisswright.com/sites/default/files/Investor-Relations/sec-filings/2021/2c879924-50a3-453f-b0a9-6e99c7da0521.pdf\"",
+      "\"https://www.curtisswright.com/sites/default/files/Investor-Relations/sec-filings/sec_pdf/sec_pdf_86a43c5dc060f7ba03173e1ff26130cc.pdf\"]"
+    ],
+    "pass_at_10": "9",
+    "mean": "0.9",
+    "variance": "0.09"
+  }
+}

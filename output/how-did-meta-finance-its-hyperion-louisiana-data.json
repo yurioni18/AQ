@@ -1,0 +1,58 @@
+{
+  "id": "how-did-meta-finance-its-hyperion-louisiana-data",
+  "title": "How did Meta finance its \"Hyperion\" Louisiana data center?",
+  "description": "1) Identify the financing structure: On October 21, 2025, Meta created a joint venture special purpose vehicle with funds managed by Blue Owl Capital to develop and own the Hyperion data center campus in Richland Parish, Louisiana. Under the agreement, Blue Owl holds an 80% stake and Meta holds the remaining 20%. Both parties are required to fund their proportional share of approximately $27 billion in total development costs, which cover the buildings and long-lived power, cooling, and connectivity infrastructure (Meta press release, Oct. 21, 2025).\n \n 2) Describe the cash at play: At closing, Meta contributed land and construction-in-progress assets, while Blue Owl contributed cash. Meta contributed $4.3 billion of assets (net of liabilities), Blue Owl contributed $7.0 billion in cash, and Meta received a one-time distribution of $2.6 billion (SEC Form 10-Q for quarter ended Sept. 30, 2025, Note 13). The press release rounds these figures by referring to Blue Owl’s cash contribution as “approximately $7 billion” and Meta’s distribution as “approximately $3 billion” (Meta press release; SEC Form 10-Q, Q3 2025).\n \n 3) Describe how the capital stack was funded: The joint venture is the issuing vehicle for a private project-bond financing that creates a nearly $30 billion capital package, with more than $27 billion in debt and approximately $2.5 billion in equity. A portion of Blue Owl’s investment is financed with this debt, which is placed through a private securities offering to PIMCO as the anchor investor and a small group of other bond investors, in a transaction arranged by Morgan Stanley (Meta press release; Kirkland & Ellis transaction note; press reports).\n \n 4) Explain the lease back that underpins the financing: Meta entered into operating lease agreements with the joint venture covering all facilities on the campus. These leases have an initial four-year term, include extension options, and are scheduled to begin in 2029. Meta’s initial lease commitment for that first four-year period is about $12.3 billion (SEC Form 10-Q, Q3 2025, Note 13; Meta press release). Meta also provided a residual value guarantee for the first 16 years of operations. The 10-Q indicates that the guaranteed value starts at $28 billion and declines over time (SEC Form 10-Q, Q3 2025, Note 13).\n \n 5) Note the accounting outcome on Meta’s books: The joint venture is classified as an unconsolidated variable interest entity, and Meta accounts for its 20% interest using the equity method. As a result, the project’s debt sits at the joint venture level rather than on Meta’s consolidated balance sheet (SEC Form 10-Q, Q3 2025, Note 13).",
+  "answer": "Meta, with Morgan Stanley’s help, financed the Hyperion Louisiana data center through a joint venture SPV with funds managed by Blue Owl Capital that supports about $27 billion of development costs as part of a nearly $30 billion package. The vehicle issued more than $27 billion of privately placed project bonds, anchored by PIMCO, and about $2.5 billion of equity, with Blue Owl holding 80 percent and Meta 20 percent. Meta contributed land and construction-in-progress, received roughly $3 billion in cash at closing, and will operate and lease back the campus under long-term operating leases, while the project debt remains at the JV level.",
+  "rubric": [
+    {
+      "operator": "correctness",
+      "criteria": "States that Meta financed the Hyperion Louisiana data center through a joint venture SPV with funds managed by Blue Owl Capital."
+    },
+    {
+      "operator": "correctness",
+      "criteria": "States that investment bank Morgan Stanley assisted Meta in arranging the financing."
+    },
+    {
+      "criteria": "States that the structure supports about $27 billion of development costs.",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "States that the SPV capital structure includes more than $27 billion of privately placed project bonds."
+    },
+    {
+      "criteria": "States that SPV equity is approximately $2.5 billion.",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "States that the equity ownership split is 80 percent for Blue Owl and 20 percent for Meta."
+    },
+    {
+      "operator": "correctness",
+      "criteria": "States that PIMCO is the anchor investor in the bond financing."
+    },
+    {
+      "operator": "correctness",
+      "criteria": "PIMCO is the anchor lender for the debt financing"
+    },
+    {
+      "criteria": "States that Meta will operate and lease back the campus under long-term operating leases. ",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": " States that the project debt remains at the joint venture level."
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 11,
+    "filing_links": [
+      "[\"https://www.reuters.com/legal/transactional/meta-set-clinch-nearly-30-billion-financing-deal-louisiana-data-center-site-2025-10-16/\"]"
+    ],
+    "pass_at_10": "1",
+    "mean": "0.1",
+    "variance": "0.09"
+  }
+}

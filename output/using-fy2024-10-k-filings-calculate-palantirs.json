@@ -1,0 +1,86 @@
+{
+  "id": "using-fy2024-10-k-filings-calculate-palantirs",
+  "title": "Using FY2024 10-K filings, calculate Palantir's (NASDAQ: PLTR) Enterprise Value/EBITDA using the close price of the 18th November 2025. Do not use adjusted EBITDA. Round your answer to 2 decimal points. Show your calculations, formulas and assumptions.",
+  "description": "1) First calculate FY2024 GAAP EBITDA from the 10-K using the formula \n EBITDA = Income from operations + Depreciation & amortization = $310,403,000 + $31,587,000 = $341,990,000. \n \n You will find the Income from operations for FY2024 = $310,403,000 from Consolidated Statements of Operations; Depreciation & amortization for FY2024 = $31,587,000 from Consolidated Statements of Cash Flows.)\n \n 2) Set EV formula and assumptions: EV = Equity value (close price on 2025-11-18 × total common shares outstanding) + Total debt + Non-controlling interests + Preferred equity − Cash & cash equivalents − Marketable securities\n \n Take shares outstanding taken from FY2024 10-K cover page as of February 10, 2025 which is 2,345,356,506 shares.\n There is no preferred equity\n Operating lease liabilities excluded from “debt,” and (d) subtract both cash & cash equivalents and marketable securities (U.S. Treasury securities classified as current) as a proxy for excess cash. (Share counts as of 2025-02-10; “no outstanding debt” at 2024-12-31; balance sheet shows cash and marketable securities; marketable securities are AFS U.S. Treasuries, current.)\n \n 3) Pull EV inputs from the FY2024 10-K: Shares outstanding as of 2025-02-10 = 2,248,950,826 (Class A) + 95,400,680 (Class B) + 1,005,000 (Class F) = 2,345,356,506 shares; Total debt at 2024-12-31 = $0; Cash & cash equivalents at 2024-12-31 = $2,098,524,000; Marketable securities at 2024-12-31 = $3,131,463,000; Non-controlling interests at 2024-12-31 = $91,132,000. (All per FY2024 Form 10-K.)\n \n 4) Get the stock close on 2025-11-18: PLTR closed at $167.33 per share on November 18, 2025. (Historical prices, Yahoo Finance.)\n \n 5) Compute Equity value (market capitalization) using the chosen share count: Equity value = $167.33 × 2,345,356,506 = $392,448,504,148.98 (~$392.45 billion). (Price from Step 4; shares from Step 3.)\n \n 6) Compute Enterprise Value (EV) using the defined components: \n EV = $392,448,504,148.98 + $0 + $91,132,000 − $2,098,524,000 − $3,131,463,000 = $387,309,649,148.98 (~$387.31 billion). (Debt, cash, marketable securities, and NCI from FY2024 10-K; price/market cap from Steps 4–5.)\n \n 7) Calculate EV/EBITDA and round to two decimals: EV/EBITDA = $387,309,649,148.98 ÷ $341,990,000 = 1,132.52× → EV/EBITDA = 1,132.52×. (EBITDA from Step 1; EV from Step 6.)",
+  "answer": "Palantir’s EV/EBITDA = 1,132.52× (EV $387,309,649,148.98 ÷ EBITDA $341,990,000).",
+  "rubric": [
+    {
+      "criteria": "Used GAAP EBITDA and did not use adjusted EBITDA",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Compute EBITDA = Income from operations + Depreciation & amortization = $310,403,000 + $31,587,000 = $341,990,000",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Use EV formula: EV = Equity value (using the close price on 2025-11-18 × total common shares outstanding) + Total debt + Non-controlling interests + Preferred equity − Cash & cash equivalents − Marketable securities",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "There is no preferred equity",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Operating lease liabilities excluded from debt"
+    },
+    {
+      "criteria": "Subtract both cash & cash equivalents and marketable securities as proxy for excess cash",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Shares outstanding as of 2025-02-10 = 2,248,950,826 (Class A) + 95,400,680 (Class B) + 1,005,000 (Class F) = 2,345,356,506",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Total debt at 2024-12-31 = $0",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Cash & cash equivalents at 2024/12/31 = $2,098,524,000",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Marketable securities at 2024/12/31 = $3,131,463,000"
+    },
+    {
+      "criteria": "Non-controlling interests at 2024/12/31 = $91,132,000",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Use closing price of the stock on 2025-11-18 = $167.33 per share",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Equity value = $167.33 × 2,345,356,506 = $392,448,504,148.98 ",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Enterprise Value = $392,448,504,148.98 + $0 + $91,132,000 − $2,098,524,000 − $3,131,463,000 = $387,309,649,148.98 ",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "EV/EBITDA = $387,309,649,148.98 ÷ $341,990,000 = 1,132.52× ",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Used FY2024 Form 10-K as source for the following financial statement inputs (income from operations, depreciation & amortization, cash, marketable securities, non-controlling interests, shares outstanding, debt)"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Round EV/EBITDA to two decimals, 1,132.52x"
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 19,
+    "filing_links": [
+      "[\"https://www.sec.gov/ix?doc=/Archives/edgar/data/0001321655/000132165525000022/pltr-20241231.htm\"]"
+    ],
+    "pass_at_10": "2",
+    "mean": "0.2",
+    "variance": "0.16"
+  }
+}

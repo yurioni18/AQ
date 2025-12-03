@@ -1,0 +1,30 @@
+{
+  "id": "what-were-googls-hedging-gains-losses-as-a",
+  "title": "What were GOOGL’s hedging gains (losses) as a percentage of the total FX revenue impact for Q2 FY2025?",
+  "description": "1. Retrieve Q2 FY2025 hedging gains/(losses): $(112) million.\n \n 2. Retrieve Q2-FY2025 total FX revenue impact = $543 million. \n \n 3. Calculate hedging losses as a percentage of the total FX revenue impact as (-$112 million / $543 million) * 100 = -20.63%",
+  "answer": "-20.63%",
+  "rubric": [
+    {
+      "criteria": "Q2 FY2025 hedging gains/(losses) = $(112) million",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Q2 FY2025 total FX revenue impact = $543 million",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Hedging losses as percentage of total FX revenue impact = (-$112 million / $543 million) * 100 = -20.63%"
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 81,
+    "filing_links": [
+      "[\"https://www.sec.gov/Archives/edgar/data/1652044/000165204425000062/goog-20250630.htm\"]"
+    ],
+    "pass_at_10": "8",
+    "mean": "0.8",
+    "variance": "0.16"
+  }
+}

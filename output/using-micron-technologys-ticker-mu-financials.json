@@ -1,0 +1,75 @@
+{
+  "id": "using-micron-technologys-ticker-mu-financials",
+  "title": "Using Micron Technology's (Ticker: MU) financials from its FY2024 Form 10-K, what is the company’s EV/EBITDA (rounded to 2 decimals) on August 29th, 2024, using Enterprise Value in $B (rounded to 2 decimals) and EBITDA in $B (rounded to 2 decimals)?",
+  "description": "1) Extract FY2024 operating income (EBIT) and D&A from Micron’s FY2024 Form 10-K. Operating Income = $1.304B. Depreciation and amortization = $7.780B. \n \n 2) Compute EBITDA using formula: EBITDA = Operating income + Depreciation & amortization = $1.304 + $7.780 = $9.08B (rounded to 2 decimals)\n \n 3) Pull FY2024 balance-sheet items from the FY2024 10-K: Cash & equivalents = $7.041B ; Short-term investments = $1.065B; Current debt = $0.431B; Long-term debt = $12.966B\n \n 4) Pull FY2024 shares outstanding (as of August 29, 2024): Shares outstanding = 1,109 million. \n \n 5) Retrieve MU’s closing share price on Aug 29, 2024: found $96.24 per share (USD)\n \n 6) Calculate market capitalization on Aug 29, 2024 for equity value for EV equation: Price × Shares outstanding = $96.24 × 1,109,000,000 = $106,730,160,000 ≈ $106.73B.\n \n 7) Compute Enterprise Value (EV): EV = Equity Value + Total debt - Cash & cash equivalents. Total debt = $12.966B + $0.431B = $13.397B. Cash + short-term investments = $7.041B + $1.065B = $8.106B. EV = $106.73B + $13.397B - $8.106B = $112.02B (rounded to 2 decimals).\n \n 8) Compute EV/EBITDA and round to two decimals: EV/EBITDA = $112.02B / $9.08B = 12.34×.",
+  "answer": "12.34×",
+  "rubric": [
+    {
+      "operator": "correctness",
+      "criteria": "Operating Income (EBIT) = $1.304B"
+    },
+    {
+      "criteria": "Depreciation and amortization = $7.780B",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Use EBITDA formula: EBITDA = Operating income + D&A. EBITDA = $1.304B + $7.780B = $9.08B.",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Cash and equivalents = $7.041B",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Short-term investments = $1.065B"
+    },
+    {
+      "criteria": "Current debt = $0.431B",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Long-term debt = $12.966B",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Shares outstanding (as of August 29, 2024) = 1,109 million",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Closing share price on August 29, 2024 = $96.24 per share (USD)",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Market capitalization = Equity value = price x shares = 1,109 million x 96.24 = $106.73B."
+    },
+    {
+      "criteria": "Total debt = $13.397B (sum of long-term and current debt)",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Cash + short-term investments = $8.106B (sum of cash and short-term investments)"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Enterprise Value (EV) = $112.02B (rounded to 2 decimals)"
+    },
+    {
+      "criteria": "EV/EBITDA = 12.34× (final reported value)",
+      "operator": "correctness"
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 31,
+    "filing_links": [
+      "[\"https://www.sec.gov/ix?doc=/Archives/edgar/data/0000723125/000072312524000027/mu-20240829.htm\"",
+      "\"https://finance.yahoo.com/quote/MU/chart/#eyJsYXlvdXQiOnsiaW50ZXJ2YWwiOjEsInBlcmlvZGljaXR5IjoxLCJ0aW1lVW5pdCI6Im1pbnV0ZSIsImNhbmRsZVdpZHRoIjoyLjM3NjkyMzA3NjkyMzA3NywiZmxpcHBlZCI6ZmFsc2UsInZvbHVtZVVuZGVybGF5Ijp0cnVlLCJhZGoiOnRydWUsImNyb3NzaGFpciI6dHJ1ZSwiY2hhcnRUeXBlIjoibW91bnRhaW4iLCJleHRlbmRlZCI6ZmFsc2UsIm1hcmtldFNlc3Npb25zIjp7fSwiYWdncmVnYXRpb25UeXBlIjoib2hsYyIsImNoYXJ0U2NhbGUiOiJsaW5lYXIiLCJzdHVkaWVzIjp7IuKAjHZvbCB1bmRy4oCMIjp7InR5cGUiOiJ2b2wgdW5kciIsImlucHV0cyI6eyJTZXJpZXMiOiJzZXJpZXMiLCJpZCI6IuKAjHZvbCB1bmRy4oCMIiwiZGlzcGxheSI6IuKAjHZvbCB1bmRy4oCMIn0sIm91dHB1dHMiOnsiVXAgVm9sdW1lIjoiIzBkYmQ2ZWVlIiwiRG93biBWb2x1bWUiOiIjZmY1NTQ3ZWUifSwicGFuZWwiOiJjaGFydCIsInBhcmFtZXRlcnMiOnsiY2hhcnROYW1lIjoiY2hhcnQiLCJlZGl0TW9kZSI6dHJ1ZSwicGFuZWxOYW1lIjoiY2hhcnQifSwiZGlzYWJsZWQiOmZhbHNlfX0sInBhbmVscyI6eyJjaGFydCI6eyJwZXJjZW50IjoxLCJkaXNwbGF5IjoiTVUiLCJjaGFydE5hbWUiOiJjaGFydCIsImluZGV4IjowLCJ5QXhpcyI6eyJuYW1lIjoiY2hhcnQiLCJwb3NpdGlvbiI6bnVsbH0sInlheGlzTEhTIjpbXSwieWF4aXNSSFMiOlsiY2hhcnQiLCLigIx2b2wgdW5kcuKAjCJdfX0sInNldFNwYW4iOnsibXVsdGlwbGllciI6MSwiYmFzZSI6InRvZGF5IiwicGVyaW9kaWNpdHkiOnsiaW50ZXJ2YWwiOjEsInBlcmlvZCI6MSwidGltZVVuaXQiOiJtaW51dGUifSwic2hvd0V2ZW50c1F1b3RlIjp0cnVlLCJmb3JjZUxvYWQiOnRydWV9LCJvdXRsaWVycyI6ZmFsc2UsImFuaW1hdGlvbiI6dHJ1ZSwiaGVhZHNVcCI6eyJzdGF0aWMiOnRydWUsImR5bmFtaWMiOmZhbHNlLCJmbG9hdGluZyI6ZmFsc2V9LCJsaW5lV2lkdGgiOjIsImZ1bGxTY3JlZW4iOnRydWUsInN0cmlwZWRCYWNrZ3JvdW5kIjp0cnVlLCJjb2xvciI6IiMwMDgxZjIiLCJjcm9zc2hhaXJTdGlja3kiOmZhbHNlLCJkb250U2F2ZVJhbmdlVG9MYXlvdXQiOnRydWUsInN5bWJvbHMiOlt7InN5bWJvbCI6Ik1VIiwic3ltYm9sT2JqZWN0Ijp7InN5bWJvbCI6Ik1VIiwicXVvdGVUeXBlIjoiRVFVSVRZIiwiZXhjaGFuZ2VUaW1lWm9uZSI6IkFtZXJpY2EvTmV3X1lvcmsiLCJwZXJpb2QxIjoxNzYzMzk4MjAwLCJwZXJpb2QyIjoxNzYzNTE3NjAwfSwicGVyaW9kaWNpdHkiOjEsImludGVydmFsIjoxLCJ0aW1lVW5pdCI6Im1pbnV0ZSIsInNldFNwYW4iOnsibXVsdGlwbGllciI6MSwiYmFzZSI6InRvZGF5IiwicGVyaW9kaWNpdHkiOnsiaW50ZXJ2YWwiOjEsInBlcmlvZCI6MSwidGltZVVuaXQiOiJtaW51dGUifSwic2hvd0V2ZW50c1F1b3RlIjp0cnVlLCJmb3JjZUxvYWQiOnRydWV9fV0sInJlbmRlcmVycyI6W119LCJldmVudHMiOnsiZGl2cyI6dHJ1ZSwic3BsaXRzIjp0cnVlLCJ0cmFkaW5nSG9yaXpvbiI6Im5vbmUiLCJzaWdEZXZFdmVudHMiOltdfSwiZHJhd2luZ3MiOm51bGwsInByZWZlcmVuY2VzIjp7fX0=\"]"
+    ],
+    "pass_at_10": "3",
+    "mean": "0.3",
+    "variance": "0.21"
+  }
+}

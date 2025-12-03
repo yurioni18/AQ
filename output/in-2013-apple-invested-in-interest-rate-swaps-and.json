@@ -1,0 +1,66 @@
+{
+  "id": "in-2013-apple-invested-in-interest-rate-swaps-and",
+  "title": "In 2013, Apple invested in interest rate swaps and designated them as a hedge. Very specifically, what is AAPL hedging and what is the market value of these hedges at the end of FY2013? Express the answer to the nearest 1 decimal in M.",
+  "description": "1. Identify the hedged item and hedge purpose in FY2013: Apple entered interest rate swaps in Q3 FY2013 with $3.0B notional, designated as cash flow hedges, to hedge the variability in cash flows on its U.S. dollar floating‑rate notes due 2016 and 2018 (bearing 3‑month LIBOR + 0.05% and + 0.25%), effectively converting those notes’ interest from floating to fixed.\n \n 2. Intuitively explain how the interest rate swaps work and would take effect.\n \n 2. Extract the market value at FY2013 year‑end and compute net: At September 28, 2013, interest rate contracts designated as hedge instruments were recorded as derivative assets of $44M and derivative liabilities of $0M; therefore, the net market value of these hedges at FY2013 year‑end was $44.0M.",
+  "answer": "Apple is using these interest rates swap as cash flow hedges to their brand new $3,000 of face value of variable rate (or floating rate) debt. Absent any hedging, the interest payments on this debt will move up as interest rates move up, and move down when the opposite happens. $1000 of this is due in 2016 and $2000 is due in 2018.\n In the interest rate swaps, Apple will be receiving a cash flow that moves with interest rates and paying a fixed amount. The notional amount on this debt is $3,000 to match the face value of floating rate debt. The maturity values will match those of the $1000 and $2000 amounts. The payments received (or made) on the interest rate swaps, will effectively convert the variable rate debt to fixed rate.\n \n The swaps are worth 44.0M",
+  "rubric": [
+    {
+      "criteria": "Interest rate swaps entered in Q3 FY2013",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Notional amount of the swaps $3.0B"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Swaps were designated as cash flow hedges"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Hedged item: U.S. dollar floating‑rate note due 2016 with $1,000M face amount"
+    },
+    {
+      "criteria": "Hedged item: U.S. dollar floating‑rate note due 2018 with $2,000M face amount",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "2016 note bears interest at 3‑month LIBOR + 0.05%"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "2018 note bears interest at 3‑month LIBOR + 0.25%"
+    },
+    {
+      "criteria": "Hedge purpose: to hedge variability in cash flows and effectively convert the notes’ interest from floating to fixed",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Derivative assets recorded at September 28, 2013: $44M",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Derivative liabilities recorded at September 28, 2013: $0M",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Net market value of the hedges at FY2013 year‑end: $44.0M",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "In the swaps Apple receives floating‑rate cash flows and pays a fixed amount"
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 77,
+    "filing_links": [
+      "[\"https://www.sec.gov/Archives/edgar/data/320193/000119312513416534/d590790d10k.htm\"]"
+    ],
+    "pass_at_10": "8",
+    "mean": "0.8",
+    "variance": "0.16"
+  }
+}

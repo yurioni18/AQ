@@ -1,0 +1,54 @@
+{
+  "id": "how-much-would-2005s-cash-from-operations-have",
+  "title": "How much would 2005’s Cash from Operations have been if Citrix (CTXS) had instead classified its Available for Sale Securities as Trading Securities? Express the answer in $M rounded to 2 decimal places of precision.",
+  "description": "1. Apply the GAAP reclassification rule. If securities are classified as trading, related cash receipts and payments are classified as operating cash flows. To restate 2005 CFO as if it were trading securities, you need to reclassify the period’s AFS purchases, sales, and maturities from investing to operating.\n \n 2. Extract reported 2005 figures from Citrix 10-K for FY 2006. Important figures to pull are Net cash provided by operating activities (CFO) = $293,143, Purchases of available-for-sale investments = $(183,245), Proceeds from sales of available-for-sale investments = $396,580, Proceeds from maturities of available-for-sale investments = $141,652.\n \n 3. Compute reclassification and revised CFO for 2005: Net AFS cash inflow to move to operating = 396,580 + 141,652 − 183,245 = 354,987; Adjusted CFO = reported CFO + net AFS inflow = 293,143 + 354,987 = 648,130\n \n 4. Round to two decimals = $648.13M",
+  "answer": "$648.13M",
+  "rubric": [
+    {
+      "criteria": "States GAAP rule that if securities are classified as trading securities, related cash receipts and payments are classified as operating cash flows.",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "States that to restate 2005 CFO as if AFS were trading, purchases, sales, and maturities of AFS must be reclassified from investing to operating."
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Reports Net cash provided by operating activities (CFO) = $293,143 (2005 reported figure)."
+    },
+    {
+      "criteria": "Reports Purchases of available-for-sale investments = $(183,245) (2005 reported figure).",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Reports Proceeds from sales of available-for-sale investments = $396,580 (2005 reported figure)."
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Reports Proceeds from maturities of available-for-sale investments = $141,652 (2005 reported figure)."
+    },
+    {
+      "criteria": "Computes net AFS cash inflow to move to operating = 396,580 + 141,652 − 183,245 = 354,987.",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Computes adjusted CFO = reported CFO + net AFS inflow = 293,143 + 354,987 = 648,130.",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Presents final rounded answer of $648.13M (2005 Cash from Operations if AFS classified as trading, rounded to two decimals).",
+      "operator": "correctness"
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 94,
+    "filing_links": [
+      "[\"https://www.sec.gov/Archives/edgar/data/877890/000119312507197541/d10k.htm\"]"
+    ],
+    "pass_at_10": "9",
+    "mean": "0.9",
+    "variance": "0.09"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "id": "for-fy2024-calculate-the-research-and-development",
+  "title": "For FY2024, calculate the research and development (R&D) expense as a percentage of revenue for Samsung Electronics Co., Ltd. (KRX:005930) and Taiwan Semiconductor Manufacturing Co., Ltd. (NYSE:TSM). Round each percentage to two decimal places. Discuss briefly what these R&D intensity values imply about each company’s strategic focus.",
+  "description": "Calculating Data from Financial Statements\n \n Samsung Electronics (FY2024, KRW): As per the audited FY2024 consolidated financial statements of Samsung, revenue was 300,870,903 million KRW and R&D Expense was 34,998,142 million KRW.\n \n As per the equation for R&D Intensity: (R&D Expense / Revenue) x 100,\n \n Using this equation: (34,998,142 / 300,870,903) x 100 = 11.6323%, and when rounded to two decimals the final answer is 11.63%,\n \n TSMC (FY2024, NTD): As per the audited FY2024 financial statements of TSMC, revenue was 2,894,307.7 million NTD and R&D expense was 204,181.8 million NTD,\n \n Using the same equation: (204,181.8 / 2,894,307.7) x 100 = 7.0546%, and when rounded to two decimals the final answer is 7.05%.\n \n Definitions: Revenue refers to the total consolidated net sales. R&D refers to the research and development expenses as reported. R&D Intensity is defined as R&D Expense represented as a percentage of total revenue. All values are in their respective currencies (KRW or NTD), as specified in official company documents.\n \n Reason for Difference in R&D Intensity\n \n A primary reason for the difference in FY2024 R&D intensity between Samsung and TSMC (approximately 11.63 % vs. 7.05 %) is the different business models and product offerings by each company. Samsung is a global manufacturer that operates across a range of product lines (smartphones, consumer electronics, memory chips, displays, etc.). Because of the breadth of product lines offered by Samsung, there is a greater need for R&D investments to maintain a competitive edge in both the innovation and design aspects of all these various product lines.\n \n On the other hand, TSMC is a dedicated semiconductor foundry. The majority of TSMC's R&D investments are focused on advancing manufacturing processes (e.g., developing new manufacturing nodes). While TSMC's R&D expenditures are substantial in dollar terms, they are distributed among an even wider revenue base because of the size of TSMC's foundry operations. Thus, based on the size of the revenue base, TSMC's R&D intensity will be naturally lower. The larger R&D intensity of Samsung relative to TSMC illustrates the additional R&D support required to develop and manufacture a broader array of end products, whereas TSMC's operational efficiency and focus on one specific area (semiconductor foundry) contribute to a relatively smaller R&D-to-sales ratio.",
+  "answer": "Samsung R&D as % of Revenue: 11.63%\n TSMC R&D as % of Revenue: 7.10%\n Samsung’s higher R&D intensity (~11.63%) reflects its broad consumer electronics and components portfolio requiring heavy innovation, whereas TSMC’s lower R&D ratio (~7.10%) is consistent with its pure-foundry focus and large scale, allocating a smaller share of sales to R&D.",
+  "rubric": [
+    {
+      "operator": "correctness",
+      "criteria": "Samsung R&D in FY 2024 = 34,998,142 million KRW."
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Samsung Revenue in FY 2024 = 300,870,903 million KRW."
+    },
+    {
+      "operator": "correctness",
+      "criteria": "TSMC R&D (NTD) in the FY 2024 = 204,181.8 million NTD."
+    },
+    {
+      "criteria": "TSMC Revenue (NTD) in the FY 2024 = 2,894,307.7 million NTD.",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Calculate R&D as a percentage of revenue for Samsung = 11.6323%",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Calculate R&D as a percentage of revenue for TSMC = 7.0546%",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Round answer to two percentage points = 11.63%",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Round answer to two percentage points = 7.05%"
+    },
+    {
+      "criteria": "Determine Samsung has a higher R&D intensity than Samsung",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Provide a reason for Samsung's R&D intensity that includes an explanation that Samsung has a more diverse business model that operates a range of product lines, and thus needs more investment.",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Provide a reason for TSMC's lower R&D intensity that includes an explanation that discusses that TSMC has a larger revenue base than Samsung and more concentrated business operations which requires less overall R&D on an R&D to sales basis"
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 34,
+    "filing_links": [
+      "[\"https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2024_con_quarter04_all.pdf#:~:text=Research%20and%20development%20expenses%20Research",
+      "34%2C998%2C142%2028%2C339%2C724%20Total%2081%2C582%2C674%2071%2C979%2C938\"",
+      "\"https://investor.tsmc.com/sites/ir/annual-report/2024/2024%20Business%20Overview_0.pdf#:~:text=2024%2C%20TSMC%20continued%20to%20invest",
+      "of%20revenue.%2016%2F12nm\"]"
+    ],
+    "pass_at_10": "4",
+    "mean": "0.4",
+    "variance": "0.24"
+  }
+}

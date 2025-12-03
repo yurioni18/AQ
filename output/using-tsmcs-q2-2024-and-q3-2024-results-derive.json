@@ -1,0 +1,63 @@
+{
+  "id": "using-tsmcs-q2-2024-and-q3-2024-results-derive",
+  "title": "Using TSMC’s Q2 2024 and Q3 2024 results, derive the implied gross margin of TSMC’s 3 nanometer (N3) node, under the following simplifying assumptions:\n \n There are only two buckets of business for this exercise:\n • N3\n • “Non N3” (everything else aggregated)\n \n The gross margin on Non N3 is constant between Q2 2024 and Q3 2024.\n \n The gross margin on N3 is constant between Q2 2024 and Q3 2024.\n \n The only driver of the change in reported gross margin between Q2 and Q3 is the change in wafer revenue mix between N3 and Non N3.\n \n Use the disclosed quarterly gross margin percentages and N3 share of wafer revenue.\n \n Under the assumptions above, what is the implied N3 gross margin (as a percentage, to one decimal place)?",
+  "description": "Write the two equations for Q2 and Q3:\n Q2 Gross Margin = 53.2% or 0.532\n Q3 Gross Margin = 57.8% or 0.578\n Q2: 0.532 = 0.15M₃ + 0.85M₀ and Q3: 0.578 = 0.20M₃ + 0.80M₀\n \n Subtract Q2 from Q3 and derive 0.05(M₃ - M₀)\n 0.578 − 0.532 = 0.046\n (0.20 − 0.15)M₃ + (0.80 − 0.85)M₀\n 0.05M₃ − 0.05M₀ = 0.046\n 0.05(M₃ − M₀) = 0.046\n M₃ − M₀ = 0.046 ÷ 0.05 = 0.92\n \n Substitute into Q2\n 0.532 = 0.15(M₀ + 0.92) + 0.85M₀\n 0.532 = 0.15M₀ + 0.138 + 0.85M₀\n 0.532 = M₀ + 0.138\n \n Solve for M₀\n M₀ = 0.532 − 0.138 = 0.394\n \n Solve for M₃\n M₃ = 0.394 + 0.92 = 1.314 (131.4%)\n \n So the implied N3 gross margin is 131.4%",
+  "answer": "131.4%.",
+  "rubric": [
+    {
+      "criteria": "Set up Q2 equation: 0.532 = 0.15M₃ + 0.85M₀",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Set up Q3 equation: 0.578 = 0.20M₃ + 0.80M₀"
+    },
+    {
+      "criteria": "Subtract the 2 equations Q2 from Q3: 0.578 − 0.532 = 0.046",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Shows the combined-difference algebra as 0.05(M₃ − M₀) = 0.046",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Shows the solved difference M₃ − M₀ = 0.92",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Shows the solved Non‑N3 gross margin M₀ = 0.394"
+    },
+    {
+      "criteria": "Shows the implied N3 gross margin M₃ = 1.314",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Q2’24 gross margin: 53.2% (0.532)",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Q3’24 gross margin: 57.8% (0.578)"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Convert answer into percentage = 131.4%"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Round to one decimal point = 131.4%"
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 44,
+    "filing_links": [
+      "[\"https://pr.tsmc.com/english/news/3160\"",
+      "\"https://pr.tsmc.com/english/news/3180\"]"
+    ],
+    "pass_at_10": "5",
+    "mean": "0.5",
+    "variance": "0.25"
+  }
+}

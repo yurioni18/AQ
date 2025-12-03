@@ -1,0 +1,87 @@
+{
+  "id": "based-on-googls-10-qs-calculate-the-companys-q2",
+  "title": "Based on GOOGL's 10-Qs, calculate the company's Q2-FY2025 FCF Conversion of Adjusted EBITDA. Define FCF as OCF - Capex. Adjust EBITDA by adding back SBC expense. Express your answer as a percentage, rounded to two decimal places.",
+  "description": "1. Identify Q2-FY2025 Income from operations: $31271 millions.\n \n 2. Gather H2 and Q1 figures in USD millions and obtain Q2 figures by subtraction.\n \n H2 OFC = 63,897\n H2 Purchases of property and equipment = 39,643; \n H2 Depreciation of property and equipment = 9,485\n H2 Stock-based compensation expense= 11,514\n \n Q1 OFC = 36,150\n Q1 Purchases of property and equipment = 17,197\n Q1 Depreciation of property and equipment = 4,487\n Q1 Stock-based compensation expense = 5,516\n \n 3. Compute Q2 FY2025 figures:\n \n OCF Q2 = 63,897 − 36,150 = 27,747\n Capex Q2 = 39,643 − 17,197 = 22,446\n \n 4. Calculate Q2 FY2025 Free Cash Flow \n FCF Q2 = 27,747 − 22,446 = 5,301.\n \n 5. Calculate Q2 FY2025 EBITDA:\n \n Depreciation of property and equipment (DPE) Q2 = 9,485 − 4,487 = 4,998\n EBITDA Q2 = Income from operations Q2 + DPE Q2 = 31,271 + 4,998 = 36,269\n \n 6. Adjust EBITDA by adding back stock-based compensation (SBC): \n \n SBC Q2 = 11,514 − 5,516 = 5,998\n Adjusted EBITDA Q2 = 36,269 + 5,998 = 42,267\n \n 7. Compute Q2 FY2025 FCF Conversion of Adjusted EBITDA and round to two decimals: \n FCF Conversion = FCF Q2 ÷ Adjusted EBITDA Q2 = 5,301 ÷ 42,267 = 12.54%.",
+  "answer": "12.54%",
+  "rubric": [
+    {
+      "criteria": "Identify Income from operations Q2 = $31,271 million",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Identify H2 OFC = $63,897 million",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Identify H2 Purchases of property and equipment = $39,643 million"
+    },
+    {
+      "criteria": "Identify H2 Depreciation of property and equipment = $9,485 million",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Identify H2 Stock-based compensation expense = $11,514 million",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Identify Q1 OFC = $36,150 million",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Identify Q1 Purchases of property and equipment = $17,197 million"
+    },
+    {
+      "criteria": "Identify Q1 Depreciation of property and equipment = $4,487 million",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Identify Q1 Stock-based compensation expense = $5,516 million",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "OCF Q2 computed as 63,897 − 36,150 = $27,747 million",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Capex Q2 computed as 39,643 − 17,197 = $22,446 million",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "FCF Q2 computed as 27,747 − 22,446 = $5,301 million"
+    },
+    {
+      "criteria": "DPE Q2 computed as 9,485 − 4,487 = $4,998 million",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "EBITDA Q2 computed as Income from operations Q2 + DPE Q2 = 31,271 + 4,998 = $36,269 million",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "SBC Q2 computed as 11,514 − 5,516 = $5,998 million",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Adjusted EBITDA Q2 computed as 36,269 + 5,998 = $42,267 million",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "FCF Conversion computed as 5,301 ÷ 42,267 = 12.54%",
+      "operator": "correctness"
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 55,
+    "filing_links": [
+      "[\"https://www.sec.gov/Archives/edgar/data/1652044/000165204425000043/goog-20250331.htm\"",
+      "\"https://www.sec.gov/Archives/edgar/data/1652044/000165204425000062/goog-20250630.htm\"]"
+    ],
+    "pass_at_10": "6",
+    "mean": "0.6",
+    "variance": "0.24"
+  }
+}

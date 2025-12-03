@@ -1,0 +1,62 @@
+{
+  "id": "calculate-the-enterprise-value-for-applied",
+  "title": "Calculate the Enterprise Value for Applied Materials (AMAT) in FY 2024. Use the shares outstanding and share price at close from Oct 27, 2024 and Oct 25, 2024 respectively for the EV calculation. Express the answer in billions of dollars using two decimal points of rounding.",
+  "description": "1. Calculate the Enterprise Value using EV = market capitalization + total debt - cash and cash equivalents - short-term investments\n \n 2. From the FY2024 10-K Filing we can extract the following: common shares outstanding = 818M, , cash and cash equivalents = $8,022M, short-term investments = $1,449M. \n \n 3. Use publicly available data online to find close price: $186.52\n \n 4. Total debt = short-term debt + long-term debt = $6,259M\n \n 5. Find market capitalization by multiplying share price x shares outstanding = 818 * 186.52 = 152,573.36\n \n 5. Use all inputs to solve for enterprise value = $152,573.36 + $6,259M - $8,022M - $1,449M = $149,361.36M.\n \n 6. Convert answer to billions with 2 decimal points of rounding: $149.36B",
+  "answer": "$149.36 billion.",
+  "rubric": [
+    {
+      "operator": "correctness",
+      "criteria": "Common shares outstanding found on 10-K filing for the fiscal year ended October 27, 2024 = 818M shares"
+    },
+    {
+      "criteria": " Closing share price from October 25, 2024 = $186.52",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Include Short-term debt = $799M as input",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Include Long-term debt = $5,460M as input"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Calculate Total debt = $6,259M"
+    },
+    {
+      "criteria": "Include Cash and cash equivalents = $8,022M as input",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Include Short-term investments = $1,449M as input",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Calculate Market capitalization calculated as 818M × $186.52 = $152,573.36M",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Calculate EV = $152,573.36M + $6,259M - $8,022M - $1,449M = $149,361.36M"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Convert answer to billions = $149.361B"
+    },
+    {
+      "criteria": "Round answer to two decimal points = $149.36B",
+      "operator": "correctness"
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 28,
+    "filing_links": [
+      "[\"https://www.sec.gov/Archives/edgar/data/6951/000000695124000044/amat-20241027.htm#\"]"
+    ],
+    "pass_at_10": "3",
+    "mean": "0.3",
+    "variance": "0.21"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "for-tesla-nasdaq-tsla-how-have-price-cuts-across",
+  "title": "For Tesla (NASDAQ: TSLA), how have price cuts across key models and rising competition from Chinese EV makers affected Tesla’s automotive gross margin, regional revenue mix, and deliveries per model between 2021 and 2024? Compare normalized metrics (e.g., revenue per vehicle, margin per vehicle) and use earnings call commentary to explain the main drivers.",
+  "description": "1. Decide what I’m comparing. I’m focusing only on Tesla’s automotive business, not Energy or Services. For each year from 2021 to 2024. Use automotive revenue, automotive gross profit, and total vehicle deliveries. From those, look at revenue per vehicle, gross profit per vehicle, and the reported automotive gross margin.\n \n 2. Write down the 2021 baseline. From the filings and delivery report, 2021 automotive revenue is about $51.0B, automotive gross profit about $13.7B, and deliveries about 936k. That works out to roughly $54.5k of revenue per vehicle, $14.7k of gross profit per vehicle, and an automotive gross margin of about 26.9%.\n \n 3. Write down the 2024 endpoint. For 2024, automotive revenue is about $87.6B, automotive gross profit about $14.8B, and deliveries about 1.79M. That gives roughly $49.0k of revenue per vehicle, $8.3k of gross profit per vehicle, and an automotive gross margin of about 16.9%.\n \n 4. Compare 2021 and 2024 to see how the per car economics changed. Revenue per vehicle falls by about $5.6k, or roughly 10%. Gross profit per vehicle drops by roughly $6.4k, which is a decline in the low-40% range. The automotive gross margin moves from just under 27% to just under 17%, so about 10 percentage points of margin are gone.\n \n 5. Look at geography and mix to figure out if this is a demand or mix story. The geography table shows the U.S. share of revenue rising from about 44.5% to about 48.9%, while China decreases from about 25.7% to 21.4%. The production and deliveries releases show that Model 3/Y make up around 95–97% of units every year, and the S/X plus Cybertruck bucket stays under 5% of deliveries in 2024. That tells me the shift is not driven by a big model mix change, and that it’s mostly happening inside the 3/Y business.\n \n 6. Tie it back to what Tesla says in its MD&A and calls. Management repeatedly explains that they chose a volume-over-margin strategy, cutting prices and offering financing and other incentives, especially in China where the EV price war is intense. They also call out the Cybertruck ramp as a near-term drag on costs. Those decisions push average selling prices down, which shows up as lower revenue per vehicle, and because costs don’t decrease as fast, gross profit per vehicle and margin decrease much more. The modest shift away from China and toward the U.S., plus the very stable model mix, fits with that story.",
+  "answer": "From 2021 to 2024, Tesla’s normalized automotive metrics show revenue per vehicle falling about 10% (from roughly $54.5k to $49.0k), gross profit per vehicle dropping about 44% (from roughly $14.7k to $8.3k), and automotive gross margin decreasing from about 26.9% to 16.9% (1,000 bps of margin loss). Over the same period, revenue mix shifts a few points away from China (about 25.7% to 21.4%) and toward the U.S. (about 44.5% to 48.9%), while deliveries stay heavily concentrated in Model 3/Y (95–97% of units) and “other” models remain under 5%. Management links the margin and per-vehicle declines mainly to deliberate price cuts and affordability programs, aggressive competition and price-war incentives in China, and near-term headwinds from the Cybertruck ramp, partly offset by ongoing manufacturing cost reductions and software/credit revenues",
+  "rubric": [
+    {
+      "criteria": "Confirms the analysis covers FY2021 to FY2024 and only uses Tesla’s automotive segment.",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Lists the 2021 revenue of $51.03B, gross profit of $13.74B, and 936,172 vehicle deliveries."
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Uses the 2021 values to calculate revenue per vehicle ($54,513), gross profit per vehicle ($14,671), and the automotive gross margin (26.9%)."
+    },
+    {
+      "criteria": "Lists the 2024 revenue of $87.60B, gross profit of $14.81B, and 1,789,226 deliveries.",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Calculates the 2024 revenue per vehicle ($48,962), gross profit per vehicle ($8,277), and margin (16.9%) using those inputs."
+    },
+    {
+      "criteria": "Recognizes the change from 2021 to 2024: revenue per vehicle lower by $5,551, gross profit per vehicle lower by $6,394, and margin lower by 10.0 percentage points.",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "U.S. revenue share increases from 44.5% in 2021 to 48.9% in 2024 and China’s share decreases from 25.7% to 21.4%."
+    },
+    {
+      "criteria": "Model 3/Y account for 95–97% of total deliveries in all 4 years, with S/X plus Cybertruck staying under 5% in 2024.",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Concludes that the causes mentioned by Tesla management, price reductions, financing incentives, competitive pressure in China, and expenditures associated with the Cybertruck ramp, are responsible for the decline in vehicle economics and margin."
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 2,
+    "filing_links": [
+      "[\"https://www.sec.gov/Archives/edgar/data/1318605/000095017022000796/tsla-20211231.htm\"",
+      "\"https://www.sec.gov/Archives/edgar/data/1318605/000162828025003063/tsla-20241231.htm#ie9fbbc0a99a6483f9fc1594c1ef72807_1148\"",
+      "\"https://www.sec.gov/Archives/edgar/data/1318605/000095017023001409/tsla-20221231.htm#financial_statements\"]"
+    ],
+    "pass_at_10": "1",
+    "mean": "0.1",
+    "variance": "0.09"
+  }
+}

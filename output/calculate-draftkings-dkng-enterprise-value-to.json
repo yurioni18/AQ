@@ -1,0 +1,76 @@
+{
+  "id": "calculate-draftkings-dkng-enterprise-value-to",
+  "title": "Calculate DraftKing's (DKNG) Enterprise Value to EBITDA ratio at the end of Q2 FY2025 using a market cap of $17.00 billion. LTM Adjusted EBITDA should be used. Show the enterprise value calculation and LTM EBITDA calculation. Express your answer in the following format: 0.00x",
+  "description": "1. Determine the inputs needed to calculate enterprise value:\n Enterprise Value = Equity Value + Total Debt - Cash and Cash Equivalents\n \n 2. Determine that equity value for this problem is $17,000.00 million\n \n 3. Find total debt, which consists of convertible notes and a Term B loan\n Convertible notes: $1,257.75 million\n Term B loan: $578.50 million\n Total debt: $1,836.25 million\n \n 4. Find cash and cash equivalents, which is $1,261.97 million\n \n 5. Calculate enterprise value\n Enterprise Value = $17,000.00 million + $1,836.25 million - $1,261.97 million = $17,574.28 million.\n \n 6. Calculate LTM Adjusted EBITDA as of Q2 FY2025 by adding adjusted EBITDA for the last four quarters together\n Q3 FY2024 = −$58.504 million\n Q4 FY2024 = $89.454 million\n Q1 FY2025 = $102.630 million\n Q2 FY2025 = $300.644 million\n LTM Adjusted EBITDA (as of Q2 FY2025) = −58.504 + 89.454 + 102.630 + 300.644 = $434.224 million.\n \n 7. Divide enterprise value by LTM Adjusted EBITDA:\n EV/EBITDA = $17,574.28 million / $434.224 million = 40.47x.",
+  "answer": "40.47x",
+  "rubric": [
+    {
+      "criteria": "Determines that Enterprise Value formula is Equity Value + Total Debt - Cash and Cash Equivalents",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Determines that Equity Value is $17,000.00 million",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Determines that convertible notes of $1,257.75 million should be counted as debt"
+    },
+    {
+      "criteria": "Determines that Term B loan of $578.50 million should be counted as debt",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Calculates total debt of $1,836.25 million"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "States that Cash and Cash Equivalents = $1,261.97 million"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Calculates Enterprise Value of $17,574.28 million"
+    },
+    {
+      "criteria": "Q3 FY2024 Adjusted EBITDA = -$58.504 million",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Q4 FY2024 Adjusted EBITDA = $89.454 million"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Q1 FY2025 Adjusted EBITDA = $102.630 million"
+    },
+    {
+      "criteria": "Q2 FY2025 Adjusted EBITDA = $300.644 million",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Determines that LTM Adjusted EBITDA is $434.224 million",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Divides enterprise value by LTM Adjusted EBITDA to find EV/EBITDA ratio"
+    },
+    {
+      "criteria": "Final Answer = 40.47x",
+      "operator": "correctness"
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 68,
+    "filing_links": [
+      "[\"https://www.bamsec.com/filing/188368525000029?cik=1883685\"",
+      "\"https://www.bamsec.com/filing/188368525000010?cik=1883685\"",
+      "\"https://www.bamsec.com/filing/188368524000036?cik=1883685\"]"
+    ],
+    "pass_at_10": "7",
+    "mean": "0.7",
+    "variance": "0.21"
+  }
+}

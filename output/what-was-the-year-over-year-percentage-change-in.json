@@ -1,0 +1,34 @@
+{
+  "id": "what-was-the-year-over-year-percentage-change-in",
+  "title": "What was the year-over-year percentage change in Deferred revenue for FY 2022 to FY 2023 for Apple (NASDAQ: AAPL)? Using Apple’s Form 10-K, express your answer as a % rounded to 2 decimal places.",
+  "description": "1. The first step is to determine deferred Revenue for FY 2023 = $8,061M as listed in the consolidated balance sheet.\n \n 2. Next up, we need to find deferred Revenue for FY 2022 = $7,912M as shown in the consolidated balance sheet.\n \n 3. Now, calculate year-over-year change from FY 2022 to FY 2023 = ($8,061M - $7,912M) / $7,912M = $149M/$7,912M = 1.88%",
+  "answer": "1.88%",
+  "rubric": [
+    {
+      "criteria": "Deferred Revenue for FY 2023 = $8,061M",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Deferred Revenue for FY 2022 = $7,912M"
+    },
+    {
+      "criteria": "Deferred revenue 2023 - Deferred Revenue 2022 = $8,061M - $7,912M = $149M",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Year-over-year percentage = ($149M/$7,912M)*100 = 1.88%"
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 38,
+    "filing_links": [
+      "[\"https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm\"]"
+    ],
+    "pass_at_10": "4",
+    "mean": "0.4",
+    "variance": "0.24"
+  }
+}

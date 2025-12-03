@@ -1,0 +1,50 @@
+{
+  "id": "if-gaap-relaxed-its-deferred-revenue-recognition",
+  "title": "If GAAP relaxed its Deferred Revenue recognition rules and allowed McAfee (MCFE) to recognize revenue when they signed customers to a contract, how much would their revenues for 2009 have been? Express the answer in $M rounded to 2 decimal places of precision",
+  "description": "1. Define method: Compute 2009 “on‑signing” revenue as GAAP 2009 revenue plus the net increase in total deferred revenue during 2009, since McAfee receives up‑front payments for subscriptions/maintenance that are recognized ratably (i.e., amounts initially recorded as deferred revenue would be recognized at signing under the hypothetical)\n \n 2. Record GAAP total net revenue for FY 2009 (year ended December 31, 2009): $1,927.332M.\n \n 3. Record the total change in deferred revenue balances as the Ending balance of DR minus the beginning balance of DR\n \n 4. The calculation of change in DR for FY 2009 yields 101757 (thousands).\n \n 5. Sum the realized revenues plus the change in DR to get 1927332 (thousands) + 101757 (thousands) = 2,029,089 (thousands)\n \n 6. Round the answer to the nearest two decimals in M to get 2029.09M",
+  "answer": "$2,029.09M",
+  "rubric": [
+    {
+      "operator": "correctness",
+      "criteria": "Method: on‑signing revenue = GAAP 2009 revenue + net increase in total deferred revenue during 2009"
+    },
+    {
+      "criteria": "GAAP total net revenue for FY 2009 (year ended December 31, 2009): $1,927.332M",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Total change in deferred revenue balances defined as Ending balance of DR minus Beginning balance of DR",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Calculated change in deferred revenue for FY 2009: 101757 (thousands)"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Sum calculation shown: 1927332 (thousands) + 101757 (thousands) = 2029089 (thousands)"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Answer rounded to two decimal places"
+    },
+    {
+      "criteria": "Answer stated in millions",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Final Answer given as $2,029.09M",
+      "operator": "correctness"
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 87,
+    "filing_links": [
+      "[\"https://www.sec.gov/Archives/edgar/data/890801/000095012311019014/d75827e10vk.htm\"]"
+    ],
+    "pass_at_10": "9",
+    "mean": "0.9",
+    "variance": "0.09"
+  }
+}

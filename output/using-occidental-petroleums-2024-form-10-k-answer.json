@@ -1,0 +1,58 @@
+{
+  "id": "using-occidental-petroleums-2024-form-10-k-answer",
+  "title": "Using Occidental Petroleum’s 2024 Form 10-K, answer the following exactly and in one line:\n \n 1. Segments: List the three operating segments OXY reports (use the precise segment names shown in Note 16).\n \n 2. CODM performance metric: State the measure the CODM uses to assess performance for all three segments.\n \n 3. Corporate & eliminations (items): List every category that OXY says is consolidated under “corporate and eliminations” instead of within segments (use the exact categories listed in Note 16).",
+  "description": "Search Note 16 (Industry Segments and Geographic Areas)in OXY’ 24 10-K. Identify the exact segment names listed in the first paragraph of the note. The note directly states that OXY operates through 3 segments: (1) oil and gas, (2) chemical, and (3) midstream and marketing. \n \n In the same note, read how management evaluates segment performance. The disclosure specifies that the CODM utilizes “segment income (loss) from continuing operations before income taxes” to measure performance and allocate resources for all three reporting segments. Capture that phrase verbatim. \n \n Still within Note 16, extract the list of items that OXY consolidates under “corporate and eliminations” rather than segment results. The note enumerates: income taxes, interest income, interest expense, environmental remediation expenses, acquisition-related costs, and unallocated corporate expenses. Preserve the categories exactly and list them in the required semicolon-separated format",
+  "answer": "1. Segments: Oil and Gas; Chemical; Midstream and Marketing. 2. CODM performance metric: Segment income (loss) from continuing operations before income taxes. 3. Corporate & eliminations (items): Income taxes; interest income; interest expense; environmental remediation expenses; acquisition-related costs; unallocated corporate expenses.",
+  "rubric": [
+    {
+      "operator": "correctness",
+      "criteria": "Three Operating Segments includes: Oil and Gas"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Three Operating Segments includes: Chemical"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Three Operating Segments includes: Midstream and Marketing"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "CODM performance metric: Segment income (loss) from continuing operations before income taxes."
+    },
+    {
+      "criteria": "Corporate & Eliminations (items) includes: Income taxes",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Corporate & Eliminations (items) includes: interest income",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Corporate & Eliminations (items) includes: interest expense",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Corporate & Eliminations (items) includes: environmental remediation expenses",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Corporate & Eliminations (items) includes: acquisition-related costs"
+    },
+    {
+      "criteria": "Corporate & Eliminations (items) includes: unallocated corporate expenses",
+      "operator": "correctness"
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 63,
+    "filing_links": [
+      "[\"https://occidentalpetroleum.gcs-web.com/static-files/bf53af81-d4c6-450a-aec0-00b3dde53543\"]"
+    ],
+    "pass_at_10": "7",
+    "mean": "0.7",
+    "variance": "0.21"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "id": "how-large-was-the-range-in-terms-for-walmart-inc",
+  "title": "How large was the range (in % terms) for Walmart Inc. (WMT)'s fiscal year 2026 adjusted EPS guidance for Q4 2025, Q1 2026, Q2 2026, and Q3 2026?\n \n Format answer as: \"Q[X] [YEAR]: $[X.XX] (low) to $[X.XX] (high), [X.XX]% of midpoint\". Add line breaks for each period, and round the EPS figure and % to two decimal places.",
+  "description": "First, identify Walmart’s FY 2026 adjusted EPS guidance range for each of the listed quarters:\n The Q4 2025 range is from $2.50 to $2.60\n The Q1 2026 range is from $2.50 to $2.60\n The Q2 2026 range is from $2.52 to $2.62\n The Q3 2026 range is from $2.58 to $2.63\n \n Then, find the % of midpoint for each quarter by first subtracting the high by the low, then dividing that difference by the total of the high plus the low divided by 2, shown here: (high − low) / [(high + low)/2]\n - Q4 2025: (2.60 − 2.50)/2.55 = 3.92%.\n - Q1 2026: (2.60 − 2.50)/2.55 = 3.92%.\n - Q2 2026: (2.62 − 2.52)/2.57 = 3.89%.\n - Q3 2026: (2.63 − 2.58)/2.605 = 1.92%.\n \n Finally, list the ranges and as a percent of the midpoint, rounded to 2 decimal places:\n - Q4 2025: $2.50 (low) to $2.60 (high), 3.92% of midpoint\n - Q1 2026: $2.50 (low) to $2.60 (high), 3.92% of midpoint\n - Q2 2026: $2.52 (low) to $2.62 (high), 3.89% of midpoint\n - Q3 2026: $2.58 (low) to $2.63 (high), 1.92% of midpoint",
+  "answer": "Q4 2025: $2.50 (low) to $2.60 (high), 3.92% of midpoint\n Q1 2026: $2.50 (low) to $2.60 (high), 3.92% of midpoint\n Q2 2026: $2.52 (low) to $2.62 (high), 3.89% of midpoint\n Q3 2026: $2.58 (low) to $2.63 (high), 1.92% of midpoint",
+  "rubric": [
+    {
+      "operator": "correctness",
+      "criteria": "Q4 2025 guidance: $2.50 (low) to $2.60 (high)"
+    },
+    {
+      "criteria": "Q1 2026 guidance: $2.50 (low) to $2.60 (high)",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Q2 2026 guidance: $2.52 (low) to $2.62 (high)"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Q3 2026 guidance: $2.58 (low) to $2.63 (high)"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Q4 2025 is 3.92% of midpoint"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Q1 2026 is 3.92% of midpoint\n"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Q2 2026 is 3.89% of midpoint\n"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Q3 2026 is 1.92% of midpoint"
+    },
+    {
+      "criteria": "All answers follow the correct format of \"Q[X] [YEAR]: $[X.XX] (low) to $[X.XX] (high), [X.XX]% of midpoint\" ",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "All answers follow the correct format with line breaks for each period",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "All answers follow the correct format with rounding to two decimal places",
+      "operator": "correctness"
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 41,
+    "filing_links": [
+      "[\"https://stock.walmart.com/_assets/_95a142b1136075a6c676bff8cfebc6b0/walmart/db/938/9966/earnings_release/Earnings+Release+%28FY26+Q3%29.pdf\"",
+      "\"https://stock.walmart.com/_assets/_95a142b1136075a6c676bff8cfebc6b0/walmart/db/938/9959/earnings_release/Earnings+Release+%28FY26+Q2%29.pdf\"",
+      "\"https://stock.walmart.com/_assets/_95a142b1136075a6c676bff8cfebc6b0/walmart/db/938/9953/earnings_release/Earnings+Release+%28FY26+Q1%29.pdf\"",
+      "\"https://stock.walmart.com/_assets/_95a142b1136075a6c676bff8cfebc6b0/walmart/db/938/9939/earnings_release/Earnings+Release+%28FY25+Q4%29.pdf\"]"
+    ],
+    "pass_at_10": "4",
+    "mean": "0.4",
+    "variance": "0.24"
+  }
+}

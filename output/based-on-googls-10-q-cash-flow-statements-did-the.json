@@ -1,0 +1,109 @@
+{
+  "id": "based-on-googls-10-q-cash-flow-statements-did-the",
+  "title": "Based on GOOGL’s 10-Q Cash Flow Statements, did the company's FCF Conversion of Net Income to Common improve or worsen YoY for the Q2-FY2025 period? By how much? Define FCF as OCF - Capex. Express your answer as a percentage, rounded to two decimal places.",
+  "description": "One first needs to extract H1 and Q1 figures for both FY2024 nad FY2025. Obtain Q2 figures for both fiscal years by differencing. Calculate the FCF conversion % by dividing CF by the company-reported Net Income to Common.\n \n FY2025\n \n H1 OCF = 63,897\n H1 CapEx = 39,643\n Q1 OCF = 36,150\n Q1 CapEx = 17,197\n Q2 OCF = 63,897 − 36,150 = 27,747\n Q2 CapEx = 39,643 − 17,197 = 22,446\n Q2 FCF (’25) = 27,747 − 22,446 = 5,301\n Q2 Net income to common = 28,196\n \n Q2-FY2025 FCF conversion = 5,301 / 28,196 = 18.80%\n \n FY2024\n \n H1 OCF = 55,488\n H1 CapEx = 25,198\n Q1 OCF = 28,848\n Q1 CapEx = 12,012\n Q2 OCF = 55,488 − 28,848 = 26,640\n Q2 CapEx = 25,198 − 12,012 = 13,186\n Q2 FCF (’24) = 26,640 − 13,186 = 13,454\n \n Q2 Net income to common = 23,619\n \n Q2-FY2024 FCF conversion = 13,454 / 23,619 = 56.96%\n \n YoY change (Q2-25 vs Q2-24)\n \n 18.80% − 56.96% = −38.16 percentage points\n \n Conclude that FCF conversion worsened by 38.16%.",
+  "answer": "FCF conversion worsened YoY by 38.16%.",
+  "rubric": [
+    {
+      "operator": "correctness",
+      "criteria": "Recognizes that FCF needs to be computed by subtracting CapEx from OCF."
+    },
+    {
+      "criteria": "Recognizes that Q2 figures need to be obtained by differencing H1 and Q1",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "FY2025 H1 OCF = 63,897",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "FY2025 H1 CapEx = 39,643",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "FY2025 Q1 OCF = 36,150",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "FY2025 Q1 CapEx = 17,197"
+    },
+    {
+      "criteria": "Q2-FY2025 OCF = 27,747",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Q2-FY2025 CapEx = 22,446",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Q2-FY2025 FCF = 5,301",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Q2-FY2025 Net income to common = 28,196",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Q2-FY2025 FCF conversion = 18.80%",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "FY2024 H1 OCF = 55,488",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "FY2024 H1 CapEx = 25,198",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "FY2024 Q1 OCF = 28,848",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "FY2024 Q1 CapEx = 12,012"
+    },
+    {
+      "criteria": "Q2-FY2024 OCF = 26,640",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Q2-FY2024 CapEx = 13,186"
+    },
+    {
+      "criteria": "Q2-FY2024 FCF = 13,454",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Q2-FY2024 Net income to common = 23,619",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Q2-FY2024 FCF conversion = 56.96%"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "YoY change in FCF conversion (Q2-25 − Q2-24) = −38.16 percentage points"
+    },
+    {
+      "criteria": "Final conclusion: FCF conversion worsened YoY by 38.16%",
+      "operator": "correctness"
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 98,
+    "filing_links": [
+      "[\"https://www.sec.gov/Archives/edgar/data/1652044/000165204425000062/goog-20250630.htm\"",
+      "\"https://www.sec.gov/Archives/edgar/data/1652044/000165204425000043/goog-20250331.htm\"",
+      "\"https://www.sec.gov/Archives/edgar/data/1652044/000165204424000079/goog-20240630.htm\"",
+      "\"https://www.sec.gov/Archives/edgar/data/1652044/000165204424000053/goog-20240331.htm\"]"
+    ],
+    "pass_at_10": "9",
+    "mean": "0.9",
+    "variance": "0.09"
+  }
+}

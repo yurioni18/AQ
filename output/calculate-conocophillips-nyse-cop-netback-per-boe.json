@@ -1,0 +1,98 @@
+{
+  "id": "calculate-conocophillips-nyse-cop-netback-per-boe",
+  "title": "Calculate ConocoPhillips’ (NYSE: COP) netback per BOE in FY 2024. Round to the nearest two decimals.",
+  "description": "1. Calculate FY 2024 operating netback per BOE as Netback/BOE= Realized price / BOE - (production and operation expenses + taxes other than income taxes)/BOE. \n \n 2. Find consolidated realized prices as crude oil = $76.74/bbl, NGL =$22.43/bbl, bitumen=$47.92/bbl, natural gas = $2.61/mcf. \n \n 3. Use a 6:1 mcf to BOE conversion as management states. \n \n 4. Collect production rates and compute total BOE. Find Crude at 969 MBD, NGL at 304 MBD, bitumen at 122 MBD, gas at 2200 MMCFD. Calculate BOE as (969+304+122+2200/6) * 366 days = 644.77 million. \n \n 5. Calculated the consolidated realized price per BOE weighted by volume = ((354,654 mbbl* 76.74)+(111,264 mbbl*22.43)+(44652*47.92)+(805200*2.61))/644.77 mmboe = $52.66/BOE\n \n 6. Find the FY 2024 consolidated costs = production & operating expenses = 8751; taxes other than income taxes = $2087. Calculate the cost per BOE as (8751+2087)/644.77mm=$16.81/BOE\n \n 7. Calculate the FY 2024 netback per BOE as 52.66-16.81=$35.85 per BOE",
+  "answer": "$35.85/BOE.",
+  "rubric": [
+    {
+      "criteria": "Define the operating netback per BOE formula as Realized price/BOE - (production and operation expenses + taxes other than income taxes)/BOE",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Find FY 2024 Realized crude oil price as $76.74/bbl",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Find the realized NGL price as $22.43/bbl"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Find the realized bitumen price as $47.92/bbl"
+    },
+    {
+      "criteria": "Find the realized natural gas price as $2.61/mcf",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Use the 6:1 mcf to BOE conversion ratio",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Find the crude production rate as 969 MBD",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Find the NGL production rate as 304 MBD",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Find the Bitumen production rate as 122 MBD",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Find the gas production rate as 2200 MMCFD",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Calculate the annual total BOE as (969+304+122+2200/6) * 366 = 644.77 million BOE"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Find the annual crude volume as 354,654 (mbbl)"
+    },
+    {
+      "criteria": "Find the annual NGL volume as 111,264 (mbbl)",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Find the annual bitumen volume as 44,652 (mbbl)",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Find the annual gas volume as 805,200 (mmcf units)",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Find the consolidated realized price per BOE (weighted) as $52.66/BOE",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Find the production & operating expenses as 8751"
+    },
+    {
+      "criteria": "Find the taxes other than income taxes as 2087",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Calculate the cost per BOE as (8751+2087)/644.77mm = $16.81/BOE"
+    },
+    {
+      "criteria": "Find the FY 2024 netback per BOE as 52.66 - 16.81 = $35.85/BOE",
+      "operator": "correctness"
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 13,
+    "filing_links": [
+      "[\"https://static.conocophillips.com/files/resources/2024-annual-report.pdf\"]"
+    ],
+    "pass_at_10": "1",
+    "mean": "0.1",
+    "variance": "0.09"
+  }
+}

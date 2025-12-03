@@ -1,0 +1,39 @@
+{
+  "id": "using-lendingtree-inc-ticker-tree-10-k-for-fy2024-1",
+  "title": "Using LendingTree Inc. (ticker: TREE) 10-K for FY2024 and Damodaran data on margins of US companies by sector (as of January 2025) calculate how LendingTree adjusted EBITDA margin compare to industry-average EBITDA margin. Use as-reported aEBITDA for LendingTree. Assume the industry is Financial Svcs. (Non-bank & Insurance). Provide the absolute difference between company's FY2024 aEBITDA margin and industry average as the answer. Show the answer in % rounded to 2 decimals.",
+  "description": "1. Extract FY2024 as-reported Adjusted EBITDA (aEBITDA) for LendingTree from its Form 10-K: \n FY2024 aEBITDA = $104,113 thousand ($104.113 million) \n \n 2. Extract FY2024 total revenue for LendingTree from the same Form 10-K: \n FY2024 Revenue = $900,219 thousand ($900.219 million). (SEC Form 10-K, FY2024.)\n \n 3. Compute LendingTree’s FY2024 aEBITDA margin = aEBITDA / Revenue = $104,113,000 / $900,219,000 = 11.5653% → 11.57% (rounded to 2 decimals). \n \n 4. Retrieve industry-average EBITDA margin (EBITDA/Sales) for Financial Svcs. (Non-bank & Insurance), US companies, as of January 2025: \n Financial Svcs. (Non-bank & Insurance) EBITDA margin =18.17%. (Damodaran, Margins by Sector (US), January 2025.)\n \n 5. Calculate absolute difference between LendingTree’s FY2024 aEBITDA margin and the industry average: |11.57% − 18.17%| = 6.60%",
+  "answer": "6.60%",
+  "rubric": [
+    {
+      "operator": "correctness",
+      "criteria": "FY2024 as-reported Adjusted EBITDA = $104,113 thousand ($104.113 million)."
+    },
+    {
+      "criteria": "FY2024 total revenue = $900,219 thousand ($900.219 million).",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "FY2024 aEBITDA margin = aEBITDA / Revenue = 11.57%."
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Industry-average EBITDA margin for US-based companies in Financial Svcs. (Non-bank & Insurance) industry (Damodaran data as of Jan 2025, as required in the promt) = 18.17%."
+    },
+    {
+      "operator": "correctness",
+      "criteria": "the absolute difference between LendingTree’s FY2024 aEBITDA margin = |11.57% − 18.17%| = 6.60%."
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 95,
+    "filing_links": [
+      "[\"https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/margin.html\"",
+      "\"https://www.sec.gov/Archives/edgar/data/1434621/000143462125000006/tree-20241231.htm\"]"
+    ],
+    "pass_at_10": "9",
+    "mean": "0.9",
+    "variance": "0.09"
+  }
+}

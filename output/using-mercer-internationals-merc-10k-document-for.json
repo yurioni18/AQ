@@ -1,0 +1,58 @@
+{
+  "id": "using-mercer-internationals-merc-10k-document-for",
+  "title": "Using Mercer International's (MERC) 10k document for FY 2024, calculate the company's Return on Equity (ROE). Adjust net income by removing any restructuring charges and impairment charges reported in the FY 2024 Consolidated Statements of Operations and related footnotes. Report your final ROE as a percentage, rounded to 2 decimal places.",
+  "description": "1. Find the reported net income/loss from the consolidated statement of operating from the 10k document, stated as $(85,141,000).\n \n 2. We need to identify the restructuring and impairment charges to remove. The Goodwill impairment is found as $34,277,000 from the income statement. There is also an inventory impairment of $9,000,000 found in the cashflow statement. There was no restructuring charges stated, so we will assume it as $0.\n \n 3. We can compute the adjusted net income by removing the above charges. This gives us: $(85,141,000) + $34,277,000 + $9,000,000 = $(41,864,000).\n \n 4. Compute average shareholders’ equity for FY 2024 using year-end balances from the Consolidated Balance Sheets:\n  - Total shareholders’ equity at 12/31/2024: $429,775,000; at 12/31/2023: $635,410,000. (Form 10-K, FY 2024).\n  - Average shareholders’ equity = ($429,775,000 + $635,410,000) / 2 = $532,592,500. (Form 10-K, FY 2024).\n \n 5. Calculate FY 2024 ROE (adjusted) as Adjusted net income ÷ Average shareholders’ equity: $(41,864,000) ÷ $532,592,500 = -0.07856, or -7.86% (rounded to two decimals). (Form 10-K, FY 2024).",
+  "answer": "Adjusted ROE for FY 2024: -7.86%.",
+  "rubric": [
+    {
+      "operator": "correctness",
+      "criteria": "Net income(loss) is $(85,141,000)"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Goodwill impairment is $34,277,000"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Inventory impairment is $9,000,000"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Restructuring charges stated as none, assumed $0."
+    },
+    {
+      "criteria": "Adjusted net income computed as -85,141,000 + 34,277,000 + 9,000,000 = -41,864,000",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Shareholders' equity at 12/31/2024: $429,775,000",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Shareholders equity at 12/31/2023 is $635,410,000; "
+    },
+    {
+      "criteria": "Average shareholder's equity = (635,410,000+429,775,000)/2 = $532,592,500",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Final Adjusted ROE = -41,864,000/532,592,500 = -7.86%"
+    },
+    {
+      "criteria": "The final answer is rounded to 2 decimal places.",
+      "operator": "correctness"
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 93,
+    "filing_links": [
+      "[\"https://mercerint.com/wp-content/uploads/MERC_10K_2024_DEC31-Final.pdf\"]"
+    ],
+    "pass_at_10": "9",
+    "mean": "0.9",
+    "variance": "0.09"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "id": "what-is-the-change-in-ebitda-margin-from-q3-to-q4",
+  "title": "What is the % change in EBITDA Margin from Q3 to Q4 rounded to 2 decimals for KLA Corporation (KLAC on Nasdaq) in FY 2024. Use the company filings 10-Q. Format your answer in % to 2 decimal places.",
+  "description": "1. Using KLA Corporation (KLAC on Nasdaq) 10-Q filings for FY2024 Q3 (March 31, 2024) and Q4 ending (June 30, 2024) as well as Q2 (ending 31 December, 2023) (In thousands $) \n \n 2. Extract the following from FY2024 Q3 KLAC 10-Q filings (March 31, 2024) :\n FY 2024 Q3: Net income= 601,541; Provision for income taxes = 100,467 ; Interest expense = 79,981; Total Revenue = 2,359,830\n \n 3. To calculate Depreciation & Amortization for FY2024 Q3 - extract Depreciation and amortization (ending Nine months March 31, 2024) = 300,729 (from 10-Q filings ending in March 31, 2024) and subtract Depreciation and amortization (ending Six Months Ended December 31, 2023) = 201,466.\n This yields Depreciation and amortization (ending Three Months Ended March 31, 2024) = 99,263\n \n 4. Extract the following from FY2024 Q4 KLAC 10-Q filings (ending June 30, 2024):\n FY 2024 Q4: Net income= 836,446; Provision for income taxes = 108,597 ; Interest expense = 82,836; Depreciation & Amortization = 101,001; Total Revenue = 2,568,735\n \n 5. Calculate EBITDA using the formula : EBITDA = Net Income + Income Tax Expense (benefit) + Interest Expense + Depreciation & Amortization.\n \n EBITDA Margin = EBITDA/ Total Revenue x 100 \n \n Percentage change = ((Q4 EBITDA Margin - Q3 EBITDA Margin)/Q3 EBITDA Margin) x 100 \n \n 6. FY2024 Q3 EBITDA: EBITDA = 601,541 + 100,467+ 79,981+ 99,263 = 881,252\n FY2024 Q3 EBITDA margin = (881,252/ 2,359,830) x 100 = 37.3439%\n \n FY2024 Q4 EBITDA: EBITDA = 836,446 + 108,597+ 82,836+ 101,001 = 1,128,880\n FY2024 Q4 EBITDA margin = (1,128,880/ 2,568,735) x 100 = 43.94692%\n \n 7. Percentage change between Q4 and Q3 = ((43.94692- 37.3439)/37.3439) X 100= 17.68166\n \n 8. Format percentage change to 2 decimal places as required:\n 17.68%\n \n -",
+  "answer": "17.68%",
+  "rubric": [
+    {
+      "operator": "correctness",
+      "criteria": "Uses KLA 10-Q filings for FY2024 Q3 (March 31, 2024), Q4 (June 30, 2024) and Q2 (ending December 31, 2023) as sources"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Net income for FY2024 Q3 = 601,541"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "FY2024 Q3 Provision for income taxes = 100,467"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "FY2024 Q3 Interest expense = 79,981"
+    },
+    {
+      "criteria": "FY2024 Q3 Total Revenue = 2,359,830",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Depreciation and amortization (Nine months ended March 31, 2024) = 300,729",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Depreciation and amortization (Six months ended December 31, 2023) = 201,466",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Depreciation and amortization (Three months ended March 31, 2024) calculated = Depreciation and amortization (Nine months ended March 31, 2024) 300,729 - Depreciation and amortization (Six months ended December 31, 2023) 201,466 = 99,263",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "FY2024 Q4 Net income = 836,446",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "FY2024 Q4 Provision for income taxes = 108,597"
+    },
+    {
+      "criteria": "FY2024 Q4 Interest expense = 82,836",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "FY2024 Q4 Depreciation & Amortization = 101,001"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "FY2024 Q4 Total Revenue = 2,568,735"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "EBITDA formula used: EBITDA = Net Income + Income Tax Expense + Interest Expense + Depreciation & Amortization"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "EBITDA margin formula used: EBITDA Margin = (EBITDA / Total Revenue) x 100"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Percentage change formula used: ((Q4 EBITDA Margin - Q3 EBITDA Margin) / Q3 EBITDA Margin) x 100"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "FY2024 Q3 EBITDA calculated = 881,252"
+    },
+    {
+      "criteria": "FY2024 Q3 EBITDA margin calculated = 37.3439%",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "FY2024 Q4 EBITDA calculated = 1,128,880"
+    },
+    {
+      "criteria": "FY2024 Q4 EBITDA margin calculated = 43.94692%",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Percentage change between Q4 and Q3 calculated =(43.94692- 37.3439)/37.3439) X 100= 17.68166%"
+    },
+    {
+      "criteria": "percentage change rounded to 2 decimal places and reported = 17.68%",
+      "operator": "correctness"
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 29,
+    "filing_links": [
+      "[\"https://ir.kla.com/news-events/press-releases/detail/478/kla-corporation-reports-fiscal-2024-fourth-quarter-results\"",
+      "\"https://www.sec.gov/ix?doc=/Archives/edgar/data/0000319201/000031920124000006/klac-20231231.htm\"",
+      "\"https://www.sec.gov/ix?doc=/Archives/edgar/data/0000319201/000031920124000012/klac-20240331.htm\"]"
+    ],
+    "pass_at_10": "3",
+    "mean": "0.3",
+    "variance": "0.21"
+  }
+}

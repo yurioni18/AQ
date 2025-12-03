@@ -1,0 +1,50 @@
+{
+  "id": "what-is-microsofts-nasdaq-msft-adjusted-ebitda",
+  "title": "What is Microsoft’s (NASDAQ: MSFT) Adjusted EBITDA for the fiscal year ended June 30, 2025? Express the answer in $M rounded and express as a whole number.",
+  "description": "1. Extract the MSFT's operating income from income statement: $128,528M\n \n 2. Extract MSFT's depreciation, amortization & other expense from cash flow statement: $34,153M\n \n 3. Calculate MSFT's EBITDA by adding operating income and D&A expense: $128,528M + $34,153M = $162,681M\n \n 4. Look for non-GAAP adjustments such as stock-based compensation and non-cash investment gains/losses that are commonly adjusted out. \n \n 5. Extract MSFT's stock-based compensation from cash flow statement: $11,974M\n \n 6. Extract MSFT's net recognized losses on investments & derivatives from cash flow statement: $609M\n \n 7. Add stock-based compensation and net recognized losses adjustments back to previously calculated EBITDA: $162,681M + $11,974M + $609M = $175,264M.",
+  "answer": "$175,264 million",
+  "rubric": [
+    {
+      "criteria": "Operating income extracted as $128,528M from the income statement",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Depreciation, amortization & other expense extracted as $34,153M from the cash flow statement"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "EBITDA calculation shown as $128,528M + $34,153M = $162,681M"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Statement to look for non-GAAP adjustments such as stock-based compensation and non-cash investment gains/losses"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Stock-based compensation extracted as $11,974M from the cash flow statement"
+    },
+    {
+      "criteria": "Net recognized losses on investments & derivatives extracted as $609M from the cash flow statement",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Adjusted EBITDA calculation shown as $162,681M + $11,974M + $609M = $175,264M"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Final Answer presented as $175,264 million"
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 51,
+    "filing_links": [
+      "[\"https://www.sec.gov/ix?doc=/Archives/edgar/data/0000789019/000095017025100235/msft-20250630.htm\"]"
+    ],
+    "pass_at_10": "6",
+    "mean": "0.6",
+    "variance": "0.24"
+  }
+}

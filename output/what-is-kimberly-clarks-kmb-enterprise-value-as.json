@@ -1,0 +1,62 @@
+{
+  "id": "what-is-kimberly-clarks-kmb-enterprise-value-as",
+  "title": "What is Kimberly-Clark's (KMB) Enterprise Value as of December 31, 2024 if we assumed that KMB's share price was the same as the average price paid per share by KMB in December? Express the answer in $M rounded to 2 decimal places.",
+  "description": "1. Navigate to the FY 2024 KMB 10-K and go to Item 5 MARKET FOR REGISTRANT'S COMMON EQUITY, RELATED STOCKHOLDER MATTERS AND ISSUER PURCHASES OF EQUITY SECURITIES in order to find the average price paid per share by KMB in December 2024: $133.74 per share.\n \n 2. Pull the number of common shares outstanding from the cover page of the 10-K, which is 331684601 shares. \n \n 3. Compute assumed market capitalization at 12/31/2024 using the December average price: 331684601 × $133.74 = $44,359.50 Million.\n \n 4. Pull debt and cash at 12/31/2024 and compute net debt. Debt payable within one year $568 million + Long-term debt $6,875 million = Total debt $7,443 million; Cash & cash equivalents $1,021 million; Net debt = $7,443 − $1,021 = $6,422.00 million.\n \n 5. On the Consolidated Balance Sheets, we see that KMB has Noncontrolling interests of $135. We need to adjust for this when calculating Enterprise Value. \n \n 6. Compute Enterprise Value (EV) at 12/31/2024 under the assumed share price: EV = Equity Value + Net Debt + Non-controlling interest = $44,359.50 + $6422 + $135 = $50,916.50 Million.",
+  "answer": "$50,916.50 Million",
+  "rubric": [
+    {
+      "operator": "correctness",
+      "criteria": "Average price paid per share by KMB in December 2024 is stated as $133.74 per share"
+    },
+    {
+      "criteria": "Number of common shares outstanding stated as 331684601 shares",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "2024 Equity Value is computed as $44,359.50 Million"
+    },
+    {
+      "criteria": "Debt payable within one year stated as $568 million",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Long-term debt stated as $6,875 million"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Total debt stated as $7,443 million"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Cash & cash equivalents stated as $1,021 million"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Net debt computed as $7,443 − $1,021 = $6,422.00 million"
+    },
+    {
+      "criteria": "Noncontrolling interests stated as $135",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Enterprise Value formula given as EV = Equity Value + Net Debt + Non-controlling interest"
+    },
+    {
+      "criteria": "Final Enterprise Value computed as $44,359.50 + $6,422 + $135 = $50,916.50 Million",
+      "operator": "correctness"
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 84,
+    "filing_links": [
+      "[\"https://www.kimberly-clark.com/-/media/kimberly/pdf/annual-report/KMB%20KimberlyClark%20Corporation%20%2010K%2020250213pdf.pdf?rev=-1&hash=BA335D8288941E876B90DF670D1587B4\"]"
+    ],
+    "pass_at_10": "8",
+    "mean": "0.8",
+    "variance": "0.16"
+  }
+}

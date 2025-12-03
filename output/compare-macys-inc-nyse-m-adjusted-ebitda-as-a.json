@@ -1,0 +1,51 @@
+{
+  "id": "compare-macys-inc-nyse-m-adjusted-ebitda-as-a",
+  "title": "Compare Macy's Inc. (NYSE: M) adjusted EBITDA as a percent of total revenue in FY 2025 (ended Feb 1st, 2025), against guidance in Q2 2024 after adjusting for delivery expense. Use the midpoint value and report it as % BEAT or MISS (rounded to two decimal points).",
+  "description": "1. Compute the actual FY 2025 (ended Feb 1st, 2025) adjusted EBITDA margin. Using the Macy's Form 10-K (ended Feb 1st, 2024), find Adjusted EBITDA = $1977 million and Total Revenue = $23,006 million. Adjusted EBITDA margin = ($1977m/$23,006m) x 100 = 8.59% (rounded to two decimals).\n \n 2. Find Q2 2024 guidance, adjusted for delivery expense, using the figure reported on Macy's Q3 report. Guidance for FY 2025 Adjusted EBITDA as a percent of total revenue: 8.2%–8.7%. Midpoint of the values = (8.2% + 8.7%)/2 = 8.45%.\n \n 3. Compare the actual and guided midpoint: 8.59% − 8.45% = 0.14%. Report BEAT or MISS: 0.14% BEAT.",
+  "answer": "0.14% BEAT",
+  "rubric": [
+    {
+      "operator": "correctness",
+      "criteria": "Final answer contains the numeric percentage 0.14%"
+    },
+    {
+      "criteria": "Final answer percentage value is presented rounded to two decimal places (0.14%)",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Final answer includes the label 'BEAT' indicating the result is a beat rather than a miss"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Retrieves adjusted EBITDA as $1977 million"
+    },
+    {
+      "criteria": "Retrieves total revenue as $23,006 million",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Calculates adjusted EBITDA margin as 8.59%",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Retrieves FY 2025 adjusted EBITDA margin guidance (excluding delivery expense) from the Q2 2024 earnings materials as 8.2%–8.7%",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Calculates midpoint of guidance values as 8.45%"
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 27,
+    "filing_links": [
+      "[\"https://s202.q4cdn.com/285121676/files/doc_financials/2024/ar/Macy-s-Inc-2024-Annual-Report.pdf \"",
+      "\"https://www.macysinc.com/newsroom/news/news-details/2024/Macys-Inc.-Reports-Third-Quarter-2024-Results/default.aspx\"]"
+    ],
+    "pass_at_10": "2",
+    "mean": "0.2",
+    "variance": "0.16"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "id": "using-netflixs-nasdaq-nflx-fy2025-q1-q2-and-q3",
+  "title": "Using Netflix’s (NASDAQ: NFLX) FY2025 Q1, Q2, and Q3 Form 10-Q filings, what was the total year over year change in net cash provided by operating activities in each quarter and how did Netflix describe the primary drivers. What are the key differences in the explanations across the three periods?",
+  "description": "1. Extract explanation around net cash provided by operating activities in Management’s Discussion and Analysis of Financial Condition and Results of Operations for Q1 FY2025 (quarter ended March 31, 2025). \n \n 2. Extract explanation around net cash provided by operating activities in Management’s Discussion and Analysis of Financial Condition and Results of Operations for Q2 FY2025 (quarter ended June 30, 2025).\n \n 3. Extract explanation around net cash provided by operating activities in Management’s Discussion and Analysis of Financial Condition and Results of Operations for Q3 FY2025 (quarter ended September 30, 2025).\n \n 4. Analyze key differences/trends across Q1–Q3 FY2025 compared to the corresponding quarter in 2024: changes and fluctuations in net-income-led growth, working capital, and content spending.",
+  "answer": "Q1 FY2025: Net cash provided by operating activities increased $577 million as compared to the corresponding period in 2024, primarily driven by a $558 million or 24% increase in net income, an increase in adjustments for non-cash expenses, partially offset by unfavorable changes in working capital and a $43 million increase in payments for content assets.\n \n Q2 FY 2025: Net cash provided by operating activities increased $1,132 million as compared to the corresponding period in 2024, primarily driven by a $978 million or 46% increase in net income, a $366 million decrease in payments for content assets, and a $226 million increase in adjustments for non-cash expenses, partially offset by $438 million in unfavorable changes in working capital.\n \n Q3 FY2025: Net cash provided by operating activities increased $504 million as compared to the corresponding period in 2024, primarily driven by a $454 million increase in adjustments for non-cash expenses, $396 million in favorable changes in working capital, and a $183 million or 8% increase in net income, partially offset by a $530 million increase in payments for content assets.\n \n Key Difference: Across the three quarters, the drivers of operating cash flow shifted from net-income-led growth with unfavorable working capital in Q1, to a net-income surge aided by sharply lower content spending in Q2, and finally to non-cash adjustments and favorable working capital driving Q3 despite a large increase in content payments.",
+  "rubric": [
+    {
+      "criteria": "Q1 FY2025 net cash provided by operating activities increased $577 million year-over-year.",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Q1 FY2025 primary driver: $558 million (24%) increase in net income.",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Q1 FY2025 increase was supported by an increase in adjustments for non-cash expenses.",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Q1 FY2025 result was partially offset by unfavorable changes in working capital."
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Q1 FY2025 result was partially offset by a $43 million increase in payments for content assets."
+    },
+    {
+      "criteria": "Q2 FY2025 net cash provided by operating activities increased $1,132 million year-over-year.",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Q2 FY2025 primary driver: $978 million (46%) increase in net income."
+    },
+    {
+      "criteria": "Q2 FY2025 included a $366 million decrease in payments for content assets contributing to the increase.",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Q2 FY2025 included a $226 million increase in adjustments for non-cash expenses contributing to the increase.",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Q2 FY2025 result was partially offset by $438 million of unfavorable changes in working capital."
+    },
+    {
+      "criteria": "Q3 FY2025 net cash provided by operating activities increased $504 million year-over-year.",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Q3 FY2025 primary driver included a $454 million increase in adjustments for non-cash expenses.",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Q3 FY2025 included $396 million of favorable changes in working capital contributing to the increase."
+    },
+    {
+      "criteria": "Q3 FY2025 included a $183 million (8%) increase in net income.",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Q3 FY2025 result was partially offset by a $530 million increase in payments for content assets.",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Key difference summary mentions that Q1 was net-income-led growth with unfavorable working capital"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Key difference summary includes Q2 was a net-income surge aided by sharply lower content spending"
+    },
+    {
+      "criteria": "Key difference summary includes Q3 was driven by non-cash adjustments and favorable working capital",
+      "operator": "correctness"
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 9,
+    "filing_links": [
+      "[\"https://www.sec.gov/ix?doc=/Archives/edgar/data/0001065280/000106528025000176/nflx-20250331.htm\"",
+      "\"https://www.sec.gov/ix?doc=/Archives/edgar/data/0001065280/000106528025000323/nflx-20250630.htm\"",
+      "\"https://www.sec.gov/ix?doc=/Archives/edgar/data/0001065280/000106528025000406/nflx-20250930.htm\"]"
+    ],
+    "pass_at_10": "1",
+    "mean": "0.1",
+    "variance": "0.09"
+  }
+}

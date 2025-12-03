@@ -1,0 +1,96 @@
+{
+  "id": "calculate-roe-for-altria-group-inc-nyse-mo-for",
+  "title": "Calculate ROE for Altria Group, INC. (NYSE: MO) for fiscal years 2022 through 2024 by calculating the net profit margin, the total asset turnover, and total leverage. Do not round any value until the ROE, which can be rounded to three decimal places. Use Altria Group, INC.'s 10-Ks for information.",
+  "description": "##The formula for ROE using Net Profit Margin, Total Asset Turnover, and Total Leverage is Net Profit Margin*Total Asset Turnover*Total Leverage. The formula for Net Profit Margin is Net Income/Net Sales. The formula for Total Asset Turnover is Net Sales/Average Total Assets. The formula for Total Leverage is Average Total Assets/Average Total Equity. \n \n ##Beginning with Net Profit Margin= Net Income/Net Sales, the calculation for each fiscal year is as follows: \n FY 2022: 5,764 / 25,096\n FY 2023: 8,130 / 24,483\n FY 2024: 11,264 / 24,018\n \n ##In computing Total Asset Turnover= Net Sales/Average Total Assets, the Average Total Assets is the average in Total Assets over a two year period. The results are as follows: \n FY 2022: 25,096 /((36,954 + 39,523) / 2)= 25,096 / 38,238.5\n FY 2023: 24,483/((38,570 + 36,954) / 2)= 24,483 / 37,762.0\n FY 2024: 24,018/((35,177 + 38,570) / 2)= 24,018 / 36,873.5\n \n ##In computing Total Leverage= Average Total Assets/Average Total Equity, the Average Total Equity is the average in Total Equity over a two year period. The results are as follows: \n FY 2022: 38,238.5/((-3,973 + -1,606) / 2)= 38,238.5 / (-2,789.5)\n FY 2023: 37,762.0/((-3,540 + -3,973) / 2)= 37,762.0 / (-3,756.5)\n FY 2024: 36,873.5/( (-2,238 + -3,540) / 2)= 36,873.5 / (-2,889.0)\n \n ##In combining all of the elements for each fiscal year to get to ROE, the calculations are as follows: \n FY 2022: (5,764 / 25,096) × (25,096 / 38,238.5) × (38,238.5 / -2,789.5) = 5,764 / (-2,789.5) = -2.066320129… → -206.632% (rounded to three decimals)\n FY 2023: (8,130 / 24,483) × (24,483 / 37,762.0) × (37,762.0 / -3,756.5) = 8,130 / (-3,756.5) = -2.164248636… → -216.425% (rounded to three decimals)\n FY 2024: (11,264 / 24,018) × (24,018 / 36,873.5) × (36,873.5 / -2,889.0) = 11,264 / (-2,889.0) = -3.8989269… → -389.893% (rounded to three decimals)",
+  "answer": "FY 2022 = -206.632%\n Fy 2023 = -216.425%\n FY 2024 = -389.893%",
+  "rubric": [
+    {
+      "criteria": "States ROE formula as Net Profit Margin * Total Asset Turnover * Total Leverage",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "States Net Profit Margin formula as Net Income/Net Sales",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "States Total Asset Turnover formula as Net Sales/Average Total Assets",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "States Total Leverage formula as Average Total Assets/Average Total Equity"
+    },
+    {
+      "criteria": "Provides Net Profit Margin calculation for FY 2022 as 5,764 / 25,096",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Provides Net Profit Margin calculation for FY 2023 as 8,130 / 24,483"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Provides Net Profit Margin calculation for FY 2024 as 11,264 / 24,018"
+    },
+    {
+      "criteria": "Provides Total Asset Turnover calculation for FY 2022 as 25,096 / ((36,954 + 39,523) / 2) = 25,096 / 38,238.5",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Provides Total Asset Turnover calculation for FY 2023 as 24,483 / ((38,570 + 36,954) / 2) = 24,483 / 37,762.0",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Provides Total Asset Turnover calculation for FY 2024 as 24,018 / ((35,177 + 38,570) / 2) = 24,018 / 36,873.5"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Provides Total Leverage calculation for FY 2022 as 38,238.5 / ((-3,973 + -1,606) / 2) = 38,238.5 / (-2,789.5)"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Provides Total Leverage calculation for FY 2023 as 37,762.0 / ((-3,540 + -3,973) / 2) = 37,762.0 / (-3,756.5)"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Provides Total Leverage calculation for FY 2024 as 36,873.5 / ((-2,238 + -3,540) / 2) = 36,873.5 / (-2,889.0)"
+    },
+    {
+      "criteria": "Shows combined ROE calculation for FY 2022 as (5,764 / 25,096) × (25,096 / 38,238.5) × (38,238.5 / -2,789.5) = 5,764 / (-2,789.5)",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Shows combined ROE calculation for FY 2023 as (8,130 / 24,483) × (24,483 / 37,762.0) × (37,762.0 / -3,756.5) = 8,130 / (-3,756.5)"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Shows combined ROE calculation for FY 2024 as (11,264 / 24,018) × (24,018 / 36,873.5) × (36,873.5 / -2,889.0) = 11,264 / (-2,889.0)"
+    },
+    {
+      "criteria": "Provides final ROE for FY 2022 as -2.066320129… → -206.632% rounded to three decimals",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Provides final ROE for FY 2023 as -2.164248636… → -216.425% rounded to three decimals",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Provides final ROE for FY 2024 as -3.8989269… → -389.893% rounded to three decimals",
+      "operator": "correctness"
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 97,
+    "filing_links": [
+      "[\"https://www.sec.gov/ix?doc=/Archives/edgar/data/0000764180/000076418023000020/mo-20221231.htm\"",
+      "\"https://www.sec.gov/ix?doc=/Archives/edgar/data/0000764180/000076418024000018/mo-20231231.htm\"",
+      "\"https://www.sec.gov/ix?doc=/Archives/edgar/data/0000764180/000076418025000019/mo-20241231.htm\"]"
+    ],
+    "pass_at_10": "9",
+    "mean": "0.9",
+    "variance": "0.09"
+  }
+}

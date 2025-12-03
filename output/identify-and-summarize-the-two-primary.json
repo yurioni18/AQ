@@ -1,0 +1,82 @@
+{
+  "id": "identify-and-summarize-the-two-primary",
+  "title": "Identify and summarize the two primary qualitative factors that explain the largest year-over-year change in the T&D expense line item across FY 2023–2024 for Netflix, Inc. (NFLX)",
+  "description": "1. Identify qualitative factor #1: higher personnel-related costs.\n  - The increase in T&D in FY 2024 (about $249.5M, or 9%) was primarily due to a $224 million increase in personnel-related costs. This represents roughly 90% of the total increase.\n  - Cross‑check the pattern in interim 2024 filings: \n  - Q2 2024 10‑Q: Netflix's T&D expenses accelerated, growing 8% for the quarter and 5% for the first half of the year compared to the prior year. Management attributes these specific increases to corresponding rises in personnel-related costs: $43 million for the three months and $52 million for the six months.\n  - Q3 2024 10‑Q: for the nine months ended September 30, T&D increased 7% year‑over‑year, which management explains as mainly due to a $122 million rise in personnel‑related costs, and the Q3 standalone increase (12% YoY) is similarly described as driven by a $70 million increase in personnel‑related costs. \n  - Taken together, this shows how throughout 2024, the dominant driver of T&D growth is Netflix’s higher personnel-related spending.\n \n 2. Identify qualitative factor #2: increased general-use computer hardware/software.\n  - As defined in the Q2 2024 10‑Q, the T&D expense includes general-use computer hardware/software.\n  - In the Q2 2024 10‑Q, management states that the T&D increase for both the three and six months ended June 30, 2024 vs 2023 was driven not only by higher personnel-related costs but also by an increase in general‑use computer hardware expenses\n  - The bulk of the FY 2023–2024 T&D (up $249.5M, +9%) increase is quantitatively driven by personnel costs, but the second key qualitative factor is higher spending on general-use hardware/software. This is the largest YoY change compared to the YoY change of FY 2022-2023 T&D (down about $35.3M, -1%).",
+  "answer": "1) A rise in personnel-related costs — roughly 90% of the $249.5M FY‑2024 vs FY‑2023 T&D increase. 2) Higher spending on general‑use computer hardware/software.",
+  "rubric": [
+    {
+      "operator": "correctness",
+      "criteria": "Recognizes that T&D expenses also include costs associated with general-use computer hardware and software."
+    },
+    {
+      "criteria": "Identifies the primary qualitative factor as a rise in personnel-related costs.",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Notes that, per the same Q2 2024 10-Q, T&D expenses increased by about 5% year-over-year for the first half.",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Notes that, per the Q2 2024 10-Q, T&D expenses increased by about 8% year-over-year for the quarter.",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "States that, per the Q2 2024 10-Q, the six-month T&D increase was primarily driven by higher personnel-related costs."
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Quantifies that the Q2 2024 10-Q cites an approximate $52 million increase in personnel-related costs for the six-month period."
+    },
+    {
+      "operator": "correctness",
+      "criteria": "States that, per the Q2 2024 10-Q, the Q2 2024 T&D increase was primarily driven by higher personnel-related costs."
+    },
+    {
+      "criteria": "Quantifies that the Q2 2024 10-Q cites an approximate $43 million increase in personnel-related costs for the quarter.",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "States that, per the Q3 2024 10-Q, technology and development expenses for the nine months ended September 30, 2024 increased by about 7% year-over-year.",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "States that, per the Q3 2024 10-Q, the nine-month T&D increase was primarily driven by higher personnel-related costs.",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Quantifies that the Q3 2024 10-Q cites an approximate $122 million increase in personnel-related costs for the nine-month period.",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "States that Q3 2024 standalone technology and development expenses increased by about 12% year-over-year.",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "States that, per the Q3 2024 10-Q, the Q3 2024 T&D increase was primarily driven by higher personnel-related costs.",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Quantifies that the Q3 2024 10-Q cites an approximate $70 million increase in personnel-related costs for the quarter.",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Identifies the second qualitative factor as increased spending on general-use computer hardware/software within T&D."
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Approximately 90% of the $249.5M FY‑2024 vs FY‑2023 increase in T&D is attributable to personnel-related costs."
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 16,
+    "filing_links": [
+      "[\"https://www.sec.gov/ix?doc=/Archives/edgar/data/0001065280/000106528025000044/nflx-20241231.htm\"]"
+    ],
+    "pass_at_10": "2",
+    "mean": "0.2",
+    "variance": "0.16"
+  }
+}

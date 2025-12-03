@@ -1,0 +1,46 @@
+{
+  "id": "what-is-the-percentage-growth-of-vmis-rd-as-a-of",
+  "title": "What is the percentage growth of VMI's R&D as a % of Product Sales from FY2023 to FY2024? Format answer as a % with two decimal places.",
+  "description": "1. Use VMI's 10-K to find FY2023 and FY2024 inputs for R&D expenses, which are 55,000 thousand and 59,000 thousand, respectively.\n \n 2. Use Valmont's 10-K to find FY2023 and FY2024 inputs for Product Sales, which are 3,772,835 thousand and 3,660,779 thousand, respectively.\n \n 3. Using inputs from steps 1 and 2, calculate R&D as a % of Product Sales for each year: FY2023 = 55,000/3,772,835 = 1.4578% and FY2024 = 59,000/3,660,779 = 1.6117%.\n \n 4. Calculate percentage growth of the ratio from FY2023 to FY2024: ((1.6117%-1.4578%) / 1.4578%) x 100 = 10.56%",
+  "answer": "10.56%",
+  "rubric": [
+    {
+      "criteria": "Use R&D expense of 55,000 thousand for FY2023 as an input",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Use R&D expense of 59,000 thousand for FY2024 as an input"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Use Product Sales of 3,772,835 thousand for FY2023 as an input"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Use Product Sales of 3,660,779 thousand for FY2024 as an input"
+    },
+    {
+      "criteria": "Calculate FY2023 R&D as % of Product Sales using the formula: 55,000/3,772,835 = 1.4578%",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Calculate FY2024 R&D as % of Product Sales using the formula: 59,000/3,660,779 = 1.6117%"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Compute percentage growth of the ratio using the formula: ((1.6117% - 1.4578%) / 1.4578%) × 100 = 10.56%"
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 88,
+    "filing_links": [
+      "[\"https://www.sec.gov/Archives/edgar/data/102729/000010272924000013/vmi-20231230x10k.htm\"]"
+    ],
+    "pass_at_10": "9",
+    "mean": "0.9",
+    "variance": "0.09"
+  }
+}

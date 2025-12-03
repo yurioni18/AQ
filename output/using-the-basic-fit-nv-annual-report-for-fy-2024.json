@@ -1,0 +1,34 @@
+{
+  "id": "using-the-basic-fit-nv-annual-report-for-fy-2024",
+  "title": "Using the Basic-Fit N.V. Annual Report for FY 2024, calculate the Underlying Price-to-Earnings (P/E) Ratio using the year-end 2024 share price. Round the final ratio to 2 decimal places.",
+  "description": "To determine the Underlying Price-to-Earnings (P/E) Ratio for FY 2024, use the following formula: FY 2024 Closing Share Price divided by FY 2024 Diluted Underlying Net Result per Share.\n \n Search the Shareholder Information section of Basic-Fit’s 2024 Annual Report to locate the share price at year-end 2024. Record this value as €22.58.\n \n Search the Key Figures section of the Annual Report to locate the Diluted Underlying Net Result per Share. Record this value as €0.65. Ensure you use the diluted figure which adjusts for exceptional items and potential share dilution, based on the Underlying Net Result of €43.6 million.\n \n Calculate the final ratio: €22.58 / €0.65 = 34.7384…\n \n Round to two decimal places to arrive at a final ratio of 34.74.",
+  "answer": "34.74",
+  "rubric": [
+    {
+      "operator": "correctness",
+      "criteria": "Uses share price at year-end 2024 = €22.58 as an input"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Uses the Diluted underlying net result per share = €0.65 as an input"
+    },
+    {
+      "criteria": "Calculates 22.58 / 0.65 = 34.738...",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Calculates final Underlying Price-to-Earnings Ratio for FY 2024 = 34.74, rounded to exactly two decimal places",
+      "operator": "correctness"
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 36,
+    "filing_links": [
+      "[\"https://corporate.basic-fit.com/docs/Basic-Fit%20Annual_Report_2024_Webversion.pdf?a=6YiUByKgbZ06bBQ3VnLkRj\"]"
+    ],
+    "pass_at_10": "4",
+    "mean": "0.4",
+    "variance": "0.24"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "id": "compared-with-the-corresponding-quarter-in-2024",
+  "title": "Compared with the corresponding quarter in 2024, which region saw the steepest improvement in Western Digital’s revenue mix as a share of consolidated sales in the Quarter ending October 3, 2025, and did that change align with or diverge from the region exhibiting the highest revenue growth percentage?",
+  "description": "1) Pull Western Digital's total revenue and regional revenue breakdowns for the three months ended October 3, 2025 (Q1'26) as well as the comparable quarter ended Sep 27, 2024 (Q1'25), you can find this in disaggregate revenue in the Form 10-Q:\n a) Asia: 1175m (Q1'26) vs 686m (Q1'25)\n bAmericas: 1100m (Q1'26) vs 1247m (Q1'25)\n c) EMEA: 543m (Q1'26) vs 279m (Q1'25)\n d) Total Rev: 2818m (Q1'26) vs 2212m (Q1'25)\n \n 2) Calculate the revenue mix using (% rev by region = regional revenue / total rev) and the change in percentage points versus the prior-year quarter:\n a) Q1'26 mix by region\n  i) Asia: 1175/2818 = 41.7%\n  ii) Americas: 1100/2818 = 39.03%\n  iii) EMEA: 543/2818 = 19.27%\n b) Q1'25 mix by region\n  i) Asia: 686/2212 = 31.01%\n  ii) Americas: 1247/2212 = 56.37%\n  iii) EMEA: 279/2212 = 12.61%\n c) Changes in mix by region\n  i) Asia: 41.7 - 31.01 = +10.69% \n  ii) Americas: 39.03 - 56.37 = -17.34% \n  iii) EMEA: 19.27 - 12.61 = +6.66%\n d) The steepest improvement in share of revenue mix was in the Asia region, at 10.69%\n \n 3) Calculate the regional YoY growth percentages:\n a) Asia: (1175 - 686)/686 = +71.28%\n b) Americas: (1100 - 1247)/1247 = -11.79%\n c) EMEA: (543 - 279)/279 = +94.62%\n d) The highest growth in terms of raw change from Q1'25 to Q1'26 was experienced by the EMEA region, at 94.62%\n \n 4) Overall Summary: The region with the greatest improvement in the total overall share of revenue was Asia, with an increase in revenue share of 10.69% from Q1'25 to the corresponding Quarter in the 2026 Fiscal Year; this deviated from the region with the highest raw revenue growth over the same period, which was EMEA at 94.62%. \n \n Thus the highest share region and the highest growth region aren't the same",
+  "answer": "Asia saw the steepest improvement in revenue mix (+10.69 percentage points), which diverged from EMEA - the region with the highest year‑over‑year revenue growth (+94.62%).",
+  "rubric": [
+    {
+      "operator": "correctness",
+      "criteria": "Pull WDC segment revenue, Asia Q1'26: 1175m"
+    },
+    {
+      "criteria": "Pull WDC segment revenue, Asia Q1'25: 686m",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Pull WDC segment revenue, Americas Q1'26: 1100m",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Pull WDC segment revenue, Americas Q1'25: 1247m"
+    },
+    {
+      "criteria": "Pull WDC segment revenue, EMEA Q1'26: 543m",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Pull WDC segment revenue, EMEA Q1'25: 279m"
+    },
+    {
+      "criteria": "Pull WDC total revenue, Q1'26: 2818m",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Pull WDC total revenue, Q1'25: 2212m",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Calculate Q1'26 Asia mix: 1175/2818 = 41.7%"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Calculate Q1'26 Americas mix: 1100/2818 = 39.03%\n"
+    },
+    {
+      "criteria": "Calculate Q1'26 EMEA mix: 543/2818 = 19.27%",
+      "operator": "correctness"
+    },
+    {
+      "criteria": "Asia mix: 686/2212 = 31.01%\n",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Calculate Q1'25 Americas mix: 1247/2212 = 56.37%\n"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Calculate Q1'25 EMEA mix: 279/2212 = 12.61%"
+    },
+    {
+      "criteria": "Calculate changes in mix Asia: 41.7 - 31.01 = +10.69% \n",
+      "operator": "correctness"
+    },
+    {
+      "criteria": " Calculate changes in mix Americas: 39.03 - 56.37 = -17.34% \n",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": " Calculate changes in mix EMEA: 19.27 - 12.61 = +6.66%"
+    },
+    {
+      "criteria": "Calculate regional YoY growth Asia: (1175 - 686)/686 = +71.28%\n",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Calculate regional YoY growth Americas: (1100 - 1247)/1247 = -11.79%\n"
+    },
+    {
+      "criteria": "Calculate regional YoY growth EMEA: (543 - 279)/279 = +94.62%",
+      "operator": "correctness"
+    },
+    {
+      "operator": "correctness",
+      "criteria": "Asia saw the steepest improvement in revenue mix: an increase of +10.69 percentage points (from 31.01% to 41.7%)."
+    },
+    {
+      "operator": "correctness",
+      "criteria": "EMEA had the highest year‑over‑year revenue growth: +94.62% (from $279m to $543m)."
+    },
+    {
+      "operator": "correctness",
+      "criteria": "The region with the steepest improvement in revenue mix (Asia) diverged from the region with the highest year‑over‑year revenue growth (EMEA)."
+    }
+  ],
+  "metadata": {
+    "source": "google-sheets",
+    "row_index": 78,
+    "filing_links": [
+      "[\"https://www.sec.gov/ix?doc=/Archives/edgar/data/0000106040/000162828025047613/wdc-20251003.htm\"]"
+    ],
+    "pass_at_10": "8",
+    "mean": "0.8",
+    "variance": "0.16"
+  }
+}
