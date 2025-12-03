@@ -1,0 +1,36 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "Did UBER’s year-over-year TTM Adjusted EBITDA growth rate accelerate or decelerate QoQ in Q2-FY2025? By how much? Express your answer as a percentage, rounded to two decimal places."
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "Task completion",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "[{\"criteria\":\"Idenitfy Q2 FY2025 adj. EBITDA as = $2,119m\",\"operator\":\"correctness\"},{\"criteria\":\"Identify Q2 FY2024 adj. EBITDA as = $1,570m\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Identify Q1 FY2025 adj. EBITDA as = $1,868m\"},{\"criteria\":\"Identify Q1 FY2024 adj. EBITDA as = $1,382m\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Identify Q4 FY2024 adj. EBITDA as = $1,842m\"},{\"operator\":\"correctness\",\"criteria\":\"Identify Q4 FY2023 adj. EBITDA as = $1,283m\"},{\"criteria\":\"Identify Q3-FY2024 adj. EBITDA as = $1,690m\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Identify Q3-FY2023 adj. EBITDA as = $1,092m\"},{\"criteria\":\"Identify Q2 FY2023 adj. EBITDA as = $916m\",\"operator\":\"correctness\"},{\"criteria\":\"Calculate TTM Q2-FY2025 adj. EBITDA as = $7,519m\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Compute TTM Q2-FY2024 adj. EBITDA as = $5,327m\"},{\"operator\":\"correctness\",\"criteria\":\"Compute TTM Q1-FY2025 adj. EBITDA as = $6,970m\"},{\"operator\":\"correctness\",\"criteria\":\"Compute TTM Q1-FY2024 adj. EBITDA as = $4,673m\"},{\"operator\":\"correctness\",\"criteria\":\"Compute year over year TTM growth Q2-FY2025 as = 41.1488642763%\"},{\"operator\":\"correctness\",\"criteria\":\"Compute year over year TTM growth Q1-FY2025 as = 49.1547185962%\"},{\"operator\":\"correctness\",\"criteria\":\"Uber’s year over year TTM Q2-FY2025 Adjusted EBITDA growth rate decelerated quarter over quarter by 8.01%.\"}]"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

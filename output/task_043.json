@@ -1,0 +1,36 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "Using Kimberly-Clark’s (KMB) FY 2024 10-K, what is the adjusted EBITDA? Express your answer in $ millions rounded to 2 decimals."
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "Task completion",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "[{\"criteria\":\"Final adjusted EBITDA reported as $4,018.00 million (rounded to 2 decimals).\\n\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"EBITDA = $3,991 million.\\n\"},{\"criteria\":\"Identified $565 million gain from sale of PPE business as an adjustment that is subtracted from EBITDA.\\n\",\"operator\":\"correctness\"},{\"criteria\":\"Identified $456 million of charges related to the 2024 Transformation Initiative as an adjustment that is added to EBITDA.\\n\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Identified $136 million of charges for impairment of intangible assets and litigation and regulatory matters associated with a previously exited business as an adjustment that is added to EBITDA.\\n\"},{\"operator\":\"correctness\",\"criteria\":\"Arithmetic combining EBITDA and adjustments: $3,991 - $565 + $456 + $136 = $4,018.00 million.\\n\"},{\"criteria\":\"EBIT (operating profit) is located as $3,210 million\\n\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"depreciation and amortization is determined as $781\\n\"}]"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

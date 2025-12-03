@@ -1,0 +1,36 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "Using Fortrea’s FY2024 (FTRE) Form 10-K, analyze how the company’s business composition and working-capital profile have evolved:\n a) Compute revenue mix by geography (North America, Europe, Other) for 2022, 2023, 2024 and express each region’s % of total revenue.\n b) Compute each region’s percentage-point change in mix from 2022 → 2024.\n c) Compute the 2-year CAGR (2022→2024) for each region and total company.\n d) Using the contracts note, compute Fortrea’s net contract asset/(liability) position as a % of revenue for 2023 and 2024, where net = (Accounts receivable + Unbilled services − Allowance for credit losses − Unearned revenue).\n e) Compute an AR+Unbilled DSO equivalent (days) for 2023 and 2024: ((Accounts receivable + Unbilled services) / Revenue) × 365.\n f) Provide one sentence interpreting the mix and working-capital trend."
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "Task completion",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "[{\"operator\":\"correctness\",\"criteria\":\"2022 North America revenue = $1,415.5M\"},{\"criteria\":\"2022 Europe revenue =$841.9M\",\"operator\":\"correctness\"},{\"criteria\":\"2022 Other revenue = $579.6M\",\"operator\":\"correctness\"},{\"criteria\":\"2022 Total revenue = $2,837.0M\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"2023 North America revenue = $1,398.4M\"},{\"operator\":\"correctness\",\"criteria\":\"2023 Europe revenue = $827.5M\"},{\"operator\":\"correctness\",\"criteria\":\"2023 Other revenue = $616.6M\"},{\"operator\":\"correctness\",\"criteria\":\"2023 Total revenue =$2,842.5M\"},{\"operator\":\"correctness\",\"criteria\":\"2024 North America revenue= $1,269.5M\"},{\"operator\":\"correctness\",\"criteria\":\"2024 Europe revenue =$800.0M\"},{\"operator\":\"correctness\",\"criteria\":\"2024 Other revenue $626.9M\"},{\"criteria\":\"2024 Total revenue $2,696.4M\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"2022 North America mix 49.89%\"},{\"criteria\":\"2022 Europe mix 29.68%\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"2022 Other mix 20.43%\"},{\"criteria\":\"2023 North America mix 49.20%\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"2023 Europe mix 29.11%\"},{\"criteria\":\"2023 Other mix 21.69%\",\"operator\":\"correctness\"},{\"criteria\":\"2024 North America mix 47.08%\",\"operator\":\"correctness\"},{\"criteria\":\"2024 Europe mix 29.67%\",\"operator\":\"correctness\"},{\"criteria\":\"2024 Other mix 23.25%\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"North America mix change from 2022 to 2024 −2.81 percentage points\"},{\"criteria\":\"Europe mix change from 2022 to 2024 −0.01 percentage points\",\"operator\":\"correctness\"},{\"criteria\":\"Other mix change from 2022 to 2024 +2.82 percentage points\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"North America 2‑year CAGR from 22 to 24 −5.30%\"},{\"operator\":\"correctness\",\"criteria\":\"Europe 2‑year CAGR from 22 to 24 −2.52%\"},{\"operator\":\"correctness\",\"criteria\":\"Other 2‑year CAGR from 2022 to 2024 +4.00%\"},{\"criteria\":\"Total company 2‑year CAGR (from 2022 to 2024) −2.51%\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"2023 Accounts receivable = $420.2M\"},{\"operator\":\"correctness\",\"criteria\":\"2023 Unbilled services = $600.0M\"},{\"operator\":\"correctness\",\"criteria\":\"2023 Allowance for credit losses= $31.7M\"},{\"criteria\":\"2023 Unearned revenue = $214.2M\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"2024 Accounts receivable = $156.5M\"},{\"criteria\":\"2024 Unbilled services = $542.3M\",\"operator\":\"correctness\"},{\"criteria\":\"2024 Allowance for credit losses = $39.3M\",\"operator\":\"correctness\"},{\"criteria\":\"2024 Unearned revenue= $353.3M\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Net contract asset as (%age of revenue) 2023 27.24%\"},{\"criteria\":\"Net contract asset as(%age of revenue) 2024 11.36%\",\"operator\":\"correctness\"},{\"criteria\":\"AR+Unbilled DSO equivalent 2023 131.0 days\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"AR+Unbilled DSO equivalent 2024 94.6 days\"},{\"operator\":\"correctness\",\"criteria\":\"Final interpretation sentence states mix tilted away from North America toward Other while total revenue contracted modestly, and working‑capital intensity fell materially (net contract assets ~27.24% to ~11.36%, DSO down ~36 days), suggesting tighter billing/advance‑billing dynamics and a portfolio skew toward longer‑duration non‑NA studies burning down more efficiently.\"}]"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

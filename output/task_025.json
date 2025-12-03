@@ -1,0 +1,36 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "How did Stride's (ticker: LRN) adjusted operating income compare to management projections (at midpoint) on a quarterly basis in FY2025? Format as % BEAT or MISS. Use guidance provided on a quarterly basis. If the company did not provide guidance for one or more quarters, indicate this in the answer as \"no guidance.\" Format the answer as: \"[X]Q FY2025 [X.XX] % beat/miss / no guidance; ...\"."
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "Task completion",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "[{\"criteria\":\"Q1 FY2025 Actual AOI = $58.4M; \",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Q2 FY2025 Actual AOI = $135.6M;\"},{\"criteria\":\"Q3 FY2025 Actual AOI = $141.7M;\",\"operator\":\"correctness\"},{\"criteria\":\"Q4 FY2025 Actual AOI = $130.6M\",\"operator\":\"correctness\"},{\"criteria\":\"Q1 FY2025: no guidance provided by company\",\"operator\":\"correctness\"},{\"criteria\":\"Q2 FY2025 AOI guidance range $115–$125M with midpoint $120.0M\",\"operator\":\"correctness\"},{\"criteria\":\"Q3 FY2025 AOI guidance range $130–$140M with midpoint $135.0M\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Full FY2025 AOI guidance $455–$465M midpoint $460.0M -> Q4 AOI midpoint computed as $460.0M − $58.4M − $135.6M − $141.7M = $124.3M\"},{\"operator\":\"correctness\",\"criteria\":\"Q2 FY2025 percent beat vs midpoint =13.00% BEAT\"},{\"operator\":\"correctness\",\"criteria\":\"Q3 FY2025 percent beat vs midpoint = 5.00% BEAT\"},{\"operator\":\"correctness\",\"criteria\":\"Q4 FY2025 percent beat vs midpoint = 5.00% BEAT\"},{\"criteria\":\"Final formatted answer string present as: 1Q FY2025 no guidance; 2Q FY2025 13.00% BEAT; 3Q FY2025 5.00% BEAT; 4Q FY2025 5.00% BEAT.\",\"operator\":\"correctness\"}]"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

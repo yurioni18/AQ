@@ -1,0 +1,36 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "Calculate the EV/EBITDA and EV/Revenue metrics for Qualcomm (QCOM) in FY 2025. Use the shares outstanding and share price at close from Sep 28, 2025 for the EV calculation. Express the answer using two decimal points of rounding."
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "Task completion",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "[{\"criteria\":\"Include Common shares outstanding = 1,074M as input\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Include Share price used = $169.2 as input\"},{\"criteria\":\"Calculate Market capitalization = $169.2 * 1074 = $181,720.8M\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Include Short-term debt = $0M as input\"},{\"criteria\":\"Include Long-term debt = $14,811M as input\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Calculate Total debt = $14,811M \"},{\"operator\":\"correctness\",\"criteria\":\"Include Cash and cash equivalents = $5,520M as input\"},{\"operator\":\"correctness\",\"criteria\":\"Calculate Enterprise Value (EV) = $181,720.8M + $14,811M - $5,520M = $191,011.8M\"},{\"operator\":\"correctness\",\"criteria\":\"Include Net income = $5,541M as input\"},{\"criteria\":\"Include Interest = $664M as input\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Include Tax = $7,122M as input\"},{\"operator\":\"correctness\",\"criteria\":\"Include Depreciation & amortization = $1,602M as input\"},{\"criteria\":\"Subtract Investment and other income = $972M as input\",\"operator\":\"correctness\"},{\"criteria\":\"Calculate EBITDA = $13,957M (5,541 + 664 +7,122 + 1,602 - 972)\",\"operator\":\"correctness\"},{\"criteria\":\"Calculate EV/EBITDA = 13.69×\",\"operator\":\"correctness\"},{\"criteria\":\"Include Revenue = $44,284M as input\",\"operator\":\"correctness\"},{\"criteria\":\"Calculate EV/Revenue = 4.31×\",\"operator\":\"correctness\"},{\"criteria\":\"Round EV/EBITDA to two decimal points = 13.69x\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Round EV/Revenue to two decimal points = 4.31x\"}]"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

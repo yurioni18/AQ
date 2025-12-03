@@ -1,0 +1,36 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "Calculate Stride's (ticker: LRN) EV/Operating Income multiple for fiscal year 2025 using their latest 10-K filing. Assume share price = $130 and F/D S/O = 50 million. Show answer as a number (multiple) rounded to 1 decimal."
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "Task completion",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "[{\"criteria\":\"Income from operations (located in Income Statement)= $360.094 million.\",\"operator\":\"correctness\"},{\"criteria\":\"Long-term debt (located in Balance Sheet)= $416.322 million.\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Current portion of finance lease liability (located in Balance Sheet) = $42.316 million.\"},{\"criteria\":\"Long-term finance lease liability (located in Balance Sheet) = $44.567 million.\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Cash and cash equivalents (located in Balance Sheet) = $782.497 million.\"},{\"criteria\":\"Marketable Securities (located in Balance Sheet) = $202.769 million.\",\"operator\":\"correctness\"},{\"criteria\":\"Equity value (Using stated in the promt assumptions) = Share Price × F/D/S/O = $130 × 50,000,000 = $6,500,000,000.\",\"operator\":\"correctness\"},{\"criteria\":\"Enterprise value (EV) = Market Cap + Long-term debt + Current portion of finance lease liability + Long-term finance lease liability - Cash and cash equivalents - Marketable Securities = $6,017,939,000.\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"EV/Operating Income multiple (rounded to 1 decimal) = 16.7x.\"}]"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

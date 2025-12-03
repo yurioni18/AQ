@@ -1,0 +1,36 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "What is Microsoft’s (NASDAQ: MSFT) Adjusted EBITDA for the fiscal year ended June 30, 2025? Express the answer in $M rounded and express as a whole number."
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "Task completion",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "[{\"criteria\":\"Operating income extracted as $128,528M from the income statement\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Depreciation, amortization & other expense extracted as $34,153M from the cash flow statement\"},{\"operator\":\"correctness\",\"criteria\":\"EBITDA calculation shown as $128,528M + $34,153M = $162,681M\"},{\"operator\":\"correctness\",\"criteria\":\"Statement to look for non-GAAP adjustments such as stock-based compensation and non-cash investment gains/losses\"},{\"operator\":\"correctness\",\"criteria\":\"Stock-based compensation extracted as $11,974M from the cash flow statement\"},{\"criteria\":\"Net recognized losses on investments & derivatives extracted as $609M from the cash flow statement\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Adjusted EBITDA calculation shown as $162,681M + $11,974M + $609M = $175,264M\"},{\"operator\":\"correctness\",\"criteria\":\"Final Answer presented as $175,264 million\"}]"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

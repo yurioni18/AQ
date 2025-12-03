@@ -1,0 +1,36 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "What was the total intrinsic value of options exercised by McAfee (MFE) in 2008. Give the value stated in the note and the approximate intrinsic value calculated by the number of options * the average price of options exercised. Express the answer in $M rounded to 2 decimal places of precision"
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "Task completion",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "[{\"criteria\":\"Note-stated total intrinsic value of options exercised during 2008 = $90.10M\",\"operator\":\"correctness\"},{\"criteria\":\"States approximation formula as: (number of options exercised in 2008) × (weighted-average exercise price of options exercised in 2008)\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Number of options exercised in 2008 reported as 5862\"},{\"criteria\":\"Calculates price difference 34.59 - 19.91 = 14.68\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Approximate intrinsic value computed and reported as $86.05M\"}]"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

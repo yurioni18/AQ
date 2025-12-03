@@ -1,0 +1,36 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "What was the YoY change expressed as a percentage in Elanco's (ELAN) adjusted EBITDA margin for 2Q2025 versus 2Q2024? Please round to two decimals"
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "Task completion",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "[{\"criteria\":\"Adjusted EBITDA Margin for 2Q2025 is 19.2%\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Adjusted EBITDA Margin for 2Q2024 is 23.2%\"},{\"criteria\":\"Difference between 2Q2025 and 2Q2024 Adjusted EBITDA Margin is -4.00%\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Percent change calculated by dividing the -4.00% difference by 23.2% and multiplying by 100\"},{\"operator\":\"correctness\",\"criteria\":\"Final Answer (YoY percent change) is -17.24% (rounded to two decimals)\"}]"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

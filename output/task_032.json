@@ -1,0 +1,36 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "Compare Funko’s (FNKO) reported Q1 2025 gross margin to gross margin guidance issued with Q4 2024 results. Report the outcome as “% BEAT” or “% MISS,”, rounded to two decimal places."
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "Task completion",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "[{\"criteria\":\"Reported Q1 2025 gross margin = 40.3% (May 8, 2025 press release).\",\"operator\":\"correctness\"},{\"criteria\":\"Guided Q1 2025 gross margin = approximately 39.0% (March 6, 2025 press release).\",\"operator\":\"correctness\"},{\"criteria\":\"Computed difference between reported and guided gross margin = 1.30 percentage points (40.3% − 39.0%), rounded to two decimals.\",\"operator\":\"correctness\"},{\"criteria\":\"Final reported outcome = \\\"1.30% BEAT\\\".\",\"operator\":\"correctness\"}]"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

@@ -1,0 +1,36 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "Using LATTICE SEMICONDUCTOR (ticker: LSCC) FY 2024 10-K and FRED annual nominal GDP data (current US$) calcualte year over year % change in gross profit generated from customers in China from FY 2023 to FY 2024 assuming FY2023 Revenue from China is as reported in the most recent 10-K filing, year over year % change of revenue in China from FY2023 to FY2024 is equal to annual nominal % growth rate of GDP of China in 2024, gross margins of renenue in China is equal to consolidated gross margin in both periods. Provide answer in % rounded to 2 decimals."
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "Task completion",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "[{\"criteria\":\"FY2023 revenue from customers in China = $239,192 thousand\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"FY2023 Consolidated Revenue = $737,154\"},{\"operator\":\"correctness\",\"criteria\":\"FY2024 Consolidated Revenue = $509,401\"},{\"criteria\":\"FY2023 Consolidated gross profit = $514,670\",\"operator\":\"correctness\"},{\"criteria\":\"FY2024 Consolidated gross profit = $340,400\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"FY2023 Gross margin = 69.8%\"},{\"operator\":\"correctness\",\"criteria\":\"FY2024 Gross margin = 66.8%\"},{\"criteria\":\"GDP2024 (China) = $18,743,803,170,827.2\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"GDP2023 (China) = $18,270,356,654,533.2\"},{\"criteria\":\"China nominal GDP growth 2024 = 0.0259133702 (2.59133702%)\",\"operator\":\"correctness\"},{\"criteria\":\"Projected China Revenue FY2024 = $245,390,270.85\",\"operator\":\"correctness\"},{\"criteria\":\"Gross profit FY2023 (China) = $166,956,016.00\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Gross profit FY2024 (China) = $163,920,700.93\"},{\"operator\":\"correctness\",\"criteria\":\"Year‑over‑year % change in China gross profit = -1.82%\"}]"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

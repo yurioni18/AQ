@@ -1,0 +1,36 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "What are the items that McAfee (MFE) removes from GAAP Net Income in calculating Non-GAAP Net Income for the year 2009? What is the dollar impact of each of these? Express the answer in $M rounded to 2 decimal places of precision"
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "Task completion",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "[{\"criteria\":\"Stock-based compensation expense +$109.09M\",\"operator\":\"correctness\"},{\"criteria\":\"Amortization of purchased technology +$77.96M\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Amortization of intangibles +$40.72M\"},{\"operator\":\"correctness\",\"criteria\":\"Acquisition-related costs +$34.45M\"},{\"criteria\":\"Restructuring costs +$13.83M\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"litigation related costs +$5.53M\"},{\"criteria\":\"loss on sale of assets +$0.474M\",\"operator\":\"correctness\"},{\"criteria\":\"Total impact is 282.05M\",\"operator\":\"correctness\"}]"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

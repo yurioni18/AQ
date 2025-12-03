@@ -1,0 +1,36 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "By how much did DUOL's deferred revenue attributable to subscriptions increase during 2024? Express your answer in $ millions rounded to one decimal."
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "Task completion",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "[{\"operator\":\"correctness\",\"criteria\":\"Identify the deferred revenue attributable to subscriptions formula as Formula: 2024 Subscription Bookings - 2024 Subscription Revenue\"},{\"operator\":\"correctness\",\"criteria\":\"Find Subscription bookings from item 7 = $730.737 million\"},{\"criteria\":\"Find Subscription revenue from item 7 = $607.531 million\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Calculate the difference = $123.206 million (730.737 − 607.531)\"},{\"operator\":\"correctness\",\"criteria\":\"Rounded the difference to one decimal place = $123.2 million (Final Answer: $123.2 million)\"}]"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

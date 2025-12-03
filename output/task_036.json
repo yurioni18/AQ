@@ -1,0 +1,36 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "Using the Basic-Fit N.V. Annual Report for FY 2024, calculate the Underlying Price-to-Earnings (P/E) Ratio using the year-end 2024 share price. Round the final ratio to 2 decimal places."
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "Task completion",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "[{\"operator\":\"correctness\",\"criteria\":\"Uses share price at year-end 2024 = €22.58 as an input\"},{\"operator\":\"correctness\",\"criteria\":\"Uses the Diluted underlying net result per share = €0.65 as an input\"},{\"criteria\":\"Calculates 22.58 / 0.65 = 34.738...\",\"operator\":\"correctness\"},{\"criteria\":\"Calculates final Underlying Price-to-Earnings Ratio for FY 2024 = 34.74, rounded to exactly two decimal places\",\"operator\":\"correctness\"}]"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

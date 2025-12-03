@@ -1,0 +1,36 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "What is Kimberly-Clark's (KMB) Enterprise Value as of December 31, 2024 if we assumed that KMB's share price was the same as the average price paid per share by KMB in December? Express the answer in $M rounded to 2 decimal places."
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "Task completion",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "[{\"operator\":\"correctness\",\"criteria\":\"Average price paid per share by KMB in December 2024 is stated as $133.74 per share\"},{\"criteria\":\"Number of common shares outstanding stated as 331684601 shares\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"2024 Equity Value is computed as $44,359.50 Million\"},{\"criteria\":\"Debt payable within one year stated as $568 million\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Long-term debt stated as $6,875 million\"},{\"operator\":\"correctness\",\"criteria\":\"Total debt stated as $7,443 million\"},{\"operator\":\"correctness\",\"criteria\":\"Cash & cash equivalents stated as $1,021 million\"},{\"operator\":\"correctness\",\"criteria\":\"Net debt computed as $7,443 − $1,021 = $6,422.00 million\"},{\"criteria\":\"Noncontrolling interests stated as $135\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Enterprise Value formula given as EV = Equity Value + Net Debt + Non-controlling interest\"},{\"criteria\":\"Final Enterprise Value computed as $44,359.50 + $6,422 + $135 = $50,916.50 Million\",\"operator\":\"correctness\"}]"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

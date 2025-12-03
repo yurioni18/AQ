@@ -1,0 +1,36 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "Calculate the EV/EBITDA and EV/Revenue metrics for Adobe (ADBE) in FY 2023. Use the shares outstanding and share price at close from Dec 1, 2023 for the EV calculation. Express the answer using two decimal points of rounding."
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "Task completion",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "[{\"operator\":\"correctness\",\"criteria\":\"Include common shares outstanding = 455M as input\"},{\"operator\":\"correctness\",\"criteria\":\"Include short-term debt = $0M as input\"},{\"operator\":\"correctness\",\"criteria\":\"Include long-term debt = $3,634M as input\"},{\"operator\":\"correctness\",\"criteria\":\"Calculate total debt = $3,634M\"},{\"operator\":\"correctness\",\"criteria\":\"Include cash and cash equivalents = $7,141M as input\"},{\"criteria\":\"Include short-term investments = $701M as input\",\"operator\":\"correctness\"},{\"criteria\":\"Calculate EV = $274,465.85M\",\"operator\":\"correctness\"},{\"criteria\":\"Include net income = $5,428M as input\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Include total non-operating income (expense) = $149M as input\"},{\"operator\":\"correctness\",\"criteria\":\"Include tax = $1,371M as input\"},{\"criteria\":\"Include depreciation and amortization = $872M as input\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Calculate EBITDA = $7,522M\"},{\"criteria\":\"Calculate EV/EBITDA = 36.49x\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Include revenue = $19,409M as input\"},{\"criteria\":\"Calculate EV/Revenue = 14.14x\",\"operator\":\"correctness\"},{\"criteria\":\"Round EV/EBITDA to two decimal points = 36.49x\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Round EV/Revenue to two decimal points = 14.14x\"},{\"criteria\":\"Total Cash and Investments = $7,842M\",\"operator\":\"correctness\"},{\"criteria\":\"Share Price on December 1, 2023 is $612.47\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Market Capitalization calculated as share price x shares outstanding = $278,673.85M\"}]"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

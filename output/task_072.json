@@ -1,0 +1,36 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "Of Walmart's (NYSE: WMT) long term debt as of FY 2025 (including deferred loan costs, discounts, fair value hedges, foreign-held debt and secured debt) with a fixed rate, what percentage has a maturity date of after FY 2030? Express the answer as a percentage rounded to two decimal points of precision."
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "Task completion",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "[{\"operator\":\"correctness\",\"criteria\":\"Find Walmart's total long term debt with a fixed rate as of FY 2025: $35,999M\"},{\"operator\":\"correctness\",\"criteria\":\"Find Walmart's long term debt with a fixed rate maturing after FY 2030: $22,914\"},{\"criteria\":\"Calculates percentage of Walmart's long term debt with a fixed rate expected to mature after FY 2030: (22,914 ÷ 35,999) × 100 = 63.6518%\",\"operator\":\"correctness\"},{\"criteria\":\"Final answer is rounded to two decimal points of precision\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Final Answer explicitly states value as 63.65%\"}]"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

@@ -1,0 +1,36 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "What were GOOGL’s hedging gains (losses) as a percentage of the total FX revenue impact for Q2 FY2025?"
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "Task completion",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "[{\"criteria\":\"Q2 FY2025 hedging gains/(losses) = $(112) million\",\"operator\":\"correctness\"},{\"criteria\":\"Q2 FY2025 total FX revenue impact = $543 million\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Hedging losses as percentage of total FX revenue impact = (-$112 million / $543 million) * 100 = -20.63%\"}]"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

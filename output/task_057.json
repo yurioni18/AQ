@@ -1,0 +1,36 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "Calculate NextEra Energy’s (NYSE: NEE) implied fuel cost per megawatt hour (MWh) for its FPL (Florida Power & Light) segment in FY 2024"
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "Task completion",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "[{\"operator\":\"correctness\",\"criteria\":\"Pull NEE's FPL segment's fuel, purchased power, and interchange expense as $4188 million for 2024FY \\n\\n\"},{\"operator\":\"correctness\",\"criteria\":\"Find FPL's total energy sales as 141.9 TWh for 2024. \\n\"},{\"operator\":\"correctness\",\"criteria\":\"Convert FPL's total electricity sales (141.9 TWh) to MWh as 141.9x 1000000 =141900000 MWh\"},{\"criteria\":\"Calculate the fuel cost per MWh as 4188000000/141900000 = $29.5137 per MWh \",\"operator\":\"correctness\"},{\"criteria\":\"Round the final answer to the nearest two decimals = $29.51/MWh\",\"operator\":\"correctness\"}]"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

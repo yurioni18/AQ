@@ -1,0 +1,36 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "Based on GOOGL’s 10-Q Cash Flow Statements, did the company's FCF Conversion of Net Income to Common improve or worsen YoY for the Q2-FY2025 period? By how much? Define FCF as OCF - Capex. Express your answer as a percentage, rounded to two decimal places."
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "Task completion",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "[{\"operator\":\"correctness\",\"criteria\":\"Recognizes that FCF needs to be computed by subtracting CapEx from OCF.\"},{\"criteria\":\"Recognizes that Q2 figures need to be obtained by differencing H1 and Q1\",\"operator\":\"correctness\"},{\"criteria\":\"FY2025 H1 OCF = 63,897\",\"operator\":\"correctness\"},{\"criteria\":\"FY2025 H1 CapEx = 39,643\",\"operator\":\"correctness\"},{\"criteria\":\"FY2025 Q1 OCF = 36,150\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"FY2025 Q1 CapEx = 17,197\"},{\"criteria\":\"Q2-FY2025 OCF = 27,747\",\"operator\":\"correctness\"},{\"criteria\":\"Q2-FY2025 CapEx = 22,446\",\"operator\":\"correctness\"},{\"criteria\":\"Q2-FY2025 FCF = 5,301\",\"operator\":\"correctness\"},{\"criteria\":\"Q2-FY2025 Net income to common = 28,196\",\"operator\":\"correctness\"},{\"criteria\":\"Q2-FY2025 FCF conversion = 18.80%\",\"operator\":\"correctness\"},{\"criteria\":\"FY2024 H1 OCF = 55,488\",\"operator\":\"correctness\"},{\"criteria\":\"FY2024 H1 CapEx = 25,198\",\"operator\":\"correctness\"},{\"criteria\":\"FY2024 Q1 OCF = 28,848\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"FY2024 Q1 CapEx = 12,012\"},{\"criteria\":\"Q2-FY2024 OCF = 26,640\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Q2-FY2024 CapEx = 13,186\"},{\"criteria\":\"Q2-FY2024 FCF = 13,454\",\"operator\":\"correctness\"},{\"criteria\":\"Q2-FY2024 Net income to common = 23,619\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Q2-FY2024 FCF conversion = 56.96%\"},{\"operator\":\"correctness\",\"criteria\":\"YoY change in FCF conversion (Q2-25 − Q2-24) = −38.16 percentage points\"},{\"criteria\":\"Final conclusion: FCF conversion worsened YoY by 38.16%\",\"operator\":\"correctness\"}]"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

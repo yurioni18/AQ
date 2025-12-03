@@ -1,0 +1,36 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "What is Cava's (NYSE: CAVA) adjusted EBIT and EBITDA for the fiscal year ending in 2023? Make sure to factor operating and variable lease related line items. Use ratios to approximate any lease related line items that are not explicitly reported. Show answer in millions and with no decimal point precision."
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "Task completion",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "[{\"operator\":\"correctness\",\"criteria\":\"Fiscal year identified as ended December 31, 2023 and sources cited as FY2023 earnings press release and FY2023 Form 10-K\"},{\"criteria\":\"Adjusted EBITDA reported as $73,825 thousand ($73.825 million)\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Depreciation and amortization reported as $47,433 thousand ($47.433 million)\"},{\"criteria\":\"Operating lease cost reported as $44,201 thousand\",\"operator\":\"correctness\"},{\"criteria\":\"Variable lease cost reported as $1,421 thousand\",\"operator\":\"correctness\"},{\"criteria\":\"Pre-opening lease cost reported as $4,296 thousand\",\"operator\":\"correctness\"},{\"criteria\":\"Answer states lease-related costs are not added back in CAVA’s Adjusted EBITDA definition and therefore no ratio approximations are required\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Computed Adjusted EBIT equals $26,392 thousand (Adjusted EBITDA minus D&A)\"},{\"criteria\":\"Final Adjusted EBIT presented as $26 million in USD millions with no decimal precision\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Final Adjusted EBITDA presented as $74 million in USD millions with no decimal precision\"}]"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

@@ -1,0 +1,36 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "Calculate Duke Energy's (NYSE: DUK) implied average retail electricity price per MWh for FY 2024. Round to the nearest two decimals."
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "Task completion",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "[{\"operator\":\"correctness\",\"criteria\":\"Defines the average retail revenue per MWh as Retail electric revenue (Electric Utilities & Infrastructure) / Total retail electric sales in MWh for 2024.\"},{\"criteria\":\"States FY 2024 Retail electric revenue for Electric Utilities & Infrastructure as $24,593 million.\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"States the FY2024 total retail electric sales as 214,585 GWh from the Electric Utilities & Infrastructure segment.\"},{\"criteria\":\"Converts the 214,585 GWh to 214,585,000 MWh using a factor of 1,000.\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Calculates the unrounded implied average retail price per MWh as $114.60726.\"},{\"operator\":\"correctness\",\"criteria\":\"Rounds the implied average retail price to two decimals and reports $114.61 per MWh as the final answer.\"}]"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

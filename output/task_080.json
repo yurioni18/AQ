@@ -1,0 +1,36 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "How has HEICO’s acquisition-driven growth share (i.e., portion of net sales growth due to acquisitions vs organic) evolved over FY2022 -> FY2024? Is acquisition growth increasing or decreasing as a proportion of overall growth? \n \n Note the % of net sales that can be attributed to acquisition each year, as well as the YoY growth %'s. Compare this to overall growth trends for sales, and note whether or not acquisition growth is increasing as a proportion of overall growth."
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "Task completion",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "[{\"operator\":\"correctness\",\"criteria\":\"Consolidated net sales FY21 1865.7mm --> FY22: 2208.3mm. +342.6mm increase, = +18.36% YoY\"},{\"operator\":\"correctness\",\"criteria\":\"Segment acquisition contributions to FY22 net sales growth: FSG +100mm; ETG +31mm; total acquisitions +131mm. Acquisition share of net sales growth = 131mm/342.6mm = 38.23% \"},{\"operator\":\"correctness\",\"criteria\":\"Consolidated net sales FY22 2208.3mm --> FY23: 2968.1mm. +759.8mm increase, = +34.42% YoY\"},{\"operator\":\"correctness\",\"criteria\":\"Segment acquisition contributions to FY23 net sales growth: FSG +251.0mm; ETG +232.8mm; total acquisitions +483.8mm. Acquisition share of net sales growth = 483.8mm/759.8mm = 63.68% \"},{\"operator\":\"correctness\",\"criteria\":\"Consolidated net sales FY23 2968.1mm --> FY24: 3857.7mm. +889.6mm increase, = +29.96% YoY\"},{\"criteria\":\"Segment acquisition contributions to FY24 net sales growth: FSG +643.5.0mm; ETG +40.7mm; total acquisitions +684.2mm. Acquisition share of net sales growth = 684.2mm/889.6mm = 76.88% \",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Note that these values are from segment disclosures, some minor inaccuracies may arise vs consolidated totals due to intersegment sales and rounding\"},{\"operator\":\"correctness\",\"criteria\":\"Acquisition impact on consolidated net sales growth rose from 38.23% in FY22 to 63.68% in FY23 to 76.88% in FY24, which indicates that acquisitions are accounting for an increasing proportion of overall sales growth in the FY22 to FY24 period. \"}]"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

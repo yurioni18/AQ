@@ -1,0 +1,36 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "If GAAP relaxed its Deferred Revenue recognition rules and allowed McAfee (MCFE) to recognize revenue when they signed customers to a contract, how much would their revenues for 2009 have been? Express the answer in $M rounded to 2 decimal places of precision"
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "Task completion",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "[{\"operator\":\"correctness\",\"criteria\":\"Method: on‑signing revenue = GAAP 2009 revenue + net increase in total deferred revenue during 2009\"},{\"criteria\":\"GAAP total net revenue for FY 2009 (year ended December 31, 2009): $1,927.332M\",\"operator\":\"correctness\"},{\"criteria\":\"Total change in deferred revenue balances defined as Ending balance of DR minus Beginning balance of DR\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Calculated change in deferred revenue for FY 2009: 101757 (thousands)\"},{\"operator\":\"correctness\",\"criteria\":\"Sum calculation shown: 1927332 (thousands) + 101757 (thousands) = 2029089 (thousands)\"},{\"operator\":\"correctness\",\"criteria\":\"Answer rounded to two decimal places\"},{\"criteria\":\"Answer stated in millions\",\"operator\":\"correctness\"},{\"criteria\":\"Final Answer given as $2,029.09M\",\"operator\":\"correctness\"}]"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

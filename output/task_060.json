@@ -1,0 +1,36 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "What are the items that Rainmaker (RAKR) removes from GAAP Income in calculating Non-GAAP Net Income in FY 2007? What is the dollar impact of each of these? Express each adjustment in $M as a whole number. Finally, what is the cumulative overall effect of all of the adjustments? Express in $M and round to two decimal points."
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "Task completion",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "[{\"operator\":\"correctness\",\"criteria\":\"Stock Compensation = 1.814M or 2M\"},{\"operator\":\"correctness\",\"criteria\":\"Amortization of Intangibles = 3.065M or 3M\"},{\"operator\":\"correctness\",\"criteria\":\"Income Tax Effect = -1.322M or -1M\"},{\"operator\":\"correctness\",\"criteria\":\"Overall Effect is 3.557M or 4M\"},{\"criteria\":\"Final answer is rounded to two decimal points = 3.56M\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Amounts are expressed in $M\"}]"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

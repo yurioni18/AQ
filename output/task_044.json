@@ -1,0 +1,36 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "Using TSMC’s Q2 2024 and Q3 2024 results, derive the implied gross margin of TSMC’s 3 nanometer (N3) node, under the following simplifying assumptions:\n \n There are only two buckets of business for this exercise:\n • N3\n • “Non N3” (everything else aggregated)\n \n The gross margin on Non N3 is constant between Q2 2024 and Q3 2024.\n \n The gross margin on N3 is constant between Q2 2024 and Q3 2024.\n \n The only driver of the change in reported gross margin between Q2 and Q3 is the change in wafer revenue mix between N3 and Non N3.\n \n Use the disclosed quarterly gross margin percentages and N3 share of wafer revenue.\n \n Under the assumptions above, what is the implied N3 gross margin (as a percentage, to one decimal place)?"
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "Task completion",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "[{\"criteria\":\"Set up Q2 equation: 0.532 = 0.15M₃ + 0.85M₀\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Set up Q3 equation: 0.578 = 0.20M₃ + 0.80M₀\"},{\"criteria\":\"Subtract the 2 equations Q2 from Q3: 0.578 − 0.532 = 0.046\",\"operator\":\"correctness\"},{\"criteria\":\"Shows the combined-difference algebra as 0.05(M₃ − M₀) = 0.046\",\"operator\":\"correctness\"},{\"criteria\":\"Shows the solved difference M₃ − M₀ = 0.92\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Shows the solved Non‑N3 gross margin M₀ = 0.394\"},{\"criteria\":\"Shows the implied N3 gross margin M₃ = 1.314\",\"operator\":\"correctness\"},{\"criteria\":\"Q2’24 gross margin: 53.2% (0.532)\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Q3’24 gross margin: 57.8% (0.578)\"},{\"operator\":\"correctness\",\"criteria\":\"Convert answer into percentage = 131.4%\"},{\"operator\":\"correctness\",\"criteria\":\"Round to one decimal point = 131.4%\"}]"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

@@ -1,0 +1,36 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "Using Maplebear Inc. (ticker: CART) shareholder letters on quarterly and annual results determine the quarter in FY2024 with the largest beat of actual Gross Transaction Value relative guidance. Use midpoints of guidance ranges in your calculations. Format the answer as: \"[X]Q FY 2024, [X.XX] % Beat\""
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "Task completion",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "[{\"criteria\":\"Q1 guidance range (located in 4Q'FY23 shareholder letter): $8000 -$8200M\",\"operator\":\"correctness\"},{\"criteria\":\"Q2 guidance range (located in 1Q'FY24 shareholder letter): $8000 - $8150M\",\"operator\":\"correctness\"},{\"criteria\":\"Q3 guidance range (located in 2Q'FY24 shareholder letter): $8100 - $8250M\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Q4 guidance range (located in 3Q'FY24 shareholder letter): $8500 - $8650M\"},{\"criteria\":\"Q1 midpoint: $8100M\",\"operator\":\"correctness\"},{\"criteria\":\"Q2 midpoint: $8075M\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Q3 midpoint: $8175M\"},{\"criteria\":\"Q4 midpoint: $8575M\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Q1 actual GTV (located in 1Q'FY24 shareholder letter): $8319M\"},{\"criteria\":\"Q2 actual GTV(located in 2Q'FY24 shareholder letter): $8194M\",\"operator\":\"correctness\"},{\"criteria\":\"Q3 actual GTV(located in 3Q'FY24 shareholder letter): $8303M\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Q4 actual GTV(located in 4Q'FY24 shareholder letter): $8645\"},{\"criteria\":\"Q1 beat vs midpoint: 2.7%\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Q2 beat vs midpoint: 1.5%\"},{\"operator\":\"correctness\",\"criteria\":\"Q3 beat vs midpoint: 1.6%\"},{\"criteria\":\"Q4 beat vs midpoint: 0.8%\",\"operator\":\"correctness\"},{\"criteria\":\"Final answer: 1Q FY 2024, 2.70 % Beat\",\"operator\":\"correctness\"}]"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

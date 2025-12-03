@@ -1,0 +1,36 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "In Q3 of FY2025, by what percentage did CrowdStrike beat or miss on the midpoint of its guidance range for non-GAAP diluted EPS? Use guidance that was provided on a quarterly basis. Provide your answer in %. Round to two decimal places."
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "Task completion",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "[{\"operator\":\"correctness\",\"criteria\":\"Correctly states Q3 FY2025 quarterly guidance range for non-GAAP diluted EPS was between $0.80-$0.81\"},{\"operator\":\"correctness\",\"criteria\":\"Correctly calculates midpoint of non-GAAP diluted EPS guidance for Q3 FY2025 as $0.805\"},{\"criteria\":\"Correctly states actual Q3 FY2025 non-GAAP diluted EPS was reported at $0.93\",\"operator\":\"correctness\"},{\"criteria\":\"Correctly states CrowdStrike beat guidance for non-GAAP diluted EPS\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Correctly states beat relative to guidance midpoint was 15.53%\"}]"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

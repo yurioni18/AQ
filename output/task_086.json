@@ -1,0 +1,36 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "Calculate Gogo's (GOGO) Enterprise Value to EBITDA ratio at the end of Q2 FY2025 using a share price of $15 per share. Assume that leases are not factored into the value of debt calculation. Use LTM adjusted EBITDA for the multiple. Show the enterprise value and EBITDA calculation. Express your answer in the following format: 0.00x"
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "Task completion",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "[{\"criteria\":\"Enterprise Value = Equity Value + Total Debt - Cash and Cash Equivalents\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Shares outstanding = 133,334,288\"},{\"criteria\":\"Equity value = shares outstanding x $15 share price = 2,000,014,320 (or $2,000.014M)\",\"operator\":\"correctness\"},{\"criteria\":\"CMLTD (current portion of long term debt) = 2.5M\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Long term debt (LTD) = 832.513M\"},{\"criteria\":\"Total debt used in EV calculation by adding current portion and long term debt = 835.0M\",\"operator\":\"correctness\"},{\"criteria\":\"Cash and cash equivalents = 102.085M\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Enterprise Value calculated 2,000.014M + 835.013M - 102.085M = 2732.942M\"},{\"operator\":\"correctness\",\"criteria\":\"Q2 FY2025 last 6 months adjusted EBITDA = 123.777M\"},{\"criteria\":\"FY2024 adjusted EBITDA = 142.496M\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Q2 FY2024 last 6 months adjusted EBITDA = 73.752M\"},{\"operator\":\"correctness\",\"criteria\":\"LTM Adjusted EBITDA (as of Q2 FY2025) = 123.777 + 142.496 - 73.752 = 192.521M\"},{\"criteria\":\"Divide Enterprise Value by LTM Adj. EBITDA = 14.196x\",\"operator\":\"correctness\"},{\"criteria\":\"Round answer to two decimal points 14.20x\",\"operator\":\"correctness\"}]"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

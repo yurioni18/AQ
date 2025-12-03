@@ -1,0 +1,36 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "Is there any evidence that the depth (or thinness or activeness) of the markets for the\n financial instruments GE is invested in is getting worse in 2008? Explain."
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "Task completion",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "[{\"operator\":\"correctness\",\"criteria\":\"GE attributed transfers into Level 3 to increased use of non-binding broker quotes that could not be validated due to continued deterioration in the credit markets.\"},{\"criteria\":\"Level 3 investment securities valued using non-binding broker quotes were $2,074 million at December 31, 2008.\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Level 3 retained interests in securitizations were $6,356 million at December 31, 2008.\"},{\"criteria\":\"Unrealized losses on GE’s investment securities rose to $5.7 billion at December 31, 2008.\",\"operator\":\"correctness\"},{\"criteria\":\"Of those unrealized losses, $3.5 billion were aged 12+ months.\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"The answer states that these unrealized losses reflect broad stress in GE’s investment portfolio.\"},{\"criteria\":\"The answer quotes GE citing “deterioration in current and expected real estate market liquidity” during 2008 as affecting asset values.\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"The answer states GE cited stressed or constrained securitization markets in 2008.\"},{\"operator\":\"correctness\",\"criteria\":\"The answer states that these fair-value disclosures are evidence that markets became thinner and less active in 2008.\"},{\"criteria\":\"The answer links the increase in Level 3 measurements to reduced market depth and less observable pricing.\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"The answer concludes that the overall market conditions for GE’s financial instruments worsened in 2008.\"},{\"criteria\":\"Unrealized losses are described in the answer as having increased to about $5.7 billion in 2008.\",\"operator\":\"correctness\"},{\"criteria\":\"The answer states that a net $1,032 million of instruments were transferred into Level 3.\",\"operator\":\"correctness\"}]"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

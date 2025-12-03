@@ -1,0 +1,36 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "Using Palantir's Q2 2024 earnings release, calculate the company's Adjusted EBITDA for the quarter. Begin with GAAP operating income, then adjust for:\n Depreciation & Amortization\n Stock-based compensation\n Employer payroll taxes related to stock-based compensation\n Exclude any other non-recurring items not listed. Provide the final figure in $M, rounded to two decimal places."
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "Task completion",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "[{\"criteria\":\"Uses GAAP operating income of $105.339 million\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"States the operating income pertains to the three-month period ended June 30, 2024\"},{\"operator\":\"correctness\",\"criteria\":\"Includes depreciation and amortization of $8.056 million\"},{\"criteria\":\"Includes stock-based compensation of $141.764 million\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Includes employer payroll taxes related to stock-based compensation of $6.464 million\"},{\"criteria\":\"Starts the Adjusted EBITDA calculation from GAAP operating income and adds the listed adjustments\",\"operator\":\"correctness\"},{\"criteria\":\"Reports an unrounded Adjusted EBITDA total of $261.623 million\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Reports a final rounded Adjusted EBITDA of $261.62 million (2 decimal points of precision)\"},{\"criteria\":\"Uses only the listed adjustments and does not include any other non-recurring items\",\"operator\":\"correctness\"}]"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

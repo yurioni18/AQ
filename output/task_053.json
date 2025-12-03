@@ -1,0 +1,36 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "Using the cumulative total return values for Meta platforms, Inc. (META) shown in the chart of the 10-k report, calculate the total percentage-point increase in Meta's return from its lowest point in 2022 to its highest point in 2024. Report your final answer as a single number in percentage points."
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "Task completion",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "[{\"criteria\":\"The correct graph was identified from the 10-K document, labelled \\\"Comparison of Five-Year Cumulative Total Return for Meta Platforms, Inc\\\"\\n\\n\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"The Form 10-K presents the stock performance graph as an image without an accompanying numeric table.\"},{\"operator\":\"correctness\",\"criteria\":\"Meta’s cumulative total return value at 12/31/2022 is $60.\"},{\"operator\":\"correctness\",\"criteria\":\"Meta’s cumulative total return value at 12/31/2024 is $290.\"},{\"criteria\":\"Computed percentage-point increase from 12/31/2022 to 12/31/2024 is 290 − 60 = 230 percentage points.\",\"operator\":\"correctness\"}]"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

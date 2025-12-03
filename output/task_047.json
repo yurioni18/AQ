@@ -1,0 +1,36 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "Calculate FTAI aviation's (NASDAQ: FTAI) return on capital during FY 2024. Express the answer as a percentage rounded to two decimal points of precision (ex: X.XX%)."
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "Task completion",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "[{\"criteria\":\"Define the Return on Capital as ROIC which is equal to NOPAT ÷ average invested capital across the FY fiscal year of '24 \",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Define the formula for NOPAT as EBIT × (1 − effective tax rate)\"},{\"criteria\":\"Define EBIT as operating income from the consolidated statement of operations\",\"operator\":\"correctness\"},{\"criteria\":\"Define the calculating method for the effective tax rate as the as provision for income taxes ÷ income before income taxes (Pre-tax Income)\",\"operator\":\"correctness\"},{\"criteria\":\"Invested capital defined as total debt (gross, bonds payable) + total equity − cash and cash equivalents\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Average invested capital computed as mean of invested capital at 12/31/2023 and 12/31/2024\"},{\"criteria\":\"FY2024 total revenues = 1,734,901 (USD thousands)\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"FY2024 total expenses = 1,497,074 (USD thousands)\"},{\"operator\":\"correctness\",\"criteria\":\"FY2024 EBIT = 237,827 (USD thousands)\"},{\"criteria\":\"FY2024 income before income taxes = 14,169 (USD thousands)\",\"operator\":\"correctness\"},{\"criteria\":\"FY2024 provision for income taxes = 5,487 (USD thousands)\",\"operator\":\"correctness\"},{\"criteria\":\"FY2024 effective tax rate = 5,487 ÷ 14,169 = 38.73%\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"FY2024 NOPAT = 145,727.6 (USD thousands)\"},{\"criteria\":\"2024 total debt (gross bonds payable) = 3,496,004 (USD thousands)\",\"operator\":\"correctness\"},{\"criteria\":\"2024 total equity = 81,368 (USD thousands)\",\"operator\":\"correctness\"},{\"criteria\":\"2024 cash and cash equivalents = 115,116 (USD thousands)\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Invested capital at 12/31/2024 = 3,462,256 (USD thousands)\"},{\"criteria\":\"2023 total debt (gross bonds payable) = 2,550,493 (USD thousands)\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"2023 total equity = 175,883 (USD thousands)\"},{\"criteria\":\"2023 cash and cash equivalents = 90,756 (USD thousands)\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Invested capital at 12/31/2023 = 2,635,620 (USD thousands)\"},{\"criteria\":\"Average invested capital = (3,462,256 + 2,635,620) ÷ 2 = 3,048,938 (USD thousands)\",\"operator\":\"correctness\"},{\"criteria\":\"Return on capital (ROC) for FY2024 = 145,727.6 ÷ 3,048,938 = 4.78%\",\"operator\":\"correctness\"},{\"criteria\":\"Final answer rounded to two decimal points of precision\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Final answer is expressed as a percentage\"}]"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

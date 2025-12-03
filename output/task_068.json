@@ -1,0 +1,36 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "Calculate DraftKing's (DKNG) Enterprise Value to EBITDA ratio at the end of Q2 FY2025 using a market cap of $17.00 billion. LTM Adjusted EBITDA should be used. Show the enterprise value calculation and LTM EBITDA calculation. Express your answer in the following format: 0.00x"
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "Task completion",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "[{\"criteria\":\"Determines that Enterprise Value formula is Equity Value + Total Debt - Cash and Cash Equivalents\",\"operator\":\"correctness\"},{\"criteria\":\"Determines that Equity Value is $17,000.00 million\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Determines that convertible notes of $1,257.75 million should be counted as debt\"},{\"criteria\":\"Determines that Term B loan of $578.50 million should be counted as debt\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Calculates total debt of $1,836.25 million\"},{\"operator\":\"correctness\",\"criteria\":\"States that Cash and Cash Equivalents = $1,261.97 million\"},{\"operator\":\"correctness\",\"criteria\":\"Calculates Enterprise Value of $17,574.28 million\"},{\"criteria\":\"Q3 FY2024 Adjusted EBITDA = -$58.504 million\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Q4 FY2024 Adjusted EBITDA = $89.454 million\"},{\"operator\":\"correctness\",\"criteria\":\"Q1 FY2025 Adjusted EBITDA = $102.630 million\"},{\"criteria\":\"Q2 FY2025 Adjusted EBITDA = $300.644 million\",\"operator\":\"correctness\"},{\"criteria\":\"Determines that LTM Adjusted EBITDA is $434.224 million\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Divides enterprise value by LTM Adjusted EBITDA to find EV/EBITDA ratio\"},{\"criteria\":\"Final Answer = 40.47x\",\"operator\":\"correctness\"}]"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

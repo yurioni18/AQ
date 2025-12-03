@@ -1,0 +1,36 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "Using Kimberly-Clark Corporation (KMB) FY 2023 10-K and FY 2020 10-K, what was the percentage change in Return on Equity (ROE) between FY 2020 and FY 2023?\n Express your answer as a percentage rounded to 2 decimals."
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "Task completion",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "[{\"criteria\":\"The final percentage change in ROE is calculated to be -69.58%\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"To calculate ROE, the formula that is used is: Net income attributable to Kimberly‑Clark Corporation ÷ average Kimberly‑Clark Corporation stockholders’ equity (beginning and ending of the fiscal year, excluding noncontrolling interests)\"},{\"operator\":\"correctness\",\"criteria\":\"Percentage change formula: ((ROE 2023 − ROE 2020) ÷ ROE 2020) × 100\"},{\"criteria\":\"FY 2020 net income attributable to Kimberly‑Clark Corporation = $2,352 million\",\"operator\":\"correctness\"},{\"criteria\":\"FY 2023 net income attributable to Kimberly‑Clark Corporation = $1,764 million\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"FY 2019 stockholder's equity is -$33 million\"},{\"criteria\":\"FY 2020 stockholder's equity is $626 million\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"FY 2022 stockholder's equity is $547 million\"},{\"operator\":\"correctness\",\"criteria\":\"FY 2023 stockholder's equity is $915 million\"},{\"criteria\":\"Average equity FY 2020 = $296.50 million \",\"operator\":\"correctness\"},{\"criteria\":\"ROE 2020 = $2,352 ÷ $296.50 = 7.93\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Average equity FY 2023 = $731.00 million\"},{\"criteria\":\"ROE 2023 = 2.41\",\"operator\":\"correctness\"}]"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

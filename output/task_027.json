@@ -1,0 +1,36 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "Compare Macy's Inc. (NYSE: M) adjusted EBITDA as a percent of total revenue in FY 2025 (ended Feb 1st, 2025), against guidance in Q2 2024 after adjusting for delivery expense. Use the midpoint value and report it as % BEAT or MISS (rounded to two decimal points)."
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "Task completion",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "[{\"operator\":\"correctness\",\"criteria\":\"Final answer contains the numeric percentage 0.14%\"},{\"criteria\":\"Final answer percentage value is presented rounded to two decimal places (0.14%)\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Final answer includes the label 'BEAT' indicating the result is a beat rather than a miss\"},{\"operator\":\"correctness\",\"criteria\":\"Retrieves adjusted EBITDA as $1977 million\"},{\"criteria\":\"Retrieves total revenue as $23,006 million\",\"operator\":\"correctness\"},{\"criteria\":\"Calculates adjusted EBITDA margin as 8.59%\",\"operator\":\"correctness\"},{\"criteria\":\"Retrieves FY 2025 adjusted EBITDA margin guidance (excluding delivery expense) from the Q2 2024 earnings materials as 8.2%–8.7%\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Calculates midpoint of guidance values as 8.45%\"}]"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

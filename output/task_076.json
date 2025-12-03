@@ -1,0 +1,36 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "Calculate Six Flags' (FUN) Enterprise Value to EBITDA ratio at the end of Q2 FY2025 using a share price of $30.40 per share. Assume that leases are not factored into the value of debt calculation. Use LTM adjusted EBITDA for the multiple. Show the enterprise value and EBITDA calculation. Express your answer in the following format: 0.00x"
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "Task completion",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "[{\"criteria\":\"Enterprise Value = Equity Value + Total Debt - Cash and Cash Equivalents\",\"operator\":\"correctness\"},{\"criteria\":\"Equity value = 3078.12M calculated using 101254 thousand shares and $30.4 per share\",\"operator\":\"correctness\"},{\"criteria\":\"Total debt = CMLTD 15.038M + LTD 5273.143M = 5288.18M\",\"operator\":\"correctness\"},{\"criteria\":\"Cash and cash equivalents = 107.386M\",\"operator\":\"correctness\"},{\"criteria\":\"Enterprise value = 3078.12M + 5288.18M - 107.39M = 8258.92M\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Utilize that LT Adjusted EBITDA = Q2 FY25 6 months EBITDA + FY24 EBITDA - Q2 FY24 6 months EBITDA\"},{\"criteria\":\"LTM Adjusted EBITDA = 71.828M + 875.291M - 108.284M = 838.835M\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"EV/EBITDA = 8258.92M / 838.84M = 9.85x\"},{\"criteria\":\"Final Answer: 9.85x\",\"operator\":\"correctness\"}]"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

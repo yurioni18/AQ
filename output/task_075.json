@@ -1,0 +1,36 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "Based on Union Pacific's (NYSE: UNP) and Norfolk Southern's (NYSE: NSC) FY 2024 10-K filings and the S-4 Registration Statement (September 2025), evaluate the financial justification for the proposed merger:\n \n Calculate the operating ratio spread between UNP and NSC for FY 2024. If NSC achieves UNP's operating ratio post-merger, estimate the incremental operating income NSC would generate (using NSC's FY 2024 revenue as the base). Express in $M rounded to 0 decimal places.\n The S-4 projects $2.75B in annual synergies. What percentage of NSC's FY 2024 operating income do these synergies represent? Round to 1 decimal place.\n Based on the $320/share offer and the 25% premium cited, calculate NSC's implied 30-day VWAP as of July 16, 2025. Round to 2 decimal places.\n \n Format answer as:\n \n Operating Ratio Spread: [X.X] percentage points\n Incremental Operating Income at UNP Efficiency: $[X]M\n Synergies as % of NSC Operating Income: [X.X]%\n Implied NSC 30-day VWAP: $[X.XX]"
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "Task completion",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "[{\"operator\":\"correctness\",\"criteria\":\"Operating Ratio Spread: 6.5 percentage points\"},{\"criteria\":\"Incremental Operating Income at UNP Efficiency: $788M\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Synergies as % of NSC Operating Income: 67.6%\"},{\"operator\":\"correctness\",\"criteria\":\"Implied NSC 30-day VWAP: $256.00\"}]"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

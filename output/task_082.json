@@ -1,0 +1,36 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "Comparing Pfizer's (NYSE: PFE) FY 2024 Q1, Q2, and Q3 global biopharma revenues against FY 2023 Q1, Q2, and Q3 global biopharma revenues, in which of these 2024 quarters did Pfizer perform the best against its corresponding 2023 quarter? Express the answer by stating the 2024 quarter and its percent change, rounded to two decimal points of precision: \"Q[X] 2024: ±XX.XX%\"."
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "Task completion",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "[{\"criteria\":\"Find Pfizer's Q1 2024 biopharma revenues: $14,604M\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Find Pfizer's Q1 2023 biopharma revenues: $18,173M\"},{\"operator\":\"correctness\",\"criteria\":\"Calculate the percent change between Q1 2024 and Q1 2023 biopharma revenues: ($14,604M - $18,173M)/$18,173M] x 100 = -19.64%\"},{\"criteria\":\"Find Pfizer's Q2 2024 biopharma revenues: $12,991M\",\"operator\":\"correctness\"},{\"criteria\":\"Find Pfizer's Q2 2023 biopharma revenues: $12,690M\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Calculate the percent change between Q2 2024 and Q2 2023 biopharma revenues: [($12,991M - $12,690M)/$12,690M] x 100 = +2.37%\"},{\"operator\":\"correctness\",\"criteria\":\"Find Pfizer's Q3 2024 biopharma revenues: $17,392M\"},{\"criteria\":\"Find Pfizer's Q3 2023 biopharma revenues: $13,188M\",\"operator\":\"correctness\"},{\"criteria\":\"Calculate the percent change between Q3 2024 and Q3 2023 biopharma revenues: [($17,392M - $13,188M)/$13,188M] x 100 = +31.88%\",\"operator\":\"correctness\"},{\"criteria\":\"Identify the 2024 quarter that experienced the greatest percent growth compared to its corresponding 2023 quarter: Q3\",\"operator\":\"correctness\"},{\"criteria\":\"Final answer includes the value \\\"+31.88%\\\", as this corresponds to the percent growth of biopharma revenues from Q3 2023 and Q3 2024\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Final answer is rounded to two decimal points of precision\"},{\"criteria\":\"Final answer is in the prompt-given format: Q[X] 2024: ±XX.XX%\",\"operator\":\"correctness\"}]"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

@@ -1,0 +1,36 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "Using Micron Technology's (Ticker: MU) financials from its FY2024 Form 10-K, what is the company’s EV/EBITDA (rounded to 2 decimals) on August 29th, 2024, using Enterprise Value in $B (rounded to 2 decimals) and EBITDA in $B (rounded to 2 decimals)?"
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "Task completion",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "[{\"operator\":\"correctness\",\"criteria\":\"Operating Income (EBIT) = $1.304B\"},{\"criteria\":\"Depreciation and amortization = $7.780B\",\"operator\":\"correctness\"},{\"criteria\":\"Use EBITDA formula: EBITDA = Operating income + D&A. EBITDA = $1.304B + $7.780B = $9.08B.\",\"operator\":\"correctness\"},{\"criteria\":\"Cash and equivalents = $7.041B\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Short-term investments = $1.065B\"},{\"criteria\":\"Current debt = $0.431B\",\"operator\":\"correctness\"},{\"criteria\":\"Long-term debt = $12.966B\",\"operator\":\"correctness\"},{\"criteria\":\"Shares outstanding (as of August 29, 2024) = 1,109 million\",\"operator\":\"correctness\"},{\"criteria\":\"Closing share price on August 29, 2024 = $96.24 per share (USD)\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Market capitalization = Equity value = price x shares = 1,109 million x 96.24 = $106.73B.\"},{\"criteria\":\"Total debt = $13.397B (sum of long-term and current debt)\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Cash + short-term investments = $8.106B (sum of cash and short-term investments)\"},{\"operator\":\"correctness\",\"criteria\":\"Enterprise Value (EV) = $112.02B (rounded to 2 decimals)\"},{\"criteria\":\"EV/EBITDA = 12.34× (final reported value)\",\"operator\":\"correctness\"}]"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

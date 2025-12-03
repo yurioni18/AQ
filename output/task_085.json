@@ -1,0 +1,36 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "Using NVIDIA CORPORATION (ticker: NVDA) FY 2024 Form 10-K and FRED annual nominal GDP data (current US$) for Taiwan, calculate the year-over-year % change in gross profit generated from customers in Taiwan from FY 2023 to FY 2024, assuming (i) FY 2023 revenue from Taiwan is exactly the amount reported in the most recent 10-K filing, (ii) the year-over-year % change in revenue from Taiwan from FY 2023 to FY 2024 is equal to the annual nominal % growth rate of Taiwan’s GDP in 2024, and (iii) gross margins on revenue from Taiwan are equal to NVIDIA’s consolidated gross margin in both periods. Provide the answer in % rounded to 2 decimals."
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "Task completion",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "[{\"operator\":\"correctness\",\"criteria\":\"Uses NVIDIA FY 2024 10-K link as source for gross margins.\\n\"},{\"criteria\":\"Extracts FY 2024 gross margin as 72.7%.\\n\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Extracts FY 2023 gross margin as 56.9%.\"},{\"criteria\":\"Uses FRED TWNNGDPDUSD link as source for Taiwan GDP.\\n\",\"operator\":\"correctness\"},{\"criteria\":\"Extracts 2023 Taiwan GDP as 707,256,832,084.7.\\n\",\"operator\":\"correctness\"},{\"criteria\":\"Extracts 2024 Taiwan GDP as 746,022,524,856.7.\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Computes GDP growth as (GDP_2024 − GDP_2023) / GDP_2023.\\n\"},{\"operator\":\"correctness\",\"criteria\":\"States GDP growth ≈ 0.0548 (5.48%).\"},{\"criteria\":\"Defines FY 2023 Taiwan revenue as R2023.\\n\",\"operator\":\"correctness\"},{\"criteria\":\"Sets FY 2024 Taiwan revenue as R2023 × 1.0548.\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Computes GP2023 = R2023 × 0.569.\\n\"},{\"operator\":\"correctness\",\"criteria\":\"Computes GP2024 = R2023 × 1.0548 × 0.727.\"},{\"criteria\":\"Forms ratio GP2024 / GP2023 = (R2023 × 1.0548 × 0.727) / (R2023 × 0.569).\\n\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Cancels R2023 and simplifies to 1.0548 × (0.727 / 0.569).\"},{\"criteria\":\"Computes 0.727 / 0.569 ≈ 1.2777.\\n\",\"operator\":\"correctness\"},{\"criteria\":\"Computes gross profit factor ≈ 1.3477.\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Converts to YoY change as (1.3477 − 1) × 100%.\\n\"},{\"operator\":\"correctness\",\"criteria\":\"States final gross profit YoY change ≈ 34.77%.\\n\"},{\"operator\":\"correctness\",\"criteria\":\"Rounds final answer to two decimal places as “34.77%”.\"}]"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

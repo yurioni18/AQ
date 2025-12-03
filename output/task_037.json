@@ -1,0 +1,36 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "Using the Basic-Fit N.V. Annual Report for FY 2024, calculate the Price to Pre-IFRS 16 Free Cash Flow multiple (P / Pre-IFRS 16 FCF).\n Calculate the multiple using the share price at year-end 2024."
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "Task completion",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "[{\"criteria\":\"Includes share price at year-end 2024 = €22.58 as an input\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Includes Free cash flow before new club capex per share = €2.36 as an input\"},{\"operator\":\"correctness\",\"criteria\":\"Calculates the multiple by dividing share price by FCF per share: €22.58 / €2.36 = 9.567…\"},{\"operator\":\"correctness\",\"criteria\":\"Shows final Price to Pre-IFRS 16 Free Cash Flow multiple = 9.57 exactly with 2 decimal points of rounding\"}]"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

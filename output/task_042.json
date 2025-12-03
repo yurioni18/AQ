@@ -1,0 +1,36 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "Retrieve CMG’s Q2-FY2025 end-of-period comparable restaurant base for the Chipotle restaurants segment. Assume none of the restaurants opened over the last four quarters were closed. Express your answer as a whole number."
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "Task completion",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "[{\"operator\":\"correctness\",\"criteria\":\"Company-owned restaurants at end of Q2 FY2025 = 3,839 restaurants\"},{\"operator\":\"correctness\",\"criteria\":\"Chipotle defines comparable company-owned restaurants as restaurants in operation at least 13 full calendar months\"},{\"operator\":\"correctness\",\"criteria\":\"Comparable base excludes units opened within the last four quarters\"},{\"criteria\":\"Restaurants opened in Q3 FY2024 = 86\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Restaurants opened in Q4 FY2024 = 119\"},{\"criteria\":\"Restaurants opened in Q1 FY2025 = 57\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Restaurants opened in Q2 FY2025 = 61\"},{\"operator\":\"correctness\",\"criteria\":\"Total openings over last 4 quarters = 323\"},{\"criteria\":\"Assume that none of the restaurants opened over the last four quarters were closed.\",\"operator\":\"correctness\"},{\"criteria\":\"Recognize that the EOP comparable base is simply = EOP restaurants − restaurants opened over the last four quarters.\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Compute Q2 FY2025 EOP comparable restaurant base as 3,839 − 323 = 3,516 restaurants.\"}]"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

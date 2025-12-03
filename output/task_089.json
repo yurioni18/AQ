@@ -1,0 +1,36 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "What is the 3-year CAGR from FY2021 to FY2024 for the Curtiss-Wright Corporation (NYSE: CW)'s operating income within its Aerospace & Industrial segment? Express the answer as a % rounded to 2 decimal places."
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "Task completion",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "[{\"operator\":\"correctness\",\"criteria\":\"Find that the FY2021 Aerospace & Industrial operating income = $121.817 M\"},{\"operator\":\"correctness\",\"criteria\":\"Find that the FY2024 Aerospace & Industrial operating income = $148.023 M\"},{\"criteria\":\"Calculate the 3-year CAGR as (148.023 / 121.817)^(1/3) − 1 = 6.71%\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Present the final answer as a %, rounded to two decimal places\"}]"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

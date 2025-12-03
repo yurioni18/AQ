@@ -1,0 +1,36 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "How large was the range (in % terms) for Walmart Inc. (WMT)'s fiscal year 2026 adjusted EPS guidance for Q4 2025, Q1 2026, Q2 2026, and Q3 2026?\n \n Format answer as: \"Q[X] [YEAR]: $[X.XX] (low) to $[X.XX] (high), [X.XX]% of midpoint\". Add line breaks for each period, and round the EPS figure and % to two decimal places."
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "Task completion",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "[{\"operator\":\"correctness\",\"criteria\":\"Q4 2025 guidance: $2.50 (low) to $2.60 (high)\"},{\"criteria\":\"Q1 2026 guidance: $2.50 (low) to $2.60 (high)\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Q2 2026 guidance: $2.52 (low) to $2.62 (high)\"},{\"operator\":\"correctness\",\"criteria\":\"Q3 2026 guidance: $2.58 (low) to $2.63 (high)\"},{\"operator\":\"correctness\",\"criteria\":\"Q4 2025 is 3.92% of midpoint\"},{\"operator\":\"correctness\",\"criteria\":\"Q1 2026 is 3.92% of midpoint\\n\"},{\"operator\":\"correctness\",\"criteria\":\"Q2 2026 is 3.89% of midpoint\\n\"},{\"operator\":\"correctness\",\"criteria\":\"Q3 2026 is 1.92% of midpoint\"},{\"criteria\":\"All answers follow the correct format of \\\"Q[X] [YEAR]: $[X.XX] (low) to $[X.XX] (high), [X.XX]% of midpoint\\\" \",\"operator\":\"correctness\"},{\"criteria\":\"All answers follow the correct format with line breaks for each period\",\"operator\":\"correctness\"},{\"criteria\":\"All answers follow the correct format with rounding to two decimal places\",\"operator\":\"correctness\"}]"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}
