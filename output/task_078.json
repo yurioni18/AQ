@@ -7,7 +7,7 @@
   ],
   "rubrics": [
     {
-      "name": "Task completion",
+      "name": "Pull WDC segment revenue, Asia Q1'26: 1175m",
       "weight": 1.0,
       "score": {
         "type": "discrete",
@@ -25,7 +25,558 @@
       "messages": [
         {
           "type": "text",
-          "content": "[{\"operator\":\"correctness\",\"criteria\":\"Pull WDC segment revenue, Asia Q1'26: 1175m\"},{\"criteria\":\"Pull WDC segment revenue, Asia Q1'25: 686m\",\"operator\":\"correctness\"},{\"criteria\":\"Pull WDC segment revenue, Americas Q1'26: 1100m\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Pull WDC segment revenue, Americas Q1'25: 1247m\"},{\"criteria\":\"Pull WDC segment revenue, EMEA Q1'26: 543m\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Pull WDC segment revenue, EMEA Q1'25: 279m\"},{\"criteria\":\"Pull WDC total revenue, Q1'26: 2818m\",\"operator\":\"correctness\"},{\"criteria\":\"Pull WDC total revenue, Q1'25: 2212m\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Calculate Q1'26 Asia mix: 1175/2818 = 41.7%\"},{\"operator\":\"correctness\",\"criteria\":\"Calculate Q1'26 Americas mix: 1100/2818 = 39.03%\\n\"},{\"criteria\":\"Calculate Q1'26 EMEA mix: 543/2818 = 19.27%\",\"operator\":\"correctness\"},{\"criteria\":\"Asia mix: 686/2212 = 31.01%\\n\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Calculate Q1'25 Americas mix: 1247/2212 = 56.37%\\n\"},{\"operator\":\"correctness\",\"criteria\":\"Calculate Q1'25 EMEA mix: 279/2212 = 12.61%\"},{\"criteria\":\"Calculate changes in mix Asia: 41.7 - 31.01 = +10.69% \\n\",\"operator\":\"correctness\"},{\"criteria\":\" Calculate changes in mix Americas: 39.03 - 56.37 = -17.34% \\n\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\" Calculate changes in mix EMEA: 19.27 - 12.61 = +6.66%\"},{\"criteria\":\"Calculate regional YoY growth Asia: (1175 - 686)/686 = +71.28%\\n\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Calculate regional YoY growth Americas: (1100 - 1247)/1247 = -11.79%\\n\"},{\"criteria\":\"Calculate regional YoY growth EMEA: (543 - 279)/279 = +94.62%\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Asia saw the steepest improvement in revenue mix: an increase of +10.69 percentage points (from 31.01% to 41.7%).\"},{\"operator\":\"correctness\",\"criteria\":\"EMEA had the highest year‑over‑year revenue growth: +94.62% (from $279m to $543m).\"},{\"operator\":\"correctness\",\"criteria\":\"The region with the steepest improvement in revenue mix (Asia) diverged from the region with the highest year‑over‑year revenue growth (EMEA).\"}]"
+          "content": "Pull WDC segment revenue, Asia Q1'26: 1175m",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Pull WDC segment revenue, Asia Q1'25: 686m",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Pull WDC segment revenue, Asia Q1'25: 686m",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Pull WDC segment revenue, Americas Q1'26: 1100m",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Pull WDC segment revenue, Americas Q1'26: 1100m",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Pull WDC segment revenue, Americas Q1'25: 1247m",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Pull WDC segment revenue, Americas Q1'25: 1247m",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Pull WDC segment revenue, EMEA Q1'26: 543m",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Pull WDC segment revenue, EMEA Q1'26: 543m",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Pull WDC segment revenue, EMEA Q1'25: 279m",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Pull WDC segment revenue, EMEA Q1'25: 279m",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Pull WDC total revenue, Q1'26: 2818m",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Pull WDC total revenue, Q1'26: 2818m",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Pull WDC total revenue, Q1'25: 2212m",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Pull WDC total revenue, Q1'25: 2212m",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Calculate Q1'26 Asia mix: 1175/2818 = 41.7%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Calculate Q1'26 Asia mix: 1175/2818 = 41.7%",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Calculate Q1'26 Americas mix: 1100/2818 = 39.03%\n",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Calculate Q1'26 Americas mix: 1100/2818 = 39.03%\n",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Calculate Q1'26 EMEA mix: 543/2818 = 19.27%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Calculate Q1'26 EMEA mix: 543/2818 = 19.27%",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Asia mix: 686/2212 = 31.01%\n",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Asia mix: 686/2212 = 31.01%\n",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Calculate Q1'25 Americas mix: 1247/2212 = 56.37%\n",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Calculate Q1'25 Americas mix: 1247/2212 = 56.37%\n",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Calculate Q1'25 EMEA mix: 279/2212 = 12.61%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Calculate Q1'25 EMEA mix: 279/2212 = 12.61%",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Calculate changes in mix Asia: 41.7 - 31.01 = +10.69% \n",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Calculate changes in mix Asia: 41.7 - 31.01 = +10.69% \n",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": " Calculate changes in mix Americas: 39.03 - 56.37 = -17.34% \n",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": " Calculate changes in mix Americas: 39.03 - 56.37 = -17.34% \n",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": " Calculate changes in mix EMEA: 19.27 - 12.61 = +6.66%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": " Calculate changes in mix EMEA: 19.27 - 12.61 = +6.66%",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Calculate regional YoY growth Asia: (1175 - 686)/686 = +71.28%\n",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Calculate regional YoY growth Asia: (1175 - 686)/686 = +71.28%\n",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Calculate regional YoY growth Americas: (1100 - 1247)/1247 = -11.79%\n",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Calculate regional YoY growth Americas: (1100 - 1247)/1247 = -11.79%\n",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Calculate regional YoY growth EMEA: (543 - 279)/279 = +94.62%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Calculate regional YoY growth EMEA: (543 - 279)/279 = +94.62%",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Asia saw the steepest improvement in revenue mix: an increase of +10.69 percentage points (from 31.01% to 41.7%).",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Asia saw the steepest improvement in revenue mix: an increase of +10.69 percentage points (from 31.01% to 41.7%).",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "EMEA had the highest year‑over‑year revenue growth: +94.62% (from $279m to $543m).",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "EMEA had the highest year‑over‑year revenue growth: +94.62% (from $279m to $543m).",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "The region with the steepest improvement in revenue mix (Asia) diverged from the region with the highest year‑over‑year revenue growth (EMEA).",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "The region with the steepest improvement in revenue mix (Asia) diverged from the region with the highest year‑over‑year revenue growth (EMEA).",
+          "operator": "correctness"
         }
       ],
       "dependencies": []

@@ -7,7 +7,7 @@
   ],
   "rubrics": [
     {
-      "name": "Task completion",
+      "name": "FY2025 EBIT (operating income) = $81,453 million as input",
       "weight": 1.0,
       "score": {
         "type": "discrete",
@@ -25,7 +25,283 @@
       "messages": [
         {
           "type": "text",
-          "content": "[{\"criteria\":\"FY2025 EBIT (operating income) = $81,453 million as input\",\"operator\":\"correctness\"},{\"criteria\":\"FY2025 depreciation and amortization (D&A) = $1,864 million as input\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"calculate FY2025 EBITDA correctly as: EBIT + D&A = $83,317 million\"},{\"operator\":\"correctness\",\"criteria\":\"Total shares outstanding = 24,477 million as input\"},{\"criteria\":\"pull latest NVDA close price per share on January 24, 2025 = $142.59\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"calculate market cap as total shares outstanding x share price: 24,477 million × $142.59 = $3,490,175.43 million\"},{\"operator\":\"correctness\",\"criteria\":\"pull total debt = $8,463 million as input\"},{\"operator\":\"correctness\",\"criteria\":\"pull cash and cash equivalents = $8,589 million as input\"},{\"criteria\":\"pull marketable securities = $34,621 million as input\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"calculate Enterprise Value correctly as $3,490,175.43 million + $8,463 million − $8,589 million − $34,621 million = $3,455,428.43 million\"},{\"criteria\":\"FY2025 EV/EBITDA = $3,455,428.43 million ÷ $83,317 million = 41.47×.\",\"operator\":\"correctness\"},{\"criteria\":\"Round final answer to two decimal points: 41.47×\",\"operator\":\"correctness\"}]"
+          "content": "FY2025 EBIT (operating income) = $81,453 million as input",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "FY2025 depreciation and amortization (D&A) = $1,864 million as input",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "FY2025 depreciation and amortization (D&A) = $1,864 million as input",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "calculate FY2025 EBITDA correctly as: EBIT + D&A = $83,317 million",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "calculate FY2025 EBITDA correctly as: EBIT + D&A = $83,317 million",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Total shares outstanding = 24,477 million as input",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Total shares outstanding = 24,477 million as input",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "pull latest NVDA close price per share on January 24, 2025 = $142.59",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "pull latest NVDA close price per share on January 24, 2025 = $142.59",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "calculate market cap as total shares outstanding x share price: 24,477 million × $142.59 = $3,490,175.43 million",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "calculate market cap as total shares outstanding x share price: 24,477 million × $142.59 = $3,490,175.43 million",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "pull total debt = $8,463 million as input",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "pull total debt = $8,463 million as input",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "pull cash and cash equivalents = $8,589 million as input",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "pull cash and cash equivalents = $8,589 million as input",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "pull marketable securities = $34,621 million as input",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "pull marketable securities = $34,621 million as input",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "calculate Enterprise Value correctly as $3,490,175.43 million + $8,463 million − $8,589 million − $34,621 million = $3,455,428.43 million",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "calculate Enterprise Value correctly as $3,490,175.43 million + $8,463 million − $8,589 million − $34,621 million = $3,455,428.43 million",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "FY2025 EV/EBITDA = $3,455,428.43 million ÷ $83,317 million = 41.47×.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "FY2025 EV/EBITDA = $3,455,428.43 million ÷ $83,317 million = 41.47×.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Round final answer to two decimal points: 41.47×",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Round final answer to two decimal points: 41.47×",
+          "operator": "correctness"
         }
       ],
       "dependencies": []

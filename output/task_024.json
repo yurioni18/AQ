@@ -7,7 +7,7 @@
   ],
   "rubrics": [
     {
-      "name": "Task completion",
+      "name": "Income from operations (located in Income Statement)= $360.094 million.",
       "weight": 1.0,
       "score": {
         "type": "discrete",
@@ -25,7 +25,208 @@
       "messages": [
         {
           "type": "text",
-          "content": "[{\"criteria\":\"Income from operations (located in Income Statement)= $360.094 million.\",\"operator\":\"correctness\"},{\"criteria\":\"Long-term debt (located in Balance Sheet)= $416.322 million.\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Current portion of finance lease liability (located in Balance Sheet) = $42.316 million.\"},{\"criteria\":\"Long-term finance lease liability (located in Balance Sheet) = $44.567 million.\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Cash and cash equivalents (located in Balance Sheet) = $782.497 million.\"},{\"criteria\":\"Marketable Securities (located in Balance Sheet) = $202.769 million.\",\"operator\":\"correctness\"},{\"criteria\":\"Equity value (Using stated in the promt assumptions) = Share Price × F/D/S/O = $130 × 50,000,000 = $6,500,000,000.\",\"operator\":\"correctness\"},{\"criteria\":\"Enterprise value (EV) = Market Cap + Long-term debt + Current portion of finance lease liability + Long-term finance lease liability - Cash and cash equivalents - Marketable Securities = $6,017,939,000.\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"EV/Operating Income multiple (rounded to 1 decimal) = 16.7x.\"}]"
+          "content": "Income from operations (located in Income Statement)= $360.094 million.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Long-term debt (located in Balance Sheet)= $416.322 million.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Long-term debt (located in Balance Sheet)= $416.322 million.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Current portion of finance lease liability (located in Balance Sheet) = $42.316 million.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Current portion of finance lease liability (located in Balance Sheet) = $42.316 million.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Long-term finance lease liability (located in Balance Sheet) = $44.567 million.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Long-term finance lease liability (located in Balance Sheet) = $44.567 million.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Cash and cash equivalents (located in Balance Sheet) = $782.497 million.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Cash and cash equivalents (located in Balance Sheet) = $782.497 million.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Marketable Securities (located in Balance Sheet) = $202.769 million.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Marketable Securities (located in Balance Sheet) = $202.769 million.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Equity value (Using stated in the promt assumptions) = Share Price × F/D/S/O = $130 × 50,000,000 = $6,500,000,000.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Equity value (Using stated in the promt assumptions) = Share Price × F/D/S/O = $130 × 50,000,000 = $6,500,000,000.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Enterprise value (EV) = Market Cap + Long-term debt + Current portion of finance lease liability + Long-term finance lease liability - Cash and cash equivalents - Marketable Securities = $6,017,939,000.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Enterprise value (EV) = Market Cap + Long-term debt + Current portion of finance lease liability + Long-term finance lease liability - Cash and cash equivalents - Marketable Securities = $6,017,939,000.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "EV/Operating Income multiple (rounded to 1 decimal) = 16.7x.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "EV/Operating Income multiple (rounded to 1 decimal) = 16.7x.",
+          "operator": "correctness"
         }
       ],
       "dependencies": []

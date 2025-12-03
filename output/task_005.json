@@ -7,7 +7,7 @@
   ],
   "rubrics": [
     {
-      "name": "Task completion",
+      "name": "Use EA'S quarterly releases: Q4 FY2025 (three months ended Mar 31, 2025), Q1 FY2026 (three months ended Jun 30, 2025), Q2 FY2026 (three months ended Sep 30, 2025).",
       "weight": 1.0,
       "score": {
         "type": "discrete",
@@ -25,7 +25,258 @@
       "messages": [
         {
           "type": "text",
-          "content": "[{\"criteria\":\"Use EA'S quarterly releases: Q4 FY2025 (three months ended Mar 31, 2025), Q1 FY2026 (three months ended Jun 30, 2025), Q2 FY2026 (three months ended Sep 30, 2025).\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"CQGR formula and period specification: CQGR = (Ending EPS / Beginning EPS)^(1/2) − 1 with n = 2 quarters.\"},{\"criteria\":\"Calculated actual GAAP EPS CQGR = −25.77% (per quarter), computed as ((0.54 / 0.98)^(1/2) − 1).\",\"operator\":\"correctness\"},{\"criteria\":\"Calculated estimated GAAP EPS CQGR = −32.58% (per quarter), computed as ((0.375 / 0.825)^(1/2) − 1).\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Absolute difference between actual and estimated CQGRs -> 6.81%\"},{\"criteria\":\"Actual GAAP diluted EPS Q1 FY2026 IS $0.79\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Include Actual GAAP diluted EPS Q2 FY2026 = $0.54\"},{\"criteria\":\"Actual GAAP diluted EPS Q4 FY2025 is $0.98\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Final answer reported to two decimal places - 6.81%\"},{\"criteria\":\"Estimated GAAP EPS guidance midpoint: Q4 FY2025 midpoint is $0.825 (range $0.65–$1.00)\",\"operator\":\"correctness\"},{\"criteria\":\"Estimated GAAP EPS guidance midpoint: Q2 FY2026 midpoint is $0.375 (range $0.29–$0.46) \",\"operator\":\"correctness\"}]"
+          "content": "Use EA'S quarterly releases: Q4 FY2025 (three months ended Mar 31, 2025), Q1 FY2026 (three months ended Jun 30, 2025), Q2 FY2026 (three months ended Sep 30, 2025).",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "CQGR formula and period specification: CQGR = (Ending EPS / Beginning EPS)^(1/2) − 1 with n = 2 quarters.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "CQGR formula and period specification: CQGR = (Ending EPS / Beginning EPS)^(1/2) − 1 with n = 2 quarters.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Calculated actual GAAP EPS CQGR = −25.77% (per quarter), computed as ((0.54 / 0.98)^(1/2) − 1).",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Calculated actual GAAP EPS CQGR = −25.77% (per quarter), computed as ((0.54 / 0.98)^(1/2) − 1).",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Calculated estimated GAAP EPS CQGR = −32.58% (per quarter), computed as ((0.375 / 0.825)^(1/2) − 1).",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Calculated estimated GAAP EPS CQGR = −32.58% (per quarter), computed as ((0.375 / 0.825)^(1/2) − 1).",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Absolute difference between actual and estimated CQGRs -> 6.81%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Absolute difference between actual and estimated CQGRs -> 6.81%",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Actual GAAP diluted EPS Q1 FY2026 IS $0.79",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Actual GAAP diluted EPS Q1 FY2026 IS $0.79",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Include Actual GAAP diluted EPS Q2 FY2026 = $0.54",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Include Actual GAAP diluted EPS Q2 FY2026 = $0.54",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Actual GAAP diluted EPS Q4 FY2025 is $0.98",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Actual GAAP diluted EPS Q4 FY2025 is $0.98",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Final answer reported to two decimal places - 6.81%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Final answer reported to two decimal places - 6.81%",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Estimated GAAP EPS guidance midpoint: Q4 FY2025 midpoint is $0.825 (range $0.65–$1.00)",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Estimated GAAP EPS guidance midpoint: Q4 FY2025 midpoint is $0.825 (range $0.65–$1.00)",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Estimated GAAP EPS guidance midpoint: Q2 FY2026 midpoint is $0.375 (range $0.29–$0.46) ",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Estimated GAAP EPS guidance midpoint: Q2 FY2026 midpoint is $0.375 (range $0.29–$0.46) ",
+          "operator": "correctness"
         }
       ],
       "dependencies": []

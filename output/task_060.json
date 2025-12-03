@@ -7,7 +7,7 @@
   ],
   "rubrics": [
     {
-      "name": "Task completion",
+      "name": "Stock Compensation = 1.814M or 2M",
       "weight": 1.0,
       "score": {
         "type": "discrete",
@@ -25,7 +25,133 @@
       "messages": [
         {
           "type": "text",
-          "content": "[{\"operator\":\"correctness\",\"criteria\":\"Stock Compensation = 1.814M or 2M\"},{\"operator\":\"correctness\",\"criteria\":\"Amortization of Intangibles = 3.065M or 3M\"},{\"operator\":\"correctness\",\"criteria\":\"Income Tax Effect = -1.322M or -1M\"},{\"operator\":\"correctness\",\"criteria\":\"Overall Effect is 3.557M or 4M\"},{\"criteria\":\"Final answer is rounded to two decimal points = 3.56M\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Amounts are expressed in $M\"}]"
+          "content": "Stock Compensation = 1.814M or 2M",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Amortization of Intangibles = 3.065M or 3M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Amortization of Intangibles = 3.065M or 3M",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Income Tax Effect = -1.322M or -1M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Income Tax Effect = -1.322M or -1M",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Overall Effect is 3.557M or 4M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Overall Effect is 3.557M or 4M",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Final answer is rounded to two decimal points = 3.56M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Final answer is rounded to two decimal points = 3.56M",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Amounts are expressed in $M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Amounts are expressed in $M",
+          "operator": "correctness"
         }
       ],
       "dependencies": []

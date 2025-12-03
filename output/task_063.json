@@ -7,7 +7,7 @@
   ],
   "rubrics": [
     {
-      "name": "Task completion",
+      "name": "Three Operating Segments includes: Oil and Gas",
       "weight": 1.0,
       "score": {
         "type": "discrete",
@@ -25,7 +25,233 @@
       "messages": [
         {
           "type": "text",
-          "content": "[{\"operator\":\"correctness\",\"criteria\":\"Three Operating Segments includes: Oil and Gas\"},{\"operator\":\"correctness\",\"criteria\":\"Three Operating Segments includes: Chemical\"},{\"operator\":\"correctness\",\"criteria\":\"Three Operating Segments includes: Midstream and Marketing\"},{\"operator\":\"correctness\",\"criteria\":\"CODM performance metric: Segment income (loss) from continuing operations before income taxes.\"},{\"criteria\":\"Corporate & Eliminations (items) includes: Income taxes\",\"operator\":\"correctness\"},{\"criteria\":\"Corporate & Eliminations (items) includes: interest income\",\"operator\":\"correctness\"},{\"criteria\":\"Corporate & Eliminations (items) includes: interest expense\",\"operator\":\"correctness\"},{\"criteria\":\"Corporate & Eliminations (items) includes: environmental remediation expenses\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Corporate & Eliminations (items) includes: acquisition-related costs\"},{\"criteria\":\"Corporate & Eliminations (items) includes: unallocated corporate expenses\",\"operator\":\"correctness\"}]"
+          "content": "Three Operating Segments includes: Oil and Gas",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Three Operating Segments includes: Chemical",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Three Operating Segments includes: Chemical",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Three Operating Segments includes: Midstream and Marketing",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Three Operating Segments includes: Midstream and Marketing",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "CODM performance metric: Segment income (loss) from continuing operations before income taxes.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "CODM performance metric: Segment income (loss) from continuing operations before income taxes.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Corporate & Eliminations (items) includes: Income taxes",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Corporate & Eliminations (items) includes: Income taxes",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Corporate & Eliminations (items) includes: interest income",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Corporate & Eliminations (items) includes: interest income",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Corporate & Eliminations (items) includes: interest expense",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Corporate & Eliminations (items) includes: interest expense",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Corporate & Eliminations (items) includes: environmental remediation expenses",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Corporate & Eliminations (items) includes: environmental remediation expenses",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Corporate & Eliminations (items) includes: acquisition-related costs",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Corporate & Eliminations (items) includes: acquisition-related costs",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Corporate & Eliminations (items) includes: unallocated corporate expenses",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Corporate & Eliminations (items) includes: unallocated corporate expenses",
+          "operator": "correctness"
         }
       ],
       "dependencies": []

@@ -7,7 +7,7 @@
   ],
   "rubrics": [
     {
-      "name": "Task completion",
+      "name": "FY2023 Home segment revenue (located in Note 3 to FS) = $143.753M",
       "weight": 1.0,
       "score": {
         "type": "discrete",
@@ -25,7 +25,208 @@
       "messages": [
         {
           "type": "text",
-          "content": "[{\"operator\":\"correctness\",\"criteria\":\"FY2023 Home segment revenue (located in Note 3 to FS) = $143.753M\"},{\"criteria\":\"2023 Large Bank Consumer Mortgage Originations (quarterly sum) (from FRED data as specified in the question)= 46.51 + 61.10 + 59.28 + 45.50 = 212.39\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"2024 Large Bank Consumer Mortgage Originations (quarterly sum) (from FRED data as specified in the question) = 43.33 + 59.64 + 62.57 + 67.98 = 233.52\"},{\"operator\":\"correctness\",\"criteria\":\"Year‑over‑year growth of large bank consumer mortgage originations = 2024 originations / 2023 originations -1 = 9.9487%\"},{\"operator\":\"correctness\",\"criteria\":\"Projected FY2024 Home segment revenue = FY23 Revenue * assumed growth rate (calculated at previous step) $143.753M × 1.099487 = $158.0545M\"},{\"operator\":\"correctness\",\"criteria\":\"Consolidated operating income for FY2024= $44.627M\"},{\"operator\":\"correctness\",\"criteria\":\"Consolidated total revenue for FY24 = $900.219M\"},{\"criteria\":\"Consolidated operating margin for FY24 =operating profit / Revenue = 4.9573%\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Final FY2024 Home segment operating income (rounded to 1 decimal) = $7.8M\"}]"
+          "content": "FY2023 Home segment revenue (located in Note 3 to FS) = $143.753M",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "2023 Large Bank Consumer Mortgage Originations (quarterly sum) (from FRED data as specified in the question)= 46.51 + 61.10 + 59.28 + 45.50 = 212.39",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "2023 Large Bank Consumer Mortgage Originations (quarterly sum) (from FRED data as specified in the question)= 46.51 + 61.10 + 59.28 + 45.50 = 212.39",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "2024 Large Bank Consumer Mortgage Originations (quarterly sum) (from FRED data as specified in the question) = 43.33 + 59.64 + 62.57 + 67.98 = 233.52",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "2024 Large Bank Consumer Mortgage Originations (quarterly sum) (from FRED data as specified in the question) = 43.33 + 59.64 + 62.57 + 67.98 = 233.52",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Year‑over‑year growth of large bank consumer mortgage originations = 2024 originations / 2023 originations -1 = 9.9487%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Year‑over‑year growth of large bank consumer mortgage originations = 2024 originations / 2023 originations -1 = 9.9487%",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Projected FY2024 Home segment revenue = FY23 Revenue * assumed growth rate (calculated at previous step) $143.753M × 1.099487 = $158.0545M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Projected FY2024 Home segment revenue = FY23 Revenue * assumed growth rate (calculated at previous step) $143.753M × 1.099487 = $158.0545M",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Consolidated operating income for FY2024= $44.627M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Consolidated operating income for FY2024= $44.627M",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Consolidated total revenue for FY24 = $900.219M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Consolidated total revenue for FY24 = $900.219M",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Consolidated operating margin for FY24 =operating profit / Revenue = 4.9573%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Consolidated operating margin for FY24 =operating profit / Revenue = 4.9573%",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Final FY2024 Home segment operating income (rounded to 1 decimal) = $7.8M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Final FY2024 Home segment operating income (rounded to 1 decimal) = $7.8M",
+          "operator": "correctness"
         }
       ],
       "dependencies": []

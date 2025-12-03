@@ -7,7 +7,7 @@
   ],
   "rubrics": [
     {
-      "name": "Task completion",
+      "name": "Assumption: Use trailing‑twelve‑months (TTM) ending 2025‑09‑30 (Q3 2025 10‑Q) as the period for TTM metrics.",
       "weight": 1.0,
       "score": {
         "type": "discrete",
@@ -25,7 +25,933 @@
       "messages": [
         {
           "type": "text",
-          "content": "[{\"operator\":\"correctness\",\"criteria\":\"Assumption: Use trailing‑twelve‑months (TTM) ending 2025‑09‑30 (Q3 2025 10‑Q) as the period for TTM metrics.\"},{\"operator\":\"correctness\",\"criteria\":\"Definition: EBITDA is computed as Income from Operations + Depreciation + Amortization.\"},{\"criteria\":\"EV formula used: EV = Market Cap + Total Debt + Noncontrolling Interests − Cash.\",\"operator\":\"correctness\"},{\"criteria\":\"Price used for calculations: $129.99 per share on 2025‑11‑18.\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Shares outstanding used: 66,389,673 common shares as of 2025‑10‑27.\"},{\"criteria\":\"Market Capitalization calculated as $8,629,993,593.27 (≈ $8,629.99 million) based on Price × Shares.\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Long‑term debt (2025‑09‑30) reported as $4,780.0 million.\"},{\"criteria\":\"Current maturities of long‑term debt (2025‑09‑30) reported as $5.4 million.\",\"operator\":\"correctness\"},{\"criteria\":\"Total debt computed as $4,785.4 million.\",\"operator\":\"correctness\"},{\"criteria\":\"Cash & cash equivalents (2025‑09‑30) reported as $400.0 million.\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Noncontrolling interests (2025‑09‑30) reported as $8.8 million.\"},{\"operator\":\"correctness\",\"criteria\":\"Net Debt computed as $4,385.4 million (Total Debt − Cash).\"},{\"operator\":\"correctness\",\"criteria\":\"Enterprise Value (EV) computed as $13,024.19 million (Market Cap + Net Debt + Noncontrolling Interests).\"},{\"criteria\":\"Q4 2024 net sales used as $1,461.1 million.\",\"operator\":\"correctness\"},{\"criteria\":\"Nine‑months 2025 net sales used as $4,411.2 million.\",\"operator\":\"correctness\"},{\"criteria\":\"TTM Sales computed as $5,872.3 million (Q4 2024 + 9M 2025).\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"FY 2024 Income from Operations reported as $630.0 million.\"},{\"criteria\":\"FY 2024 Depreciation reported as $165.3 million and FY 2024 Amortization reported as $346.5 million\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"FY 2024 Amortization reported as $346.5 million, yielding FY 2024 D&A $511.8 million\"},{\"operator\":\"correctness\",\"criteria\":\"FY 2024 EBITDA $1,141.8 million.\"},{\"criteria\":\"Nine‑months 2024 EBITDA reported as $884.5 million.\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Q4 2024 EBITDA computed as $257.3 million (FY 2024 EBITDA − 9M 2024 EBITDA).\"},{\"criteria\":\"Nine‑months 2025 EBITDA reported as $893.3 million.\",\"operator\":\"correctness\"},{\"criteria\":\"TTM EBITDA computed as $1,150.6 million (Q4 2024 EBITDA + 9M 2025 EBITDA).\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"EV/Sales calculated as 2.22×\"},{\"criteria\":\"EV/Sales = EV $13,024.19m ÷ TTM Sales $5,872.30m\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"EV/EBITDA calculated as 11.32× (EV $13,024.19m ÷ TTM EBITDA $1,150.60m).\"},{\"criteria\":\"Last four quarterly diluted EPS used: Q4 2024 $0.62, Q1 2025 $0.86, Q2 2025 $1.19, Q3 2025 $1.20.\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"quarterly diluted EPS Q1 2025 $0.86\"},{\"operator\":\"correctness\",\"criteria\":\"quarterly diluted EPS Q2 2025 $1.19\"},{\"criteria\":\"Last four quarterly diluted EPS Q3 2025 $1.20\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"TTM diluted EPS computed as $3.87 (sum of the four quarterly diluted EPS).\"},{\"operator\":\"correctness\",\"criteria\":\"P/E calculated as 33.59× (Price $129.99 ÷ TTM diluted EPS $3.87).\"},{\"criteria\":\"EV/EBITDA = 11.32×\",\"operator\":\"correctness\"},{\"criteria\":\"EV/Sales = 2.22x\",\"operator\":\"correctness\"},{\"criteria\":\"P/E = 33.59x\",\"operator\":\"correctness\"},{\"criteria\":\"Stated assumption that shares outstanding from 2025‑10‑27 are used for Market Cap with no material share count change between 2025‑10‑27 and 2025‑11‑18.\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"All decimal places are rounded to two places. \"}]"
+          "content": "Assumption: Use trailing‑twelve‑months (TTM) ending 2025‑09‑30 (Q3 2025 10‑Q) as the period for TTM metrics.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Definition: EBITDA is computed as Income from Operations + Depreciation + Amortization.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Definition: EBITDA is computed as Income from Operations + Depreciation + Amortization.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "EV formula used: EV = Market Cap + Total Debt + Noncontrolling Interests − Cash.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "EV formula used: EV = Market Cap + Total Debt + Noncontrolling Interests − Cash.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Price used for calculations: $129.99 per share on 2025‑11‑18.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Price used for calculations: $129.99 per share on 2025‑11‑18.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Shares outstanding used: 66,389,673 common shares as of 2025‑10‑27.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Shares outstanding used: 66,389,673 common shares as of 2025‑10‑27.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Market Capitalization calculated as $8,629,993,593.27 (≈ $8,629.99 million) based on Price × Shares.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Market Capitalization calculated as $8,629,993,593.27 (≈ $8,629.99 million) based on Price × Shares.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Long‑term debt (2025‑09‑30) reported as $4,780.0 million.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Long‑term debt (2025‑09‑30) reported as $4,780.0 million.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Current maturities of long‑term debt (2025‑09‑30) reported as $5.4 million.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Current maturities of long‑term debt (2025‑09‑30) reported as $5.4 million.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Total debt computed as $4,785.4 million.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Total debt computed as $4,785.4 million.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Cash & cash equivalents (2025‑09‑30) reported as $400.0 million.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Cash & cash equivalents (2025‑09‑30) reported as $400.0 million.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Noncontrolling interests (2025‑09‑30) reported as $8.8 million.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Noncontrolling interests (2025‑09‑30) reported as $8.8 million.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Net Debt computed as $4,385.4 million (Total Debt − Cash).",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Net Debt computed as $4,385.4 million (Total Debt − Cash).",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Enterprise Value (EV) computed as $13,024.19 million (Market Cap + Net Debt + Noncontrolling Interests).",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Enterprise Value (EV) computed as $13,024.19 million (Market Cap + Net Debt + Noncontrolling Interests).",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Q4 2024 net sales used as $1,461.1 million.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Q4 2024 net sales used as $1,461.1 million.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Nine‑months 2025 net sales used as $4,411.2 million.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Nine‑months 2025 net sales used as $4,411.2 million.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "TTM Sales computed as $5,872.3 million (Q4 2024 + 9M 2025).",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "TTM Sales computed as $5,872.3 million (Q4 2024 + 9M 2025).",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "FY 2024 Income from Operations reported as $630.0 million.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "FY 2024 Income from Operations reported as $630.0 million.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "FY 2024 Depreciation reported as $165.3 million and FY 2024 Amortization reported as $346.5 million",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "FY 2024 Depreciation reported as $165.3 million and FY 2024 Amortization reported as $346.5 million",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "FY 2024 Amortization reported as $346.5 million, yielding FY 2024 D&A $511.8 million",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "FY 2024 Amortization reported as $346.5 million, yielding FY 2024 D&A $511.8 million",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "FY 2024 EBITDA $1,141.8 million.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "FY 2024 EBITDA $1,141.8 million.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Nine‑months 2024 EBITDA reported as $884.5 million.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Nine‑months 2024 EBITDA reported as $884.5 million.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Q4 2024 EBITDA computed as $257.3 million (FY 2024 EBITDA − 9M 2024 EBITDA).",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Q4 2024 EBITDA computed as $257.3 million (FY 2024 EBITDA − 9M 2024 EBITDA).",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Nine‑months 2025 EBITDA reported as $893.3 million.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Nine‑months 2025 EBITDA reported as $893.3 million.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "TTM EBITDA computed as $1,150.6 million (Q4 2024 EBITDA + 9M 2025 EBITDA).",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "TTM EBITDA computed as $1,150.6 million (Q4 2024 EBITDA + 9M 2025 EBITDA).",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "EV/Sales calculated as 2.22×",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "EV/Sales calculated as 2.22×",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "EV/Sales = EV $13,024.19m ÷ TTM Sales $5,872.30m",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "EV/Sales = EV $13,024.19m ÷ TTM Sales $5,872.30m",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "EV/EBITDA calculated as 11.32× (EV $13,024.19m ÷ TTM EBITDA $1,150.60m).",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "EV/EBITDA calculated as 11.32× (EV $13,024.19m ÷ TTM EBITDA $1,150.60m).",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Last four quarterly diluted EPS used: Q4 2024 $0.62, Q1 2025 $0.86, Q2 2025 $1.19, Q3 2025 $1.20.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Last four quarterly diluted EPS used: Q4 2024 $0.62, Q1 2025 $0.86, Q2 2025 $1.19, Q3 2025 $1.20.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "quarterly diluted EPS Q1 2025 $0.86",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "quarterly diluted EPS Q1 2025 $0.86",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "quarterly diluted EPS Q2 2025 $1.19",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "quarterly diluted EPS Q2 2025 $1.19",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Last four quarterly diluted EPS Q3 2025 $1.20",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Last four quarterly diluted EPS Q3 2025 $1.20",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "TTM diluted EPS computed as $3.87 (sum of the four quarterly diluted EPS).",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "TTM diluted EPS computed as $3.87 (sum of the four quarterly diluted EPS).",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "P/E calculated as 33.59× (Price $129.99 ÷ TTM diluted EPS $3.87).",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "P/E calculated as 33.59× (Price $129.99 ÷ TTM diluted EPS $3.87).",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "EV/EBITDA = 11.32×",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "EV/EBITDA = 11.32×",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "EV/Sales = 2.22x",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "EV/Sales = 2.22x",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "P/E = 33.59x",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "P/E = 33.59x",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Stated assumption that shares outstanding from 2025‑10‑27 are used for Market Cap with no material share count change between 2025‑10‑27 and 2025‑11‑18.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Stated assumption that shares outstanding from 2025‑10‑27 are used for Market Cap with no material share count change between 2025‑10‑27 and 2025‑11‑18.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "All decimal places are rounded to two places. ",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "All decimal places are rounded to two places. ",
+          "operator": "correctness"
         }
       ],
       "dependencies": []

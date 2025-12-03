@@ -7,7 +7,7 @@
   ],
   "rubrics": [
     {
-      "name": "Task completion",
+      "name": "FY2024 as-reported Adjusted EBITDA = $104,113 thousand ($104.113 million).",
       "weight": 1.0,
       "score": {
         "type": "discrete",
@@ -25,7 +25,108 @@
       "messages": [
         {
           "type": "text",
-          "content": "[{\"operator\":\"correctness\",\"criteria\":\"FY2024 as-reported Adjusted EBITDA = $104,113 thousand ($104.113 million).\"},{\"criteria\":\"FY2024 total revenue = $900,219 thousand ($900.219 million).\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"FY2024 aEBITDA margin = aEBITDA / Revenue = 11.57%.\"},{\"operator\":\"correctness\",\"criteria\":\"Industry-average EBITDA margin for US-based companies in Financial Svcs. (Non-bank & Insurance) industry (Damodaran data as of Jan 2025, as required in the promt) = 18.17%.\"},{\"operator\":\"correctness\",\"criteria\":\"the absolute difference between LendingTree’s FY2024 aEBITDA margin = |11.57% − 18.17%| = 6.60%.\"}]"
+          "content": "FY2024 as-reported Adjusted EBITDA = $104,113 thousand ($104.113 million).",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "FY2024 total revenue = $900,219 thousand ($900.219 million).",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "FY2024 total revenue = $900,219 thousand ($900.219 million).",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "FY2024 aEBITDA margin = aEBITDA / Revenue = 11.57%.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "FY2024 aEBITDA margin = aEBITDA / Revenue = 11.57%.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Industry-average EBITDA margin for US-based companies in Financial Svcs. (Non-bank & Insurance) industry (Damodaran data as of Jan 2025, as required in the promt) = 18.17%.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Industry-average EBITDA margin for US-based companies in Financial Svcs. (Non-bank & Insurance) industry (Damodaran data as of Jan 2025, as required in the promt) = 18.17%.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "the absolute difference between LendingTree’s FY2024 aEBITDA margin = |11.57% − 18.17%| = 6.60%.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "the absolute difference between LendingTree’s FY2024 aEBITDA margin = |11.57% − 18.17%| = 6.60%.",
+          "operator": "correctness"
         }
       ],
       "dependencies": []

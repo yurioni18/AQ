@@ -7,7 +7,7 @@
   ],
   "rubrics": [
     {
-      "name": "Task completion",
+      "name": "Confirms the analysis covers FY2021 to FY2024 and only uses Tesla’s automotive segment.",
       "weight": 1.0,
       "score": {
         "type": "discrete",
@@ -25,7 +25,208 @@
       "messages": [
         {
           "type": "text",
-          "content": "[{\"criteria\":\"Confirms the analysis covers FY2021 to FY2024 and only uses Tesla’s automotive segment.\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Lists the 2021 revenue of $51.03B, gross profit of $13.74B, and 936,172 vehicle deliveries.\"},{\"operator\":\"correctness\",\"criteria\":\"Uses the 2021 values to calculate revenue per vehicle ($54,513), gross profit per vehicle ($14,671), and the automotive gross margin (26.9%).\"},{\"criteria\":\"Lists the 2024 revenue of $87.60B, gross profit of $14.81B, and 1,789,226 deliveries.\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Calculates the 2024 revenue per vehicle ($48,962), gross profit per vehicle ($8,277), and margin (16.9%) using those inputs.\"},{\"criteria\":\"Recognizes the change from 2021 to 2024: revenue per vehicle lower by $5,551, gross profit per vehicle lower by $6,394, and margin lower by 10.0 percentage points.\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"U.S. revenue share increases from 44.5% in 2021 to 48.9% in 2024 and China’s share decreases from 25.7% to 21.4%.\"},{\"criteria\":\"Model 3/Y account for 95–97% of total deliveries in all 4 years, with S/X plus Cybertruck staying under 5% in 2024.\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Concludes that the causes mentioned by Tesla management, price reductions, financing incentives, competitive pressure in China, and expenditures associated with the Cybertruck ramp, are responsible for the decline in vehicle economics and margin.\"}]"
+          "content": "Confirms the analysis covers FY2021 to FY2024 and only uses Tesla’s automotive segment.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Lists the 2021 revenue of $51.03B, gross profit of $13.74B, and 936,172 vehicle deliveries.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Lists the 2021 revenue of $51.03B, gross profit of $13.74B, and 936,172 vehicle deliveries.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Uses the 2021 values to calculate revenue per vehicle ($54,513), gross profit per vehicle ($14,671), and the automotive gross margin (26.9%).",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Uses the 2021 values to calculate revenue per vehicle ($54,513), gross profit per vehicle ($14,671), and the automotive gross margin (26.9%).",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Lists the 2024 revenue of $87.60B, gross profit of $14.81B, and 1,789,226 deliveries.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Lists the 2024 revenue of $87.60B, gross profit of $14.81B, and 1,789,226 deliveries.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Calculates the 2024 revenue per vehicle ($48,962), gross profit per vehicle ($8,277), and margin (16.9%) using those inputs.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Calculates the 2024 revenue per vehicle ($48,962), gross profit per vehicle ($8,277), and margin (16.9%) using those inputs.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Recognizes the change from 2021 to 2024: revenue per vehicle lower by $5,551, gross profit per vehicle lower by $6,394, and margin lower by 10.0 percentage points.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Recognizes the change from 2021 to 2024: revenue per vehicle lower by $5,551, gross profit per vehicle lower by $6,394, and margin lower by 10.0 percentage points.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "U.S. revenue share increases from 44.5% in 2021 to 48.9% in 2024 and China’s share decreases from 25.7% to 21.4%.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "U.S. revenue share increases from 44.5% in 2021 to 48.9% in 2024 and China’s share decreases from 25.7% to 21.4%.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Model 3/Y account for 95–97% of total deliveries in all 4 years, with S/X plus Cybertruck staying under 5% in 2024.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Model 3/Y account for 95–97% of total deliveries in all 4 years, with S/X plus Cybertruck staying under 5% in 2024.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Concludes that the causes mentioned by Tesla management, price reductions, financing incentives, competitive pressure in China, and expenditures associated with the Cybertruck ramp, are responsible for the decline in vehicle economics and margin.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Concludes that the causes mentioned by Tesla management, price reductions, financing incentives, competitive pressure in China, and expenditures associated with the Cybertruck ramp, are responsible for the decline in vehicle economics and margin.",
+          "operator": "correctness"
         }
       ],
       "dependencies": []

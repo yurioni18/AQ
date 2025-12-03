@@ -7,7 +7,7 @@
   ],
   "rubrics": [
     {
-      "name": "Task completion",
+      "name": "Find Eli Lilly's DPS growth guidance as of December 2022 from the Dec 12th, 2022 press release: 15%.",
       "weight": 1.0,
       "score": {
         "type": "discrete",
@@ -25,7 +25,158 @@
       "messages": [
         {
           "type": "text",
-          "content": "[{\"criteria\":\"Find Eli Lilly's DPS growth guidance as of December 2022 from the Dec 12th, 2022 press release: 15%.\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Find Eli Lilly's actual FY 2023 DPS: $4.52\"},{\"operator\":\"correctness\",\"criteria\":\"Find Eli Lilly's actual FY 2022 DPS: $3.92\"},{\"criteria\":\"Calculate actual FY 2023 DPS growth: (4.52 - 3.92)/3.92 × 100 = 15.31%\",\"operator\":\"correctness\"},{\"criteria\":\"Calculate difference between actual and guidance DPS growth in FY 2023: 15.31% (actual) - 15% (guidance) = 0.31%\",\"operator\":\"correctness\"},{\"criteria\":\"Classify Eli Lilly's FY 2023 DPS growth as BEAT because the actual DPS growth is greater than the guidance value\",\"operator\":\"correctness\"},{\"criteria\":\"Final answer is rounded to 2 decimal points of precision\",\"operator\":\"correctness\"}]"
+          "content": "Find Eli Lilly's DPS growth guidance as of December 2022 from the Dec 12th, 2022 press release: 15%.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Find Eli Lilly's actual FY 2023 DPS: $4.52",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Find Eli Lilly's actual FY 2023 DPS: $4.52",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Find Eli Lilly's actual FY 2022 DPS: $3.92",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Find Eli Lilly's actual FY 2022 DPS: $3.92",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Calculate actual FY 2023 DPS growth: (4.52 - 3.92)/3.92 × 100 = 15.31%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Calculate actual FY 2023 DPS growth: (4.52 - 3.92)/3.92 × 100 = 15.31%",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Calculate difference between actual and guidance DPS growth in FY 2023: 15.31% (actual) - 15% (guidance) = 0.31%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Calculate difference between actual and guidance DPS growth in FY 2023: 15.31% (actual) - 15% (guidance) = 0.31%",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Classify Eli Lilly's FY 2023 DPS growth as BEAT because the actual DPS growth is greater than the guidance value",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Classify Eli Lilly's FY 2023 DPS growth as BEAT because the actual DPS growth is greater than the guidance value",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Final answer is rounded to 2 decimal points of precision",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Final answer is rounded to 2 decimal points of precision",
+          "operator": "correctness"
         }
       ],
       "dependencies": []

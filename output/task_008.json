@@ -7,7 +7,7 @@
   ],
   "rubrics": [
     {
-      "name": "Task completion",
+      "name": "Originally announced annual synergy target of approximately $400 M (run-rate)",
       "weight": 1.0,
       "score": {
         "type": "discrete",
@@ -25,7 +25,158 @@
       "messages": [
         {
           "type": "text",
-          "content": "[{\"operator\":\"correctness\",\"criteria\":\"Originally announced annual synergy target of approximately $400 M (run-rate)\"},{\"criteria\":\"Most recent October 2025 guidance update increased the annual synergy outlook to $600 M by the end of FY 2026\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Most recent October 2025 guidance indicated the deal was on track to hit $500 M in annual synergies by the end of FY 2025\"},{\"operator\":\"correctness\",\"criteria\":\"Primary synergy sources includes: lower drilling and completion costs\"},{\"operator\":\"correctness\",\"criteria\":\"Primary synergy sources includes: G&A reductions\"},{\"criteria\":\"Primary synergy sources includes: utilization of shared operational infrastructure\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Primary synergy sources includes: longer laterals\"}]"
+          "content": "Originally announced annual synergy target of approximately $400 M (run-rate)",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Most recent October 2025 guidance update increased the annual synergy outlook to $600 M by the end of FY 2026",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Most recent October 2025 guidance update increased the annual synergy outlook to $600 M by the end of FY 2026",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Most recent October 2025 guidance indicated the deal was on track to hit $500 M in annual synergies by the end of FY 2025",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Most recent October 2025 guidance indicated the deal was on track to hit $500 M in annual synergies by the end of FY 2025",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Primary synergy sources includes: lower drilling and completion costs",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Primary synergy sources includes: lower drilling and completion costs",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Primary synergy sources includes: G&A reductions",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Primary synergy sources includes: G&A reductions",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Primary synergy sources includes: utilization of shared operational infrastructure",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Primary synergy sources includes: utilization of shared operational infrastructure",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Primary synergy sources includes: longer laterals",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Primary synergy sources includes: longer laterals",
+          "operator": "correctness"
         }
       ],
       "dependencies": []

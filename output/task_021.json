@@ -7,7 +7,7 @@
   ],
   "rubrics": [
     {
-      "name": "Task completion",
+      "name": "Clarifies that Pfizer's Business innovation segment revenues includes revenues from Pfizer CentreOne (PC1) and Pfizer Ignite",
       "weight": 1.0,
       "score": {
         "type": "discrete",
@@ -25,7 +25,308 @@
       "messages": [
         {
           "type": "text",
-          "content": "[{\"operator\":\"correctness\",\"criteria\":\"Clarifies that Pfizer's Business innovation segment revenues includes revenues from Pfizer CentreOne (PC1) and Pfizer Ignite\"},{\"criteria\":\"Finds Q3 2024 PC1 revenue: $285m\",\"operator\":\"correctness\"},{\"criteria\":\"Finds Q3 2024 Ignite revenue: $25m\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Finds Q3 2024 total revenue: $17,702m\"},{\"operator\":\"correctness\",\"criteria\":\"Calculates business innovation revenues as a percentage of total revenues using the formula: [(PC1 revenue + Ignite revenue)/total revenue] x 100\"},{\"operator\":\"correctness\",\"criteria\":\"Calculates Q3 2024 business innovation revenues as a percentage of total revenues: [($285m + $25m)/ $17,702m] x 100 = 1.75121455% \"},{\"criteria\":\"Finds Q3 2023 PC1 revenue: $293m\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Finds Q3 2023 Ignite revenue: $10m\"},{\"operator\":\"correctness\",\"criteria\":\"Finds Q3 2023 total revenue: $13,491m\"},{\"operator\":\"correctness\",\"criteria\":\"Calculates Q3 2023 business innovation revenues as a percentage of total revenues: [($293m + $10m)/ $13,491m] x 100 = 2.24594174% \"},{\"criteria\":\"Calculates the percent change of the Q3 2024 ratio vs. the Q3 2023 ratio: [(1.75121455% − 2.24594174%) / 2.24594174%] × 100 = −22.0276%. \",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Final answer is rounded to two decimal points of precision\"},{\"operator\":\"correctness\",\"criteria\":\"Final answer includes the value \\\"−22.03%\\\", as this corresponds to the percent change of the Q3 2024 ratio vs. the Q3 2023 ratio\"}]"
+          "content": "Clarifies that Pfizer's Business innovation segment revenues includes revenues from Pfizer CentreOne (PC1) and Pfizer Ignite",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Finds Q3 2024 PC1 revenue: $285m",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Finds Q3 2024 PC1 revenue: $285m",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Finds Q3 2024 Ignite revenue: $25m",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Finds Q3 2024 Ignite revenue: $25m",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Finds Q3 2024 total revenue: $17,702m",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Finds Q3 2024 total revenue: $17,702m",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Calculates business innovation revenues as a percentage of total revenues using the formula: [(PC1 revenue + Ignite revenue)/total revenue] x 100",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Calculates business innovation revenues as a percentage of total revenues using the formula: [(PC1 revenue + Ignite revenue)/total revenue] x 100",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Calculates Q3 2024 business innovation revenues as a percentage of total revenues: [($285m + $25m)/ $17,702m] x 100 = 1.75121455% ",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Calculates Q3 2024 business innovation revenues as a percentage of total revenues: [($285m + $25m)/ $17,702m] x 100 = 1.75121455% ",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Finds Q3 2023 PC1 revenue: $293m",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Finds Q3 2023 PC1 revenue: $293m",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Finds Q3 2023 Ignite revenue: $10m",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Finds Q3 2023 Ignite revenue: $10m",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Finds Q3 2023 total revenue: $13,491m",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Finds Q3 2023 total revenue: $13,491m",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Calculates Q3 2023 business innovation revenues as a percentage of total revenues: [($293m + $10m)/ $13,491m] x 100 = 2.24594174% ",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Calculates Q3 2023 business innovation revenues as a percentage of total revenues: [($293m + $10m)/ $13,491m] x 100 = 2.24594174% ",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Calculates the percent change of the Q3 2024 ratio vs. the Q3 2023 ratio: [(1.75121455% − 2.24594174%) / 2.24594174%] × 100 = −22.0276%. ",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Calculates the percent change of the Q3 2024 ratio vs. the Q3 2023 ratio: [(1.75121455% − 2.24594174%) / 2.24594174%] × 100 = −22.0276%. ",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Final answer is rounded to two decimal points of precision",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Final answer is rounded to two decimal points of precision",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Final answer includes the value \"−22.03%\", as this corresponds to the percent change of the Q3 2024 ratio vs. the Q3 2023 ratio",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Final answer includes the value \"−22.03%\", as this corresponds to the percent change of the Q3 2024 ratio vs. the Q3 2023 ratio",
+          "operator": "correctness"
         }
       ],
       "dependencies": []

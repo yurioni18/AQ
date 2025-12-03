@@ -7,7 +7,7 @@
   ],
   "rubrics": [
     {
-      "name": "Task completion",
+      "name": "Final adjusted EBITDA reported as $4,018.00 million (rounded to 2 decimals).\n",
       "weight": 1.0,
       "score": {
         "type": "discrete",
@@ -25,7 +25,183 @@
       "messages": [
         {
           "type": "text",
-          "content": "[{\"criteria\":\"Final adjusted EBITDA reported as $4,018.00 million (rounded to 2 decimals).\\n\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"EBITDA = $3,991 million.\\n\"},{\"criteria\":\"Identified $565 million gain from sale of PPE business as an adjustment that is subtracted from EBITDA.\\n\",\"operator\":\"correctness\"},{\"criteria\":\"Identified $456 million of charges related to the 2024 Transformation Initiative as an adjustment that is added to EBITDA.\\n\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Identified $136 million of charges for impairment of intangible assets and litigation and regulatory matters associated with a previously exited business as an adjustment that is added to EBITDA.\\n\"},{\"operator\":\"correctness\",\"criteria\":\"Arithmetic combining EBITDA and adjustments: $3,991 - $565 + $456 + $136 = $4,018.00 million.\\n\"},{\"criteria\":\"EBIT (operating profit) is located as $3,210 million\\n\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"depreciation and amortization is determined as $781\\n\"}]"
+          "content": "Final adjusted EBITDA reported as $4,018.00 million (rounded to 2 decimals).\n",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "EBITDA = $3,991 million.\n",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "EBITDA = $3,991 million.\n",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Identified $565 million gain from sale of PPE business as an adjustment that is subtracted from EBITDA.\n",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Identified $565 million gain from sale of PPE business as an adjustment that is subtracted from EBITDA.\n",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Identified $456 million of charges related to the 2024 Transformation Initiative as an adjustment that is added to EBITDA.\n",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Identified $456 million of charges related to the 2024 Transformation Initiative as an adjustment that is added to EBITDA.\n",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Identified $136 million of charges for impairment of intangible assets and litigation and regulatory matters associated with a previously exited business as an adjustment that is added to EBITDA.\n",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Identified $136 million of charges for impairment of intangible assets and litigation and regulatory matters associated with a previously exited business as an adjustment that is added to EBITDA.\n",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Arithmetic combining EBITDA and adjustments: $3,991 - $565 + $456 + $136 = $4,018.00 million.\n",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Arithmetic combining EBITDA and adjustments: $3,991 - $565 + $456 + $136 = $4,018.00 million.\n",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "EBIT (operating profit) is located as $3,210 million\n",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "EBIT (operating profit) is located as $3,210 million\n",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "depreciation and amortization is determined as $781\n",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "depreciation and amortization is determined as $781\n",
+          "operator": "correctness"
         }
       ],
       "dependencies": []

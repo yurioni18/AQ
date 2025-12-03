@@ -7,7 +7,7 @@
   ],
   "rubrics": [
     {
-      "name": "Task completion",
+      "name": "Adjusted EBITDA Margin for 2Q2025 is 19.2%",
       "weight": 1.0,
       "score": {
         "type": "discrete",
@@ -25,7 +25,108 @@
       "messages": [
         {
           "type": "text",
-          "content": "[{\"criteria\":\"Adjusted EBITDA Margin for 2Q2025 is 19.2%\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Adjusted EBITDA Margin for 2Q2024 is 23.2%\"},{\"criteria\":\"Difference between 2Q2025 and 2Q2024 Adjusted EBITDA Margin is -4.00%\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Percent change calculated by dividing the -4.00% difference by 23.2% and multiplying by 100\"},{\"operator\":\"correctness\",\"criteria\":\"Final Answer (YoY percent change) is -17.24% (rounded to two decimals)\"}]"
+          "content": "Adjusted EBITDA Margin for 2Q2025 is 19.2%",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Adjusted EBITDA Margin for 2Q2024 is 23.2%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Adjusted EBITDA Margin for 2Q2024 is 23.2%",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Difference between 2Q2025 and 2Q2024 Adjusted EBITDA Margin is -4.00%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Difference between 2Q2025 and 2Q2024 Adjusted EBITDA Margin is -4.00%",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Percent change calculated by dividing the -4.00% difference by 23.2% and multiplying by 100",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Percent change calculated by dividing the -4.00% difference by 23.2% and multiplying by 100",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Final Answer (YoY percent change) is -17.24% (rounded to two decimals)",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Final Answer (YoY percent change) is -17.24% (rounded to two decimals)",
+          "operator": "correctness"
         }
       ],
       "dependencies": []

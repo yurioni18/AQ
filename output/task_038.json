@@ -7,7 +7,7 @@
   ],
   "rubrics": [
     {
-      "name": "Task completion",
+      "name": "Deferred Revenue for FY 2023 = $8,061M",
       "weight": 1.0,
       "score": {
         "type": "discrete",
@@ -25,7 +25,83 @@
       "messages": [
         {
           "type": "text",
-          "content": "[{\"criteria\":\"Deferred Revenue for FY 2023 = $8,061M\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Deferred Revenue for FY 2022 = $7,912M\"},{\"criteria\":\"Deferred revenue 2023 - Deferred Revenue 2022 = $8,061M - $7,912M = $149M\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Year-over-year percentage = ($149M/$7,912M)*100 = 1.88%\"}]"
+          "content": "Deferred Revenue for FY 2023 = $8,061M",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Deferred Revenue for FY 2022 = $7,912M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Deferred Revenue for FY 2022 = $7,912M",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Deferred revenue 2023 - Deferred Revenue 2022 = $8,061M - $7,912M = $149M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Deferred revenue 2023 - Deferred Revenue 2022 = $8,061M - $7,912M = $149M",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Year-over-year percentage = ($149M/$7,912M)*100 = 1.88%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Year-over-year percentage = ($149M/$7,912M)*100 = 1.88%",
+          "operator": "correctness"
         }
       ],
       "dependencies": []

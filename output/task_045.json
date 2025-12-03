@@ -7,7 +7,7 @@
   ],
   "rubrics": [
     {
-      "name": "Task completion",
+      "name": "Correctly states objective as Year over year % change in China gross profit FY 2023–FY 2024.",
       "weight": 1.0,
       "score": {
         "type": "discrete",
@@ -25,7 +25,458 @@
       "messages": [
         {
           "type": "text",
-          "content": "[{\"criteria\":\"Correctly states objective as Year over year % change in China gross profit FY 2023–FY 2024.\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Correctly defines China gross profit as China revenue multiplied by AMD’s consolidated gross margin.\"},{\"criteria\":\"Correctly identifies AMD FY 2024 Form 10-K as the source for consolidated gross margins.\",\"operator\":\"correctness\"},{\"criteria\":\"Correctly uses FY 2023 consolidated gross margin of 46%.\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Correctly uses FY 2024 consolidated gross margin of 49%.\"},{\"criteria\":\"Correctly identifies FRED series MKTGDPCNA646NWDB as the China nominal GDP source.\\n\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Correctly uses 2023 China nominal GDP of 18,270,356,654,533.20.\\n\"},{\"operator\":\"correctness\",\"criteria\":\"Correctly uses 2024 China nominal GDP of 18,743,803,170,827.20.\\n\"},{\"operator\":\"correctness\",\"criteria\":\"Correctly applies the GDP growth formula (GDP 2024 / GDP 2023) − 1.\\n\"},{\"operator\":\"correctness\",\"criteria\":\"Correctly computes China GDP growth as approximately 0.025913 (2.59%).\\n\"},{\"operator\":\"correctness\",\"criteria\":\"Correctly assumes China revenue growth equals China GDP growth rate.\\n\"},{\"criteria\":\"Correctly expresses 2024 China revenue as Revenue 2023 × (1 + 0.025913).\\n\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Correctly computes 2023 China gross profit as Revenue 2023 × 0.46.\\n\"},{\"operator\":\"correctness\",\"criteria\":\"Correctly computes 2024 China gross profit as Revenue 2023 × (1 + 0.025913) × 0.49.\\n\"},{\"operator\":\"correctness\",\"criteria\":\"Correctly applies gross profit percent change formula (Gross profit 2024 / Gross profit 2023 − 1) × 100.\\n\"},{\"operator\":\"correctness\",\"criteria\":\"Correctly substitutes into the percent change formula as ((1 + 0.025913) × 0.49 / 0.46 − 1) × 100.\\n\"},{\"operator\":\"correctness\",\"criteria\":\"Correctly evaluates the expression to approximately 9.2821%.\\n\"},{\"operator\":\"correctness\",\"criteria\":\"Correctly reports final YoY % change in China gross profit as 9.28%\"},{\"operator\":\"correctness\",\"criteria\":\"Reports final YoY % change in China gross profit as a percentage rounded to two decimal points\"}]"
+          "content": "Correctly states objective as Year over year % change in China gross profit FY 2023–FY 2024.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Correctly defines China gross profit as China revenue multiplied by AMD’s consolidated gross margin.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Correctly defines China gross profit as China revenue multiplied by AMD’s consolidated gross margin.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Correctly identifies AMD FY 2024 Form 10-K as the source for consolidated gross margins.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Correctly identifies AMD FY 2024 Form 10-K as the source for consolidated gross margins.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Correctly uses FY 2023 consolidated gross margin of 46%.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Correctly uses FY 2023 consolidated gross margin of 46%.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Correctly uses FY 2024 consolidated gross margin of 49%.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Correctly uses FY 2024 consolidated gross margin of 49%.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Correctly identifies FRED series MKTGDPCNA646NWDB as the China nominal GDP source.\n",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Correctly identifies FRED series MKTGDPCNA646NWDB as the China nominal GDP source.\n",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Correctly uses 2023 China nominal GDP of 18,270,356,654,533.20.\n",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Correctly uses 2023 China nominal GDP of 18,270,356,654,533.20.\n",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Correctly uses 2024 China nominal GDP of 18,743,803,170,827.20.\n",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Correctly uses 2024 China nominal GDP of 18,743,803,170,827.20.\n",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Correctly applies the GDP growth formula (GDP 2024 / GDP 2023) − 1.\n",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Correctly applies the GDP growth formula (GDP 2024 / GDP 2023) − 1.\n",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Correctly computes China GDP growth as approximately 0.025913 (2.59%).\n",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Correctly computes China GDP growth as approximately 0.025913 (2.59%).\n",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Correctly assumes China revenue growth equals China GDP growth rate.\n",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Correctly assumes China revenue growth equals China GDP growth rate.\n",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Correctly expresses 2024 China revenue as Revenue 2023 × (1 + 0.025913).\n",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Correctly expresses 2024 China revenue as Revenue 2023 × (1 + 0.025913).\n",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Correctly computes 2023 China gross profit as Revenue 2023 × 0.46.\n",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Correctly computes 2023 China gross profit as Revenue 2023 × 0.46.\n",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Correctly computes 2024 China gross profit as Revenue 2023 × (1 + 0.025913) × 0.49.\n",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Correctly computes 2024 China gross profit as Revenue 2023 × (1 + 0.025913) × 0.49.\n",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Correctly applies gross profit percent change formula (Gross profit 2024 / Gross profit 2023 − 1) × 100.\n",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Correctly applies gross profit percent change formula (Gross profit 2024 / Gross profit 2023 − 1) × 100.\n",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Correctly substitutes into the percent change formula as ((1 + 0.025913) × 0.49 / 0.46 − 1) × 100.\n",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Correctly substitutes into the percent change formula as ((1 + 0.025913) × 0.49 / 0.46 − 1) × 100.\n",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Correctly evaluates the expression to approximately 9.2821%.\n",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Correctly evaluates the expression to approximately 9.2821%.\n",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Correctly reports final YoY % change in China gross profit as 9.28%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Correctly reports final YoY % change in China gross profit as 9.28%",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Reports final YoY % change in China gross profit as a percentage rounded to two decimal points",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Reports final YoY % change in China gross profit as a percentage rounded to two decimal points",
+          "operator": "correctness"
         }
       ],
       "dependencies": []

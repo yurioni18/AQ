@@ -7,7 +7,7 @@
   ],
   "rubrics": [
     {
-      "name": "Task completion",
+      "name": "Identify the deferred revenue attributable to subscriptions formula as Formula: 2024 Subscription Bookings - 2024 Subscription Revenue",
       "weight": 1.0,
       "score": {
         "type": "discrete",
@@ -25,7 +25,108 @@
       "messages": [
         {
           "type": "text",
-          "content": "[{\"operator\":\"correctness\",\"criteria\":\"Identify the deferred revenue attributable to subscriptions formula as Formula: 2024 Subscription Bookings - 2024 Subscription Revenue\"},{\"operator\":\"correctness\",\"criteria\":\"Find Subscription bookings from item 7 = $730.737 million\"},{\"criteria\":\"Find Subscription revenue from item 7 = $607.531 million\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Calculate the difference = $123.206 million (730.737 − 607.531)\"},{\"operator\":\"correctness\",\"criteria\":\"Rounded the difference to one decimal place = $123.2 million (Final Answer: $123.2 million)\"}]"
+          "content": "Identify the deferred revenue attributable to subscriptions formula as Formula: 2024 Subscription Bookings - 2024 Subscription Revenue",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Find Subscription bookings from item 7 = $730.737 million",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Find Subscription bookings from item 7 = $730.737 million",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Find Subscription revenue from item 7 = $607.531 million",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Find Subscription revenue from item 7 = $607.531 million",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Calculate the difference = $123.206 million (730.737 − 607.531)",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Calculate the difference = $123.206 million (730.737 − 607.531)",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Rounded the difference to one decimal place = $123.2 million (Final Answer: $123.2 million)",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Rounded the difference to one decimal place = $123.2 million (Final Answer: $123.2 million)",
+          "operator": "correctness"
         }
       ],
       "dependencies": []

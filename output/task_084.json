@@ -7,7 +7,7 @@
   ],
   "rubrics": [
     {
-      "name": "Task completion",
+      "name": "Average price paid per share by KMB in December 2024 is stated as $133.74 per share",
       "weight": 1.0,
       "score": {
         "type": "discrete",
@@ -25,7 +25,258 @@
       "messages": [
         {
           "type": "text",
-          "content": "[{\"operator\":\"correctness\",\"criteria\":\"Average price paid per share by KMB in December 2024 is stated as $133.74 per share\"},{\"criteria\":\"Number of common shares outstanding stated as 331684601 shares\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"2024 Equity Value is computed as $44,359.50 Million\"},{\"criteria\":\"Debt payable within one year stated as $568 million\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Long-term debt stated as $6,875 million\"},{\"operator\":\"correctness\",\"criteria\":\"Total debt stated as $7,443 million\"},{\"operator\":\"correctness\",\"criteria\":\"Cash & cash equivalents stated as $1,021 million\"},{\"operator\":\"correctness\",\"criteria\":\"Net debt computed as $7,443 − $1,021 = $6,422.00 million\"},{\"criteria\":\"Noncontrolling interests stated as $135\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Enterprise Value formula given as EV = Equity Value + Net Debt + Non-controlling interest\"},{\"criteria\":\"Final Enterprise Value computed as $44,359.50 + $6,422 + $135 = $50,916.50 Million\",\"operator\":\"correctness\"}]"
+          "content": "Average price paid per share by KMB in December 2024 is stated as $133.74 per share",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Number of common shares outstanding stated as 331684601 shares",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Number of common shares outstanding stated as 331684601 shares",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "2024 Equity Value is computed as $44,359.50 Million",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "2024 Equity Value is computed as $44,359.50 Million",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Debt payable within one year stated as $568 million",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Debt payable within one year stated as $568 million",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Long-term debt stated as $6,875 million",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Long-term debt stated as $6,875 million",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Total debt stated as $7,443 million",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Total debt stated as $7,443 million",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Cash & cash equivalents stated as $1,021 million",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Cash & cash equivalents stated as $1,021 million",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Net debt computed as $7,443 − $1,021 = $6,422.00 million",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Net debt computed as $7,443 − $1,021 = $6,422.00 million",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Noncontrolling interests stated as $135",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Noncontrolling interests stated as $135",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Enterprise Value formula given as EV = Equity Value + Net Debt + Non-controlling interest",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Enterprise Value formula given as EV = Equity Value + Net Debt + Non-controlling interest",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Final Enterprise Value computed as $44,359.50 + $6,422 + $135 = $50,916.50 Million",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Final Enterprise Value computed as $44,359.50 + $6,422 + $135 = $50,916.50 Million",
+          "operator": "correctness"
         }
       ],
       "dependencies": []

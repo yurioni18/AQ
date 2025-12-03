@@ -7,7 +7,7 @@
   ],
   "rubrics": [
     {
-      "name": "Task completion",
+      "name": "Includes share price at year-end 2024 = €22.58 as an input",
       "weight": 1.0,
       "score": {
         "type": "discrete",
@@ -25,7 +25,83 @@
       "messages": [
         {
           "type": "text",
-          "content": "[{\"criteria\":\"Includes share price at year-end 2024 = €22.58 as an input\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Includes Free cash flow before new club capex per share = €2.36 as an input\"},{\"operator\":\"correctness\",\"criteria\":\"Calculates the multiple by dividing share price by FCF per share: €22.58 / €2.36 = 9.567…\"},{\"operator\":\"correctness\",\"criteria\":\"Shows final Price to Pre-IFRS 16 Free Cash Flow multiple = 9.57 exactly with 2 decimal points of rounding\"}]"
+          "content": "Includes share price at year-end 2024 = €22.58 as an input",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Includes Free cash flow before new club capex per share = €2.36 as an input",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Includes Free cash flow before new club capex per share = €2.36 as an input",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Calculates the multiple by dividing share price by FCF per share: €22.58 / €2.36 = 9.567…",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Calculates the multiple by dividing share price by FCF per share: €22.58 / €2.36 = 9.567…",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Shows final Price to Pre-IFRS 16 Free Cash Flow multiple = 9.57 exactly with 2 decimal points of rounding",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Shows final Price to Pre-IFRS 16 Free Cash Flow multiple = 9.57 exactly with 2 decimal points of rounding",
+          "operator": "correctness"
         }
       ],
       "dependencies": []

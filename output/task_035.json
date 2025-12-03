@@ -7,7 +7,7 @@
   ],
   "rubrics": [
     {
-      "name": "Task completion",
+      "name": "State that Bluegreen's FY2005 net income is 46.551 million\n",
       "weight": 1.0,
       "score": {
         "type": "discrete",
@@ -25,7 +25,183 @@
       "messages": [
         {
           "type": "text",
-          "content": "[{\"operator\":\"correctness\",\"criteria\":\"State that Bluegreen's FY2005 net income is 46.551 million\\n\"},{\"operator\":\"correctness\",\"criteria\":\"Calculate pre-tax interest expense to be 27,400 thousand × 8.25% = 2,260.5 thousand\"},{\"operator\":\"correctness\",\"criteria\":\"Apply the 40% tax rate to find that after-tax interest = (1−0.4) × 2,260.5 thousand = 1,356.3 thousand\"},{\"operator\":\"correctness\",\"criteria\":\"Calculate adjusted net income to be 46,551 thousand − 1,356.3 thousand = 45,194.7 thousand\"},{\"criteria\":\"Using the conversion price of $8.24, calculate the additional shares from conversion to be 27,400 thousand / 8.24 = 3,325 thousand\",\"operator\":\"correctness\"},{\"criteria\":\"Find that the basic number of shares outstanding is 30,381 thousand\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Adjusted shares outstanding = 30,381 thousand − 3,325 thousand = 27,056 thousand\"},{\"criteria\":\"Find that EPS is 45,195 / 27,056 = 1.67 (rounded to the nearest 2 decimals)\",\"operator\":\"correctness\"}]"
+          "content": "State that Bluegreen's FY2005 net income is 46.551 million\n",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Calculate pre-tax interest expense to be 27,400 thousand × 8.25% = 2,260.5 thousand",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Calculate pre-tax interest expense to be 27,400 thousand × 8.25% = 2,260.5 thousand",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Apply the 40% tax rate to find that after-tax interest = (1−0.4) × 2,260.5 thousand = 1,356.3 thousand",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Apply the 40% tax rate to find that after-tax interest = (1−0.4) × 2,260.5 thousand = 1,356.3 thousand",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Calculate adjusted net income to be 46,551 thousand − 1,356.3 thousand = 45,194.7 thousand",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Calculate adjusted net income to be 46,551 thousand − 1,356.3 thousand = 45,194.7 thousand",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Using the conversion price of $8.24, calculate the additional shares from conversion to be 27,400 thousand / 8.24 = 3,325 thousand",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Using the conversion price of $8.24, calculate the additional shares from conversion to be 27,400 thousand / 8.24 = 3,325 thousand",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Find that the basic number of shares outstanding is 30,381 thousand",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Find that the basic number of shares outstanding is 30,381 thousand",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Adjusted shares outstanding = 30,381 thousand − 3,325 thousand = 27,056 thousand",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Adjusted shares outstanding = 30,381 thousand − 3,325 thousand = 27,056 thousand",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Find that EPS is 45,195 / 27,056 = 1.67 (rounded to the nearest 2 decimals)",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Find that EPS is 45,195 / 27,056 = 1.67 (rounded to the nearest 2 decimals)",
+          "operator": "correctness"
         }
       ],
       "dependencies": []

@@ -7,7 +7,7 @@
   ],
   "rubrics": [
     {
-      "name": "Task completion",
+      "name": "Find Walmart's total long term debt with a fixed rate as of FY 2025: $35,999M",
       "weight": 1.0,
       "score": {
         "type": "discrete",
@@ -25,7 +25,108 @@
       "messages": [
         {
           "type": "text",
-          "content": "[{\"operator\":\"correctness\",\"criteria\":\"Find Walmart's total long term debt with a fixed rate as of FY 2025: $35,999M\"},{\"operator\":\"correctness\",\"criteria\":\"Find Walmart's long term debt with a fixed rate maturing after FY 2030: $22,914\"},{\"criteria\":\"Calculates percentage of Walmart's long term debt with a fixed rate expected to mature after FY 2030: (22,914 ÷ 35,999) × 100 = 63.6518%\",\"operator\":\"correctness\"},{\"criteria\":\"Final answer is rounded to two decimal points of precision\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Final Answer explicitly states value as 63.65%\"}]"
+          "content": "Find Walmart's total long term debt with a fixed rate as of FY 2025: $35,999M",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Find Walmart's long term debt with a fixed rate maturing after FY 2030: $22,914",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Find Walmart's long term debt with a fixed rate maturing after FY 2030: $22,914",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Calculates percentage of Walmart's long term debt with a fixed rate expected to mature after FY 2030: (22,914 ÷ 35,999) × 100 = 63.6518%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Calculates percentage of Walmart's long term debt with a fixed rate expected to mature after FY 2030: (22,914 ÷ 35,999) × 100 = 63.6518%",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Final answer is rounded to two decimal points of precision",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Final answer is rounded to two decimal points of precision",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Final Answer explicitly states value as 63.65%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Final Answer explicitly states value as 63.65%",
+          "operator": "correctness"
         }
       ],
       "dependencies": []

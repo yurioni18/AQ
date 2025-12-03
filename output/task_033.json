@@ -7,7 +7,7 @@
   ],
   "rubrics": [
     {
-      "name": "Task completion",
+      "name": "Report FY2024 EBITDA as $697.550 million",
       "weight": 1.0,
       "score": {
         "type": "discrete",
@@ -25,7 +25,183 @@
       "messages": [
         {
           "type": "text",
-          "content": "[{\"operator\":\"correctness\",\"criteria\":\"Report FY2024 EBITDA as $697.550 million\"},{\"operator\":\"correctness\",\"criteria\":\"Report Cash and cash equivalents as $453.384 million\"},{\"criteria\":\"Report total debt outstanding as $744.546 million\",\"operator\":\"correctness\"},{\"criteria\":\"Report marketable securities as $60.850 million\",\"operator\":\"correctness\"},{\"criteria\":\"Report market capitalization as $1,520 million\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Calculate EV 1520 + 744.546 - 453.384 - 60.850 = $1750.312 million\"},{\"operator\":\"correctness\",\"criteria\":\"Calculate EV/EBITDA as 1750.312 / 697.550 = 2.509965\"},{\"operator\":\"correctness\",\"criteria\":\"Round to 3 decimals = 2.510x\"}]"
+          "content": "Report FY2024 EBITDA as $697.550 million",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Report Cash and cash equivalents as $453.384 million",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Report Cash and cash equivalents as $453.384 million",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Report total debt outstanding as $744.546 million",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Report total debt outstanding as $744.546 million",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Report marketable securities as $60.850 million",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Report marketable securities as $60.850 million",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Report market capitalization as $1,520 million",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Report market capitalization as $1,520 million",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Calculate EV 1520 + 744.546 - 453.384 - 60.850 = $1750.312 million",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Calculate EV 1520 + 744.546 - 453.384 - 60.850 = $1750.312 million",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Calculate EV/EBITDA as 1750.312 / 697.550 = 2.509965",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Calculate EV/EBITDA as 1750.312 / 697.550 = 2.509965",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Round to 3 decimals = 2.510x",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Round to 3 decimals = 2.510x",
+          "operator": "correctness"
         }
       ],
       "dependencies": []

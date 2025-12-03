@@ -7,7 +7,7 @@
   ],
   "rubrics": [
     {
-      "name": "Task completion",
+      "name": "Net sales = $6,482.636 million",
       "weight": 1.0,
       "score": {
         "type": "discrete",
@@ -25,7 +25,258 @@
       "messages": [
         {
           "type": "text",
-          "content": "[{\"criteria\":\"Net sales = $6,482.636 million\",\"operator\":\"correctness\"},{\"criteria\":\"Long-term debt = $321.567 million\",\"operator\":\"correctness\"},{\"criteria\":\"Subordinated debentures = $200 million\",\"operator\":\"correctness\"},{\"criteria\":\"Cash and cash equivalents = $717.854 million\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Short-term investments = $325.675 million\"},{\"operator\":\"correctness\",\"criteria\":\"Preferred stock and noncontrolling interests treated as $0\"},{\"operator\":\"correctness\",\"criteria\":\"Market cap (equity value) = $10,000.0 million\"},{\"operator\":\"correctness\",\"criteria\":\"Total debt = $521.6 million\"},{\"operator\":\"correctness\",\"criteria\":\"Cash and short-term investments total = $1,043.5 million\"},{\"criteria\":\"Computed enterprise value (EV) = $9,478.1 million\",\"operator\":\"correctness\"},{\"criteria\":\"EV/Sales = 1.46x (rounded to two decimals)\",\"operator\":\"correctness\"}]"
+          "content": "Net sales = $6,482.636 million",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Long-term debt = $321.567 million",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Long-term debt = $321.567 million",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Subordinated debentures = $200 million",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Subordinated debentures = $200 million",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Cash and cash equivalents = $717.854 million",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Cash and cash equivalents = $717.854 million",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Short-term investments = $325.675 million",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Short-term investments = $325.675 million",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Preferred stock and noncontrolling interests treated as $0",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Preferred stock and noncontrolling interests treated as $0",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Market cap (equity value) = $10,000.0 million",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Market cap (equity value) = $10,000.0 million",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Total debt = $521.6 million",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Total debt = $521.6 million",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Cash and short-term investments total = $1,043.5 million",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Cash and short-term investments total = $1,043.5 million",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Computed enterprise value (EV) = $9,478.1 million",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Computed enterprise value (EV) = $9,478.1 million",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "EV/Sales = 1.46x (rounded to two decimals)",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "EV/Sales = 1.46x (rounded to two decimals)",
+          "operator": "correctness"
         }
       ],
       "dependencies": []

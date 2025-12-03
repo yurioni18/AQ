@@ -7,7 +7,7 @@
   ],
   "rubrics": [
     {
-      "name": "Task completion",
+      "name": "Find Danaos's FY2024 total comprehensive income as $510.622 million",
       "weight": 1.0,
       "score": {
         "type": "discrete",
@@ -25,7 +25,58 @@
       "messages": [
         {
           "type": "text",
-          "content": "[{\"operator\":\"correctness\",\"criteria\":\"Find Danaos's FY2024 total comprehensive income as $510.622 million\"},{\"operator\":\"correctness\",\"criteria\":\"Find Danaos's FY2024 unrealized fair value movement on its SBLK investment as -$25.2 million\"},{\"operator\":\"correctness\",\"criteria\":\"Calculated the percentage as (-$25.2 million / $510.622 million) * 100 = -4.94% \"}]"
+          "content": "Find Danaos's FY2024 total comprehensive income as $510.622 million",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Find Danaos's FY2024 unrealized fair value movement on its SBLK investment as -$25.2 million",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Find Danaos's FY2024 unrealized fair value movement on its SBLK investment as -$25.2 million",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Calculated the percentage as (-$25.2 million / $510.622 million) * 100 = -4.94% ",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Calculated the percentage as (-$25.2 million / $510.622 million) * 100 = -4.94% ",
+          "operator": "correctness"
         }
       ],
       "dependencies": []

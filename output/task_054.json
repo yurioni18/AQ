@@ -7,7 +7,7 @@
   ],
   "rubrics": [
     {
-      "name": "Task completion",
+      "name": "One indirect customer represented approximately 19% of NVDA’s total revenue in FY2024 and primarily purchased through \"Customer A\".",
       "weight": 1.0,
       "score": {
         "type": "discrete",
@@ -25,7 +25,233 @@
       "messages": [
         {
           "type": "text",
-          "content": "[{\"criteria\":\"One indirect customer represented approximately 19% of NVDA’s total revenue in FY2024 and primarily purchased through \\\"Customer A\\\".\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Sales to Customer A represented 13% of NVDA’s FY2024 total revenue.\"},{\"operator\":\"correctness\",\"criteria\":\"NVDA’s FY2025 Form 10-K shows Direct Customer A represented 12% of total revenue for FY2025.\"},{\"criteria\":\"NVDA’s FY2025 Form 10-K shows Customer B represented 11% of total revenue for FY2025.\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"NVDA’s FY2025 Form 10-K shows Customer C represented 11% of total revenue for FY2025.\"},{\"operator\":\"correctness\",\"criteria\":\"Customer A represented less than 10% of total revenue in FY2024 (as claimed in the answer).\"},{\"criteria\":\"Customer C represented less than 10% of total revenue in FY2024 (as claimed in the answer).\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Customer B represented 13% of total revenues in FY2024 (as stated in the answer).\"},{\"criteria\":\"The answer concludes that the FY2024 \\\"Customer A\\\" corresponds to the FY2025 \\\"Customer B.\\\"\",\"operator\":\"correctness\"},{\"criteria\":\"Final Answer: 11% (percentage of NVDA’s total revenue in FY2025 attributable to the direct customer identified).\",\"operator\":\"correctness\"}]"
+          "content": "One indirect customer represented approximately 19% of NVDA’s total revenue in FY2024 and primarily purchased through \"Customer A\".",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Sales to Customer A represented 13% of NVDA’s FY2024 total revenue.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Sales to Customer A represented 13% of NVDA’s FY2024 total revenue.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "NVDA’s FY2025 Form 10-K shows Direct Customer A represented 12% of total revenue for FY2025.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "NVDA’s FY2025 Form 10-K shows Direct Customer A represented 12% of total revenue for FY2025.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "NVDA’s FY2025 Form 10-K shows Customer B represented 11% of total revenue for FY2025.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "NVDA’s FY2025 Form 10-K shows Customer B represented 11% of total revenue for FY2025.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "NVDA’s FY2025 Form 10-K shows Customer C represented 11% of total revenue for FY2025.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "NVDA’s FY2025 Form 10-K shows Customer C represented 11% of total revenue for FY2025.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Customer A represented less than 10% of total revenue in FY2024 (as claimed in the answer).",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Customer A represented less than 10% of total revenue in FY2024 (as claimed in the answer).",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Customer C represented less than 10% of total revenue in FY2024 (as claimed in the answer).",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Customer C represented less than 10% of total revenue in FY2024 (as claimed in the answer).",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Customer B represented 13% of total revenues in FY2024 (as stated in the answer).",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Customer B represented 13% of total revenues in FY2024 (as stated in the answer).",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "The answer concludes that the FY2024 \"Customer A\" corresponds to the FY2025 \"Customer B.\"",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "The answer concludes that the FY2024 \"Customer A\" corresponds to the FY2025 \"Customer B.\"",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Final Answer: 11% (percentage of NVDA’s total revenue in FY2025 attributable to the direct customer identified).",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Final Answer: 11% (percentage of NVDA’s total revenue in FY2025 attributable to the direct customer identified).",
+          "operator": "correctness"
         }
       ],
       "dependencies": []

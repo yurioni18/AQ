@@ -7,7 +7,7 @@
   ],
   "rubrics": [
     {
-      "name": "Task completion",
+      "name": "FY2025 Career Learning enrollment (data located in FY2025 10-K Enrollment Data table (MD&A section))= 96.3 thousand.",
       "weight": 1.0,
       "score": {
         "type": "discrete",
@@ -25,7 +25,158 @@
       "messages": [
         {
           "type": "text",
-          "content": "[{\"criteria\":\"FY2025 Career Learning enrollment (data located in FY2025 10-K Enrollment Data table (MD&A section))= 96.3 thousand.\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"FY2024 Career Learning enrollment (data located in FY2025 10-K Enrollment Data table (MD&A section))= 72.7 thousand.\"},{\"operator\":\"correctness\",\"criteria\":\"Number of schools where School-as-a-Service offering was provided in the 2024–2025 school year (data located in ITEM 1. BUSINESS section of FY2025 10-k) for Career learning segment= 56.\"},{\"criteria\":\"Number of schools where School-as-a-Service offering was provided in the 2023–2024 school year (data located in ITEM 1. BUSINESS section of FY2024 10-k) for Career learning segment= 56.\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Enrollment per school for FY2025 = 96,300 ÷ 56 = 1,719.64 students per school.\"},{\"operator\":\"correctness\",\"criteria\":\"Computed enrollment per school for FY2024 = 72,700 ÷ 56 = 1,298.21 students per school.\"},{\"criteria\":\"Year-over-year percentage change in enrollment per school from FY2024 to FY2025 = [(1,719.64 − 1,298.21) ÷ 1,298.21] × 100 = 32.46%\",\"operator\":\"correctness\"}]"
+          "content": "FY2025 Career Learning enrollment (data located in FY2025 10-K Enrollment Data table (MD&A section))= 96.3 thousand.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "FY2024 Career Learning enrollment (data located in FY2025 10-K Enrollment Data table (MD&A section))= 72.7 thousand.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "FY2024 Career Learning enrollment (data located in FY2025 10-K Enrollment Data table (MD&A section))= 72.7 thousand.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Number of schools where School-as-a-Service offering was provided in the 2024–2025 school year (data located in ITEM 1. BUSINESS section of FY2025 10-k) for Career learning segment= 56.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Number of schools where School-as-a-Service offering was provided in the 2024–2025 school year (data located in ITEM 1. BUSINESS section of FY2025 10-k) for Career learning segment= 56.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Number of schools where School-as-a-Service offering was provided in the 2023–2024 school year (data located in ITEM 1. BUSINESS section of FY2024 10-k) for Career learning segment= 56.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Number of schools where School-as-a-Service offering was provided in the 2023–2024 school year (data located in ITEM 1. BUSINESS section of FY2024 10-k) for Career learning segment= 56.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Enrollment per school for FY2025 = 96,300 ÷ 56 = 1,719.64 students per school.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Enrollment per school for FY2025 = 96,300 ÷ 56 = 1,719.64 students per school.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Computed enrollment per school for FY2024 = 72,700 ÷ 56 = 1,298.21 students per school.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Computed enrollment per school for FY2024 = 72,700 ÷ 56 = 1,298.21 students per school.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Year-over-year percentage change in enrollment per school from FY2024 to FY2025 = [(1,719.64 − 1,298.21) ÷ 1,298.21] × 100 = 32.46%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Year-over-year percentage change in enrollment per school from FY2024 to FY2025 = [(1,719.64 − 1,298.21) ÷ 1,298.21] × 100 = 32.46%",
+          "operator": "correctness"
         }
       ],
       "dependencies": []

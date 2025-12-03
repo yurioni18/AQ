@@ -7,7 +7,7 @@
   ],
   "rubrics": [
     {
-      "name": "Task completion",
+      "name": "Final answer contains the numeric percentage 0.14%",
       "weight": 1.0,
       "score": {
         "type": "discrete",
@@ -25,7 +25,183 @@
       "messages": [
         {
           "type": "text",
-          "content": "[{\"operator\":\"correctness\",\"criteria\":\"Final answer contains the numeric percentage 0.14%\"},{\"criteria\":\"Final answer percentage value is presented rounded to two decimal places (0.14%)\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Final answer includes the label 'BEAT' indicating the result is a beat rather than a miss\"},{\"operator\":\"correctness\",\"criteria\":\"Retrieves adjusted EBITDA as $1977 million\"},{\"criteria\":\"Retrieves total revenue as $23,006 million\",\"operator\":\"correctness\"},{\"criteria\":\"Calculates adjusted EBITDA margin as 8.59%\",\"operator\":\"correctness\"},{\"criteria\":\"Retrieves FY 2025 adjusted EBITDA margin guidance (excluding delivery expense) from the Q2 2024 earnings materials as 8.2%–8.7%\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Calculates midpoint of guidance values as 8.45%\"}]"
+          "content": "Final answer contains the numeric percentage 0.14%",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Final answer percentage value is presented rounded to two decimal places (0.14%)",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Final answer percentage value is presented rounded to two decimal places (0.14%)",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Final answer includes the label 'BEAT' indicating the result is a beat rather than a miss",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Final answer includes the label 'BEAT' indicating the result is a beat rather than a miss",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Retrieves adjusted EBITDA as $1977 million",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Retrieves adjusted EBITDA as $1977 million",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Retrieves total revenue as $23,006 million",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Retrieves total revenue as $23,006 million",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Calculates adjusted EBITDA margin as 8.59%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Calculates adjusted EBITDA margin as 8.59%",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Retrieves FY 2025 adjusted EBITDA margin guidance (excluding delivery expense) from the Q2 2024 earnings materials as 8.2%–8.7%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Retrieves FY 2025 adjusted EBITDA margin guidance (excluding delivery expense) from the Q2 2024 earnings materials as 8.2%–8.7%",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Calculates midpoint of guidance values as 8.45%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Calculates midpoint of guidance values as 8.45%",
+          "operator": "correctness"
         }
       ],
       "dependencies": []

@@ -7,7 +7,7 @@
   ],
   "rubrics": [
     {
-      "name": "Task completion",
+      "name": "Find that the FY2021 Aerospace & Industrial operating income = $121.817 M",
       "weight": 1.0,
       "score": {
         "type": "discrete",
@@ -25,7 +25,83 @@
       "messages": [
         {
           "type": "text",
-          "content": "[{\"operator\":\"correctness\",\"criteria\":\"Find that the FY2021 Aerospace & Industrial operating income = $121.817 M\"},{\"operator\":\"correctness\",\"criteria\":\"Find that the FY2024 Aerospace & Industrial operating income = $148.023 M\"},{\"criteria\":\"Calculate the 3-year CAGR as (148.023 / 121.817)^(1/3) − 1 = 6.71%\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Present the final answer as a %, rounded to two decimal places\"}]"
+          "content": "Find that the FY2021 Aerospace & Industrial operating income = $121.817 M",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Find that the FY2024 Aerospace & Industrial operating income = $148.023 M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Find that the FY2024 Aerospace & Industrial operating income = $148.023 M",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Calculate the 3-year CAGR as (148.023 / 121.817)^(1/3) − 1 = 6.71%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Calculate the 3-year CAGR as (148.023 / 121.817)^(1/3) − 1 = 6.71%",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Present the final answer as a %, rounded to two decimal places",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Present the final answer as a %, rounded to two decimal places",
+          "operator": "correctness"
         }
       ],
       "dependencies": []

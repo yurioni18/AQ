@@ -7,7 +7,7 @@
   ],
   "rubrics": [
     {
-      "name": "Task completion",
+      "name": "The correct graph was identified from the 10-K document, labelled \"Comparison of Five-Year Cumulative Total Return for Meta Platforms, Inc\"\n\n",
       "weight": 1.0,
       "score": {
         "type": "discrete",
@@ -25,7 +25,108 @@
       "messages": [
         {
           "type": "text",
-          "content": "[{\"criteria\":\"The correct graph was identified from the 10-K document, labelled \\\"Comparison of Five-Year Cumulative Total Return for Meta Platforms, Inc\\\"\\n\\n\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"The Form 10-K presents the stock performance graph as an image without an accompanying numeric table.\"},{\"operator\":\"correctness\",\"criteria\":\"Meta’s cumulative total return value at 12/31/2022 is $60.\"},{\"operator\":\"correctness\",\"criteria\":\"Meta’s cumulative total return value at 12/31/2024 is $290.\"},{\"criteria\":\"Computed percentage-point increase from 12/31/2022 to 12/31/2024 is 290 − 60 = 230 percentage points.\",\"operator\":\"correctness\"}]"
+          "content": "The correct graph was identified from the 10-K document, labelled \"Comparison of Five-Year Cumulative Total Return for Meta Platforms, Inc\"\n\n",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "The Form 10-K presents the stock performance graph as an image without an accompanying numeric table.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "The Form 10-K presents the stock performance graph as an image without an accompanying numeric table.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Meta’s cumulative total return value at 12/31/2022 is $60.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Meta’s cumulative total return value at 12/31/2022 is $60.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Meta’s cumulative total return value at 12/31/2024 is $290.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Meta’s cumulative total return value at 12/31/2024 is $290.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Computed percentage-point increase from 12/31/2022 to 12/31/2024 is 290 − 60 = 230 percentage points.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Computed percentage-point increase from 12/31/2022 to 12/31/2024 is 290 − 60 = 230 percentage points.",
+          "operator": "correctness"
         }
       ],
       "dependencies": []

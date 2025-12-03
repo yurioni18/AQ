@@ -7,7 +7,7 @@
   ],
   "rubrics": [
     {
-      "name": "Task completion",
+      "name": "Uses NVIDIA FY 2024 10-K link as source for gross margins.\n",
       "weight": 1.0,
       "score": {
         "type": "discrete",
@@ -25,7 +25,458 @@
       "messages": [
         {
           "type": "text",
-          "content": "[{\"operator\":\"correctness\",\"criteria\":\"Uses NVIDIA FY 2024 10-K link as source for gross margins.\\n\"},{\"criteria\":\"Extracts FY 2024 gross margin as 72.7%.\\n\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Extracts FY 2023 gross margin as 56.9%.\"},{\"criteria\":\"Uses FRED TWNNGDPDUSD link as source for Taiwan GDP.\\n\",\"operator\":\"correctness\"},{\"criteria\":\"Extracts 2023 Taiwan GDP as 707,256,832,084.7.\\n\",\"operator\":\"correctness\"},{\"criteria\":\"Extracts 2024 Taiwan GDP as 746,022,524,856.7.\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Computes GDP growth as (GDP_2024 − GDP_2023) / GDP_2023.\\n\"},{\"operator\":\"correctness\",\"criteria\":\"States GDP growth ≈ 0.0548 (5.48%).\"},{\"criteria\":\"Defines FY 2023 Taiwan revenue as R2023.\\n\",\"operator\":\"correctness\"},{\"criteria\":\"Sets FY 2024 Taiwan revenue as R2023 × 1.0548.\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Computes GP2023 = R2023 × 0.569.\\n\"},{\"operator\":\"correctness\",\"criteria\":\"Computes GP2024 = R2023 × 1.0548 × 0.727.\"},{\"criteria\":\"Forms ratio GP2024 / GP2023 = (R2023 × 1.0548 × 0.727) / (R2023 × 0.569).\\n\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Cancels R2023 and simplifies to 1.0548 × (0.727 / 0.569).\"},{\"criteria\":\"Computes 0.727 / 0.569 ≈ 1.2777.\\n\",\"operator\":\"correctness\"},{\"criteria\":\"Computes gross profit factor ≈ 1.3477.\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Converts to YoY change as (1.3477 − 1) × 100%.\\n\"},{\"operator\":\"correctness\",\"criteria\":\"States final gross profit YoY change ≈ 34.77%.\\n\"},{\"operator\":\"correctness\",\"criteria\":\"Rounds final answer to two decimal places as “34.77%”.\"}]"
+          "content": "Uses NVIDIA FY 2024 10-K link as source for gross margins.\n",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Extracts FY 2024 gross margin as 72.7%.\n",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Extracts FY 2024 gross margin as 72.7%.\n",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Extracts FY 2023 gross margin as 56.9%.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Extracts FY 2023 gross margin as 56.9%.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Uses FRED TWNNGDPDUSD link as source for Taiwan GDP.\n",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Uses FRED TWNNGDPDUSD link as source for Taiwan GDP.\n",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Extracts 2023 Taiwan GDP as 707,256,832,084.7.\n",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Extracts 2023 Taiwan GDP as 707,256,832,084.7.\n",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Extracts 2024 Taiwan GDP as 746,022,524,856.7.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Extracts 2024 Taiwan GDP as 746,022,524,856.7.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Computes GDP growth as (GDP_2024 − GDP_2023) / GDP_2023.\n",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Computes GDP growth as (GDP_2024 − GDP_2023) / GDP_2023.\n",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "States GDP growth ≈ 0.0548 (5.48%).",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "States GDP growth ≈ 0.0548 (5.48%).",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Defines FY 2023 Taiwan revenue as R2023.\n",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Defines FY 2023 Taiwan revenue as R2023.\n",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Sets FY 2024 Taiwan revenue as R2023 × 1.0548.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Sets FY 2024 Taiwan revenue as R2023 × 1.0548.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Computes GP2023 = R2023 × 0.569.\n",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Computes GP2023 = R2023 × 0.569.\n",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Computes GP2024 = R2023 × 1.0548 × 0.727.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Computes GP2024 = R2023 × 1.0548 × 0.727.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Forms ratio GP2024 / GP2023 = (R2023 × 1.0548 × 0.727) / (R2023 × 0.569).\n",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Forms ratio GP2024 / GP2023 = (R2023 × 1.0548 × 0.727) / (R2023 × 0.569).\n",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Cancels R2023 and simplifies to 1.0548 × (0.727 / 0.569).",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Cancels R2023 and simplifies to 1.0548 × (0.727 / 0.569).",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Computes 0.727 / 0.569 ≈ 1.2777.\n",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Computes 0.727 / 0.569 ≈ 1.2777.\n",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Computes gross profit factor ≈ 1.3477.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Computes gross profit factor ≈ 1.3477.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Converts to YoY change as (1.3477 − 1) × 100%.\n",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Converts to YoY change as (1.3477 − 1) × 100%.\n",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "States final gross profit YoY change ≈ 34.77%.\n",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "States final gross profit YoY change ≈ 34.77%.\n",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Rounds final answer to two decimal places as “34.77%”.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Rounds final answer to two decimal places as “34.77%”.",
+          "operator": "correctness"
         }
       ],
       "dependencies": []

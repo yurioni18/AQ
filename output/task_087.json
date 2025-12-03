@@ -7,7 +7,7 @@
   ],
   "rubrics": [
     {
-      "name": "Task completion",
+      "name": "Method: on‑signing revenue = GAAP 2009 revenue + net increase in total deferred revenue during 2009",
       "weight": 1.0,
       "score": {
         "type": "discrete",
@@ -25,7 +25,183 @@
       "messages": [
         {
           "type": "text",
-          "content": "[{\"operator\":\"correctness\",\"criteria\":\"Method: on‑signing revenue = GAAP 2009 revenue + net increase in total deferred revenue during 2009\"},{\"criteria\":\"GAAP total net revenue for FY 2009 (year ended December 31, 2009): $1,927.332M\",\"operator\":\"correctness\"},{\"criteria\":\"Total change in deferred revenue balances defined as Ending balance of DR minus Beginning balance of DR\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Calculated change in deferred revenue for FY 2009: 101757 (thousands)\"},{\"operator\":\"correctness\",\"criteria\":\"Sum calculation shown: 1927332 (thousands) + 101757 (thousands) = 2029089 (thousands)\"},{\"operator\":\"correctness\",\"criteria\":\"Answer rounded to two decimal places\"},{\"criteria\":\"Answer stated in millions\",\"operator\":\"correctness\"},{\"criteria\":\"Final Answer given as $2,029.09M\",\"operator\":\"correctness\"}]"
+          "content": "Method: on‑signing revenue = GAAP 2009 revenue + net increase in total deferred revenue during 2009",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "GAAP total net revenue for FY 2009 (year ended December 31, 2009): $1,927.332M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "GAAP total net revenue for FY 2009 (year ended December 31, 2009): $1,927.332M",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Total change in deferred revenue balances defined as Ending balance of DR minus Beginning balance of DR",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Total change in deferred revenue balances defined as Ending balance of DR minus Beginning balance of DR",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Calculated change in deferred revenue for FY 2009: 101757 (thousands)",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Calculated change in deferred revenue for FY 2009: 101757 (thousands)",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Sum calculation shown: 1927332 (thousands) + 101757 (thousands) = 2029089 (thousands)",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Sum calculation shown: 1927332 (thousands) + 101757 (thousands) = 2029089 (thousands)",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Answer rounded to two decimal places",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Answer rounded to two decimal places",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Answer stated in millions",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Answer stated in millions",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Final Answer given as $2,029.09M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Final Answer given as $2,029.09M",
+          "operator": "correctness"
         }
       ],
       "dependencies": []

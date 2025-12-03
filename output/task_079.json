@@ -7,7 +7,7 @@
   ],
   "rubrics": [
     {
-      "name": "Task completion",
+      "name": "FY2023 revenue = $1,108,605,000",
       "weight": 1.0,
       "score": {
         "type": "discrete",
@@ -25,7 +25,308 @@
       "messages": [
         {
           "type": "text",
-          "content": "[{\"operator\":\"correctness\",\"criteria\":\"FY2023 revenue = $1,108,605,000\"},{\"operator\":\"correctness\",\"criteria\":\"FY2023 diluted WASO = 41,436,882 shares\"},{\"criteria\":\"Assumed share price = $50\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Market Cap = 41,436,882 × $50 = $2,071,844,100\"},{\"operator\":\"correctness\",\"criteria\":\"Cash and cash equivalents = $147,501,000\"},{\"criteria\":\"Short-term investments = $129,667,000\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Long-term investments = $12,866,000\"},{\"criteria\":\"Long-term debt current portion = $1,350,000\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Long-term debt (noncurrent) = $127,580,000\"},{\"operator\":\"correctness\",\"criteria\":\"Preferred stock outstanding = $0\"},{\"operator\":\"correctness\",\"criteria\":\"Enterprise value formula used = market cap + current portion of long-term debt + long-term debt (noncurrent) + preferred equity - cash and equivalents - short-term investments - long-term investments\"},{\"operator\":\"correctness\",\"criteria\":\"Enterprise value = $1,910,740,100\"},{\"criteria\":\"EV/Revenue multiple (rounded to 2 decimals) = 1.72\",\"operator\":\"correctness\"}]"
+          "content": "FY2023 revenue = $1,108,605,000",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "FY2023 diluted WASO = 41,436,882 shares",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "FY2023 diluted WASO = 41,436,882 shares",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Assumed share price = $50",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Assumed share price = $50",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Market Cap = 41,436,882 × $50 = $2,071,844,100",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Market Cap = 41,436,882 × $50 = $2,071,844,100",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Cash and cash equivalents = $147,501,000",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Cash and cash equivalents = $147,501,000",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Short-term investments = $129,667,000",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Short-term investments = $129,667,000",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Long-term investments = $12,866,000",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Long-term investments = $12,866,000",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Long-term debt current portion = $1,350,000",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Long-term debt current portion = $1,350,000",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Long-term debt (noncurrent) = $127,580,000",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Long-term debt (noncurrent) = $127,580,000",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Preferred stock outstanding = $0",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Preferred stock outstanding = $0",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Enterprise value formula used = market cap + current portion of long-term debt + long-term debt (noncurrent) + preferred equity - cash and equivalents - short-term investments - long-term investments",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Enterprise value formula used = market cap + current portion of long-term debt + long-term debt (noncurrent) + preferred equity - cash and equivalents - short-term investments - long-term investments",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Enterprise value = $1,910,740,100",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Enterprise value = $1,910,740,100",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "EV/Revenue multiple (rounded to 2 decimals) = 1.72",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "EV/Revenue multiple (rounded to 2 decimals) = 1.72",
+          "operator": "correctness"
         }
       ],
       "dependencies": []

@@ -7,7 +7,7 @@
   ],
   "rubrics": [
     {
-      "name": "Task completion",
+      "name": "Find Pfizer's Q1 2024 biopharma revenues: $14,604M",
       "weight": 1.0,
       "score": {
         "type": "discrete",
@@ -25,7 +25,308 @@
       "messages": [
         {
           "type": "text",
-          "content": "[{\"criteria\":\"Find Pfizer's Q1 2024 biopharma revenues: $14,604M\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Find Pfizer's Q1 2023 biopharma revenues: $18,173M\"},{\"operator\":\"correctness\",\"criteria\":\"Calculate the percent change between Q1 2024 and Q1 2023 biopharma revenues: ($14,604M - $18,173M)/$18,173M] x 100 = -19.64%\"},{\"criteria\":\"Find Pfizer's Q2 2024 biopharma revenues: $12,991M\",\"operator\":\"correctness\"},{\"criteria\":\"Find Pfizer's Q2 2023 biopharma revenues: $12,690M\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Calculate the percent change between Q2 2024 and Q2 2023 biopharma revenues: [($12,991M - $12,690M)/$12,690M] x 100 = +2.37%\"},{\"operator\":\"correctness\",\"criteria\":\"Find Pfizer's Q3 2024 biopharma revenues: $17,392M\"},{\"criteria\":\"Find Pfizer's Q3 2023 biopharma revenues: $13,188M\",\"operator\":\"correctness\"},{\"criteria\":\"Calculate the percent change between Q3 2024 and Q3 2023 biopharma revenues: [($17,392M - $13,188M)/$13,188M] x 100 = +31.88%\",\"operator\":\"correctness\"},{\"criteria\":\"Identify the 2024 quarter that experienced the greatest percent growth compared to its corresponding 2023 quarter: Q3\",\"operator\":\"correctness\"},{\"criteria\":\"Final answer includes the value \\\"+31.88%\\\", as this corresponds to the percent growth of biopharma revenues from Q3 2023 and Q3 2024\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Final answer is rounded to two decimal points of precision\"},{\"criteria\":\"Final answer is in the prompt-given format: Q[X] 2024: ±XX.XX%\",\"operator\":\"correctness\"}]"
+          "content": "Find Pfizer's Q1 2024 biopharma revenues: $14,604M",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Find Pfizer's Q1 2023 biopharma revenues: $18,173M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Find Pfizer's Q1 2023 biopharma revenues: $18,173M",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Calculate the percent change between Q1 2024 and Q1 2023 biopharma revenues: ($14,604M - $18,173M)/$18,173M] x 100 = -19.64%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Calculate the percent change between Q1 2024 and Q1 2023 biopharma revenues: ($14,604M - $18,173M)/$18,173M] x 100 = -19.64%",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Find Pfizer's Q2 2024 biopharma revenues: $12,991M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Find Pfizer's Q2 2024 biopharma revenues: $12,991M",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Find Pfizer's Q2 2023 biopharma revenues: $12,690M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Find Pfizer's Q2 2023 biopharma revenues: $12,690M",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Calculate the percent change between Q2 2024 and Q2 2023 biopharma revenues: [($12,991M - $12,690M)/$12,690M] x 100 = +2.37%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Calculate the percent change between Q2 2024 and Q2 2023 biopharma revenues: [($12,991M - $12,690M)/$12,690M] x 100 = +2.37%",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Find Pfizer's Q3 2024 biopharma revenues: $17,392M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Find Pfizer's Q3 2024 biopharma revenues: $17,392M",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Find Pfizer's Q3 2023 biopharma revenues: $13,188M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Find Pfizer's Q3 2023 biopharma revenues: $13,188M",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Calculate the percent change between Q3 2024 and Q3 2023 biopharma revenues: [($17,392M - $13,188M)/$13,188M] x 100 = +31.88%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Calculate the percent change between Q3 2024 and Q3 2023 biopharma revenues: [($17,392M - $13,188M)/$13,188M] x 100 = +31.88%",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Identify the 2024 quarter that experienced the greatest percent growth compared to its corresponding 2023 quarter: Q3",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Identify the 2024 quarter that experienced the greatest percent growth compared to its corresponding 2023 quarter: Q3",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Final answer includes the value \"+31.88%\", as this corresponds to the percent growth of biopharma revenues from Q3 2023 and Q3 2024",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Final answer includes the value \"+31.88%\", as this corresponds to the percent growth of biopharma revenues from Q3 2023 and Q3 2024",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Final answer is rounded to two decimal points of precision",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Final answer is rounded to two decimal points of precision",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Final answer is in the prompt-given format: Q[X] 2024: ±XX.XX%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Final answer is in the prompt-given format: Q[X] 2024: ±XX.XX%",
+          "operator": "correctness"
         }
       ],
       "dependencies": []

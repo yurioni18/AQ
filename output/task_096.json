@@ -7,7 +7,7 @@
   ],
   "rubrics": [
     {
-      "name": "Task completion",
+      "name": "Q1 guidance range (located in 4Q'FY23 shareholder letter): $8000 -$8200M",
       "weight": 1.0,
       "score": {
         "type": "discrete",
@@ -25,7 +25,408 @@
       "messages": [
         {
           "type": "text",
-          "content": "[{\"criteria\":\"Q1 guidance range (located in 4Q'FY23 shareholder letter): $8000 -$8200M\",\"operator\":\"correctness\"},{\"criteria\":\"Q2 guidance range (located in 1Q'FY24 shareholder letter): $8000 - $8150M\",\"operator\":\"correctness\"},{\"criteria\":\"Q3 guidance range (located in 2Q'FY24 shareholder letter): $8100 - $8250M\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Q4 guidance range (located in 3Q'FY24 shareholder letter): $8500 - $8650M\"},{\"criteria\":\"Q1 midpoint: $8100M\",\"operator\":\"correctness\"},{\"criteria\":\"Q2 midpoint: $8075M\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Q3 midpoint: $8175M\"},{\"criteria\":\"Q4 midpoint: $8575M\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Q1 actual GTV (located in 1Q'FY24 shareholder letter): $8319M\"},{\"criteria\":\"Q2 actual GTV(located in 2Q'FY24 shareholder letter): $8194M\",\"operator\":\"correctness\"},{\"criteria\":\"Q3 actual GTV(located in 3Q'FY24 shareholder letter): $8303M\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Q4 actual GTV(located in 4Q'FY24 shareholder letter): $8645\"},{\"criteria\":\"Q1 beat vs midpoint: 2.7%\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Q2 beat vs midpoint: 1.5%\"},{\"operator\":\"correctness\",\"criteria\":\"Q3 beat vs midpoint: 1.6%\"},{\"criteria\":\"Q4 beat vs midpoint: 0.8%\",\"operator\":\"correctness\"},{\"criteria\":\"Final answer: 1Q FY 2024, 2.70 % Beat\",\"operator\":\"correctness\"}]"
+          "content": "Q1 guidance range (located in 4Q'FY23 shareholder letter): $8000 -$8200M",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Q2 guidance range (located in 1Q'FY24 shareholder letter): $8000 - $8150M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Q2 guidance range (located in 1Q'FY24 shareholder letter): $8000 - $8150M",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Q3 guidance range (located in 2Q'FY24 shareholder letter): $8100 - $8250M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Q3 guidance range (located in 2Q'FY24 shareholder letter): $8100 - $8250M",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Q4 guidance range (located in 3Q'FY24 shareholder letter): $8500 - $8650M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Q4 guidance range (located in 3Q'FY24 shareholder letter): $8500 - $8650M",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Q1 midpoint: $8100M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Q1 midpoint: $8100M",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Q2 midpoint: $8075M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Q2 midpoint: $8075M",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Q3 midpoint: $8175M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Q3 midpoint: $8175M",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Q4 midpoint: $8575M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Q4 midpoint: $8575M",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Q1 actual GTV (located in 1Q'FY24 shareholder letter): $8319M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Q1 actual GTV (located in 1Q'FY24 shareholder letter): $8319M",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Q2 actual GTV(located in 2Q'FY24 shareholder letter): $8194M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Q2 actual GTV(located in 2Q'FY24 shareholder letter): $8194M",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Q3 actual GTV(located in 3Q'FY24 shareholder letter): $8303M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Q3 actual GTV(located in 3Q'FY24 shareholder letter): $8303M",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Q4 actual GTV(located in 4Q'FY24 shareholder letter): $8645",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Q4 actual GTV(located in 4Q'FY24 shareholder letter): $8645",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Q1 beat vs midpoint: 2.7%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Q1 beat vs midpoint: 2.7%",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Q2 beat vs midpoint: 1.5%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Q2 beat vs midpoint: 1.5%",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Q3 beat vs midpoint: 1.6%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Q3 beat vs midpoint: 1.6%",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Q4 beat vs midpoint: 0.8%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Q4 beat vs midpoint: 0.8%",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Final answer: 1Q FY 2024, 2.70 % Beat",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Final answer: 1Q FY 2024, 2.70 % Beat",
+          "operator": "correctness"
         }
       ],
       "dependencies": []

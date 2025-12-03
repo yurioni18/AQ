@@ -46,17 +46,81 @@ def read_csv_and_generate_json(csv_path, output_dir):
 
         # Process each row
         row_count = 0
+        skipped_count = 0
         for idx, row in enumerate(reader, start=1):
             question = row[question_col].strip()
-            rubric = row[rubric_col].strip()
+            rubric_raw = row[rubric_col].strip()
 
             # Skip empty rows
-            if not question or not rubric:
-                print(f"Skipping row {idx}: empty question or rubric")
+            if not question:
+                print(f"⚠ Skipping row {idx}: empty question")
+                skipped_count += 1
                 continue
 
             # Generate sequential ID
             task_id = f"task_{idx:03d}"
+
+            # Parse the rubric JSON array
+            rubric_points = []
+            if rubric_raw:
+                try:
+                    rubric_points = json.loads(rubric_raw)
+                    if not isinstance(rubric_points, list):
+                        print(f"⚠ Warning row {idx}: rubric is not a JSON array, treating as empty")
+                        rubric_points = []
+                except json.JSONDecodeError as e:
+                    print(f"⚠ Warning row {idx}: invalid rubric JSON ({str(e)}), treating as empty")
+                    rubric_points = []
+            else:
+                print(f"⚠ Warning row {idx}: empty rubric column, creating task with no rubrics")
+
+            # Build rubrics array - one rubric entry per point
+            rubrics = []
+            for point_idx, point in enumerate(rubric_points, start=1):
+                criteria = point.get("criteria", f"Criterion {point_idx}")
+                operator = point.get("operator", "correctness")
+
+                rubric_entry = {
+                    "name": criteria,
+                    "weight": 1.0,
+                    "score": {
+                        "type": "discrete",
+                        "outcomes": [
+                            {"label": "yes", "score": 1.0},
+                            {"label": "no", "score": 0.0}
+                        ]
+                    },
+                    "messages": [
+                        {
+                            "type": "text",
+                            "content": criteria,
+                            "operator": operator
+                        }
+                    ],
+                    "dependencies": []
+                }
+                rubrics.append(rubric_entry)
+
+            # If no rubrics parsed, create at least one default rubric
+            if not rubrics:
+                rubrics.append({
+                    "name": "Task completion",
+                    "weight": 1.0,
+                    "score": {
+                        "type": "discrete",
+                        "outcomes": [
+                            {"label": "yes", "score": 1.0},
+                            {"label": "no", "score": 0.0}
+                        ]
+                    },
+                    "messages": [
+                        {
+                            "type": "text",
+                            "content": "Was the task completed successfully?"
+                        }
+                    ],
+                    "dependencies": []
+                })
 
             # Create the JSON structure
             json_data = {
@@ -66,26 +130,7 @@ def read_csv_and_generate_json(csv_path, output_dir):
                         "content": question
                     }
                 ],
-                "rubrics": [
-                    {
-                        "name": "Task completion",
-                        "weight": 1.0,
-                        "score": {
-                            "type": "discrete",
-                            "outcomes": [
-                                {"label": "yes", "score": 1.0},
-                                {"label": "no", "score": 0.0}
-                            ]
-                        },
-                        "messages": [
-                            {
-                                "type": "text",
-                                "content": rubric
-                            }
-                        ],
-                        "dependencies": []
-                    }
-                ],
+                "rubrics": rubrics,
                 "include_files": False,
                 "use_docker": False
             }
@@ -100,6 +145,8 @@ def read_csv_and_generate_json(csv_path, output_dir):
                 print(f"Processed {row_count} rows...")
 
         print(f"\n✓ Successfully generated {row_count} JSON files in '{output_dir}/'")
+        if skipped_count > 0:
+            print(f"⚠ Skipped {skipped_count} rows due to missing data")
         return row_count
 
 

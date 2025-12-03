@@ -7,7 +7,7 @@
   ],
   "rubrics": [
     {
-      "name": "Task completion",
+      "name": "Recognizes that T&D expenses also include costs associated with general-use computer hardware and software.",
       "weight": 1.0,
       "score": {
         "type": "discrete",
@@ -25,7 +25,383 @@
       "messages": [
         {
           "type": "text",
-          "content": "[{\"operator\":\"correctness\",\"criteria\":\"Recognizes that T&D expenses also include costs associated with general-use computer hardware and software.\"},{\"criteria\":\"Identifies the primary qualitative factor as a rise in personnel-related costs.\",\"operator\":\"correctness\"},{\"criteria\":\"Notes that, per the same Q2 2024 10-Q, T&D expenses increased by about 5% year-over-year for the first half.\",\"operator\":\"correctness\"},{\"criteria\":\"Notes that, per the Q2 2024 10-Q, T&D expenses increased by about 8% year-over-year for the quarter.\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"States that, per the Q2 2024 10-Q, the six-month T&D increase was primarily driven by higher personnel-related costs.\"},{\"operator\":\"correctness\",\"criteria\":\"Quantifies that the Q2 2024 10-Q cites an approximate $52 million increase in personnel-related costs for the six-month period.\"},{\"operator\":\"correctness\",\"criteria\":\"States that, per the Q2 2024 10-Q, the Q2 2024 T&D increase was primarily driven by higher personnel-related costs.\"},{\"criteria\":\"Quantifies that the Q2 2024 10-Q cites an approximate $43 million increase in personnel-related costs for the quarter.\",\"operator\":\"correctness\"},{\"criteria\":\"States that, per the Q3 2024 10-Q, technology and development expenses for the nine months ended September 30, 2024 increased by about 7% year-over-year.\",\"operator\":\"correctness\"},{\"criteria\":\"States that, per the Q3 2024 10-Q, the nine-month T&D increase was primarily driven by higher personnel-related costs.\",\"operator\":\"correctness\"},{\"criteria\":\"Quantifies that the Q3 2024 10-Q cites an approximate $122 million increase in personnel-related costs for the nine-month period.\",\"operator\":\"correctness\"},{\"criteria\":\"States that Q3 2024 standalone technology and development expenses increased by about 12% year-over-year.\",\"operator\":\"correctness\"},{\"criteria\":\"States that, per the Q3 2024 10-Q, the Q3 2024 T&D increase was primarily driven by higher personnel-related costs.\",\"operator\":\"correctness\"},{\"criteria\":\"Quantifies that the Q3 2024 10-Q cites an approximate $70 million increase in personnel-related costs for the quarter.\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Identifies the second qualitative factor as increased spending on general-use computer hardware/software within T&D.\"},{\"operator\":\"correctness\",\"criteria\":\"Approximately 90% of the $249.5M FY‑2024 vs FY‑2023 increase in T&D is attributable to personnel-related costs.\"}]"
+          "content": "Recognizes that T&D expenses also include costs associated with general-use computer hardware and software.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Identifies the primary qualitative factor as a rise in personnel-related costs.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Identifies the primary qualitative factor as a rise in personnel-related costs.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Notes that, per the same Q2 2024 10-Q, T&D expenses increased by about 5% year-over-year for the first half.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Notes that, per the same Q2 2024 10-Q, T&D expenses increased by about 5% year-over-year for the first half.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Notes that, per the Q2 2024 10-Q, T&D expenses increased by about 8% year-over-year for the quarter.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Notes that, per the Q2 2024 10-Q, T&D expenses increased by about 8% year-over-year for the quarter.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "States that, per the Q2 2024 10-Q, the six-month T&D increase was primarily driven by higher personnel-related costs.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "States that, per the Q2 2024 10-Q, the six-month T&D increase was primarily driven by higher personnel-related costs.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Quantifies that the Q2 2024 10-Q cites an approximate $52 million increase in personnel-related costs for the six-month period.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Quantifies that the Q2 2024 10-Q cites an approximate $52 million increase in personnel-related costs for the six-month period.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "States that, per the Q2 2024 10-Q, the Q2 2024 T&D increase was primarily driven by higher personnel-related costs.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "States that, per the Q2 2024 10-Q, the Q2 2024 T&D increase was primarily driven by higher personnel-related costs.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Quantifies that the Q2 2024 10-Q cites an approximate $43 million increase in personnel-related costs for the quarter.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Quantifies that the Q2 2024 10-Q cites an approximate $43 million increase in personnel-related costs for the quarter.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "States that, per the Q3 2024 10-Q, technology and development expenses for the nine months ended September 30, 2024 increased by about 7% year-over-year.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "States that, per the Q3 2024 10-Q, technology and development expenses for the nine months ended September 30, 2024 increased by about 7% year-over-year.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "States that, per the Q3 2024 10-Q, the nine-month T&D increase was primarily driven by higher personnel-related costs.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "States that, per the Q3 2024 10-Q, the nine-month T&D increase was primarily driven by higher personnel-related costs.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Quantifies that the Q3 2024 10-Q cites an approximate $122 million increase in personnel-related costs for the nine-month period.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Quantifies that the Q3 2024 10-Q cites an approximate $122 million increase in personnel-related costs for the nine-month period.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "States that Q3 2024 standalone technology and development expenses increased by about 12% year-over-year.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "States that Q3 2024 standalone technology and development expenses increased by about 12% year-over-year.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "States that, per the Q3 2024 10-Q, the Q3 2024 T&D increase was primarily driven by higher personnel-related costs.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "States that, per the Q3 2024 10-Q, the Q3 2024 T&D increase was primarily driven by higher personnel-related costs.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Quantifies that the Q3 2024 10-Q cites an approximate $70 million increase in personnel-related costs for the quarter.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Quantifies that the Q3 2024 10-Q cites an approximate $70 million increase in personnel-related costs for the quarter.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Identifies the second qualitative factor as increased spending on general-use computer hardware/software within T&D.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Identifies the second qualitative factor as increased spending on general-use computer hardware/software within T&D.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Approximately 90% of the $249.5M FY‑2024 vs FY‑2023 increase in T&D is attributable to personnel-related costs.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Approximately 90% of the $249.5M FY‑2024 vs FY‑2023 increase in T&D is attributable to personnel-related costs.",
+          "operator": "correctness"
         }
       ],
       "dependencies": []

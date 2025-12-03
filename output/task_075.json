@@ -7,7 +7,7 @@
   ],
   "rubrics": [
     {
-      "name": "Task completion",
+      "name": "Operating Ratio Spread: 6.5 percentage points",
       "weight": 1.0,
       "score": {
         "type": "discrete",
@@ -25,7 +25,83 @@
       "messages": [
         {
           "type": "text",
-          "content": "[{\"operator\":\"correctness\",\"criteria\":\"Operating Ratio Spread: 6.5 percentage points\"},{\"criteria\":\"Incremental Operating Income at UNP Efficiency: $788M\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Synergies as % of NSC Operating Income: 67.6%\"},{\"operator\":\"correctness\",\"criteria\":\"Implied NSC 30-day VWAP: $256.00\"}]"
+          "content": "Operating Ratio Spread: 6.5 percentage points",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Incremental Operating Income at UNP Efficiency: $788M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Incremental Operating Income at UNP Efficiency: $788M",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Synergies as % of NSC Operating Income: 67.6%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Synergies as % of NSC Operating Income: 67.6%",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Implied NSC 30-day VWAP: $256.00",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Implied NSC 30-day VWAP: $256.00",
+          "operator": "correctness"
         }
       ],
       "dependencies": []

@@ -7,7 +7,7 @@
   ],
   "rubrics": [
     {
-      "name": "Task completion",
+      "name": "Only applied quarter end figures ",
       "weight": 1.0,
       "score": {
         "type": "discrete",
@@ -25,7 +25,158 @@
       "messages": [
         {
           "type": "text",
-          "content": "[{\"operator\":\"correctness\",\"criteria\":\"Only applied quarter end figures \"},{\"criteria\":\"Identifies June 30, 2025 as the quarter-end date for GOOGL's Quarter 2 FY2025.\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Identifies the quarter length as 91 days.\"},{\"criteria\":\"States GOOGL's reported Quarter 2 FY2025 accounts receivable as $55,048 million.\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"States GOOGL's reported Quarter 2 FY2025 total revenues as $96,428 million.\"},{\"criteria\":\"Applies the DSO formula: Accounts receiveable / Revenues * Days, to get to the required figure.\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Calculates DSO as (55,048 / 96,428) * 91 = 5.95 = 52 days.\"}]"
+          "content": "Only applied quarter end figures ",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Identifies June 30, 2025 as the quarter-end date for GOOGL's Quarter 2 FY2025.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Identifies June 30, 2025 as the quarter-end date for GOOGL's Quarter 2 FY2025.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Identifies the quarter length as 91 days.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Identifies the quarter length as 91 days.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "States GOOGL's reported Quarter 2 FY2025 accounts receivable as $55,048 million.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "States GOOGL's reported Quarter 2 FY2025 accounts receivable as $55,048 million.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "States GOOGL's reported Quarter 2 FY2025 total revenues as $96,428 million.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "States GOOGL's reported Quarter 2 FY2025 total revenues as $96,428 million.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Applies the DSO formula: Accounts receiveable / Revenues * Days, to get to the required figure.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Applies the DSO formula: Accounts receiveable / Revenues * Days, to get to the required figure.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Calculates DSO as (55,048 / 96,428) * 91 = 5.95 = 52 days.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Calculates DSO as (55,048 / 96,428) * 91 = 5.95 = 52 days.",
+          "operator": "correctness"
         }
       ],
       "dependencies": []

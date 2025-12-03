@@ -7,7 +7,7 @@
   ],
   "rubrics": [
     {
-      "name": "Task completion",
+      "name": "Final Answer is 24.19%",
       "weight": 1.0,
       "score": {
         "type": "discrete",
@@ -25,7 +25,133 @@
       "messages": [
         {
           "type": "text",
-          "content": "[{\"operator\":\"correctness\",\"criteria\":\"Final Answer is 24.19%\"},{\"operator\":\"correctness\",\"criteria\":\"Foreign pretax income = $3,961 million\"},{\"criteria\":\"Foreign current income tax provision = $1,013 million\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Foreign deferred income tax benefit = $55 million\"},{\"operator\":\"correctness\",\"criteria\":\"Total foreign income tax expense = $958 million computed as $1,013m − $55m\"},{\"criteria\":\"Final answer expressed as a percentage with two decimal places\",\"operator\":\"correctness\"}]"
+          "content": "Final Answer is 24.19%",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Foreign pretax income = $3,961 million",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Foreign pretax income = $3,961 million",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Foreign current income tax provision = $1,013 million",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Foreign current income tax provision = $1,013 million",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Foreign deferred income tax benefit = $55 million",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Foreign deferred income tax benefit = $55 million",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Total foreign income tax expense = $958 million computed as $1,013m − $55m",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Total foreign income tax expense = $958 million computed as $1,013m − $55m",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Final answer expressed as a percentage with two decimal places",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Final answer expressed as a percentage with two decimal places",
+          "operator": "correctness"
         }
       ],
       "dependencies": []

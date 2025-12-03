@@ -7,7 +7,7 @@
   ],
   "rubrics": [
     {
-      "name": "Task completion",
+      "name": "States that Meta financed the Hyperion Louisiana data center through a joint venture SPV with funds managed by Blue Owl Capital.",
       "weight": 1.0,
       "score": {
         "type": "discrete",
@@ -25,7 +25,233 @@
       "messages": [
         {
           "type": "text",
-          "content": "[{\"operator\":\"correctness\",\"criteria\":\"States that Meta financed the Hyperion Louisiana data center through a joint venture SPV with funds managed by Blue Owl Capital.\"},{\"operator\":\"correctness\",\"criteria\":\"States that investment bank Morgan Stanley assisted Meta in arranging the financing.\"},{\"criteria\":\"States that the structure supports about $27 billion of development costs.\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"States that the SPV capital structure includes more than $27 billion of privately placed project bonds.\"},{\"criteria\":\"States that SPV equity is approximately $2.5 billion.\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"States that the equity ownership split is 80 percent for Blue Owl and 20 percent for Meta.\"},{\"operator\":\"correctness\",\"criteria\":\"States that PIMCO is the anchor investor in the bond financing.\"},{\"operator\":\"correctness\",\"criteria\":\"PIMCO is the anchor lender for the debt financing\"},{\"criteria\":\"States that Meta will operate and lease back the campus under long-term operating leases. \",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\" States that the project debt remains at the joint venture level.\"}]"
+          "content": "States that Meta financed the Hyperion Louisiana data center through a joint venture SPV with funds managed by Blue Owl Capital.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "States that investment bank Morgan Stanley assisted Meta in arranging the financing.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "States that investment bank Morgan Stanley assisted Meta in arranging the financing.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "States that the structure supports about $27 billion of development costs.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "States that the structure supports about $27 billion of development costs.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "States that the SPV capital structure includes more than $27 billion of privately placed project bonds.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "States that the SPV capital structure includes more than $27 billion of privately placed project bonds.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "States that SPV equity is approximately $2.5 billion.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "States that SPV equity is approximately $2.5 billion.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "States that the equity ownership split is 80 percent for Blue Owl and 20 percent for Meta.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "States that the equity ownership split is 80 percent for Blue Owl and 20 percent for Meta.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "States that PIMCO is the anchor investor in the bond financing.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "States that PIMCO is the anchor investor in the bond financing.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "PIMCO is the anchor lender for the debt financing",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "PIMCO is the anchor lender for the debt financing",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "States that Meta will operate and lease back the campus under long-term operating leases. ",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "States that Meta will operate and lease back the campus under long-term operating leases. ",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": " States that the project debt remains at the joint venture level.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": " States that the project debt remains at the joint venture level.",
+          "operator": "correctness"
         }
       ],
       "dependencies": []

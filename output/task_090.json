@@ -7,7 +7,7 @@
   ],
   "rubrics": [
     {
-      "name": "Task completion",
+      "name": "Total Employee Headcount described as \"“employee headcount worldwide was 125,665”. ",
       "weight": 1.0,
       "score": {
         "type": "discrete",
@@ -25,7 +25,208 @@
       "messages": [
         {
           "type": "text",
-          "content": "[{\"operator\":\"correctness\",\"criteria\":\"Total Employee Headcount described as \\\"“employee headcount worldwide was 125,665”. \"},{\"criteria\":\"Employee headcount number used in formula was 125,665 \",\"operator\":\"correctness\"},{\"criteria\":\"Manufacturing Development Program hires described as 'hired over 800 graduates'\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Hires number used in formula was 800\"},{\"criteria\":\"The formula stated to find the answer was Percentage = (Program Hires/Total Employees) × 100\",\"operator\":\"correctness\"},{\"criteria\":\"The raw answer was formatted as follows: 800 ÷ 125,665 × 100 = 0.6366%\",\"operator\":\"correctness\"},{\"criteria\":\"The answer was a percentage \",\"operator\":\"correctness\"},{\"criteria\":\"The answer was rounded to two decimals\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"The answer was 0.64%\"}]"
+          "content": "Total Employee Headcount described as \"“employee headcount worldwide was 125,665”. ",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Employee headcount number used in formula was 125,665 ",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Employee headcount number used in formula was 125,665 ",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Manufacturing Development Program hires described as 'hired over 800 graduates'",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Manufacturing Development Program hires described as 'hired over 800 graduates'",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Hires number used in formula was 800",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Hires number used in formula was 800",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "The formula stated to find the answer was Percentage = (Program Hires/Total Employees) × 100",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "The formula stated to find the answer was Percentage = (Program Hires/Total Employees) × 100",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "The raw answer was formatted as follows: 800 ÷ 125,665 × 100 = 0.6366%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "The raw answer was formatted as follows: 800 ÷ 125,665 × 100 = 0.6366%",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "The answer was a percentage ",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "The answer was a percentage ",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "The answer was rounded to two decimals",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "The answer was rounded to two decimals",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "The answer was 0.64%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "The answer was 0.64%",
+          "operator": "correctness"
         }
       ],
       "dependencies": []

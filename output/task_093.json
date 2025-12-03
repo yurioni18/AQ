@@ -7,7 +7,7 @@
   ],
   "rubrics": [
     {
-      "name": "Task completion",
+      "name": "Net income(loss) is $(85,141,000)",
       "weight": 1.0,
       "score": {
         "type": "discrete",
@@ -25,7 +25,233 @@
       "messages": [
         {
           "type": "text",
-          "content": "[{\"operator\":\"correctness\",\"criteria\":\"Net income(loss) is $(85,141,000)\"},{\"operator\":\"correctness\",\"criteria\":\"Goodwill impairment is $34,277,000\"},{\"operator\":\"correctness\",\"criteria\":\"Inventory impairment is $9,000,000\"},{\"operator\":\"correctness\",\"criteria\":\"Restructuring charges stated as none, assumed $0.\"},{\"criteria\":\"Adjusted net income computed as -85,141,000 + 34,277,000 + 9,000,000 = -41,864,000\",\"operator\":\"correctness\"},{\"criteria\":\"Shareholders' equity at 12/31/2024: $429,775,000\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Shareholders equity at 12/31/2023 is $635,410,000; \"},{\"criteria\":\"Average shareholder's equity = (635,410,000+429,775,000)/2 = $532,592,500\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Final Adjusted ROE = -41,864,000/532,592,500 = -7.86%\"},{\"criteria\":\"The final answer is rounded to 2 decimal places.\",\"operator\":\"correctness\"}]"
+          "content": "Net income(loss) is $(85,141,000)",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Goodwill impairment is $34,277,000",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Goodwill impairment is $34,277,000",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Inventory impairment is $9,000,000",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Inventory impairment is $9,000,000",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Restructuring charges stated as none, assumed $0.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Restructuring charges stated as none, assumed $0.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Adjusted net income computed as -85,141,000 + 34,277,000 + 9,000,000 = -41,864,000",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Adjusted net income computed as -85,141,000 + 34,277,000 + 9,000,000 = -41,864,000",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Shareholders' equity at 12/31/2024: $429,775,000",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Shareholders' equity at 12/31/2024: $429,775,000",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Shareholders equity at 12/31/2023 is $635,410,000; ",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Shareholders equity at 12/31/2023 is $635,410,000; ",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Average shareholder's equity = (635,410,000+429,775,000)/2 = $532,592,500",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Average shareholder's equity = (635,410,000+429,775,000)/2 = $532,592,500",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Final Adjusted ROE = -41,864,000/532,592,500 = -7.86%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Final Adjusted ROE = -41,864,000/532,592,500 = -7.86%",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "The final answer is rounded to 2 decimal places.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "The final answer is rounded to 2 decimal places.",
+          "operator": "correctness"
         }
       ],
       "dependencies": []

@@ -7,7 +7,7 @@
   ],
   "rubrics": [
     {
-      "name": "Task completion",
+      "name": "FY2023 net income = 4,368",
       "weight": 1.0,
       "score": {
         "type": "discrete",
@@ -25,7 +25,558 @@
       "messages": [
         {
           "type": "text",
-          "content": "[{\"criteria\":\"FY2023 net income = 4,368\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"FY2023 depreciation & amortisation = 1,544\"},{\"criteria\":\" FY2022 depreciation & amortisation = 1,174\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"FY2024 depreciation & amortisation = 1,508\"},{\"criteria\":\"Interest Coverage Ratio formula: ICR = EBITDA / Interest Expense\",\"operator\":\"correctness\"},{\"criteria\":\"EBITDA formula: EBITDA = net Income + income Tax expense + interest Expense + depreciation & amortisation\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Includes FY2024 EBITDA = 35,583\"},{\"operator\":\"correctness\",\"criteria\":\"FY2024 ICR = 138.463\"},{\"criteria\":\"FY2023 EBITDA = 5,987\",\"operator\":\"correctness\"},{\"criteria\":\"FY2023 ICR = 22.85\",\"operator\":\"correctness\"},{\"criteria\":\"FY2022 EBITDA = 11,351\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"FY2022 ICR is 48.10\"},{\"criteria\":\"Identify 138.46 (FY 2024) as highest Interest Coverage Ratio \",\"operator\":\"correctness\"},{\"criteria\":\"Final answer : '2024 - 138.46'\",\"operator\":\"correctness\"},{\"criteria\":\"FY2023: income tax expense = -187\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\" interest expense for FY2023 = 262\"},{\"operator\":\"correctness\",\"criteria\":\"FY2022 net income = 9,752\"},{\"criteria\":\"FY2022 income tax expense = 189\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Include FY2022 interest expense = 236\"},{\"operator\":\"correctness\",\"criteria\":\"FY2024 Net income = 29,760\"},{\"criteria\":\"FY2024 income tax expense -> 4,058\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"includes FY2024 interest expense = 257\"},{\"criteria\":\"Using inputs from NVIDIA’s FY2023,FY2022 and FY2024 Form 10-Ks (USD millions) \",\"operator\":\"correctness\"}]"
+          "content": "FY2023 net income = 4,368",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "FY2023 depreciation & amortisation = 1,544",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "FY2023 depreciation & amortisation = 1,544",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": " FY2022 depreciation & amortisation = 1,174",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": " FY2022 depreciation & amortisation = 1,174",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "FY2024 depreciation & amortisation = 1,508",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "FY2024 depreciation & amortisation = 1,508",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Interest Coverage Ratio formula: ICR = EBITDA / Interest Expense",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Interest Coverage Ratio formula: ICR = EBITDA / Interest Expense",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "EBITDA formula: EBITDA = net Income + income Tax expense + interest Expense + depreciation & amortisation",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "EBITDA formula: EBITDA = net Income + income Tax expense + interest Expense + depreciation & amortisation",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Includes FY2024 EBITDA = 35,583",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Includes FY2024 EBITDA = 35,583",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "FY2024 ICR = 138.463",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "FY2024 ICR = 138.463",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "FY2023 EBITDA = 5,987",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "FY2023 EBITDA = 5,987",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "FY2023 ICR = 22.85",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "FY2023 ICR = 22.85",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "FY2022 EBITDA = 11,351",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "FY2022 EBITDA = 11,351",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "FY2022 ICR is 48.10",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "FY2022 ICR is 48.10",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Identify 138.46 (FY 2024) as highest Interest Coverage Ratio ",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Identify 138.46 (FY 2024) as highest Interest Coverage Ratio ",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Final answer : '2024 - 138.46'",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Final answer : '2024 - 138.46'",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "FY2023: income tax expense = -187",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "FY2023: income tax expense = -187",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": " interest expense for FY2023 = 262",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": " interest expense for FY2023 = 262",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "FY2022 net income = 9,752",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "FY2022 net income = 9,752",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "FY2022 income tax expense = 189",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "FY2022 income tax expense = 189",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Include FY2022 interest expense = 236",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Include FY2022 interest expense = 236",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "FY2024 Net income = 29,760",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "FY2024 Net income = 29,760",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "FY2024 income tax expense -> 4,058",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "FY2024 income tax expense -> 4,058",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "includes FY2024 interest expense = 257",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "includes FY2024 interest expense = 257",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Using inputs from NVIDIA’s FY2023,FY2022 and FY2024 Form 10-Ks (USD millions) ",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Using inputs from NVIDIA’s FY2023,FY2022 and FY2024 Form 10-Ks (USD millions) ",
+          "operator": "correctness"
         }
       ],
       "dependencies": []

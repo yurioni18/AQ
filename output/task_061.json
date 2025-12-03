@@ -7,7 +7,7 @@
   ],
   "rubrics": [
     {
-      "name": "Task completion",
+      "name": "\nBase value at Dec -19 from the chart is $100.",
       "weight": 1.0,
       "score": {
         "type": "discrete",
@@ -25,7 +25,183 @@
       "messages": [
         {
           "type": "text",
-          "content": "[{\"operator\":\"correctness\",\"criteria\":\"\\nBase value at Dec -19 from the chart is $100.\"},{\"operator\":\"correctness\",\"criteria\":\"\\nEnd value at Dec-24 from the chart is 1447.97\"},{\"operator\":\"correctness\",\"criteria\":\"\\nThe CAGR formula is applied as: (1447.97 / 100)^(1/5) − 1\"},{\"operator\":\"correctness\",\"criteria\":\"Calculated 5-year CAGR = 70.6680% per year\"},{\"operator\":\"correctness\",\"criteria\":\"Projection formula used: Index_2028 = Index_2024 × (1 + CAGR)^4\"},{\"criteria\":\"Projected Index_2028 = 12,284.84\",\"operator\":\"correctness\"},{\"criteria\":\"Computed cumulative return_2028 = 12,284.84 − 100 = 12,184.84%\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Final reported cumulative return (rounded to nearest whole number): 12,185%\"}]"
+          "content": "\nBase value at Dec -19 from the chart is $100.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "\nEnd value at Dec-24 from the chart is 1447.97",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "\nEnd value at Dec-24 from the chart is 1447.97",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "\nThe CAGR formula is applied as: (1447.97 / 100)^(1/5) − 1",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "\nThe CAGR formula is applied as: (1447.97 / 100)^(1/5) − 1",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Calculated 5-year CAGR = 70.6680% per year",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Calculated 5-year CAGR = 70.6680% per year",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Projection formula used: Index_2028 = Index_2024 × (1 + CAGR)^4",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Projection formula used: Index_2028 = Index_2024 × (1 + CAGR)^4",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Projected Index_2028 = 12,284.84",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Projected Index_2028 = 12,284.84",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Computed cumulative return_2028 = 12,284.84 − 100 = 12,184.84%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Computed cumulative return_2028 = 12,284.84 − 100 = 12,184.84%",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Final reported cumulative return (rounded to nearest whole number): 12,185%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Final reported cumulative return (rounded to nearest whole number): 12,185%",
+          "operator": "correctness"
         }
       ],
       "dependencies": []

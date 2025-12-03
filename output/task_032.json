@@ -7,7 +7,7 @@
   ],
   "rubrics": [
     {
-      "name": "Task completion",
+      "name": "Reported Q1 2025 gross margin = 40.3% (May 8, 2025 press release).",
       "weight": 1.0,
       "score": {
         "type": "discrete",
@@ -25,7 +25,83 @@
       "messages": [
         {
           "type": "text",
-          "content": "[{\"criteria\":\"Reported Q1 2025 gross margin = 40.3% (May 8, 2025 press release).\",\"operator\":\"correctness\"},{\"criteria\":\"Guided Q1 2025 gross margin = approximately 39.0% (March 6, 2025 press release).\",\"operator\":\"correctness\"},{\"criteria\":\"Computed difference between reported and guided gross margin = 1.30 percentage points (40.3% − 39.0%), rounded to two decimals.\",\"operator\":\"correctness\"},{\"criteria\":\"Final reported outcome = \\\"1.30% BEAT\\\".\",\"operator\":\"correctness\"}]"
+          "content": "Reported Q1 2025 gross margin = 40.3% (May 8, 2025 press release).",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Guided Q1 2025 gross margin = approximately 39.0% (March 6, 2025 press release).",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Guided Q1 2025 gross margin = approximately 39.0% (March 6, 2025 press release).",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Computed difference between reported and guided gross margin = 1.30 percentage points (40.3% − 39.0%), rounded to two decimals.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Computed difference between reported and guided gross margin = 1.30 percentage points (40.3% − 39.0%), rounded to two decimals.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Final reported outcome = \"1.30% BEAT\".",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Final reported outcome = \"1.30% BEAT\".",
+          "operator": "correctness"
         }
       ],
       "dependencies": []

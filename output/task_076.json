@@ -7,7 +7,7 @@
   ],
   "rubrics": [
     {
-      "name": "Task completion",
+      "name": "Enterprise Value = Equity Value + Total Debt - Cash and Cash Equivalents",
       "weight": 1.0,
       "score": {
         "type": "discrete",
@@ -25,7 +25,208 @@
       "messages": [
         {
           "type": "text",
-          "content": "[{\"criteria\":\"Enterprise Value = Equity Value + Total Debt - Cash and Cash Equivalents\",\"operator\":\"correctness\"},{\"criteria\":\"Equity value = 3078.12M calculated using 101254 thousand shares and $30.4 per share\",\"operator\":\"correctness\"},{\"criteria\":\"Total debt = CMLTD 15.038M + LTD 5273.143M = 5288.18M\",\"operator\":\"correctness\"},{\"criteria\":\"Cash and cash equivalents = 107.386M\",\"operator\":\"correctness\"},{\"criteria\":\"Enterprise value = 3078.12M + 5288.18M - 107.39M = 8258.92M\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Utilize that LT Adjusted EBITDA = Q2 FY25 6 months EBITDA + FY24 EBITDA - Q2 FY24 6 months EBITDA\"},{\"criteria\":\"LTM Adjusted EBITDA = 71.828M + 875.291M - 108.284M = 838.835M\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"EV/EBITDA = 8258.92M / 838.84M = 9.85x\"},{\"criteria\":\"Final Answer: 9.85x\",\"operator\":\"correctness\"}]"
+          "content": "Enterprise Value = Equity Value + Total Debt - Cash and Cash Equivalents",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Equity value = 3078.12M calculated using 101254 thousand shares and $30.4 per share",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Equity value = 3078.12M calculated using 101254 thousand shares and $30.4 per share",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Total debt = CMLTD 15.038M + LTD 5273.143M = 5288.18M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Total debt = CMLTD 15.038M + LTD 5273.143M = 5288.18M",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Cash and cash equivalents = 107.386M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Cash and cash equivalents = 107.386M",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Enterprise value = 3078.12M + 5288.18M - 107.39M = 8258.92M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Enterprise value = 3078.12M + 5288.18M - 107.39M = 8258.92M",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Utilize that LT Adjusted EBITDA = Q2 FY25 6 months EBITDA + FY24 EBITDA - Q2 FY24 6 months EBITDA",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Utilize that LT Adjusted EBITDA = Q2 FY25 6 months EBITDA + FY24 EBITDA - Q2 FY24 6 months EBITDA",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "LTM Adjusted EBITDA = 71.828M + 875.291M - 108.284M = 838.835M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "LTM Adjusted EBITDA = 71.828M + 875.291M - 108.284M = 838.835M",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "EV/EBITDA = 8258.92M / 838.84M = 9.85x",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "EV/EBITDA = 8258.92M / 838.84M = 9.85x",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Final Answer: 9.85x",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Final Answer: 9.85x",
+          "operator": "correctness"
         }
       ],
       "dependencies": []

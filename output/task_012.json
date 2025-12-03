@@ -7,7 +7,7 @@
   ],
   "rubrics": [
     {
-      "name": "Task completion",
+      "name": "FY2023 revenue from customers in China = $239,192 thousand",
       "weight": 1.0,
       "score": {
         "type": "discrete",
@@ -25,7 +25,333 @@
       "messages": [
         {
           "type": "text",
-          "content": "[{\"criteria\":\"FY2023 revenue from customers in China = $239,192 thousand\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"FY2023 Consolidated Revenue = $737,154\"},{\"operator\":\"correctness\",\"criteria\":\"FY2024 Consolidated Revenue = $509,401\"},{\"criteria\":\"FY2023 Consolidated gross profit = $514,670\",\"operator\":\"correctness\"},{\"criteria\":\"FY2024 Consolidated gross profit = $340,400\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"FY2023 Gross margin = 69.8%\"},{\"operator\":\"correctness\",\"criteria\":\"FY2024 Gross margin = 66.8%\"},{\"criteria\":\"GDP2024 (China) = $18,743,803,170,827.2\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"GDP2023 (China) = $18,270,356,654,533.2\"},{\"criteria\":\"China nominal GDP growth 2024 = 0.0259133702 (2.59133702%)\",\"operator\":\"correctness\"},{\"criteria\":\"Projected China Revenue FY2024 = $245,390,270.85\",\"operator\":\"correctness\"},{\"criteria\":\"Gross profit FY2023 (China) = $166,956,016.00\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Gross profit FY2024 (China) = $163,920,700.93\"},{\"operator\":\"correctness\",\"criteria\":\"Year‑over‑year % change in China gross profit = -1.82%\"}]"
+          "content": "FY2023 revenue from customers in China = $239,192 thousand",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "FY2023 Consolidated Revenue = $737,154",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "FY2023 Consolidated Revenue = $737,154",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "FY2024 Consolidated Revenue = $509,401",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "FY2024 Consolidated Revenue = $509,401",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "FY2023 Consolidated gross profit = $514,670",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "FY2023 Consolidated gross profit = $514,670",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "FY2024 Consolidated gross profit = $340,400",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "FY2024 Consolidated gross profit = $340,400",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "FY2023 Gross margin = 69.8%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "FY2023 Gross margin = 69.8%",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "FY2024 Gross margin = 66.8%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "FY2024 Gross margin = 66.8%",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "GDP2024 (China) = $18,743,803,170,827.2",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "GDP2024 (China) = $18,743,803,170,827.2",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "GDP2023 (China) = $18,270,356,654,533.2",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "GDP2023 (China) = $18,270,356,654,533.2",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "China nominal GDP growth 2024 = 0.0259133702 (2.59133702%)",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "China nominal GDP growth 2024 = 0.0259133702 (2.59133702%)",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Projected China Revenue FY2024 = $245,390,270.85",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Projected China Revenue FY2024 = $245,390,270.85",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Gross profit FY2023 (China) = $166,956,016.00",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Gross profit FY2023 (China) = $166,956,016.00",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Gross profit FY2024 (China) = $163,920,700.93",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Gross profit FY2024 (China) = $163,920,700.93",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Year‑over‑year % change in China gross profit = -1.82%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Year‑over‑year % change in China gross profit = -1.82%",
+          "operator": "correctness"
         }
       ],
       "dependencies": []

@@ -7,7 +7,7 @@
   ],
   "rubrics": [
     {
-      "name": "Task completion",
+      "name": "Recognize that restaurants enter comps in their 19th month of operation.",
       "weight": 1.0,
       "score": {
         "type": "discrete",
@@ -25,7 +25,233 @@
       "messages": [
         {
           "type": "text",
-          "content": "[{\"operator\":\"correctness\",\"criteria\":\"Recognize that restaurants enter comps in their 19th month of operation.\"},{\"operator\":\"correctness\",\"criteria\":\"Recognize from the assumptions that closed restaurants are excluded from comps.\"},{\"operator\":\"correctness\",\"criteria\":\"Reported EOP The Cheesecake Factory restaurants at Q2-FY2025 = 216\"},{\"operator\":\"correctness\",\"criteria\":\"Restaurants opened in Q2-FY2025=2 \"},{\"operator\":\"correctness\",\"criteria\":\"Identify restaurants opened in Q1-FY2025 as = 0\"},{\"criteria\":\"Identify restaurants opened in Q4-FY2024 as = 2\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Identify restaurants opened in Q3-FY2024 as = 0\"},{\"operator\":\"correctness\",\"criteria\":\"Identify restaurants opened in Q2-FY2024 as = 1\"},{\"operator\":\"correctness\",\"criteria\":\"Total restaurants opened in the last six quarters = 5\"},{\"operator\":\"correctness\",\"criteria\":\"Calculated end-of-period comparable restaurant base for The Cheesecake Factory at Q2-FY2025 = 211\"}]"
+          "content": "Recognize that restaurants enter comps in their 19th month of operation.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Recognize from the assumptions that closed restaurants are excluded from comps.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Recognize from the assumptions that closed restaurants are excluded from comps.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Reported EOP The Cheesecake Factory restaurants at Q2-FY2025 = 216",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Reported EOP The Cheesecake Factory restaurants at Q2-FY2025 = 216",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Restaurants opened in Q2-FY2025=2 ",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Restaurants opened in Q2-FY2025=2 ",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Identify restaurants opened in Q1-FY2025 as = 0",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Identify restaurants opened in Q1-FY2025 as = 0",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Identify restaurants opened in Q4-FY2024 as = 2",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Identify restaurants opened in Q4-FY2024 as = 2",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Identify restaurants opened in Q3-FY2024 as = 0",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Identify restaurants opened in Q3-FY2024 as = 0",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Identify restaurants opened in Q2-FY2024 as = 1",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Identify restaurants opened in Q2-FY2024 as = 1",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Total restaurants opened in the last six quarters = 5",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Total restaurants opened in the last six quarters = 5",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Calculated end-of-period comparable restaurant base for The Cheesecake Factory at Q2-FY2025 = 211",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Calculated end-of-period comparable restaurant base for The Cheesecake Factory at Q2-FY2025 = 211",
+          "operator": "correctness"
         }
       ],
       "dependencies": []

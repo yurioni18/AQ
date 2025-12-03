@@ -7,7 +7,7 @@
   ],
   "rubrics": [
     {
-      "name": "Task completion",
+      "name": "Shares outstanding are found to be 334,100,000",
       "weight": 1.0,
       "score": {
         "type": "discrete",
@@ -25,7 +25,308 @@
       "messages": [
         {
           "type": "text",
-          "content": "[{\"criteria\":\"Shares outstanding are found to be 334,100,000\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Share price used is $158.91\"},{\"criteria\":\"Equity value calculated = $53,091,831,000\",\"operator\":\"correctness\"},{\"criteria\":\"Operating lease liabilities, current = $35,923,000\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Operating lease liabilities, non-current = $377,818,000\"},{\"operator\":\"correctness\",\"criteria\":\"Convertible senior notes, net = $2,271,529,000\"},{\"operator\":\"correctness\",\"criteria\":\"Cash and cash equivalents = $2,628,798,000\"},{\"operator\":\"correctness\",\"criteria\":\"Short-term investments = $2,008,873,000\"},{\"criteria\":\"Long-term investments = $656,476,000\",\"operator\":\"correctness\"},{\"criteria\":\"Enterprise Value (EV) computed = $50,489,668,000\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Sales for FY2025 = $3,626,396,000\"},{\"operator\":\"correctness\",\"criteria\":\"EV/Sales calculated = 13.92x\"},{\"operator\":\"correctness\",\"criteria\":\"Answer is formatted as \\\"#.##x\\\"\"}]"
+          "content": "Shares outstanding are found to be 334,100,000",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Share price used is $158.91",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Share price used is $158.91",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Equity value calculated = $53,091,831,000",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Equity value calculated = $53,091,831,000",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Operating lease liabilities, current = $35,923,000",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Operating lease liabilities, current = $35,923,000",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Operating lease liabilities, non-current = $377,818,000",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Operating lease liabilities, non-current = $377,818,000",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Convertible senior notes, net = $2,271,529,000",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Convertible senior notes, net = $2,271,529,000",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Cash and cash equivalents = $2,628,798,000",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Cash and cash equivalents = $2,628,798,000",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Short-term investments = $2,008,873,000",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Short-term investments = $2,008,873,000",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Long-term investments = $656,476,000",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Long-term investments = $656,476,000",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Enterprise Value (EV) computed = $50,489,668,000",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Enterprise Value (EV) computed = $50,489,668,000",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Sales for FY2025 = $3,626,396,000",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Sales for FY2025 = $3,626,396,000",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "EV/Sales calculated = 13.92x",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "EV/Sales calculated = 13.92x",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Answer is formatted as \"#.##x\"",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Answer is formatted as \"#.##x\"",
+          "operator": "correctness"
         }
       ],
       "dependencies": []

@@ -7,7 +7,7 @@
   ],
   "rubrics": [
     {
-      "name": "Task completion",
+      "name": "Identify the correct filing as the 2024 FY 10K for the year ended November 29th 2024. ",
       "weight": 1.0,
       "score": {
         "type": "discrete",
@@ -25,7 +25,83 @@
       "messages": [
         {
           "type": "text",
-          "content": "[{\"operator\":\"correctness\",\"criteria\":\"Identify the correct filing as the 2024 FY 10K for the year ended November 29th 2024. \"},{\"criteria\":\"State Adobe's GAAP effective tax rate as 20%.\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"State Adobe's adjusted effective tax rate as 18.5%.\"},{\"operator\":\"correctness\",\"criteria\":\"Find the difference between the adjusted and GAAP rates as 18.5%-20%=-1.5%\"}]"
+          "content": "Identify the correct filing as the 2024 FY 10K for the year ended November 29th 2024. ",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "State Adobe's GAAP effective tax rate as 20%.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "State Adobe's GAAP effective tax rate as 20%.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "State Adobe's adjusted effective tax rate as 18.5%.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "State Adobe's adjusted effective tax rate as 18.5%.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Find the difference between the adjusted and GAAP rates as 18.5%-20%=-1.5%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Find the difference between the adjusted and GAAP rates as 18.5%-20%=-1.5%",
+          "operator": "correctness"
         }
       ],
       "dependencies": []

@@ -7,7 +7,7 @@
   ],
   "rubrics": [
     {
-      "name": "Task completion",
+      "name": "States ROE formula as Net Profit Margin * Total Asset Turnover * Total Leverage",
       "weight": 1.0,
       "score": {
         "type": "discrete",
@@ -25,7 +25,458 @@
       "messages": [
         {
           "type": "text",
-          "content": "[{\"criteria\":\"States ROE formula as Net Profit Margin * Total Asset Turnover * Total Leverage\",\"operator\":\"correctness\"},{\"criteria\":\"States Net Profit Margin formula as Net Income/Net Sales\",\"operator\":\"correctness\"},{\"criteria\":\"States Total Asset Turnover formula as Net Sales/Average Total Assets\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"States Total Leverage formula as Average Total Assets/Average Total Equity\"},{\"criteria\":\"Provides Net Profit Margin calculation for FY 2022 as 5,764 / 25,096\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Provides Net Profit Margin calculation for FY 2023 as 8,130 / 24,483\"},{\"operator\":\"correctness\",\"criteria\":\"Provides Net Profit Margin calculation for FY 2024 as 11,264 / 24,018\"},{\"criteria\":\"Provides Total Asset Turnover calculation for FY 2022 as 25,096 / ((36,954 + 39,523) / 2) = 25,096 / 38,238.5\",\"operator\":\"correctness\"},{\"criteria\":\"Provides Total Asset Turnover calculation for FY 2023 as 24,483 / ((38,570 + 36,954) / 2) = 24,483 / 37,762.0\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Provides Total Asset Turnover calculation for FY 2024 as 24,018 / ((35,177 + 38,570) / 2) = 24,018 / 36,873.5\"},{\"operator\":\"correctness\",\"criteria\":\"Provides Total Leverage calculation for FY 2022 as 38,238.5 / ((-3,973 + -1,606) / 2) = 38,238.5 / (-2,789.5)\"},{\"operator\":\"correctness\",\"criteria\":\"Provides Total Leverage calculation for FY 2023 as 37,762.0 / ((-3,540 + -3,973) / 2) = 37,762.0 / (-3,756.5)\"},{\"operator\":\"correctness\",\"criteria\":\"Provides Total Leverage calculation for FY 2024 as 36,873.5 / ((-2,238 + -3,540) / 2) = 36,873.5 / (-2,889.0)\"},{\"criteria\":\"Shows combined ROE calculation for FY 2022 as (5,764 / 25,096) × (25,096 / 38,238.5) × (38,238.5 / -2,789.5) = 5,764 / (-2,789.5)\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Shows combined ROE calculation for FY 2023 as (8,130 / 24,483) × (24,483 / 37,762.0) × (37,762.0 / -3,756.5) = 8,130 / (-3,756.5)\"},{\"operator\":\"correctness\",\"criteria\":\"Shows combined ROE calculation for FY 2024 as (11,264 / 24,018) × (24,018 / 36,873.5) × (36,873.5 / -2,889.0) = 11,264 / (-2,889.0)\"},{\"criteria\":\"Provides final ROE for FY 2022 as -2.066320129… → -206.632% rounded to three decimals\",\"operator\":\"correctness\"},{\"criteria\":\"Provides final ROE for FY 2023 as -2.164248636… → -216.425% rounded to three decimals\",\"operator\":\"correctness\"},{\"criteria\":\"Provides final ROE for FY 2024 as -3.8989269… → -389.893% rounded to three decimals\",\"operator\":\"correctness\"}]"
+          "content": "States ROE formula as Net Profit Margin * Total Asset Turnover * Total Leverage",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "States Net Profit Margin formula as Net Income/Net Sales",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "States Net Profit Margin formula as Net Income/Net Sales",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "States Total Asset Turnover formula as Net Sales/Average Total Assets",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "States Total Asset Turnover formula as Net Sales/Average Total Assets",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "States Total Leverage formula as Average Total Assets/Average Total Equity",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "States Total Leverage formula as Average Total Assets/Average Total Equity",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Provides Net Profit Margin calculation for FY 2022 as 5,764 / 25,096",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Provides Net Profit Margin calculation for FY 2022 as 5,764 / 25,096",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Provides Net Profit Margin calculation for FY 2023 as 8,130 / 24,483",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Provides Net Profit Margin calculation for FY 2023 as 8,130 / 24,483",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Provides Net Profit Margin calculation for FY 2024 as 11,264 / 24,018",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Provides Net Profit Margin calculation for FY 2024 as 11,264 / 24,018",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Provides Total Asset Turnover calculation for FY 2022 as 25,096 / ((36,954 + 39,523) / 2) = 25,096 / 38,238.5",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Provides Total Asset Turnover calculation for FY 2022 as 25,096 / ((36,954 + 39,523) / 2) = 25,096 / 38,238.5",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Provides Total Asset Turnover calculation for FY 2023 as 24,483 / ((38,570 + 36,954) / 2) = 24,483 / 37,762.0",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Provides Total Asset Turnover calculation for FY 2023 as 24,483 / ((38,570 + 36,954) / 2) = 24,483 / 37,762.0",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Provides Total Asset Turnover calculation for FY 2024 as 24,018 / ((35,177 + 38,570) / 2) = 24,018 / 36,873.5",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Provides Total Asset Turnover calculation for FY 2024 as 24,018 / ((35,177 + 38,570) / 2) = 24,018 / 36,873.5",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Provides Total Leverage calculation for FY 2022 as 38,238.5 / ((-3,973 + -1,606) / 2) = 38,238.5 / (-2,789.5)",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Provides Total Leverage calculation for FY 2022 as 38,238.5 / ((-3,973 + -1,606) / 2) = 38,238.5 / (-2,789.5)",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Provides Total Leverage calculation for FY 2023 as 37,762.0 / ((-3,540 + -3,973) / 2) = 37,762.0 / (-3,756.5)",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Provides Total Leverage calculation for FY 2023 as 37,762.0 / ((-3,540 + -3,973) / 2) = 37,762.0 / (-3,756.5)",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Provides Total Leverage calculation for FY 2024 as 36,873.5 / ((-2,238 + -3,540) / 2) = 36,873.5 / (-2,889.0)",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Provides Total Leverage calculation for FY 2024 as 36,873.5 / ((-2,238 + -3,540) / 2) = 36,873.5 / (-2,889.0)",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Shows combined ROE calculation for FY 2022 as (5,764 / 25,096) × (25,096 / 38,238.5) × (38,238.5 / -2,789.5) = 5,764 / (-2,789.5)",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Shows combined ROE calculation for FY 2022 as (5,764 / 25,096) × (25,096 / 38,238.5) × (38,238.5 / -2,789.5) = 5,764 / (-2,789.5)",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Shows combined ROE calculation for FY 2023 as (8,130 / 24,483) × (24,483 / 37,762.0) × (37,762.0 / -3,756.5) = 8,130 / (-3,756.5)",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Shows combined ROE calculation for FY 2023 as (8,130 / 24,483) × (24,483 / 37,762.0) × (37,762.0 / -3,756.5) = 8,130 / (-3,756.5)",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Shows combined ROE calculation for FY 2024 as (11,264 / 24,018) × (24,018 / 36,873.5) × (36,873.5 / -2,889.0) = 11,264 / (-2,889.0)",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Shows combined ROE calculation for FY 2024 as (11,264 / 24,018) × (24,018 / 36,873.5) × (36,873.5 / -2,889.0) = 11,264 / (-2,889.0)",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Provides final ROE for FY 2022 as -2.066320129… → -206.632% rounded to three decimals",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Provides final ROE for FY 2022 as -2.066320129… → -206.632% rounded to three decimals",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Provides final ROE for FY 2023 as -2.164248636… → -216.425% rounded to three decimals",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Provides final ROE for FY 2023 as -2.164248636… → -216.425% rounded to three decimals",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Provides final ROE for FY 2024 as -3.8989269… → -389.893% rounded to three decimals",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Provides final ROE for FY 2024 as -3.8989269… → -389.893% rounded to three decimals",
+          "operator": "correctness"
         }
       ],
       "dependencies": []

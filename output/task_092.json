@@ -7,7 +7,7 @@
   ],
   "rubrics": [
     {
-      "name": "Task completion",
+      "name": "Percent vs guidance = [(Actual GAAP EPS − Guided GAAP EPS) / |Guided GAAP EPS|] × 100",
       "weight": 1.0,
       "score": {
         "type": "discrete",
@@ -25,7 +25,558 @@
       "messages": [
         {
           "type": "text",
-          "content": "[{\"operator\":\"correctness\",\"criteria\":\"Percent vs guidance = [(Actual GAAP EPS − Guided GAAP EPS) / |Guided GAAP EPS|] × 100\"},{\"criteria\":\"If Actual >Guidance classify as BEAT otherwise MISS\",\"operator\":\"correctness\"},{\"criteria\":\"States that percentages are rounded to 2 decimal places\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Q1 actual GAAP EPS reported as -$0.09\"},{\"operator\":\"correctness\",\"criteria\":\"Q1 guidance GAAP EPS reported as -$0.25\"},{\"operator\":\"correctness\",\"criteria\":\"64% BEAT (Round answer to 2.d.p)\"},{\"operator\":\"correctness\",\"criteria\":\"Calculate : ((-0.09+0.25)/|-0.25|))*100 = 64.00% (absolute)\"},{\"criteria\":\"Q2 actual GAAP EPS reported as -$0.38\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Includes Q2 guidance GAAP EPS reported as -$0.05\"},{\"operator\":\"correctness\",\"criteria\":\"Q2 % change = ((-0.38+0.05)/|-0.05|)) x 100= 660.00% (absolute)\"},{\"criteria\":\"660.00% MISS (Round answer to 2.d.p)\",\"operator\":\"correctness\"},{\"criteria\":\"Q3 actual GAAP EPS reported as -$3.88\",\"operator\":\"correctness\"},{\"criteria\":\"Q3 guidance GAAP EPS reported as -$0.24\",\"operator\":\"correctness\"},{\"criteria\":\"Compute for Q3 ((-3.88+0.24)/|-0.24|))x100 = 1516.66667% (absolute)\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"1516.67% MISS (Rounded answer to 2.d.p)\"},{\"criteria\":\"Q4 actual GAAP EPS reported as -$0.03\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Q4 guidance GAAP EPS reported as -$0.24\"},{\"criteria\":\"Compute for Q4 ((-0.03+0.24)/|-0.24|)) x 100= 87.50% (absolute)\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"87.50% BEAT (Round answer to 2.d.p)\"},{\"operator\":\"correctness\",\"criteria\":\"Classify Q1 as BEAT\"},{\"operator\":\"correctness\",\"criteria\":\"Classify Q2 as MISS\"},{\"criteria\":\"Q4 as BEAT\",\"operator\":\"correctness\"},{\"criteria\":\"Classify Q3 as MISS\",\"operator\":\"correctness\"}]"
+          "content": "Percent vs guidance = [(Actual GAAP EPS − Guided GAAP EPS) / |Guided GAAP EPS|] × 100",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "If Actual >Guidance classify as BEAT otherwise MISS",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "If Actual >Guidance classify as BEAT otherwise MISS",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "States that percentages are rounded to 2 decimal places",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "States that percentages are rounded to 2 decimal places",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Q1 actual GAAP EPS reported as -$0.09",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Q1 actual GAAP EPS reported as -$0.09",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Q1 guidance GAAP EPS reported as -$0.25",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Q1 guidance GAAP EPS reported as -$0.25",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "64% BEAT (Round answer to 2.d.p)",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "64% BEAT (Round answer to 2.d.p)",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Calculate : ((-0.09+0.25)/|-0.25|))*100 = 64.00% (absolute)",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Calculate : ((-0.09+0.25)/|-0.25|))*100 = 64.00% (absolute)",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Q2 actual GAAP EPS reported as -$0.38",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Q2 actual GAAP EPS reported as -$0.38",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Includes Q2 guidance GAAP EPS reported as -$0.05",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Includes Q2 guidance GAAP EPS reported as -$0.05",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Q2 % change = ((-0.38+0.05)/|-0.05|)) x 100= 660.00% (absolute)",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Q2 % change = ((-0.38+0.05)/|-0.05|)) x 100= 660.00% (absolute)",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "660.00% MISS (Round answer to 2.d.p)",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "660.00% MISS (Round answer to 2.d.p)",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Q3 actual GAAP EPS reported as -$3.88",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Q3 actual GAAP EPS reported as -$3.88",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Q3 guidance GAAP EPS reported as -$0.24",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Q3 guidance GAAP EPS reported as -$0.24",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Compute for Q3 ((-3.88+0.24)/|-0.24|))x100 = 1516.66667% (absolute)",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Compute for Q3 ((-3.88+0.24)/|-0.24|))x100 = 1516.66667% (absolute)",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "1516.67% MISS (Rounded answer to 2.d.p)",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "1516.67% MISS (Rounded answer to 2.d.p)",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Q4 actual GAAP EPS reported as -$0.03",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Q4 actual GAAP EPS reported as -$0.03",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Q4 guidance GAAP EPS reported as -$0.24",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Q4 guidance GAAP EPS reported as -$0.24",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Compute for Q4 ((-0.03+0.24)/|-0.24|)) x 100= 87.50% (absolute)",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Compute for Q4 ((-0.03+0.24)/|-0.24|)) x 100= 87.50% (absolute)",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "87.50% BEAT (Round answer to 2.d.p)",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "87.50% BEAT (Round answer to 2.d.p)",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Classify Q1 as BEAT",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Classify Q1 as BEAT",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Classify Q2 as MISS",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Classify Q2 as MISS",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Q4 as BEAT",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Q4 as BEAT",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Classify Q3 as MISS",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Classify Q3 as MISS",
+          "operator": "correctness"
         }
       ],
       "dependencies": []

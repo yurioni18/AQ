@@ -7,7 +7,7 @@
   ],
   "rubrics": [
     {
-      "name": "Task completion",
+      "name": "Set up Q2 equation: 0.532 = 0.15M₃ + 0.85M₀",
       "weight": 1.0,
       "score": {
         "type": "discrete",
@@ -25,7 +25,258 @@
       "messages": [
         {
           "type": "text",
-          "content": "[{\"criteria\":\"Set up Q2 equation: 0.532 = 0.15M₃ + 0.85M₀\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Set up Q3 equation: 0.578 = 0.20M₃ + 0.80M₀\"},{\"criteria\":\"Subtract the 2 equations Q2 from Q3: 0.578 − 0.532 = 0.046\",\"operator\":\"correctness\"},{\"criteria\":\"Shows the combined-difference algebra as 0.05(M₃ − M₀) = 0.046\",\"operator\":\"correctness\"},{\"criteria\":\"Shows the solved difference M₃ − M₀ = 0.92\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Shows the solved Non‑N3 gross margin M₀ = 0.394\"},{\"criteria\":\"Shows the implied N3 gross margin M₃ = 1.314\",\"operator\":\"correctness\"},{\"criteria\":\"Q2’24 gross margin: 53.2% (0.532)\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Q3’24 gross margin: 57.8% (0.578)\"},{\"operator\":\"correctness\",\"criteria\":\"Convert answer into percentage = 131.4%\"},{\"operator\":\"correctness\",\"criteria\":\"Round to one decimal point = 131.4%\"}]"
+          "content": "Set up Q2 equation: 0.532 = 0.15M₃ + 0.85M₀",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Set up Q3 equation: 0.578 = 0.20M₃ + 0.80M₀",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Set up Q3 equation: 0.578 = 0.20M₃ + 0.80M₀",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Subtract the 2 equations Q2 from Q3: 0.578 − 0.532 = 0.046",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Subtract the 2 equations Q2 from Q3: 0.578 − 0.532 = 0.046",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Shows the combined-difference algebra as 0.05(M₃ − M₀) = 0.046",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Shows the combined-difference algebra as 0.05(M₃ − M₀) = 0.046",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Shows the solved difference M₃ − M₀ = 0.92",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Shows the solved difference M₃ − M₀ = 0.92",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Shows the solved Non‑N3 gross margin M₀ = 0.394",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Shows the solved Non‑N3 gross margin M₀ = 0.394",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Shows the implied N3 gross margin M₃ = 1.314",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Shows the implied N3 gross margin M₃ = 1.314",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Q2’24 gross margin: 53.2% (0.532)",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Q2’24 gross margin: 53.2% (0.532)",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Q3’24 gross margin: 57.8% (0.578)",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Q3’24 gross margin: 57.8% (0.578)",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Convert answer into percentage = 131.4%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Convert answer into percentage = 131.4%",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Round to one decimal point = 131.4%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Round to one decimal point = 131.4%",
+          "operator": "correctness"
         }
       ],
       "dependencies": []

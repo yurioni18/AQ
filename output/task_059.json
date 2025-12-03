@@ -7,7 +7,7 @@
   ],
   "rubrics": [
     {
-      "name": "Task completion",
+      "name": "Find US Sam's Club FY 2024 net sales including fuel: $86,179M",
       "weight": 1.0,
       "score": {
         "type": "discrete",
@@ -25,7 +25,183 @@
       "messages": [
         {
           "type": "text",
-          "content": "[{\"operator\":\"correctness\",\"criteria\":\"Find US Sam's Club FY 2024 net sales including fuel: $86,179M\"},{\"operator\":\"correctness\",\"criteria\":\"Find US Sam's Club FY 2024 net sales excluding fuel: $75,057M\"},{\"criteria\":\"Calculate US Sam's Club FY 2024 net fuel sales: $86,179M-$75,057M = $11,122M\",\"operator\":\"correctness\"},{\"criteria\":\"Find US Sam's Club FY 2025 net sales including fuel: $90,238M\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Find US Sam's Club FY 2025 net sales excluding fuel: $79,777M\"},{\"criteria\":\"Calculate US Sam's Club FY 2025 net fuel sales: $90,238M-$79,777M = $10,461M\",\"operator\":\"correctness\"},{\"criteria\":\"Calculate difference between FY 2024 and FY 2025 net fuel sales: $10,461M (FY 2025) - $11,122M (FY 2024) = -$661M\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Final answer states -$661M\"}]"
+          "content": "Find US Sam's Club FY 2024 net sales including fuel: $86,179M",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Find US Sam's Club FY 2024 net sales excluding fuel: $75,057M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Find US Sam's Club FY 2024 net sales excluding fuel: $75,057M",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Calculate US Sam's Club FY 2024 net fuel sales: $86,179M-$75,057M = $11,122M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Calculate US Sam's Club FY 2024 net fuel sales: $86,179M-$75,057M = $11,122M",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Find US Sam's Club FY 2025 net sales including fuel: $90,238M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Find US Sam's Club FY 2025 net sales including fuel: $90,238M",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Find US Sam's Club FY 2025 net sales excluding fuel: $79,777M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Find US Sam's Club FY 2025 net sales excluding fuel: $79,777M",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Calculate US Sam's Club FY 2025 net fuel sales: $90,238M-$79,777M = $10,461M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Calculate US Sam's Club FY 2025 net fuel sales: $90,238M-$79,777M = $10,461M",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Calculate difference between FY 2024 and FY 2025 net fuel sales: $10,461M (FY 2025) - $11,122M (FY 2024) = -$661M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Calculate difference between FY 2024 and FY 2025 net fuel sales: $10,461M (FY 2025) - $11,122M (FY 2024) = -$661M",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Final answer states -$661M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Final answer states -$661M",
+          "operator": "correctness"
         }
       ],
       "dependencies": []

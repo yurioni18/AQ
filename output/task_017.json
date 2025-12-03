@@ -7,7 +7,7 @@
   ],
   "rubrics": [
     {
-      "name": "Task completion",
+      "name": "Use Q4 2023 earnings press release to find Q1 2024 EBITDA guidance range to be 1.26-1.34B.",
       "weight": 1.0,
       "score": {
         "type": "discrete",
@@ -25,7 +25,383 @@
       "messages": [
         {
           "type": "text",
-          "content": "[{\"operator\":\"correctness\",\"criteria\":\"Use Q4 2023 earnings press release to find Q1 2024 EBITDA guidance range to be 1.26-1.34B.\"},{\"criteria\":\"Identify Q1 2024 midpoint EBITDA guidance to be (1.26 + 1.34) / 2 = $1.30B\",\"operator\":\"correctness\"},{\"criteria\":\"Look in Q1 2024 Earnings report and find that Q1 2024 actual adjusted EBITDA is $1382M\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Compare Q1 2024 midpoint EBITDA guidance to the actual adjusted EBITDA and conclude that Uber BEAT guidance by 1,382−1,300)/1,300 = 6.31%: Q1 2024: BEAT (6.31%)\"},{\"criteria\":\"Use Q1 2024 earnings press release to find Q2 2024 EBITDA guidance range to be 1.45-1.53B.\",\"operator\":\"correctness\"},{\"criteria\":\"Identify Q2 2024 midpoint EBITDA guidance to be (1.45 + 1.53) / 2 = $1.49B\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Look in Q2 2024 Earnings report and find that Q2 2024 actual adjusted EBITDA is $1570M\"},{\"criteria\":\"Compare Q2 2024 midpoint EBITDA guidance to the actual adjusted EBITDA and conclude that Uber BEAT guidance by (1,570−1,490)/1,490 = 5.37%: Q2 2024: BEAT (5.37%).\\n\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Use Q2 2024 earnings press release to find Q3 2024 EBITDA guidance range to be 1.58-1.68B.\"},{\"operator\":\"correctness\",\"criteria\":\"Identify Q3 2024 midpoint EBITDA guidance to be (1.58 + 1.68) / 2 = $1.63B\"},{\"criteria\":\"Look in Q3 2024 Earnings report and find that Q3 2024 actual adjusted EBITDA is $1690M\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Compare Q3 2024 midpoint EBITDA guidance to the actual adjusted EBITDA and conclude that Uber BEAT guidance by (1,690−1,630)/1,630 = 3.68%: Q3 2024: BEAT (3.68%).\"},{\"operator\":\"correctness\",\"criteria\":\"Use Q3 2024 earnings press release to find Q4 2024 EBITDA guidance range to be 1.78-1.88B.\"},{\"operator\":\"correctness\",\"criteria\":\"Identify Q4 2024 midpoint EBITDA guidance to be (1.78 + 1.88) / 2 = $1.83B\"},{\"operator\":\"correctness\",\"criteria\":\"Look in Q4 2024 Earnings report and find that Q4 2024 actual adjusted EBITDA is $1,842M\"},{\"criteria\":\"Compare Q4 2024 midpoint EBITDA guidance to the actual adjusted EBITDA and conclude that Uber BEAT guidance by (1,842−1,830)/1,830 = 0.66%: Q4 2024: BEAT (0.66%).\",\"operator\":\"correctness\"}]"
+          "content": "Use Q4 2023 earnings press release to find Q1 2024 EBITDA guidance range to be 1.26-1.34B.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Identify Q1 2024 midpoint EBITDA guidance to be (1.26 + 1.34) / 2 = $1.30B",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Identify Q1 2024 midpoint EBITDA guidance to be (1.26 + 1.34) / 2 = $1.30B",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Look in Q1 2024 Earnings report and find that Q1 2024 actual adjusted EBITDA is $1382M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Look in Q1 2024 Earnings report and find that Q1 2024 actual adjusted EBITDA is $1382M",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Compare Q1 2024 midpoint EBITDA guidance to the actual adjusted EBITDA and conclude that Uber BEAT guidance by 1,382−1,300)/1,300 = 6.31%: Q1 2024: BEAT (6.31%)",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Compare Q1 2024 midpoint EBITDA guidance to the actual adjusted EBITDA and conclude that Uber BEAT guidance by 1,382−1,300)/1,300 = 6.31%: Q1 2024: BEAT (6.31%)",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Use Q1 2024 earnings press release to find Q2 2024 EBITDA guidance range to be 1.45-1.53B.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Use Q1 2024 earnings press release to find Q2 2024 EBITDA guidance range to be 1.45-1.53B.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Identify Q2 2024 midpoint EBITDA guidance to be (1.45 + 1.53) / 2 = $1.49B",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Identify Q2 2024 midpoint EBITDA guidance to be (1.45 + 1.53) / 2 = $1.49B",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Look in Q2 2024 Earnings report and find that Q2 2024 actual adjusted EBITDA is $1570M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Look in Q2 2024 Earnings report and find that Q2 2024 actual adjusted EBITDA is $1570M",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Compare Q2 2024 midpoint EBITDA guidance to the actual adjusted EBITDA and conclude that Uber BEAT guidance by (1,570−1,490)/1,490 = 5.37%: Q2 2024: BEAT (5.37%).\n",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Compare Q2 2024 midpoint EBITDA guidance to the actual adjusted EBITDA and conclude that Uber BEAT guidance by (1,570−1,490)/1,490 = 5.37%: Q2 2024: BEAT (5.37%).\n",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Use Q2 2024 earnings press release to find Q3 2024 EBITDA guidance range to be 1.58-1.68B.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Use Q2 2024 earnings press release to find Q3 2024 EBITDA guidance range to be 1.58-1.68B.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Identify Q3 2024 midpoint EBITDA guidance to be (1.58 + 1.68) / 2 = $1.63B",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Identify Q3 2024 midpoint EBITDA guidance to be (1.58 + 1.68) / 2 = $1.63B",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Look in Q3 2024 Earnings report and find that Q3 2024 actual adjusted EBITDA is $1690M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Look in Q3 2024 Earnings report and find that Q3 2024 actual adjusted EBITDA is $1690M",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Compare Q3 2024 midpoint EBITDA guidance to the actual adjusted EBITDA and conclude that Uber BEAT guidance by (1,690−1,630)/1,630 = 3.68%: Q3 2024: BEAT (3.68%).",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Compare Q3 2024 midpoint EBITDA guidance to the actual adjusted EBITDA and conclude that Uber BEAT guidance by (1,690−1,630)/1,630 = 3.68%: Q3 2024: BEAT (3.68%).",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Use Q3 2024 earnings press release to find Q4 2024 EBITDA guidance range to be 1.78-1.88B.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Use Q3 2024 earnings press release to find Q4 2024 EBITDA guidance range to be 1.78-1.88B.",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Identify Q4 2024 midpoint EBITDA guidance to be (1.78 + 1.88) / 2 = $1.83B",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Identify Q4 2024 midpoint EBITDA guidance to be (1.78 + 1.88) / 2 = $1.83B",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Look in Q4 2024 Earnings report and find that Q4 2024 actual adjusted EBITDA is $1,842M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Look in Q4 2024 Earnings report and find that Q4 2024 actual adjusted EBITDA is $1,842M",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Compare Q4 2024 midpoint EBITDA guidance to the actual adjusted EBITDA and conclude that Uber BEAT guidance by (1,842−1,830)/1,830 = 0.66%: Q4 2024: BEAT (0.66%).",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Compare Q4 2024 midpoint EBITDA guidance to the actual adjusted EBITDA and conclude that Uber BEAT guidance by (1,842−1,830)/1,830 = 0.66%: Q4 2024: BEAT (0.66%).",
+          "operator": "correctness"
         }
       ],
       "dependencies": []

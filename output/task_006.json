@@ -7,7 +7,7 @@
   ],
   "rubrics": [
     {
-      "name": "Task completion",
+      "name": "Note-stated total intrinsic value of options exercised during 2008 = $90.10M",
       "weight": 1.0,
       "score": {
         "type": "discrete",
@@ -25,7 +25,108 @@
       "messages": [
         {
           "type": "text",
-          "content": "[{\"criteria\":\"Note-stated total intrinsic value of options exercised during 2008 = $90.10M\",\"operator\":\"correctness\"},{\"criteria\":\"States approximation formula as: (number of options exercised in 2008) × (weighted-average exercise price of options exercised in 2008)\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Number of options exercised in 2008 reported as 5862\"},{\"criteria\":\"Calculates price difference 34.59 - 19.91 = 14.68\",\"operator\":\"correctness\"},{\"operator\":\"correctness\",\"criteria\":\"Approximate intrinsic value computed and reported as $86.05M\"}]"
+          "content": "Note-stated total intrinsic value of options exercised during 2008 = $90.10M",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "States approximation formula as: (number of options exercised in 2008) × (weighted-average exercise price of options exercised in 2008)",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "States approximation formula as: (number of options exercised in 2008) × (weighted-average exercise price of options exercised in 2008)",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Number of options exercised in 2008 reported as 5862",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Number of options exercised in 2008 reported as 5862",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Calculates price difference 34.59 - 19.91 = 14.68",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Calculates price difference 34.59 - 19.91 = 14.68",
+          "operator": "correctness"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Approximate intrinsic value computed and reported as $86.05M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Approximate intrinsic value computed and reported as $86.05M",
+          "operator": "correctness"
         }
       ],
       "dependencies": []
