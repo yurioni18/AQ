@@ -25,8 +25,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Stock-based compensation expense +$109.09M",
-          "operator": "correctness"
+          "content": "Stock-based compensation expense +$109.09M"
         }
       ],
       "dependencies": []
@@ -50,8 +49,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Amortization of purchased technology +$77.96M",
-          "operator": "correctness"
+          "content": "Amortization of purchased technology +$77.96M"
         }
       ],
       "dependencies": []
@@ -75,8 +73,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Amortization of intangibles +$40.72M",
-          "operator": "correctness"
+          "content": "Amortization of intangibles +$40.72M"
         }
       ],
       "dependencies": []
@@ -100,8 +97,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Acquisition-related costs +$34.45M",
-          "operator": "correctness"
+          "content": "Acquisition-related costs +$34.45M"
         }
       ],
       "dependencies": []
@@ -125,8 +121,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Restructuring costs +$13.83M",
-          "operator": "correctness"
+          "content": "Restructuring costs +$13.83M"
         }
       ],
       "dependencies": []
@@ -150,8 +145,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "litigation related costs +$5.53M",
-          "operator": "correctness"
+          "content": "litigation related costs +$5.53M"
         }
       ],
       "dependencies": []
@@ -175,8 +169,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "loss on sale of assets +$0.474M",
-          "operator": "correctness"
+          "content": "loss on sale of assets +$0.474M"
         }
       ],
       "dependencies": []
@@ -200,8 +193,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Total impact is 282.05M",
-          "operator": "correctness"
+          "content": "Total impact is 282.05M"
         }
       ],
       "dependencies": []

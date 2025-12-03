@@ -25,8 +25,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Retrieve Coach's average square footage for FY 2022: 4,839",
-          "operator": "correctness"
+          "content": "Retrieve Coach's average square footage for FY 2022: 4,839"
         }
       ],
       "dependencies": []
@@ -50,8 +49,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Retrieve Coach's average square footage for FY 2024: 4,905 ",
-          "operator": "correctness"
+          "content": "Retrieve Coach's average square footage for FY 2024: 4,905 "
         }
       ],
       "dependencies": []
@@ -75,8 +73,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Retrieve Kate Spade's average square footage for FY 2022: 2,863",
-          "operator": "correctness"
+          "content": "Retrieve Kate Spade's average square footage for FY 2022: 2,863"
         }
       ],
       "dependencies": []
@@ -100,8 +97,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Retrieve Kate Spade's average square footage for FY 2024: 2,949",
-          "operator": "correctness"
+          "content": "Retrieve Kate Spade's average square footage for FY 2024: 2,949"
         }
       ],
       "dependencies": []
@@ -125,8 +121,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Retrieve Stuart Weitzman's average square footage for FY 2022: 1,919",
-          "operator": "correctness"
+          "content": "Retrieve Stuart Weitzman's average square footage for FY 2022: 1,919"
         }
       ],
       "dependencies": []
@@ -150,8 +145,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Retrieve Stuart Weitzman's average square footage for FY 2024: 1,938",
-          "operator": "correctness"
+          "content": "Retrieve Stuart Weitzman's average square footage for FY 2024: 1,938"
         }
       ],
       "dependencies": []
@@ -175,8 +169,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Retrieve Coach's store count for FY 2022: 343",
-          "operator": "correctness"
+          "content": "Retrieve Coach's store count for FY 2022: 343"
         }
       ],
       "dependencies": []
@@ -200,8 +193,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Retrieve Coach's store count for FY 2024: 324",
-          "operator": "correctness"
+          "content": "Retrieve Coach's store count for FY 2024: 324"
         }
       ],
       "dependencies": []
@@ -225,8 +217,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Retrieve Kate Spade's store count for FY 2022: 207",
-          "operator": "correctness"
+          "content": "Retrieve Kate Spade's store count for FY 2022: 207"
         }
       ],
       "dependencies": []
@@ -250,8 +241,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Retrieve Kate Spade's store count for FY 2024: 197",
-          "operator": "correctness"
+          "content": "Retrieve Kate Spade's store count for FY 2024: 197"
         }
       ],
       "dependencies": []
@@ -275,8 +265,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Retrieve Stuart Weitzman's store count for FY 2022: 39",
-          "operator": "correctness"
+          "content": "Retrieve Stuart Weitzman's store count for FY 2022: 39"
         }
       ],
       "dependencies": []
@@ -300,8 +289,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Retrieve Stuart Weitzman's store count for FY 2024: 34",
-          "operator": "correctness"
+          "content": "Retrieve Stuart Weitzman's store count for FY 2024: 34"
         }
       ],
       "dependencies": []
@@ -325,8 +313,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Calculate Coach's total square footage in FY 2022: 4,839 x 343 = 1,659,777",
-          "operator": "correctness"
+          "content": "Calculate Coach's total square footage in FY 2022: 4,839 x 343 = 1,659,777"
         }
       ],
       "dependencies": []
@@ -350,8 +337,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Calculate Coach's total square footage in FY 2024: 4,905 x 324 = 1,589,220",
-          "operator": "correctness"
+          "content": "Calculate Coach's total square footage in FY 2024: 4,905 x 324 = 1,589,220"
         }
       ],
       "dependencies": []
@@ -375,8 +361,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Calculate Kate Spade's total square footage in FY 2022: 2,863 x 207 = 592,641",
-          "operator": "correctness"
+          "content": "Calculate Kate Spade's total square footage in FY 2022: 2,863 x 207 = 592,641"
         }
       ],
       "dependencies": []
@@ -400,8 +385,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Calculate Kate Spade's total square footage in FY 2024: 2949 x 197 = 580,953",
-          "operator": "correctness"
+          "content": "Calculate Kate Spade's total square footage in FY 2024: 2949 x 197 = 580,953"
         }
       ],
       "dependencies": []
@@ -425,8 +409,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Calculate Stuart Weitzman's total square footage in FY 2022: 1,919 x 39 = 74,841",
-          "operator": "correctness"
+          "content": "Calculate Stuart Weitzman's total square footage in FY 2022: 1,919 x 39 = 74,841"
         }
       ],
       "dependencies": []
@@ -450,8 +433,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Calculate Stuart Weitzman's total square footage in FY 2024: 1,938 x 34 = 65,892",
-          "operator": "correctness"
+          "content": "Calculate Stuart Weitzman's total square footage in FY 2024: 1,938 x 34 = 65,892"
         }
       ],
       "dependencies": []
@@ -475,8 +457,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Calculate the difference in total square footage between FY 2022 and FY 2024 for Coach: 1,589,220 - 1,659,777 = - 70,557",
-          "operator": "correctness"
+          "content": "Calculate the difference in total square footage between FY 2022 and FY 2024 for Coach: 1,589,220 - 1,659,777 = - 70,557"
         }
       ],
       "dependencies": []
@@ -500,8 +481,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Calculate the difference in total square footage between FY 2022 and FY 2024 for Kate Spade: 580,953 - 592,641 = -11,688",
-          "operator": "correctness"
+          "content": "Calculate the difference in total square footage between FY 2022 and FY 2024 for Kate Spade: 580,953 - 592,641 = -11,688"
         }
       ],
       "dependencies": []
@@ -525,8 +505,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Calculate the difference in total square footage between FY 2022 and FY 2024 for Stuart Weitzman: 65,892 - 74,841 = -8,949",
-          "operator": "correctness"
+          "content": "Calculate the difference in total square footage between FY 2022 and FY 2024 for Stuart Weitzman: 65,892 - 74,841 = -8,949"
         }
       ],
       "dependencies": []
@@ -550,8 +529,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Identify Stuart Weitzman as the brand with the greatest growth in total square footage from FY 2022 to FY 2024. While none of the brands saw growth because they all faced a decline in total square footage, Stuart Weitzman experienced the least decline.",
-          "operator": "correctness"
+          "content": "Identify Stuart Weitzman as the brand with the greatest growth in total square footage from FY 2022 to FY 2024. While none of the brands saw growth because they all faced a decline in total square footage, Stuart Weitzman experienced the least decline."
         }
       ],
       "dependencies": []

@@ -25,8 +25,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Interest rate swaps entered in Q3 FY2013",
-          "operator": "correctness"
+          "content": "Interest rate swaps entered in Q3 FY2013"
         }
       ],
       "dependencies": []
@@ -50,8 +49,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Notional amount of the swaps $3.0B",
-          "operator": "correctness"
+          "content": "Notional amount of the swaps $3.0B"
         }
       ],
       "dependencies": []
@@ -75,8 +73,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Swaps were designated as cash flow hedges",
-          "operator": "correctness"
+          "content": "Swaps were designated as cash flow hedges"
         }
       ],
       "dependencies": []
@@ -100,8 +97,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Hedged item: U.S. dollar floating‑rate note due 2016 with $1,000M face amount",
-          "operator": "correctness"
+          "content": "Hedged item: U.S. dollar floating‑rate note due 2016 with $1,000M face amount"
         }
       ],
       "dependencies": []
@@ -125,8 +121,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Hedged item: U.S. dollar floating‑rate note due 2018 with $2,000M face amount",
-          "operator": "correctness"
+          "content": "Hedged item: U.S. dollar floating‑rate note due 2018 with $2,000M face amount"
         }
       ],
       "dependencies": []
@@ -150,8 +145,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "2016 note bears interest at 3‑month LIBOR + 0.05%",
-          "operator": "correctness"
+          "content": "2016 note bears interest at 3‑month LIBOR + 0.05%"
         }
       ],
       "dependencies": []
@@ -175,8 +169,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "2018 note bears interest at 3‑month LIBOR + 0.25%",
-          "operator": "correctness"
+          "content": "2018 note bears interest at 3‑month LIBOR + 0.25%"
         }
       ],
       "dependencies": []
@@ -200,8 +193,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Hedge purpose: to hedge variability in cash flows and effectively convert the notes’ interest from floating to fixed",
-          "operator": "correctness"
+          "content": "Hedge purpose: to hedge variability in cash flows and effectively convert the notes’ interest from floating to fixed"
         }
       ],
       "dependencies": []
@@ -225,8 +217,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Derivative assets recorded at September 28, 2013: $44M",
-          "operator": "correctness"
+          "content": "Derivative assets recorded at September 28, 2013: $44M"
         }
       ],
       "dependencies": []
@@ -250,8 +241,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Derivative liabilities recorded at September 28, 2013: $0M",
-          "operator": "correctness"
+          "content": "Derivative liabilities recorded at September 28, 2013: $0M"
         }
       ],
       "dependencies": []
@@ -275,8 +265,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Net market value of the hedges at FY2013 year‑end: $44.0M",
-          "operator": "correctness"
+          "content": "Net market value of the hedges at FY2013 year‑end: $44.0M"
         }
       ],
       "dependencies": []
@@ -300,8 +289,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "In the swaps Apple receives floating‑rate cash flows and pays a fixed amount",
-          "operator": "correctness"
+          "content": "In the swaps Apple receives floating‑rate cash flows and pays a fixed amount"
         }
       ],
       "dependencies": []

@@ -25,8 +25,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Total Employee Headcount described as \"“employee headcount worldwide was 125,665”. ",
-          "operator": "correctness"
+          "content": "Total Employee Headcount described as \"“employee headcount worldwide was 125,665”. "
         }
       ],
       "dependencies": []
@@ -50,8 +49,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Employee headcount number used in formula was 125,665 ",
-          "operator": "correctness"
+          "content": "Employee headcount number used in formula was 125,665 "
         }
       ],
       "dependencies": []
@@ -75,8 +73,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Manufacturing Development Program hires described as 'hired over 800 graduates'",
-          "operator": "correctness"
+          "content": "Manufacturing Development Program hires described as 'hired over 800 graduates'"
         }
       ],
       "dependencies": []
@@ -100,8 +97,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Hires number used in formula was 800",
-          "operator": "correctness"
+          "content": "Hires number used in formula was 800"
         }
       ],
       "dependencies": []
@@ -125,8 +121,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "The formula stated to find the answer was Percentage = (Program Hires/Total Employees) × 100",
-          "operator": "correctness"
+          "content": "The formula stated to find the answer was Percentage = (Program Hires/Total Employees) × 100"
         }
       ],
       "dependencies": []
@@ -150,8 +145,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "The raw answer was formatted as follows: 800 ÷ 125,665 × 100 = 0.6366%",
-          "operator": "correctness"
+          "content": "The raw answer was formatted as follows: 800 ÷ 125,665 × 100 = 0.6366%"
         }
       ],
       "dependencies": []
@@ -175,8 +169,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "The answer was a percentage ",
-          "operator": "correctness"
+          "content": "The answer was a percentage "
         }
       ],
       "dependencies": []
@@ -200,8 +193,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "The answer was rounded to two decimals",
-          "operator": "correctness"
+          "content": "The answer was rounded to two decimals"
         }
       ],
       "dependencies": []
@@ -225,8 +217,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "The answer was 0.64%",
-          "operator": "correctness"
+          "content": "The answer was 0.64%"
         }
       ],
       "dependencies": []

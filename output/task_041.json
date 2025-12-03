@@ -25,8 +25,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Q4 2025 guidance: $2.50 (low) to $2.60 (high)",
-          "operator": "correctness"
+          "content": "Q4 2025 guidance: $2.50 (low) to $2.60 (high)"
         }
       ],
       "dependencies": []
@@ -50,8 +49,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Q1 2026 guidance: $2.50 (low) to $2.60 (high)",
-          "operator": "correctness"
+          "content": "Q1 2026 guidance: $2.50 (low) to $2.60 (high)"
         }
       ],
       "dependencies": []
@@ -75,8 +73,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Q2 2026 guidance: $2.52 (low) to $2.62 (high)",
-          "operator": "correctness"
+          "content": "Q2 2026 guidance: $2.52 (low) to $2.62 (high)"
         }
       ],
       "dependencies": []
@@ -100,8 +97,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Q3 2026 guidance: $2.58 (low) to $2.63 (high)",
-          "operator": "correctness"
+          "content": "Q3 2026 guidance: $2.58 (low) to $2.63 (high)"
         }
       ],
       "dependencies": []
@@ -125,8 +121,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Q4 2025 is 3.92% of midpoint",
-          "operator": "correctness"
+          "content": "Q4 2025 is 3.92% of midpoint"
         }
       ],
       "dependencies": []
@@ -150,8 +145,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Q1 2026 is 3.92% of midpoint\n",
-          "operator": "correctness"
+          "content": "Q1 2026 is 3.92% of midpoint\n"
         }
       ],
       "dependencies": []
@@ -175,8 +169,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Q2 2026 is 3.89% of midpoint\n",
-          "operator": "correctness"
+          "content": "Q2 2026 is 3.89% of midpoint\n"
         }
       ],
       "dependencies": []
@@ -200,8 +193,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Q3 2026 is 1.92% of midpoint",
-          "operator": "correctness"
+          "content": "Q3 2026 is 1.92% of midpoint"
         }
       ],
       "dependencies": []
@@ -225,8 +217,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "All answers follow the correct format of \"Q[X] [YEAR]: $[X.XX] (low) to $[X.XX] (high), [X.XX]% of midpoint\" ",
-          "operator": "correctness"
+          "content": "All answers follow the correct format of \"Q[X] [YEAR]: $[X.XX] (low) to $[X.XX] (high), [X.XX]% of midpoint\" "
         }
       ],
       "dependencies": []
@@ -250,8 +241,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "All answers follow the correct format with line breaks for each period",
-          "operator": "correctness"
+          "content": "All answers follow the correct format with line breaks for each period"
         }
       ],
       "dependencies": []
@@ -275,8 +265,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "All answers follow the correct format with rounding to two decimal places",
-          "operator": "correctness"
+          "content": "All answers follow the correct format with rounding to two decimal places"
         }
       ],
       "dependencies": []

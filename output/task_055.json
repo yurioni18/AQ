@@ -25,8 +25,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Identify Income from operations Q2 = $31,271 million",
-          "operator": "correctness"
+          "content": "Identify Income from operations Q2 = $31,271 million"
         }
       ],
       "dependencies": []
@@ -50,8 +49,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Identify H2 OFC = $63,897 million",
-          "operator": "correctness"
+          "content": "Identify H2 OFC = $63,897 million"
         }
       ],
       "dependencies": []
@@ -75,8 +73,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Identify H2 Purchases of property and equipment = $39,643 million",
-          "operator": "correctness"
+          "content": "Identify H2 Purchases of property and equipment = $39,643 million"
         }
       ],
       "dependencies": []
@@ -100,8 +97,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Identify H2 Depreciation of property and equipment = $9,485 million",
-          "operator": "correctness"
+          "content": "Identify H2 Depreciation of property and equipment = $9,485 million"
         }
       ],
       "dependencies": []
@@ -125,8 +121,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Identify H2 Stock-based compensation expense = $11,514 million",
-          "operator": "correctness"
+          "content": "Identify H2 Stock-based compensation expense = $11,514 million"
         }
       ],
       "dependencies": []
@@ -150,8 +145,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Identify Q1 OFC = $36,150 million",
-          "operator": "correctness"
+          "content": "Identify Q1 OFC = $36,150 million"
         }
       ],
       "dependencies": []
@@ -175,8 +169,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Identify Q1 Purchases of property and equipment = $17,197 million",
-          "operator": "correctness"
+          "content": "Identify Q1 Purchases of property and equipment = $17,197 million"
         }
       ],
       "dependencies": []
@@ -200,8 +193,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Identify Q1 Depreciation of property and equipment = $4,487 million",
-          "operator": "correctness"
+          "content": "Identify Q1 Depreciation of property and equipment = $4,487 million"
         }
       ],
       "dependencies": []
@@ -225,8 +217,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Identify Q1 Stock-based compensation expense = $5,516 million",
-          "operator": "correctness"
+          "content": "Identify Q1 Stock-based compensation expense = $5,516 million"
         }
       ],
       "dependencies": []
@@ -250,8 +241,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "OCF Q2 computed as 63,897 − 36,150 = $27,747 million",
-          "operator": "correctness"
+          "content": "OCF Q2 computed as 63,897 − 36,150 = $27,747 million"
         }
       ],
       "dependencies": []
@@ -275,8 +265,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Capex Q2 computed as 39,643 − 17,197 = $22,446 million",
-          "operator": "correctness"
+          "content": "Capex Q2 computed as 39,643 − 17,197 = $22,446 million"
         }
       ],
       "dependencies": []
@@ -300,8 +289,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "FCF Q2 computed as 27,747 − 22,446 = $5,301 million",
-          "operator": "correctness"
+          "content": "FCF Q2 computed as 27,747 − 22,446 = $5,301 million"
         }
       ],
       "dependencies": []
@@ -325,8 +313,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "DPE Q2 computed as 9,485 − 4,487 = $4,998 million",
-          "operator": "correctness"
+          "content": "DPE Q2 computed as 9,485 − 4,487 = $4,998 million"
         }
       ],
       "dependencies": []
@@ -350,8 +337,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "EBITDA Q2 computed as Income from operations Q2 + DPE Q2 = 31,271 + 4,998 = $36,269 million",
-          "operator": "correctness"
+          "content": "EBITDA Q2 computed as Income from operations Q2 + DPE Q2 = 31,271 + 4,998 = $36,269 million"
         }
       ],
       "dependencies": []
@@ -375,8 +361,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "SBC Q2 computed as 11,514 − 5,516 = $5,998 million",
-          "operator": "correctness"
+          "content": "SBC Q2 computed as 11,514 − 5,516 = $5,998 million"
         }
       ],
       "dependencies": []
@@ -400,8 +385,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Adjusted EBITDA Q2 computed as 36,269 + 5,998 = $42,267 million",
-          "operator": "correctness"
+          "content": "Adjusted EBITDA Q2 computed as 36,269 + 5,998 = $42,267 million"
         }
       ],
       "dependencies": []
@@ -425,8 +409,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "FCF Conversion computed as 5,301 ÷ 42,267 = 12.54%",
-          "operator": "correctness"
+          "content": "FCF Conversion computed as 5,301 ÷ 42,267 = 12.54%"
         }
       ],
       "dependencies": []

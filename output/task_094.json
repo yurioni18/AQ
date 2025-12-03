@@ -25,8 +25,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "States GAAP rule that if securities are classified as trading securities, related cash receipts and payments are classified as operating cash flows.",
-          "operator": "correctness"
+          "content": "States GAAP rule that if securities are classified as trading securities, related cash receipts and payments are classified as operating cash flows."
         }
       ],
       "dependencies": []
@@ -50,8 +49,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "States that to restate 2005 CFO as if AFS were trading, purchases, sales, and maturities of AFS must be reclassified from investing to operating.",
-          "operator": "correctness"
+          "content": "States that to restate 2005 CFO as if AFS were trading, purchases, sales, and maturities of AFS must be reclassified from investing to operating."
         }
       ],
       "dependencies": []
@@ -75,8 +73,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Reports Net cash provided by operating activities (CFO) = $293,143 (2005 reported figure).",
-          "operator": "correctness"
+          "content": "Reports Net cash provided by operating activities (CFO) = $293,143 (2005 reported figure)."
         }
       ],
       "dependencies": []
@@ -100,8 +97,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Reports Purchases of available-for-sale investments = $(183,245) (2005 reported figure).",
-          "operator": "correctness"
+          "content": "Reports Purchases of available-for-sale investments = $(183,245) (2005 reported figure)."
         }
       ],
       "dependencies": []
@@ -125,8 +121,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Reports Proceeds from sales of available-for-sale investments = $396,580 (2005 reported figure).",
-          "operator": "correctness"
+          "content": "Reports Proceeds from sales of available-for-sale investments = $396,580 (2005 reported figure)."
         }
       ],
       "dependencies": []
@@ -150,8 +145,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Reports Proceeds from maturities of available-for-sale investments = $141,652 (2005 reported figure).",
-          "operator": "correctness"
+          "content": "Reports Proceeds from maturities of available-for-sale investments = $141,652 (2005 reported figure)."
         }
       ],
       "dependencies": []
@@ -175,8 +169,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Computes net AFS cash inflow to move to operating = 396,580 + 141,652 − 183,245 = 354,987.",
-          "operator": "correctness"
+          "content": "Computes net AFS cash inflow to move to operating = 396,580 + 141,652 − 183,245 = 354,987."
         }
       ],
       "dependencies": []
@@ -200,8 +193,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Computes adjusted CFO = reported CFO + net AFS inflow = 293,143 + 354,987 = 648,130.",
-          "operator": "correctness"
+          "content": "Computes adjusted CFO = reported CFO + net AFS inflow = 293,143 + 354,987 = 648,130."
         }
       ],
       "dependencies": []
@@ -225,8 +217,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Presents final rounded answer of $648.13M (2005 Cash from Operations if AFS classified as trading, rounded to two decimals).",
-          "operator": "correctness"
+          "content": "Presents final rounded answer of $648.13M (2005 Cash from Operations if AFS classified as trading, rounded to two decimals)."
         }
       ],
       "dependencies": []

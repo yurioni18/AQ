@@ -25,8 +25,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Find Danaos's FY2024 total comprehensive income as $510.622 million",
-          "operator": "correctness"
+          "content": "Find Danaos's FY2024 total comprehensive income as $510.622 million"
         }
       ],
       "dependencies": []
@@ -50,8 +49,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Find Danaos's FY2024 unrealized fair value movement on its SBLK investment as -$25.2 million",
-          "operator": "correctness"
+          "content": "Find Danaos's FY2024 unrealized fair value movement on its SBLK investment as -$25.2 million"
         }
       ],
       "dependencies": []
@@ -75,8 +73,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Calculated the percentage as (-$25.2 million / $510.622 million) * 100 = -4.94% ",
-          "operator": "correctness"
+          "content": "Calculated the percentage as (-$25.2 million / $510.622 million) * 100 = -4.94% "
         }
       ],
       "dependencies": []

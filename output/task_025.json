@@ -25,8 +25,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Q1 FY2025 Actual AOI = $58.4M; ",
-          "operator": "correctness"
+          "content": "Q1 FY2025 Actual AOI = $58.4M; "
         }
       ],
       "dependencies": []
@@ -50,8 +49,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Q2 FY2025 Actual AOI = $135.6M;",
-          "operator": "correctness"
+          "content": "Q2 FY2025 Actual AOI = $135.6M;"
         }
       ],
       "dependencies": []
@@ -75,8 +73,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Q3 FY2025 Actual AOI = $141.7M;",
-          "operator": "correctness"
+          "content": "Q3 FY2025 Actual AOI = $141.7M;"
         }
       ],
       "dependencies": []
@@ -100,8 +97,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Q4 FY2025 Actual AOI = $130.6M",
-          "operator": "correctness"
+          "content": "Q4 FY2025 Actual AOI = $130.6M"
         }
       ],
       "dependencies": []
@@ -125,8 +121,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Q1 FY2025: no guidance provided by company",
-          "operator": "correctness"
+          "content": "Q1 FY2025: no guidance provided by company"
         }
       ],
       "dependencies": []
@@ -150,8 +145,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Q2 FY2025 AOI guidance range $115–$125M with midpoint $120.0M",
-          "operator": "correctness"
+          "content": "Q2 FY2025 AOI guidance range $115–$125M with midpoint $120.0M"
         }
       ],
       "dependencies": []
@@ -175,8 +169,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Q3 FY2025 AOI guidance range $130–$140M with midpoint $135.0M",
-          "operator": "correctness"
+          "content": "Q3 FY2025 AOI guidance range $130–$140M with midpoint $135.0M"
         }
       ],
       "dependencies": []
@@ -200,8 +193,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Full FY2025 AOI guidance $455–$465M midpoint $460.0M -> Q4 AOI midpoint computed as $460.0M − $58.4M − $135.6M − $141.7M = $124.3M",
-          "operator": "correctness"
+          "content": "Full FY2025 AOI guidance $455–$465M midpoint $460.0M -> Q4 AOI midpoint computed as $460.0M − $58.4M − $135.6M − $141.7M = $124.3M"
         }
       ],
       "dependencies": []
@@ -225,8 +217,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Q2 FY2025 percent beat vs midpoint =13.00% BEAT",
-          "operator": "correctness"
+          "content": "Q2 FY2025 percent beat vs midpoint =13.00% BEAT"
         }
       ],
       "dependencies": []
@@ -250,8 +241,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Q3 FY2025 percent beat vs midpoint = 5.00% BEAT",
-          "operator": "correctness"
+          "content": "Q3 FY2025 percent beat vs midpoint = 5.00% BEAT"
         }
       ],
       "dependencies": []
@@ -275,8 +265,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Q4 FY2025 percent beat vs midpoint = 5.00% BEAT",
-          "operator": "correctness"
+          "content": "Q4 FY2025 percent beat vs midpoint = 5.00% BEAT"
         }
       ],
       "dependencies": []
@@ -300,8 +289,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Final formatted answer string present as: 1Q FY2025 no guidance; 2Q FY2025 13.00% BEAT; 3Q FY2025 5.00% BEAT; 4Q FY2025 5.00% BEAT.",
-          "operator": "correctness"
+          "content": "Final formatted answer string present as: 1Q FY2025 no guidance; 2Q FY2025 13.00% BEAT; 3Q FY2025 5.00% BEAT; 4Q FY2025 5.00% BEAT."
         }
       ],
       "dependencies": []

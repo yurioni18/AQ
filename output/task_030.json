@@ -25,8 +25,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "2022 North America revenue = $1,415.5M",
-          "operator": "correctness"
+          "content": "2022 North America revenue = $1,415.5M"
         }
       ],
       "dependencies": []
@@ -50,8 +49,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "2022 Europe revenue =$841.9M",
-          "operator": "correctness"
+          "content": "2022 Europe revenue =$841.9M"
         }
       ],
       "dependencies": []
@@ -75,8 +73,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "2022 Other revenue = $579.6M",
-          "operator": "correctness"
+          "content": "2022 Other revenue = $579.6M"
         }
       ],
       "dependencies": []
@@ -100,8 +97,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "2022 Total revenue = $2,837.0M",
-          "operator": "correctness"
+          "content": "2022 Total revenue = $2,837.0M"
         }
       ],
       "dependencies": []
@@ -125,8 +121,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "2023 North America revenue = $1,398.4M",
-          "operator": "correctness"
+          "content": "2023 North America revenue = $1,398.4M"
         }
       ],
       "dependencies": []
@@ -150,8 +145,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "2023 Europe revenue = $827.5M",
-          "operator": "correctness"
+          "content": "2023 Europe revenue = $827.5M"
         }
       ],
       "dependencies": []
@@ -175,8 +169,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "2023 Other revenue = $616.6M",
-          "operator": "correctness"
+          "content": "2023 Other revenue = $616.6M"
         }
       ],
       "dependencies": []
@@ -200,8 +193,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "2023 Total revenue =$2,842.5M",
-          "operator": "correctness"
+          "content": "2023 Total revenue =$2,842.5M"
         }
       ],
       "dependencies": []
@@ -225,8 +217,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "2024 North America revenue= $1,269.5M",
-          "operator": "correctness"
+          "content": "2024 North America revenue= $1,269.5M"
         }
       ],
       "dependencies": []
@@ -250,8 +241,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "2024 Europe revenue =$800.0M",
-          "operator": "correctness"
+          "content": "2024 Europe revenue =$800.0M"
         }
       ],
       "dependencies": []
@@ -275,8 +265,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "2024 Other revenue $626.9M",
-          "operator": "correctness"
+          "content": "2024 Other revenue $626.9M"
         }
       ],
       "dependencies": []
@@ -300,8 +289,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "2024 Total revenue $2,696.4M",
-          "operator": "correctness"
+          "content": "2024 Total revenue $2,696.4M"
         }
       ],
       "dependencies": []
@@ -325,8 +313,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "2022 North America mix 49.89%",
-          "operator": "correctness"
+          "content": "2022 North America mix 49.89%"
         }
       ],
       "dependencies": []
@@ -350,8 +337,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "2022 Europe mix 29.68%",
-          "operator": "correctness"
+          "content": "2022 Europe mix 29.68%"
         }
       ],
       "dependencies": []
@@ -375,8 +361,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "2022 Other mix 20.43%",
-          "operator": "correctness"
+          "content": "2022 Other mix 20.43%"
         }
       ],
       "dependencies": []
@@ -400,8 +385,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "2023 North America mix 49.20%",
-          "operator": "correctness"
+          "content": "2023 North America mix 49.20%"
         }
       ],
       "dependencies": []
@@ -425,8 +409,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "2023 Europe mix 29.11%",
-          "operator": "correctness"
+          "content": "2023 Europe mix 29.11%"
         }
       ],
       "dependencies": []
@@ -450,8 +433,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "2023 Other mix 21.69%",
-          "operator": "correctness"
+          "content": "2023 Other mix 21.69%"
         }
       ],
       "dependencies": []
@@ -475,8 +457,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "2024 North America mix 47.08%",
-          "operator": "correctness"
+          "content": "2024 North America mix 47.08%"
         }
       ],
       "dependencies": []
@@ -500,8 +481,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "2024 Europe mix 29.67%",
-          "operator": "correctness"
+          "content": "2024 Europe mix 29.67%"
         }
       ],
       "dependencies": []
@@ -525,8 +505,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "2024 Other mix 23.25%",
-          "operator": "correctness"
+          "content": "2024 Other mix 23.25%"
         }
       ],
       "dependencies": []
@@ -550,8 +529,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "North America mix change from 2022 to 2024 −2.81 percentage points",
-          "operator": "correctness"
+          "content": "North America mix change from 2022 to 2024 −2.81 percentage points"
         }
       ],
       "dependencies": []
@@ -575,8 +553,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Europe mix change from 2022 to 2024 −0.01 percentage points",
-          "operator": "correctness"
+          "content": "Europe mix change from 2022 to 2024 −0.01 percentage points"
         }
       ],
       "dependencies": []
@@ -600,8 +577,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Other mix change from 2022 to 2024 +2.82 percentage points",
-          "operator": "correctness"
+          "content": "Other mix change from 2022 to 2024 +2.82 percentage points"
         }
       ],
       "dependencies": []
@@ -625,8 +601,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "North America 2‑year CAGR from 22 to 24 −5.30%",
-          "operator": "correctness"
+          "content": "North America 2‑year CAGR from 22 to 24 −5.30%"
         }
       ],
       "dependencies": []
@@ -650,8 +625,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Europe 2‑year CAGR from 22 to 24 −2.52%",
-          "operator": "correctness"
+          "content": "Europe 2‑year CAGR from 22 to 24 −2.52%"
         }
       ],
       "dependencies": []
@@ -675,8 +649,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Other 2‑year CAGR from 2022 to 2024 +4.00%",
-          "operator": "correctness"
+          "content": "Other 2‑year CAGR from 2022 to 2024 +4.00%"
         }
       ],
       "dependencies": []
@@ -700,8 +673,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Total company 2‑year CAGR (from 2022 to 2024) −2.51%",
-          "operator": "correctness"
+          "content": "Total company 2‑year CAGR (from 2022 to 2024) −2.51%"
         }
       ],
       "dependencies": []
@@ -725,8 +697,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "2023 Accounts receivable = $420.2M",
-          "operator": "correctness"
+          "content": "2023 Accounts receivable = $420.2M"
         }
       ],
       "dependencies": []
@@ -750,8 +721,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "2023 Unbilled services = $600.0M",
-          "operator": "correctness"
+          "content": "2023 Unbilled services = $600.0M"
         }
       ],
       "dependencies": []
@@ -775,8 +745,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "2023 Allowance for credit losses= $31.7M",
-          "operator": "correctness"
+          "content": "2023 Allowance for credit losses= $31.7M"
         }
       ],
       "dependencies": []
@@ -800,8 +769,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "2023 Unearned revenue = $214.2M",
-          "operator": "correctness"
+          "content": "2023 Unearned revenue = $214.2M"
         }
       ],
       "dependencies": []
@@ -825,8 +793,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "2024 Accounts receivable = $156.5M",
-          "operator": "correctness"
+          "content": "2024 Accounts receivable = $156.5M"
         }
       ],
       "dependencies": []
@@ -850,8 +817,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "2024 Unbilled services = $542.3M",
-          "operator": "correctness"
+          "content": "2024 Unbilled services = $542.3M"
         }
       ],
       "dependencies": []
@@ -875,8 +841,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "2024 Allowance for credit losses = $39.3M",
-          "operator": "correctness"
+          "content": "2024 Allowance for credit losses = $39.3M"
         }
       ],
       "dependencies": []
@@ -900,8 +865,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "2024 Unearned revenue= $353.3M",
-          "operator": "correctness"
+          "content": "2024 Unearned revenue= $353.3M"
         }
       ],
       "dependencies": []
@@ -925,8 +889,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Net contract asset as (%age of revenue) 2023 27.24%",
-          "operator": "correctness"
+          "content": "Net contract asset as (%age of revenue) 2023 27.24%"
         }
       ],
       "dependencies": []
@@ -950,8 +913,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Net contract asset as(%age of revenue) 2024 11.36%",
-          "operator": "correctness"
+          "content": "Net contract asset as(%age of revenue) 2024 11.36%"
         }
       ],
       "dependencies": []
@@ -975,8 +937,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "AR+Unbilled DSO equivalent 2023 131.0 days",
-          "operator": "correctness"
+          "content": "AR+Unbilled DSO equivalent 2023 131.0 days"
         }
       ],
       "dependencies": []
@@ -1000,8 +961,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "AR+Unbilled DSO equivalent 2024 94.6 days",
-          "operator": "correctness"
+          "content": "AR+Unbilled DSO equivalent 2024 94.6 days"
         }
       ],
       "dependencies": []
@@ -1025,8 +985,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Final interpretation sentence states mix tilted away from North America toward Other while total revenue contracted modestly, and working‑capital intensity fell materially (net contract assets ~27.24% to ~11.36%, DSO down ~36 days), suggesting tighter billing/advance‑billing dynamics and a portfolio skew toward longer‑duration non‑NA studies burning down more efficiently.",
-          "operator": "correctness"
+          "content": "Final interpretation sentence states mix tilted away from North America toward Other while total revenue contracted modestly, and working‑capital intensity fell materially (net contract assets ~27.24% to ~11.36%, DSO down ~36 days), suggesting tighter billing/advance‑billing dynamics and a portfolio skew toward longer‑duration non‑NA studies burning down more efficiently."
         }
       ],
       "dependencies": []

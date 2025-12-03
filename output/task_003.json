@@ -25,8 +25,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Shares outstanding are found to be 334,100,000",
-          "operator": "correctness"
+          "content": "Shares outstanding are found to be 334,100,000"
         }
       ],
       "dependencies": []
@@ -50,8 +49,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Share price used is $158.91",
-          "operator": "correctness"
+          "content": "Share price used is $158.91"
         }
       ],
       "dependencies": []
@@ -75,8 +73,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Equity value calculated = $53,091,831,000",
-          "operator": "correctness"
+          "content": "Equity value calculated = $53,091,831,000"
         }
       ],
       "dependencies": []
@@ -100,8 +97,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Operating lease liabilities, current = $35,923,000",
-          "operator": "correctness"
+          "content": "Operating lease liabilities, current = $35,923,000"
         }
       ],
       "dependencies": []
@@ -125,8 +121,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Operating lease liabilities, non-current = $377,818,000",
-          "operator": "correctness"
+          "content": "Operating lease liabilities, non-current = $377,818,000"
         }
       ],
       "dependencies": []
@@ -150,8 +145,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Convertible senior notes, net = $2,271,529,000",
-          "operator": "correctness"
+          "content": "Convertible senior notes, net = $2,271,529,000"
         }
       ],
       "dependencies": []
@@ -175,8 +169,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Cash and cash equivalents = $2,628,798,000",
-          "operator": "correctness"
+          "content": "Cash and cash equivalents = $2,628,798,000"
         }
       ],
       "dependencies": []
@@ -200,8 +193,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Short-term investments = $2,008,873,000",
-          "operator": "correctness"
+          "content": "Short-term investments = $2,008,873,000"
         }
       ],
       "dependencies": []
@@ -225,8 +217,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Long-term investments = $656,476,000",
-          "operator": "correctness"
+          "content": "Long-term investments = $656,476,000"
         }
       ],
       "dependencies": []
@@ -250,8 +241,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Enterprise Value (EV) computed = $50,489,668,000",
-          "operator": "correctness"
+          "content": "Enterprise Value (EV) computed = $50,489,668,000"
         }
       ],
       "dependencies": []
@@ -275,8 +265,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Sales for FY2025 = $3,626,396,000",
-          "operator": "correctness"
+          "content": "Sales for FY2025 = $3,626,396,000"
         }
       ],
       "dependencies": []
@@ -300,8 +289,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "EV/Sales calculated = 13.92x",
-          "operator": "correctness"
+          "content": "EV/Sales calculated = 13.92x"
         }
       ],
       "dependencies": []
@@ -325,8 +313,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Answer is formatted as \"#.##x\"",
-          "operator": "correctness"
+          "content": "Answer is formatted as \"#.##x\""
         }
       ],
       "dependencies": []

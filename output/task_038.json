@@ -25,8 +25,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Deferred Revenue for FY 2023 = $8,061M",
-          "operator": "correctness"
+          "content": "Deferred Revenue for FY 2023 = $8,061M"
         }
       ],
       "dependencies": []
@@ -50,8 +49,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Deferred Revenue for FY 2022 = $7,912M",
-          "operator": "correctness"
+          "content": "Deferred Revenue for FY 2022 = $7,912M"
         }
       ],
       "dependencies": []
@@ -75,8 +73,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Deferred revenue 2023 - Deferred Revenue 2022 = $8,061M - $7,912M = $149M",
-          "operator": "correctness"
+          "content": "Deferred revenue 2023 - Deferred Revenue 2022 = $8,061M - $7,912M = $149M"
         }
       ],
       "dependencies": []
@@ -100,8 +97,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Year-over-year percentage = ($149M/$7,912M)*100 = 1.88%",
-          "operator": "correctness"
+          "content": "Year-over-year percentage = ($149M/$7,912M)*100 = 1.88%"
         }
       ],
       "dependencies": []

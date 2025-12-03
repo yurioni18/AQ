@@ -25,8 +25,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Operating Ratio Spread: 6.5 percentage points",
-          "operator": "correctness"
+          "content": "Operating Ratio Spread: 6.5 percentage points"
         }
       ],
       "dependencies": []
@@ -50,8 +49,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Incremental Operating Income at UNP Efficiency: $788M",
-          "operator": "correctness"
+          "content": "Incremental Operating Income at UNP Efficiency: $788M"
         }
       ],
       "dependencies": []
@@ -75,8 +73,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Synergies as % of NSC Operating Income: 67.6%",
-          "operator": "correctness"
+          "content": "Synergies as % of NSC Operating Income: 67.6%"
         }
       ],
       "dependencies": []
@@ -100,8 +97,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Implied NSC 30-day VWAP: $256.00",
-          "operator": "correctness"
+          "content": "Implied NSC 30-day VWAP: $256.00"
         }
       ],
       "dependencies": []

@@ -25,8 +25,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "States that Meta financed the Hyperion Louisiana data center through a joint venture SPV with funds managed by Blue Owl Capital.",
-          "operator": "correctness"
+          "content": "States that Meta financed the Hyperion Louisiana data center through a joint venture SPV with funds managed by Blue Owl Capital."
         }
       ],
       "dependencies": []
@@ -50,8 +49,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "States that investment bank Morgan Stanley assisted Meta in arranging the financing.",
-          "operator": "correctness"
+          "content": "States that investment bank Morgan Stanley assisted Meta in arranging the financing."
         }
       ],
       "dependencies": []
@@ -75,8 +73,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "States that the structure supports about $27 billion of development costs.",
-          "operator": "correctness"
+          "content": "States that the structure supports about $27 billion of development costs."
         }
       ],
       "dependencies": []
@@ -100,8 +97,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "States that the SPV capital structure includes more than $27 billion of privately placed project bonds.",
-          "operator": "correctness"
+          "content": "States that the SPV capital structure includes more than $27 billion of privately placed project bonds."
         }
       ],
       "dependencies": []
@@ -125,8 +121,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "States that SPV equity is approximately $2.5 billion.",
-          "operator": "correctness"
+          "content": "States that SPV equity is approximately $2.5 billion."
         }
       ],
       "dependencies": []
@@ -150,8 +145,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "States that the equity ownership split is 80 percent for Blue Owl and 20 percent for Meta.",
-          "operator": "correctness"
+          "content": "States that the equity ownership split is 80 percent for Blue Owl and 20 percent for Meta."
         }
       ],
       "dependencies": []
@@ -175,8 +169,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "States that PIMCO is the anchor investor in the bond financing.",
-          "operator": "correctness"
+          "content": "States that PIMCO is the anchor investor in the bond financing."
         }
       ],
       "dependencies": []
@@ -200,8 +193,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "PIMCO is the anchor lender for the debt financing",
-          "operator": "correctness"
+          "content": "PIMCO is the anchor lender for the debt financing"
         }
       ],
       "dependencies": []
@@ -225,8 +217,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "States that Meta will operate and lease back the campus under long-term operating leases. ",
-          "operator": "correctness"
+          "content": "States that Meta will operate and lease back the campus under long-term operating leases. "
         }
       ],
       "dependencies": []
@@ -250,8 +241,7 @@
       "messages": [
         {
           "type": "text",
-          "content": " States that the project debt remains at the joint venture level.",
-          "operator": "correctness"
+          "content": " States that the project debt remains at the joint venture level."
         }
       ],
       "dependencies": []

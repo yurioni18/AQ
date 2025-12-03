@@ -25,8 +25,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "FY2025 Career Learning enrollment (data located in FY2025 10-K Enrollment Data table (MD&A section))= 96.3 thousand.",
-          "operator": "correctness"
+          "content": "FY2025 Career Learning enrollment (data located in FY2025 10-K Enrollment Data table (MD&A section))= 96.3 thousand."
         }
       ],
       "dependencies": []
@@ -50,8 +49,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "FY2024 Career Learning enrollment (data located in FY2025 10-K Enrollment Data table (MD&A section))= 72.7 thousand.",
-          "operator": "correctness"
+          "content": "FY2024 Career Learning enrollment (data located in FY2025 10-K Enrollment Data table (MD&A section))= 72.7 thousand."
         }
       ],
       "dependencies": []
@@ -75,8 +73,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Number of schools where School-as-a-Service offering was provided in the 2024–2025 school year (data located in ITEM 1. BUSINESS section of FY2025 10-k) for Career learning segment= 56.",
-          "operator": "correctness"
+          "content": "Number of schools where School-as-a-Service offering was provided in the 2024–2025 school year (data located in ITEM 1. BUSINESS section of FY2025 10-k) for Career learning segment= 56."
         }
       ],
       "dependencies": []
@@ -100,8 +97,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Number of schools where School-as-a-Service offering was provided in the 2023–2024 school year (data located in ITEM 1. BUSINESS section of FY2024 10-k) for Career learning segment= 56.",
-          "operator": "correctness"
+          "content": "Number of schools where School-as-a-Service offering was provided in the 2023–2024 school year (data located in ITEM 1. BUSINESS section of FY2024 10-k) for Career learning segment= 56."
         }
       ],
       "dependencies": []
@@ -125,8 +121,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Enrollment per school for FY2025 = 96,300 ÷ 56 = 1,719.64 students per school.",
-          "operator": "correctness"
+          "content": "Enrollment per school for FY2025 = 96,300 ÷ 56 = 1,719.64 students per school."
         }
       ],
       "dependencies": []
@@ -150,8 +145,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Computed enrollment per school for FY2024 = 72,700 ÷ 56 = 1,298.21 students per school.",
-          "operator": "correctness"
+          "content": "Computed enrollment per school for FY2024 = 72,700 ÷ 56 = 1,298.21 students per school."
         }
       ],
       "dependencies": []
@@ -175,8 +169,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Year-over-year percentage change in enrollment per school from FY2024 to FY2025 = [(1,719.64 − 1,298.21) ÷ 1,298.21] × 100 = 32.46%",
-          "operator": "correctness"
+          "content": "Year-over-year percentage change in enrollment per school from FY2024 to FY2025 = [(1,719.64 − 1,298.21) ÷ 1,298.21] × 100 = 32.46%"
         }
       ],
       "dependencies": []

@@ -25,8 +25,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Guided revenue: 2.45B ± 0.15B",
-          "operator": "correctness"
+          "content": "Guided revenue: 2.45B ± 0.15B"
         }
       ],
       "dependencies": []
@@ -50,8 +49,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Guided non-GAAP gross margin range: 40.0% - 41.0% with midpoint 40.5%",
-          "operator": "correctness"
+          "content": "Guided non-GAAP gross margin range: 40.0% - 41.0% with midpoint 40.5%"
         }
       ],
       "dependencies": []
@@ -75,8 +73,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Guided non-GAAP operating expenses: 330M - 340M with midpoint 335M",
-          "operator": "correctness"
+          "content": "Guided non-GAAP operating expenses: 330M - 340M with midpoint 335M"
         }
       ],
       "dependencies": []
@@ -100,8 +97,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Implied non-GAAP operating income midpoint = 657.25M",
-          "operator": "correctness"
+          "content": "Implied non-GAAP operating income midpoint = 657.25M"
         }
       ],
       "dependencies": []
@@ -125,8 +121,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Reported Q4 FY25 non-GAAP operating income = 732M",
-          "operator": "correctness"
+          "content": "Reported Q4 FY25 non-GAAP operating income = 732M"
         }
       ],
       "dependencies": []
@@ -150,8 +145,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Report Q4 FY25 non-GAAP Revenue as $2.605B.",
-          "operator": "correctness"
+          "content": "Report Q4 FY25 non-GAAP Revenue as $2.605B."
         }
       ],
       "dependencies": []
@@ -175,8 +169,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Reported Q4 FY25 non-GAAP gross margin = 41.3%",
-          "operator": "correctness"
+          "content": "Reported Q4 FY25 non-GAAP gross margin = 41.3%"
         }
       ],
       "dependencies": []
@@ -200,8 +193,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Operating-income variance vs midpoint = +74.75M (732 - 657.25)",
-          "operator": "correctness"
+          "content": "Operating-income variance vs midpoint = +74.75M (732 - 657.25)"
         }
       ],
       "dependencies": []
@@ -225,8 +217,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Gross-margin rate beat vs midpoint = 0.8 percentage points (41.3% - 40.5%)",
-          "operator": "correctness"
+          "content": "Gross-margin rate beat vs midpoint = 0.8 percentage points (41.3% - 40.5%)"
         }
       ],
       "dependencies": []
@@ -250,8 +241,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Revenue used for incremental gross profit calculation = 2.605B",
-          "operator": "correctness"
+          "content": "Revenue used for incremental gross profit calculation = 2.605B"
         }
       ],
       "dependencies": []
@@ -275,8 +265,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Incremental gross profit from 0.8% rate beat = 20.84M (0.8% * 2.605B)",
-          "operator": "correctness"
+          "content": "Incremental gross profit from 0.8% rate beat = 20.84M (0.8% * 2.605B)"
         }
       ],
       "dependencies": []
@@ -300,8 +289,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Share of operating-income variance attributable to those factors = 27.9% (20.84M / 74.75M)",
-          "operator": "correctness"
+          "content": "Share of operating-income variance attributable to those factors = 27.9% (20.84M / 74.75M)"
         }
       ],
       "dependencies": []
@@ -325,8 +313,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Conclusion: non-GAAP operating income in Q4'25 beat midpoint guidance for the quarter by 74.75m. Additionally, we can attribute ~28% of non-GAAP operating income variance to increased higher-capacity drive sales and cost control",
-          "operator": "correctness"
+          "content": "Conclusion: non-GAAP operating income in Q4'25 beat midpoint guidance for the quarter by 74.75m. Additionally, we can attribute ~28% of non-GAAP operating income variance to increased higher-capacity drive sales and cost control"
         }
       ],
       "dependencies": []

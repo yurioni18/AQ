@@ -25,8 +25,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Method: on‑signing revenue = GAAP 2009 revenue + net increase in total deferred revenue during 2009",
-          "operator": "correctness"
+          "content": "Method: on‑signing revenue = GAAP 2009 revenue + net increase in total deferred revenue during 2009"
         }
       ],
       "dependencies": []
@@ -50,8 +49,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "GAAP total net revenue for FY 2009 (year ended December 31, 2009): $1,927.332M",
-          "operator": "correctness"
+          "content": "GAAP total net revenue for FY 2009 (year ended December 31, 2009): $1,927.332M"
         }
       ],
       "dependencies": []
@@ -75,8 +73,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Total change in deferred revenue balances defined as Ending balance of DR minus Beginning balance of DR",
-          "operator": "correctness"
+          "content": "Total change in deferred revenue balances defined as Ending balance of DR minus Beginning balance of DR"
         }
       ],
       "dependencies": []
@@ -100,8 +97,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Calculated change in deferred revenue for FY 2009: 101757 (thousands)",
-          "operator": "correctness"
+          "content": "Calculated change in deferred revenue for FY 2009: 101757 (thousands)"
         }
       ],
       "dependencies": []
@@ -125,8 +121,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Sum calculation shown: 1927332 (thousands) + 101757 (thousands) = 2029089 (thousands)",
-          "operator": "correctness"
+          "content": "Sum calculation shown: 1927332 (thousands) + 101757 (thousands) = 2029089 (thousands)"
         }
       ],
       "dependencies": []
@@ -150,8 +145,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Answer rounded to two decimal places",
-          "operator": "correctness"
+          "content": "Answer rounded to two decimal places"
         }
       ],
       "dependencies": []
@@ -175,8 +169,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Answer stated in millions",
-          "operator": "correctness"
+          "content": "Answer stated in millions"
         }
       ],
       "dependencies": []
@@ -200,8 +193,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Final Answer given as $2,029.09M",
-          "operator": "correctness"
+          "content": "Final Answer given as $2,029.09M"
         }
       ],
       "dependencies": []

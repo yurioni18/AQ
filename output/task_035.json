@@ -25,8 +25,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "State that Bluegreen's FY2005 net income is 46.551 million\n",
-          "operator": "correctness"
+          "content": "State that Bluegreen's FY2005 net income is 46.551 million\n"
         }
       ],
       "dependencies": []
@@ -50,8 +49,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Calculate pre-tax interest expense to be 27,400 thousand × 8.25% = 2,260.5 thousand",
-          "operator": "correctness"
+          "content": "Calculate pre-tax interest expense to be 27,400 thousand × 8.25% = 2,260.5 thousand"
         }
       ],
       "dependencies": []
@@ -75,8 +73,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Apply the 40% tax rate to find that after-tax interest = (1−0.4) × 2,260.5 thousand = 1,356.3 thousand",
-          "operator": "correctness"
+          "content": "Apply the 40% tax rate to find that after-tax interest = (1−0.4) × 2,260.5 thousand = 1,356.3 thousand"
         }
       ],
       "dependencies": []
@@ -100,8 +97,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Calculate adjusted net income to be 46,551 thousand − 1,356.3 thousand = 45,194.7 thousand",
-          "operator": "correctness"
+          "content": "Calculate adjusted net income to be 46,551 thousand − 1,356.3 thousand = 45,194.7 thousand"
         }
       ],
       "dependencies": []
@@ -125,8 +121,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Using the conversion price of $8.24, calculate the additional shares from conversion to be 27,400 thousand / 8.24 = 3,325 thousand",
-          "operator": "correctness"
+          "content": "Using the conversion price of $8.24, calculate the additional shares from conversion to be 27,400 thousand / 8.24 = 3,325 thousand"
         }
       ],
       "dependencies": []
@@ -150,8 +145,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Find that the basic number of shares outstanding is 30,381 thousand",
-          "operator": "correctness"
+          "content": "Find that the basic number of shares outstanding is 30,381 thousand"
         }
       ],
       "dependencies": []
@@ -175,8 +169,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Adjusted shares outstanding = 30,381 thousand − 3,325 thousand = 27,056 thousand",
-          "operator": "correctness"
+          "content": "Adjusted shares outstanding = 30,381 thousand − 3,325 thousand = 27,056 thousand"
         }
       ],
       "dependencies": []
@@ -200,8 +193,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Find that EPS is 45,195 / 27,056 = 1.67 (rounded to the nearest 2 decimals)",
-          "operator": "correctness"
+          "content": "Find that EPS is 45,195 / 27,056 = 1.67 (rounded to the nearest 2 decimals)"
         }
       ],
       "dependencies": []

@@ -25,8 +25,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Net income(loss) is $(85,141,000)",
-          "operator": "correctness"
+          "content": "Net income(loss) is $(85,141,000)"
         }
       ],
       "dependencies": []
@@ -50,8 +49,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Goodwill impairment is $34,277,000",
-          "operator": "correctness"
+          "content": "Goodwill impairment is $34,277,000"
         }
       ],
       "dependencies": []
@@ -75,8 +73,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Inventory impairment is $9,000,000",
-          "operator": "correctness"
+          "content": "Inventory impairment is $9,000,000"
         }
       ],
       "dependencies": []
@@ -100,8 +97,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Restructuring charges stated as none, assumed $0.",
-          "operator": "correctness"
+          "content": "Restructuring charges stated as none, assumed $0."
         }
       ],
       "dependencies": []
@@ -125,8 +121,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Adjusted net income computed as -85,141,000 + 34,277,000 + 9,000,000 = -41,864,000",
-          "operator": "correctness"
+          "content": "Adjusted net income computed as -85,141,000 + 34,277,000 + 9,000,000 = -41,864,000"
         }
       ],
       "dependencies": []
@@ -150,8 +145,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Shareholders' equity at 12/31/2024: $429,775,000",
-          "operator": "correctness"
+          "content": "Shareholders' equity at 12/31/2024: $429,775,000"
         }
       ],
       "dependencies": []
@@ -175,8 +169,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Shareholders equity at 12/31/2023 is $635,410,000; ",
-          "operator": "correctness"
+          "content": "Shareholders equity at 12/31/2023 is $635,410,000; "
         }
       ],
       "dependencies": []
@@ -200,8 +193,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Average shareholder's equity = (635,410,000+429,775,000)/2 = $532,592,500",
-          "operator": "correctness"
+          "content": "Average shareholder's equity = (635,410,000+429,775,000)/2 = $532,592,500"
         }
       ],
       "dependencies": []
@@ -225,8 +217,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Final Adjusted ROE = -41,864,000/532,592,500 = -7.86%",
-          "operator": "correctness"
+          "content": "Final Adjusted ROE = -41,864,000/532,592,500 = -7.86%"
         }
       ],
       "dependencies": []
@@ -250,8 +241,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "The final answer is rounded to 2 decimal places.",
-          "operator": "correctness"
+          "content": "The final answer is rounded to 2 decimal places."
         }
       ],
       "dependencies": []

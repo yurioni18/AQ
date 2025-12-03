@@ -25,8 +25,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Originally announced annual synergy target of approximately $400 M (run-rate)",
-          "operator": "correctness"
+          "content": "Originally announced annual synergy target of approximately $400 M (run-rate)"
         }
       ],
       "dependencies": []
@@ -50,8 +49,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Most recent October 2025 guidance update increased the annual synergy outlook to $600 M by the end of FY 2026",
-          "operator": "correctness"
+          "content": "Most recent October 2025 guidance update increased the annual synergy outlook to $600 M by the end of FY 2026"
         }
       ],
       "dependencies": []
@@ -75,8 +73,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Most recent October 2025 guidance indicated the deal was on track to hit $500 M in annual synergies by the end of FY 2025",
-          "operator": "correctness"
+          "content": "Most recent October 2025 guidance indicated the deal was on track to hit $500 M in annual synergies by the end of FY 2025"
         }
       ],
       "dependencies": []
@@ -100,8 +97,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Primary synergy sources includes: lower drilling and completion costs",
-          "operator": "correctness"
+          "content": "Primary synergy sources includes: lower drilling and completion costs"
         }
       ],
       "dependencies": []
@@ -125,8 +121,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Primary synergy sources includes: G&A reductions",
-          "operator": "correctness"
+          "content": "Primary synergy sources includes: G&A reductions"
         }
       ],
       "dependencies": []
@@ -150,8 +145,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Primary synergy sources includes: utilization of shared operational infrastructure",
-          "operator": "correctness"
+          "content": "Primary synergy sources includes: utilization of shared operational infrastructure"
         }
       ],
       "dependencies": []
@@ -175,8 +169,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Primary synergy sources includes: longer laterals",
-          "operator": "correctness"
+          "content": "Primary synergy sources includes: longer laterals"
         }
       ],
       "dependencies": []

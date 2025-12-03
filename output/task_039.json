@@ -25,8 +25,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Identify the deferred revenue attributable to subscriptions formula as Formula: 2024 Subscription Bookings - 2024 Subscription Revenue",
-          "operator": "correctness"
+          "content": "Identify the deferred revenue attributable to subscriptions formula as Formula: 2024 Subscription Bookings - 2024 Subscription Revenue"
         }
       ],
       "dependencies": []
@@ -50,8 +49,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Find Subscription bookings from item 7 = $730.737 million",
-          "operator": "correctness"
+          "content": "Find Subscription bookings from item 7 = $730.737 million"
         }
       ],
       "dependencies": []
@@ -75,8 +73,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Find Subscription revenue from item 7 = $607.531 million",
-          "operator": "correctness"
+          "content": "Find Subscription revenue from item 7 = $607.531 million"
         }
       ],
       "dependencies": []
@@ -100,8 +97,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Calculate the difference = $123.206 million (730.737 − 607.531)",
-          "operator": "correctness"
+          "content": "Calculate the difference = $123.206 million (730.737 − 607.531)"
         }
       ],
       "dependencies": []
@@ -125,8 +121,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Rounded the difference to one decimal place = $123.2 million (Final Answer: $123.2 million)",
-          "operator": "correctness"
+          "content": "Rounded the difference to one decimal place = $123.2 million (Final Answer: $123.2 million)"
         }
       ],
       "dependencies": []

@@ -25,8 +25,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Adjusted EBITDA Margin for 2Q2025 is 19.2%",
-          "operator": "correctness"
+          "content": "Adjusted EBITDA Margin for 2Q2025 is 19.2%"
         }
       ],
       "dependencies": []
@@ -50,8 +49,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Adjusted EBITDA Margin for 2Q2024 is 23.2%",
-          "operator": "correctness"
+          "content": "Adjusted EBITDA Margin for 2Q2024 is 23.2%"
         }
       ],
       "dependencies": []
@@ -75,8 +73,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Difference between 2Q2025 and 2Q2024 Adjusted EBITDA Margin is -4.00%",
-          "operator": "correctness"
+          "content": "Difference between 2Q2025 and 2Q2024 Adjusted EBITDA Margin is -4.00%"
         }
       ],
       "dependencies": []
@@ -100,8 +97,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Percent change calculated by dividing the -4.00% difference by 23.2% and multiplying by 100",
-          "operator": "correctness"
+          "content": "Percent change calculated by dividing the -4.00% difference by 23.2% and multiplying by 100"
         }
       ],
       "dependencies": []
@@ -125,8 +121,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Final Answer (YoY percent change) is -17.24% (rounded to two decimals)",
-          "operator": "correctness"
+          "content": "Final Answer (YoY percent change) is -17.24% (rounded to two decimals)"
         }
       ],
       "dependencies": []

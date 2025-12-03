@@ -25,8 +25,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Used GAAP EBITDA and did not use adjusted EBITDA",
-          "operator": "correctness"
+          "content": "Used GAAP EBITDA and did not use adjusted EBITDA"
         }
       ],
       "dependencies": []
@@ -50,8 +49,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Compute EBITDA = Income from operations + Depreciation & amortization = $310,403,000 + $31,587,000 = $341,990,000",
-          "operator": "correctness"
+          "content": "Compute EBITDA = Income from operations + Depreciation & amortization = $310,403,000 + $31,587,000 = $341,990,000"
         }
       ],
       "dependencies": []
@@ -75,8 +73,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Use EV formula: EV = Equity value (using the close price on 2025-11-18 × total common shares outstanding) + Total debt + Non-controlling interests + Preferred equity − Cash & cash equivalents − Marketable securities",
-          "operator": "correctness"
+          "content": "Use EV formula: EV = Equity value (using the close price on 2025-11-18 × total common shares outstanding) + Total debt + Non-controlling interests + Preferred equity − Cash & cash equivalents − Marketable securities"
         }
       ],
       "dependencies": []
@@ -100,8 +97,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "There is no preferred equity",
-          "operator": "correctness"
+          "content": "There is no preferred equity"
         }
       ],
       "dependencies": []
@@ -125,8 +121,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Operating lease liabilities excluded from debt",
-          "operator": "correctness"
+          "content": "Operating lease liabilities excluded from debt"
         }
       ],
       "dependencies": []
@@ -150,8 +145,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Subtract both cash & cash equivalents and marketable securities as proxy for excess cash",
-          "operator": "correctness"
+          "content": "Subtract both cash & cash equivalents and marketable securities as proxy for excess cash"
         }
       ],
       "dependencies": []
@@ -175,8 +169,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Shares outstanding as of 2025-02-10 = 2,248,950,826 (Class A) + 95,400,680 (Class B) + 1,005,000 (Class F) = 2,345,356,506",
-          "operator": "correctness"
+          "content": "Shares outstanding as of 2025-02-10 = 2,248,950,826 (Class A) + 95,400,680 (Class B) + 1,005,000 (Class F) = 2,345,356,506"
         }
       ],
       "dependencies": []
@@ -200,8 +193,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Total debt at 2024-12-31 = $0",
-          "operator": "correctness"
+          "content": "Total debt at 2024-12-31 = $0"
         }
       ],
       "dependencies": []
@@ -225,8 +217,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Cash & cash equivalents at 2024/12/31 = $2,098,524,000",
-          "operator": "correctness"
+          "content": "Cash & cash equivalents at 2024/12/31 = $2,098,524,000"
         }
       ],
       "dependencies": []
@@ -250,8 +241,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Marketable securities at 2024/12/31 = $3,131,463,000",
-          "operator": "correctness"
+          "content": "Marketable securities at 2024/12/31 = $3,131,463,000"
         }
       ],
       "dependencies": []
@@ -275,8 +265,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Non-controlling interests at 2024/12/31 = $91,132,000",
-          "operator": "correctness"
+          "content": "Non-controlling interests at 2024/12/31 = $91,132,000"
         }
       ],
       "dependencies": []
@@ -300,8 +289,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Use closing price of the stock on 2025-11-18 = $167.33 per share",
-          "operator": "correctness"
+          "content": "Use closing price of the stock on 2025-11-18 = $167.33 per share"
         }
       ],
       "dependencies": []
@@ -325,8 +313,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Equity value = $167.33 × 2,345,356,506 = $392,448,504,148.98 ",
-          "operator": "correctness"
+          "content": "Equity value = $167.33 × 2,345,356,506 = $392,448,504,148.98 "
         }
       ],
       "dependencies": []
@@ -350,8 +337,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Enterprise Value = $392,448,504,148.98 + $0 + $91,132,000 − $2,098,524,000 − $3,131,463,000 = $387,309,649,148.98 ",
-          "operator": "correctness"
+          "content": "Enterprise Value = $392,448,504,148.98 + $0 + $91,132,000 − $2,098,524,000 − $3,131,463,000 = $387,309,649,148.98 "
         }
       ],
       "dependencies": []
@@ -375,8 +361,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "EV/EBITDA = $387,309,649,148.98 ÷ $341,990,000 = 1,132.52× ",
-          "operator": "correctness"
+          "content": "EV/EBITDA = $387,309,649,148.98 ÷ $341,990,000 = 1,132.52× "
         }
       ],
       "dependencies": []
@@ -400,8 +385,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Used FY2024 Form 10-K as source for the following financial statement inputs (income from operations, depreciation & amortization, cash, marketable securities, non-controlling interests, shares outstanding, debt)",
-          "operator": "correctness"
+          "content": "Used FY2024 Form 10-K as source for the following financial statement inputs (income from operations, depreciation & amortization, cash, marketable securities, non-controlling interests, shares outstanding, debt)"
         }
       ],
       "dependencies": []
@@ -425,8 +409,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Round EV/EBITDA to two decimals, 1,132.52x",
-          "operator": "correctness"
+          "content": "Round EV/EBITDA to two decimals, 1,132.52x"
         }
       ],
       "dependencies": []

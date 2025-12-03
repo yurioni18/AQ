@@ -25,8 +25,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "ROE = Net income / Average stockholders’ equity",
-          "operator": "correctness"
+          "content": "ROE = Net income / Average stockholders’ equity"
         }
       ],
       "dependencies": []
@@ -50,8 +49,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Assume net income held at its FY2025 level from VF Corporation's FY2025 10‑K",
-          "operator": "correctness"
+          "content": "Assume net income held at its FY2025 level from VF Corporation's FY2025 10‑K"
         }
       ],
       "dependencies": []
@@ -75,8 +73,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Assume FY2025 average stockholders’ equity is projected by growing FY2024 average equity at the Labor Productivity growth rate as of 2024-12-31",
-          "operator": "correctness"
+          "content": "Assume FY2025 average stockholders’ equity is projected by growing FY2024 average equity at the Labor Productivity growth rate as of 2024-12-31"
         }
       ],
       "dependencies": []
@@ -100,8 +97,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Amounts are stated in U.S. dollars and presented in thousands",
-          "operator": "correctness"
+          "content": "Amounts are stated in U.S. dollars and presented in thousands"
         }
       ],
       "dependencies": []
@@ -125,8 +121,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "FY2025 net income (loss) = $(189,716) thousand (negative $189.716 million) from Consolidated Statements of Operations for year ended March 29, 2025",
-          "operator": "correctness"
+          "content": "FY2025 net income (loss) = $(189,716) thousand (negative $189.716 million) from Consolidated Statements of Operations for year ended March 29, 2025"
         }
       ],
       "dependencies": []
@@ -150,8 +145,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Total stockholders’ equity at FY2023 year‑end (March 2023) = $2,910,713 thousand",
-          "operator": "correctness"
+          "content": "Total stockholders’ equity at FY2023 year‑end (March 2023) = $2,910,713 thousand"
         }
       ],
       "dependencies": []
@@ -175,8 +169,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Total stockholders’ equity at FY2024 year‑end (March 2024) = $1,658,365 thousand",
-          "operator": "correctness"
+          "content": "Total stockholders’ equity at FY2024 year‑end (March 2024) = $1,658,365 thousand"
         }
       ],
       "dependencies": []
@@ -200,8 +193,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "FY2024 average stockholders’ equity = (2,910,713k + 1,658,365k) / 2 = 2,284,539k",
-          "operator": "correctness"
+          "content": "FY2024 average stockholders’ equity = (2,910,713k + 1,658,365k) / 2 = 2,284,539k"
         }
       ],
       "dependencies": []
@@ -225,8 +217,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Labor Productivity growth rate used = 2.0% (Nonfarm business labor productivity change Q4 2023 to Q4 2024; BLS release March 6, 2025)",
-          "operator": "correctness"
+          "content": "Labor Productivity growth rate used = 2.0% (Nonfarm business labor productivity change Q4 2023 to Q4 2024; BLS release March 6, 2025)"
         }
       ],
       "dependencies": []
@@ -250,8 +241,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Projected average equity FY2025 = 2,284,539k × 1.02 = 2,330,229.78k",
-          "operator": "correctness"
+          "content": "Projected average equity FY2025 = 2,284,539k × 1.02 = 2,330,229.78k"
         }
       ],
       "dependencies": []
@@ -275,8 +265,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Computed FY2025 ROE = (−189,716k) / (2,330,229.78k) = −0.081415",
-          "operator": "correctness"
+          "content": "Computed FY2025 ROE = (−189,716k) / (2,330,229.78k) = −0.081415"
         }
       ],
       "dependencies": []
@@ -300,8 +289,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Final answer: −8.14% (rounded to two decimals)",
-          "operator": "correctness"
+          "content": "Final answer: −8.14% (rounded to two decimals)"
         }
       ],
       "dependencies": []

@@ -25,8 +25,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Stock Compensation = 1.814M or 2M",
-          "operator": "correctness"
+          "content": "Stock Compensation = 1.814M or 2M"
         }
       ],
       "dependencies": []
@@ -50,8 +49,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Amortization of Intangibles = 3.065M or 3M",
-          "operator": "correctness"
+          "content": "Amortization of Intangibles = 3.065M or 3M"
         }
       ],
       "dependencies": []
@@ -75,8 +73,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Income Tax Effect = -1.322M or -1M",
-          "operator": "correctness"
+          "content": "Income Tax Effect = -1.322M or -1M"
         }
       ],
       "dependencies": []
@@ -100,8 +97,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Overall Effect is 3.557M or 4M",
-          "operator": "correctness"
+          "content": "Overall Effect is 3.557M or 4M"
         }
       ],
       "dependencies": []
@@ -125,8 +121,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Final answer is rounded to two decimal points = 3.56M",
-          "operator": "correctness"
+          "content": "Final answer is rounded to two decimal points = 3.56M"
         }
       ],
       "dependencies": []
@@ -150,8 +145,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Amounts are expressed in $M",
-          "operator": "correctness"
+          "content": "Amounts are expressed in $M"
         }
       ],
       "dependencies": []

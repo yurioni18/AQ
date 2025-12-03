@@ -25,8 +25,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Determines that Enterprise Value formula is Equity Value + Total Debt - Cash and Cash Equivalents",
-          "operator": "correctness"
+          "content": "Determines that Enterprise Value formula is Equity Value + Total Debt - Cash and Cash Equivalents"
         }
       ],
       "dependencies": []
@@ -50,8 +49,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Determines that Equity Value is $17,000.00 million",
-          "operator": "correctness"
+          "content": "Determines that Equity Value is $17,000.00 million"
         }
       ],
       "dependencies": []
@@ -75,8 +73,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Determines that convertible notes of $1,257.75 million should be counted as debt",
-          "operator": "correctness"
+          "content": "Determines that convertible notes of $1,257.75 million should be counted as debt"
         }
       ],
       "dependencies": []
@@ -100,8 +97,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Determines that Term B loan of $578.50 million should be counted as debt",
-          "operator": "correctness"
+          "content": "Determines that Term B loan of $578.50 million should be counted as debt"
         }
       ],
       "dependencies": []
@@ -125,8 +121,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Calculates total debt of $1,836.25 million",
-          "operator": "correctness"
+          "content": "Calculates total debt of $1,836.25 million"
         }
       ],
       "dependencies": []
@@ -150,8 +145,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "States that Cash and Cash Equivalents = $1,261.97 million",
-          "operator": "correctness"
+          "content": "States that Cash and Cash Equivalents = $1,261.97 million"
         }
       ],
       "dependencies": []
@@ -175,8 +169,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Calculates Enterprise Value of $17,574.28 million",
-          "operator": "correctness"
+          "content": "Calculates Enterprise Value of $17,574.28 million"
         }
       ],
       "dependencies": []
@@ -200,8 +193,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Q3 FY2024 Adjusted EBITDA = -$58.504 million",
-          "operator": "correctness"
+          "content": "Q3 FY2024 Adjusted EBITDA = -$58.504 million"
         }
       ],
       "dependencies": []
@@ -225,8 +217,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Q4 FY2024 Adjusted EBITDA = $89.454 million",
-          "operator": "correctness"
+          "content": "Q4 FY2024 Adjusted EBITDA = $89.454 million"
         }
       ],
       "dependencies": []
@@ -250,8 +241,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Q1 FY2025 Adjusted EBITDA = $102.630 million",
-          "operator": "correctness"
+          "content": "Q1 FY2025 Adjusted EBITDA = $102.630 million"
         }
       ],
       "dependencies": []
@@ -275,8 +265,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Q2 FY2025 Adjusted EBITDA = $300.644 million",
-          "operator": "correctness"
+          "content": "Q2 FY2025 Adjusted EBITDA = $300.644 million"
         }
       ],
       "dependencies": []
@@ -300,8 +289,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Determines that LTM Adjusted EBITDA is $434.224 million",
-          "operator": "correctness"
+          "content": "Determines that LTM Adjusted EBITDA is $434.224 million"
         }
       ],
       "dependencies": []
@@ -325,8 +313,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Divides enterprise value by LTM Adjusted EBITDA to find EV/EBITDA ratio",
-          "operator": "correctness"
+          "content": "Divides enterprise value by LTM Adjusted EBITDA to find EV/EBITDA ratio"
         }
       ],
       "dependencies": []
@@ -350,8 +337,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Final Answer = 40.47x",
-          "operator": "correctness"
+          "content": "Final Answer = 40.47x"
         }
       ],
       "dependencies": []

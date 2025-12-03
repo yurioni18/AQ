@@ -25,8 +25,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Samsung R&D in FY 2024 = 34,998,142 million KRW.",
-          "operator": "correctness"
+          "content": "Samsung R&D in FY 2024 = 34,998,142 million KRW."
         }
       ],
       "dependencies": []
@@ -50,8 +49,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Samsung Revenue in FY 2024 = 300,870,903 million KRW.",
-          "operator": "correctness"
+          "content": "Samsung Revenue in FY 2024 = 300,870,903 million KRW."
         }
       ],
       "dependencies": []
@@ -75,8 +73,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "TSMC R&D (NTD) in the FY 2024 = 204,181.8 million NTD.",
-          "operator": "correctness"
+          "content": "TSMC R&D (NTD) in the FY 2024 = 204,181.8 million NTD."
         }
       ],
       "dependencies": []
@@ -100,8 +97,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "TSMC Revenue (NTD) in the FY 2024 = 2,894,307.7 million NTD.",
-          "operator": "correctness"
+          "content": "TSMC Revenue (NTD) in the FY 2024 = 2,894,307.7 million NTD."
         }
       ],
       "dependencies": []
@@ -125,8 +121,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Calculate R&D as a percentage of revenue for Samsung = 11.6323%",
-          "operator": "correctness"
+          "content": "Calculate R&D as a percentage of revenue for Samsung = 11.6323%"
         }
       ],
       "dependencies": []
@@ -150,8 +145,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Calculate R&D as a percentage of revenue for TSMC = 7.0546%",
-          "operator": "correctness"
+          "content": "Calculate R&D as a percentage of revenue for TSMC = 7.0546%"
         }
       ],
       "dependencies": []
@@ -175,8 +169,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Round answer to two percentage points = 11.63%",
-          "operator": "correctness"
+          "content": "Round answer to two percentage points = 11.63%"
         }
       ],
       "dependencies": []
@@ -200,8 +193,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Round answer to two percentage points = 7.05%",
-          "operator": "correctness"
+          "content": "Round answer to two percentage points = 7.05%"
         }
       ],
       "dependencies": []
@@ -225,8 +217,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Determine Samsung has a higher R&D intensity than Samsung",
-          "operator": "correctness"
+          "content": "Determine Samsung has a higher R&D intensity than Samsung"
         }
       ],
       "dependencies": []
@@ -250,8 +241,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Provide a reason for Samsung's R&D intensity that includes an explanation that Samsung has a more diverse business model that operates a range of product lines, and thus needs more investment.",
-          "operator": "correctness"
+          "content": "Provide a reason for Samsung's R&D intensity that includes an explanation that Samsung has a more diverse business model that operates a range of product lines, and thus needs more investment."
         }
       ],
       "dependencies": []
@@ -275,8 +265,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Provide a reason for TSMC's lower R&D intensity that includes an explanation that discusses that TSMC has a larger revenue base than Samsung and more concentrated business operations which requires less overall R&D on an R&D to sales basis",
-          "operator": "correctness"
+          "content": "Provide a reason for TSMC's lower R&D intensity that includes an explanation that discusses that TSMC has a larger revenue base than Samsung and more concentrated business operations which requires less overall R&D on an R&D to sales basis"
         }
       ],
       "dependencies": []

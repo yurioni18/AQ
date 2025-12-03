@@ -25,8 +25,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Find Walmart's total long term debt with a fixed rate as of FY 2025: $35,999M",
-          "operator": "correctness"
+          "content": "Find Walmart's total long term debt with a fixed rate as of FY 2025: $35,999M"
         }
       ],
       "dependencies": []
@@ -50,8 +49,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Find Walmart's long term debt with a fixed rate maturing after FY 2030: $22,914",
-          "operator": "correctness"
+          "content": "Find Walmart's long term debt with a fixed rate maturing after FY 2030: $22,914"
         }
       ],
       "dependencies": []
@@ -75,8 +73,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Calculates percentage of Walmart's long term debt with a fixed rate expected to mature after FY 2030: (22,914 ÷ 35,999) × 100 = 63.6518%",
-          "operator": "correctness"
+          "content": "Calculates percentage of Walmart's long term debt with a fixed rate expected to mature after FY 2030: (22,914 ÷ 35,999) × 100 = 63.6518%"
         }
       ],
       "dependencies": []
@@ -100,8 +97,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Final answer is rounded to two decimal points of precision",
-          "operator": "correctness"
+          "content": "Final answer is rounded to two decimal points of precision"
         }
       ],
       "dependencies": []
@@ -125,8 +121,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Final Answer explicitly states value as 63.65%",
-          "operator": "correctness"
+          "content": "Final Answer explicitly states value as 63.65%"
         }
       ],
       "dependencies": []

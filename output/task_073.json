@@ -25,8 +25,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Reported operating cash flow for 2024 is CHF 16,675 million",
-          "operator": "correctness"
+          "content": "Reported operating cash flow for 2024 is CHF 16,675 million"
         }
       ],
       "dependencies": []
@@ -50,8 +49,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Interest paid of CHF 1,539 million identify ",
-          "operator": "correctness"
+          "content": "Interest paid of CHF 1,539 million identify "
         }
       ],
       "dependencies": []
@@ -75,8 +73,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "it should then add back to operating cash flow when computing the adjusted operating cash flow",
-          "operator": "correctness"
+          "content": "it should then add back to operating cash flow when computing the adjusted operating cash flow"
         }
       ],
       "dependencies": []
@@ -100,8 +97,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Taxes paid of CHF 2,411 million is identify ",
-          "operator": "correctness"
+          "content": "Taxes paid of CHF 2,411 million is identify "
         }
       ],
       "dependencies": []
@@ -125,8 +121,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "it should then add back to operating cash flow when computing the adjusted operating cash flow",
-          "operator": "correctness"
+          "content": "it should then add back to operating cash flow when computing the adjusted operating cash flow"
         }
       ],
       "dependencies": []
@@ -150,8 +145,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Dividends paid to non-controlling interests of CHF 174 million ",
-          "operator": "correctness"
+          "content": "Dividends paid to non-controlling interests of CHF 174 million "
         }
       ],
       "dependencies": []
@@ -175,8 +169,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "it is financing activity item",
-          "operator": "correctness"
+          "content": "it is financing activity item"
         }
       ],
       "dependencies": []
@@ -200,8 +193,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "should be added back to operating cash flow in order to identify what is attributed to parent company ",
-          "operator": "correctness"
+          "content": "should be added back to operating cash flow in order to identify what is attributed to parent company "
         }
       ],
       "dependencies": []
@@ -225,8 +217,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Calculate \n16,675 +1,539 + 2,411 +174 = 20,799",
-          "operator": "correctness"
+          "content": "Calculate \n16,675 +1,539 + 2,411 +174 = 20,799"
         }
       ],
       "dependencies": []
@@ -250,8 +241,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "7.\tFinal answer CHF 20,799 million",
-          "operator": "correctness"
+          "content": "7.\tFinal answer CHF 20,799 million"
         }
       ],
       "dependencies": []
@@ -275,8 +265,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Final answer is in CHF millions",
-          "operator": "correctness"
+          "content": "Final answer is in CHF millions"
         }
       ],
       "dependencies": []

@@ -25,8 +25,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "FY2025 Revenues (located in Income Statement) = $2,405,317 thousand",
-          "operator": "correctness"
+          "content": "FY2025 Revenues (located in Income Statement) = $2,405,317 thousand"
         }
       ],
       "dependencies": []
@@ -50,8 +49,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "FY2025 Operating Income (located in Income Statement) = $360,094 thousand",
-          "operator": "correctness"
+          "content": "FY2025 Operating Income (located in Income Statement) = $360,094 thousand"
         }
       ],
       "dependencies": []
@@ -75,8 +73,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "FY2025 D&A (located in Cash Flow Statement) = $114,669 thousand",
-          "operator": "correctness"
+          "content": "FY2025 D&A (located in Cash Flow Statement) = $114,669 thousand"
         }
       ],
       "dependencies": []
@@ -100,8 +97,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Simple EBITDA (Operating Income + D&A) = $474,763 thousand",
-          "operator": "correctness"
+          "content": "Simple EBITDA (Operating Income + D&A) = $474,763 thousand"
         }
       ],
       "dependencies": []
@@ -125,8 +121,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "FY2025 SBC (located in Cash Flow Statement) = $36,794 thousand",
-          "operator": "correctness"
+          "content": "FY2025 SBC (located in Cash Flow Statement) = $36,794 thousand"
         }
       ],
       "dependencies": []
@@ -150,8 +145,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "FY2025 Impairment of long-lived assets (located in Cash Flow Statement) = $59,478 thousand",
-          "operator": "correctness"
+          "content": "FY2025 Impairment of long-lived assets (located in Cash Flow Statement) = $59,478 thousand"
         }
       ],
       "dependencies": []
@@ -175,8 +169,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "FY2025 Non-cash operating lease expense (located in Cash Flow Statement) = $12,265 thousand",
-          "operator": "correctness"
+          "content": "FY2025 Non-cash operating lease expense (located in Cash Flow Statement) = $12,265 thousand"
         }
       ],
       "dependencies": []
@@ -200,8 +193,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Adjusted EBITDA (Simple EBITDA + SBC + Impairment + Non-cash operating lease) = $583,300 thousand",
-          "operator": "correctness"
+          "content": "Adjusted EBITDA (Simple EBITDA + SBC + Impairment + Non-cash operating lease) = $583,300 thousand"
         }
       ],
       "dependencies": []
@@ -225,8 +217,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Adjusted EBITDA margin = 583,300 ÷ 2,405,317 = 24.25%",
-          "operator": "correctness"
+          "content": "Adjusted EBITDA margin = 583,300 ÷ 2,405,317 = 24.25%"
         }
       ],
       "dependencies": []

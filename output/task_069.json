@@ -25,8 +25,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Idenitfy Q2 FY2025 adj. EBITDA as = $2,119m",
-          "operator": "correctness"
+          "content": "Idenitfy Q2 FY2025 adj. EBITDA as = $2,119m"
         }
       ],
       "dependencies": []
@@ -50,8 +49,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Identify Q2 FY2024 adj. EBITDA as = $1,570m",
-          "operator": "correctness"
+          "content": "Identify Q2 FY2024 adj. EBITDA as = $1,570m"
         }
       ],
       "dependencies": []
@@ -75,8 +73,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Identify Q1 FY2025 adj. EBITDA as = $1,868m",
-          "operator": "correctness"
+          "content": "Identify Q1 FY2025 adj. EBITDA as = $1,868m"
         }
       ],
       "dependencies": []
@@ -100,8 +97,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Identify Q1 FY2024 adj. EBITDA as = $1,382m",
-          "operator": "correctness"
+          "content": "Identify Q1 FY2024 adj. EBITDA as = $1,382m"
         }
       ],
       "dependencies": []
@@ -125,8 +121,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Identify Q4 FY2024 adj. EBITDA as = $1,842m",
-          "operator": "correctness"
+          "content": "Identify Q4 FY2024 adj. EBITDA as = $1,842m"
         }
       ],
       "dependencies": []
@@ -150,8 +145,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Identify Q4 FY2023 adj. EBITDA as = $1,283m",
-          "operator": "correctness"
+          "content": "Identify Q4 FY2023 adj. EBITDA as = $1,283m"
         }
       ],
       "dependencies": []
@@ -175,8 +169,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Identify Q3-FY2024 adj. EBITDA as = $1,690m",
-          "operator": "correctness"
+          "content": "Identify Q3-FY2024 adj. EBITDA as = $1,690m"
         }
       ],
       "dependencies": []
@@ -200,8 +193,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Identify Q3-FY2023 adj. EBITDA as = $1,092m",
-          "operator": "correctness"
+          "content": "Identify Q3-FY2023 adj. EBITDA as = $1,092m"
         }
       ],
       "dependencies": []
@@ -225,8 +217,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Identify Q2 FY2023 adj. EBITDA as = $916m",
-          "operator": "correctness"
+          "content": "Identify Q2 FY2023 adj. EBITDA as = $916m"
         }
       ],
       "dependencies": []
@@ -250,8 +241,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Calculate TTM Q2-FY2025 adj. EBITDA as = $7,519m",
-          "operator": "correctness"
+          "content": "Calculate TTM Q2-FY2025 adj. EBITDA as = $7,519m"
         }
       ],
       "dependencies": []
@@ -275,8 +265,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Compute TTM Q2-FY2024 adj. EBITDA as = $5,327m",
-          "operator": "correctness"
+          "content": "Compute TTM Q2-FY2024 adj. EBITDA as = $5,327m"
         }
       ],
       "dependencies": []
@@ -300,8 +289,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Compute TTM Q1-FY2025 adj. EBITDA as = $6,970m",
-          "operator": "correctness"
+          "content": "Compute TTM Q1-FY2025 adj. EBITDA as = $6,970m"
         }
       ],
       "dependencies": []
@@ -325,8 +313,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Compute TTM Q1-FY2024 adj. EBITDA as = $4,673m",
-          "operator": "correctness"
+          "content": "Compute TTM Q1-FY2024 adj. EBITDA as = $4,673m"
         }
       ],
       "dependencies": []
@@ -350,8 +337,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Compute year over year TTM growth Q2-FY2025 as = 41.1488642763%",
-          "operator": "correctness"
+          "content": "Compute year over year TTM growth Q2-FY2025 as = 41.1488642763%"
         }
       ],
       "dependencies": []
@@ -375,8 +361,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Compute year over year TTM growth Q1-FY2025 as = 49.1547185962%",
-          "operator": "correctness"
+          "content": "Compute year over year TTM growth Q1-FY2025 as = 49.1547185962%"
         }
       ],
       "dependencies": []
@@ -400,8 +385,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Uber’s year over year TTM Q2-FY2025 Adjusted EBITDA growth rate decelerated quarter over quarter by 8.01%.",
-          "operator": "correctness"
+          "content": "Uber’s year over year TTM Q2-FY2025 Adjusted EBITDA growth rate decelerated quarter over quarter by 8.01%."
         }
       ],
       "dependencies": []

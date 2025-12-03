@@ -25,8 +25,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Final Answer is 24.19%",
-          "operator": "correctness"
+          "content": "Final Answer is 24.19%"
         }
       ],
       "dependencies": []
@@ -50,8 +49,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Foreign pretax income = $3,961 million",
-          "operator": "correctness"
+          "content": "Foreign pretax income = $3,961 million"
         }
       ],
       "dependencies": []
@@ -75,8 +73,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Foreign current income tax provision = $1,013 million",
-          "operator": "correctness"
+          "content": "Foreign current income tax provision = $1,013 million"
         }
       ],
       "dependencies": []
@@ -100,8 +97,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Foreign deferred income tax benefit = $55 million",
-          "operator": "correctness"
+          "content": "Foreign deferred income tax benefit = $55 million"
         }
       ],
       "dependencies": []
@@ -125,8 +121,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Total foreign income tax expense = $958 million computed as $1,013m − $55m",
-          "operator": "correctness"
+          "content": "Total foreign income tax expense = $958 million computed as $1,013m − $55m"
         }
       ],
       "dependencies": []
@@ -150,8 +145,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Final answer expressed as a percentage with two decimal places",
-          "operator": "correctness"
+          "content": "Final answer expressed as a percentage with two decimal places"
         }
       ],
       "dependencies": []

@@ -25,8 +25,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Uses GAAP operating income of $105.339 million",
-          "operator": "correctness"
+          "content": "Uses GAAP operating income of $105.339 million"
         }
       ],
       "dependencies": []
@@ -50,8 +49,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "States the operating income pertains to the three-month period ended June 30, 2024",
-          "operator": "correctness"
+          "content": "States the operating income pertains to the three-month period ended June 30, 2024"
         }
       ],
       "dependencies": []
@@ -75,8 +73,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Includes depreciation and amortization of $8.056 million",
-          "operator": "correctness"
+          "content": "Includes depreciation and amortization of $8.056 million"
         }
       ],
       "dependencies": []
@@ -100,8 +97,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Includes stock-based compensation of $141.764 million",
-          "operator": "correctness"
+          "content": "Includes stock-based compensation of $141.764 million"
         }
       ],
       "dependencies": []
@@ -125,8 +121,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Includes employer payroll taxes related to stock-based compensation of $6.464 million",
-          "operator": "correctness"
+          "content": "Includes employer payroll taxes related to stock-based compensation of $6.464 million"
         }
       ],
       "dependencies": []
@@ -150,8 +145,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Starts the Adjusted EBITDA calculation from GAAP operating income and adds the listed adjustments",
-          "operator": "correctness"
+          "content": "Starts the Adjusted EBITDA calculation from GAAP operating income and adds the listed adjustments"
         }
       ],
       "dependencies": []
@@ -175,8 +169,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Reports an unrounded Adjusted EBITDA total of $261.623 million",
-          "operator": "correctness"
+          "content": "Reports an unrounded Adjusted EBITDA total of $261.623 million"
         }
       ],
       "dependencies": []
@@ -200,8 +193,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Reports a final rounded Adjusted EBITDA of $261.62 million (2 decimal points of precision)",
-          "operator": "correctness"
+          "content": "Reports a final rounded Adjusted EBITDA of $261.62 million (2 decimal points of precision)"
         }
       ],
       "dependencies": []
@@ -225,8 +217,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Uses only the listed adjustments and does not include any other non-recurring items",
-          "operator": "correctness"
+          "content": "Uses only the listed adjustments and does not include any other non-recurring items"
         }
       ],
       "dependencies": []

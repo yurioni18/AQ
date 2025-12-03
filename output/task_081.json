@@ -25,8 +25,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Q2 FY2025 hedging gains/(losses) = $(112) million",
-          "operator": "correctness"
+          "content": "Q2 FY2025 hedging gains/(losses) = $(112) million"
         }
       ],
       "dependencies": []
@@ -50,8 +49,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Q2 FY2025 total FX revenue impact = $543 million",
-          "operator": "correctness"
+          "content": "Q2 FY2025 total FX revenue impact = $543 million"
         }
       ],
       "dependencies": []
@@ -75,8 +73,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Hedging losses as percentage of total FX revenue impact = (-$112 million / $543 million) * 100 = -20.63%",
-          "operator": "correctness"
+          "content": "Hedging losses as percentage of total FX revenue impact = (-$112 million / $543 million) * 100 = -20.63%"
         }
       ],
       "dependencies": []

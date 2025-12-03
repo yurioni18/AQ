@@ -25,8 +25,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "FY2023 revenue from customers in China = $239,192 thousand",
-          "operator": "correctness"
+          "content": "FY2023 revenue from customers in China = $239,192 thousand"
         }
       ],
       "dependencies": []
@@ -50,8 +49,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "FY2023 Consolidated Revenue = $737,154",
-          "operator": "correctness"
+          "content": "FY2023 Consolidated Revenue = $737,154"
         }
       ],
       "dependencies": []
@@ -75,8 +73,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "FY2024 Consolidated Revenue = $509,401",
-          "operator": "correctness"
+          "content": "FY2024 Consolidated Revenue = $509,401"
         }
       ],
       "dependencies": []
@@ -100,8 +97,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "FY2023 Consolidated gross profit = $514,670",
-          "operator": "correctness"
+          "content": "FY2023 Consolidated gross profit = $514,670"
         }
       ],
       "dependencies": []
@@ -125,8 +121,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "FY2024 Consolidated gross profit = $340,400",
-          "operator": "correctness"
+          "content": "FY2024 Consolidated gross profit = $340,400"
         }
       ],
       "dependencies": []
@@ -150,8 +145,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "FY2023 Gross margin = 69.8%",
-          "operator": "correctness"
+          "content": "FY2023 Gross margin = 69.8%"
         }
       ],
       "dependencies": []
@@ -175,8 +169,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "FY2024 Gross margin = 66.8%",
-          "operator": "correctness"
+          "content": "FY2024 Gross margin = 66.8%"
         }
       ],
       "dependencies": []
@@ -200,8 +193,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "GDP2024 (China) = $18,743,803,170,827.2",
-          "operator": "correctness"
+          "content": "GDP2024 (China) = $18,743,803,170,827.2"
         }
       ],
       "dependencies": []
@@ -225,8 +217,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "GDP2023 (China) = $18,270,356,654,533.2",
-          "operator": "correctness"
+          "content": "GDP2023 (China) = $18,270,356,654,533.2"
         }
       ],
       "dependencies": []
@@ -250,8 +241,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "China nominal GDP growth 2024 = 0.0259133702 (2.59133702%)",
-          "operator": "correctness"
+          "content": "China nominal GDP growth 2024 = 0.0259133702 (2.59133702%)"
         }
       ],
       "dependencies": []
@@ -275,8 +265,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Projected China Revenue FY2024 = $245,390,270.85",
-          "operator": "correctness"
+          "content": "Projected China Revenue FY2024 = $245,390,270.85"
         }
       ],
       "dependencies": []
@@ -300,8 +289,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Gross profit FY2023 (China) = $166,956,016.00",
-          "operator": "correctness"
+          "content": "Gross profit FY2023 (China) = $166,956,016.00"
         }
       ],
       "dependencies": []
@@ -325,8 +313,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Gross profit FY2024 (China) = $163,920,700.93",
-          "operator": "correctness"
+          "content": "Gross profit FY2024 (China) = $163,920,700.93"
         }
       ],
       "dependencies": []
@@ -350,8 +337,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Year‑over‑year % change in China gross profit = -1.82%",
-          "operator": "correctness"
+          "content": "Year‑over‑year % change in China gross profit = -1.82%"
         }
       ],
       "dependencies": []

@@ -25,8 +25,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Only applied quarter end figures ",
-          "operator": "correctness"
+          "content": "Only applied quarter end figures "
         }
       ],
       "dependencies": []
@@ -50,8 +49,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Identifies June 30, 2025 as the quarter-end date for GOOGL's Quarter 2 FY2025.",
-          "operator": "correctness"
+          "content": "Identifies June 30, 2025 as the quarter-end date for GOOGL's Quarter 2 FY2025."
         }
       ],
       "dependencies": []
@@ -75,8 +73,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Identifies the quarter length as 91 days.",
-          "operator": "correctness"
+          "content": "Identifies the quarter length as 91 days."
         }
       ],
       "dependencies": []
@@ -100,8 +97,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "States GOOGL's reported Quarter 2 FY2025 accounts receivable as $55,048 million.",
-          "operator": "correctness"
+          "content": "States GOOGL's reported Quarter 2 FY2025 accounts receivable as $55,048 million."
         }
       ],
       "dependencies": []
@@ -125,8 +121,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "States GOOGL's reported Quarter 2 FY2025 total revenues as $96,428 million.",
-          "operator": "correctness"
+          "content": "States GOOGL's reported Quarter 2 FY2025 total revenues as $96,428 million."
         }
       ],
       "dependencies": []
@@ -150,8 +145,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Applies the DSO formula: Accounts receiveable / Revenues * Days, to get to the required figure.",
-          "operator": "correctness"
+          "content": "Applies the DSO formula: Accounts receiveable / Revenues * Days, to get to the required figure."
         }
       ],
       "dependencies": []
@@ -175,8 +169,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Calculates DSO as (55,048 / 96,428) * 91 = 5.95 = 52 days.",
-          "operator": "correctness"
+          "content": "Calculates DSO as (55,048 / 96,428) * 91 = 5.95 = 52 days."
         }
       ],
       "dependencies": []

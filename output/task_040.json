@@ -25,8 +25,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Operating income (loss from operations) = $123.73M",
-          "operator": "correctness"
+          "content": "Operating income (loss from operations) = $123.73M"
         }
       ],
       "dependencies": []
@@ -50,8 +49,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Revenue = $943.55M",
-          "operator": "correctness"
+          "content": "Revenue = $943.55M"
         }
       ],
       "dependencies": []
@@ -75,8 +73,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Depreciation & amortization = $186.63M",
-          "operator": "correctness"
+          "content": "Depreciation & amortization = $186.63M"
         }
       ],
       "dependencies": []
@@ -100,8 +97,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Stock-based compensation = $54.44M",
-          "operator": "correctness"
+          "content": "Stock-based compensation = $54.44M"
         }
       ],
       "dependencies": []
@@ -125,8 +121,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Acquisition & integration costs = $0.86M",
-          "operator": "correctness"
+          "content": "Acquisition & integration costs = $0.86M"
         }
       ],
       "dependencies": []
@@ -150,8 +145,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Costs related to amended debt agreements = $14.14M",
-          "operator": "correctness"
+          "content": "Costs related to amended debt agreements = $14.14M"
         }
       ],
       "dependencies": []
@@ -175,8 +169,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "IPO-related costs = $2.14M",
-          "operator": "correctness"
+          "content": "IPO-related costs = $2.14M"
         }
       ],
       "dependencies": []
@@ -200,8 +193,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Asset & lease impairments = $0.00M",
-          "operator": "correctness"
+          "content": "Asset & lease impairments = $0.00M"
         }
       ],
       "dependencies": []
@@ -225,8 +217,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Other (lease-related relocation costs) = $1.57M",
-          "operator": "correctness"
+          "content": "Other (lease-related relocation costs) = $1.57M"
         }
       ],
       "dependencies": []
@@ -250,8 +241,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Adjusted EBITDA (sum) = $383.50M",
-          "operator": "correctness"
+          "content": "Adjusted EBITDA (sum) = $383.50M"
         }
       ],
       "dependencies": []
@@ -275,8 +265,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Adjusted EBITDA margin = 40.64%",
-          "operator": "correctness"
+          "content": "Adjusted EBITDA margin = 40.64%"
         }
       ],
       "dependencies": []
@@ -300,8 +289,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Net cash provided by operating activities (CFO) = $169.77M",
-          "operator": "correctness"
+          "content": "Net cash provided by operating activities (CFO) = $169.77M"
         }
       ],
       "dependencies": []
@@ -325,8 +313,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Change in accounts receivable = $(21.82)M",
-          "operator": "correctness"
+          "content": "Change in accounts receivable = $(21.82)M"
         }
       ],
       "dependencies": []
@@ -350,8 +337,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Change in income tax refundable = $3.97M",
-          "operator": "correctness"
+          "content": "Change in income tax refundable = $3.97M"
         }
       ],
       "dependencies": []
@@ -375,8 +361,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Change in prepaid expenses and other current assets = $(2.32)M",
-          "operator": "correctness"
+          "content": "Change in prepaid expenses and other current assets = $(2.32)M"
         }
       ],
       "dependencies": []
@@ -400,8 +385,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Change in deferred costs = $(16.50)M",
-          "operator": "correctness"
+          "content": "Change in deferred costs = $(16.50)M"
         }
       ],
       "dependencies": []
@@ -425,8 +409,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Change in other long-term assets = $(0.47)M",
-          "operator": "correctness"
+          "content": "Change in other long-term assets = $(0.47)M"
         }
       ],
       "dependencies": []
@@ -450,8 +433,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Change in accounts payable and accrued expenses = $18.23M",
-          "operator": "correctness"
+          "content": "Change in accounts payable and accrued expenses = $18.23M"
         }
       ],
       "dependencies": []
@@ -475,8 +457,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Change in deferred revenue = $(0.84)M",
-          "operator": "correctness"
+          "content": "Change in deferred revenue = $(0.84)M"
         }
       ],
       "dependencies": []
@@ -500,8 +481,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Change in operating lease ROU assets and lease liabilities = $(0.42)M",
-          "operator": "correctness"
+          "content": "Change in operating lease ROU assets and lease liabilities = $(0.42)M"
         }
       ],
       "dependencies": []
@@ -525,8 +505,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Change in other long-term liabilities = $0.00M",
-          "operator": "correctness"
+          "content": "Change in other long-term liabilities = $0.00M"
         }
       ],
       "dependencies": []
@@ -550,8 +529,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Net working capital change (sum of changes) = $(20.17)M",
-          "operator": "correctness"
+          "content": "Net working capital change (sum of changes) = $(20.17)M"
         }
       ],
       "dependencies": []
@@ -575,8 +553,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "CFO before working capital = $189.94M",
-          "operator": "correctness"
+          "content": "CFO before working capital = $189.94M"
         }
       ],
       "dependencies": []
@@ -600,8 +577,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "CFO before working capital as % of revenue = 20.13%",
-          "operator": "correctness"
+          "content": "CFO before working capital as % of revenue = 20.13%"
         }
       ],
       "dependencies": []
@@ -625,8 +601,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Purchases of property and equipment (capex combined line) = $27.27M",
-          "operator": "correctness"
+          "content": "Purchases of property and equipment (capex combined line) = $27.27M"
         }
       ],
       "dependencies": []
@@ -650,8 +625,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Free cash flow (FCF) = $142.50M",
-          "operator": "correctness"
+          "content": "Free cash flow (FCF) = $142.50M"
         }
       ],
       "dependencies": []
@@ -675,8 +649,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "FCF/Revenue = 15.10%",
-          "operator": "correctness"
+          "content": "FCF/Revenue = 15.10%"
         }
       ],
       "dependencies": []
@@ -700,8 +673,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Answer cites Item 7 MD&A, Non‑GAAP financial measures—Adjusted EBITDA reconciliation for adjusted EBITDA add-backs",
-          "operator": "correctness"
+          "content": "Answer cites Item 7 MD&A, Non‑GAAP financial measures—Adjusted EBITDA reconciliation for adjusted EBITDA add-backs"
         }
       ],
       "dependencies": []
@@ -725,8 +697,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Answer cites Item 8 Consolidated Statements of Operations for GAAP operating income and revenue",
-          "operator": "correctness"
+          "content": "Answer cites Item 8 Consolidated Statements of Operations for GAAP operating income and revenue"
         }
       ],
       "dependencies": []
@@ -750,8 +721,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Answer cites Item 8 Consolidated Statements of Cash Flows (including investing activities) for CFO, working capital changes, and capex",
-          "operator": "correctness"
+          "content": "Answer cites Item 8 Consolidated Statements of Cash Flows (including investing activities) for CFO, working capital changes, and capex"
         }
       ],
       "dependencies": []

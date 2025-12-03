@@ -25,8 +25,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Fiscal year identified as ended December 31, 2023 and sources cited as FY2023 earnings press release and FY2023 Form 10-K",
-          "operator": "correctness"
+          "content": "Fiscal year identified as ended December 31, 2023 and sources cited as FY2023 earnings press release and FY2023 Form 10-K"
         }
       ],
       "dependencies": []
@@ -50,8 +49,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Adjusted EBITDA reported as $73,825 thousand ($73.825 million)",
-          "operator": "correctness"
+          "content": "Adjusted EBITDA reported as $73,825 thousand ($73.825 million)"
         }
       ],
       "dependencies": []
@@ -75,8 +73,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Depreciation and amortization reported as $47,433 thousand ($47.433 million)",
-          "operator": "correctness"
+          "content": "Depreciation and amortization reported as $47,433 thousand ($47.433 million)"
         }
       ],
       "dependencies": []
@@ -100,8 +97,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Operating lease cost reported as $44,201 thousand",
-          "operator": "correctness"
+          "content": "Operating lease cost reported as $44,201 thousand"
         }
       ],
       "dependencies": []
@@ -125,8 +121,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Variable lease cost reported as $1,421 thousand",
-          "operator": "correctness"
+          "content": "Variable lease cost reported as $1,421 thousand"
         }
       ],
       "dependencies": []
@@ -150,8 +145,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Pre-opening lease cost reported as $4,296 thousand",
-          "operator": "correctness"
+          "content": "Pre-opening lease cost reported as $4,296 thousand"
         }
       ],
       "dependencies": []
@@ -175,8 +169,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Answer states lease-related costs are not added back in CAVA’s Adjusted EBITDA definition and therefore no ratio approximations are required",
-          "operator": "correctness"
+          "content": "Answer states lease-related costs are not added back in CAVA’s Adjusted EBITDA definition and therefore no ratio approximations are required"
         }
       ],
       "dependencies": []
@@ -200,8 +193,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Computed Adjusted EBIT equals $26,392 thousand (Adjusted EBITDA minus D&A)",
-          "operator": "correctness"
+          "content": "Computed Adjusted EBIT equals $26,392 thousand (Adjusted EBITDA minus D&A)"
         }
       ],
       "dependencies": []
@@ -225,8 +217,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Final Adjusted EBIT presented as $26 million in USD millions with no decimal precision",
-          "operator": "correctness"
+          "content": "Final Adjusted EBIT presented as $26 million in USD millions with no decimal precision"
         }
       ],
       "dependencies": []
@@ -250,8 +241,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Final Adjusted EBITDA presented as $74 million in USD millions with no decimal precision",
-          "operator": "correctness"
+          "content": "Final Adjusted EBITDA presented as $74 million in USD millions with no decimal precision"
         }
       ],
       "dependencies": []

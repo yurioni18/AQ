@@ -25,8 +25,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Defines the average retail revenue per MWh as Retail electric revenue (Electric Utilities & Infrastructure) / Total retail electric sales in MWh for 2024.",
-          "operator": "correctness"
+          "content": "Defines the average retail revenue per MWh as Retail electric revenue (Electric Utilities & Infrastructure) / Total retail electric sales in MWh for 2024."
         }
       ],
       "dependencies": []
@@ -50,8 +49,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "States FY 2024 Retail electric revenue for Electric Utilities & Infrastructure as $24,593 million.",
-          "operator": "correctness"
+          "content": "States FY 2024 Retail electric revenue for Electric Utilities & Infrastructure as $24,593 million."
         }
       ],
       "dependencies": []
@@ -75,8 +73,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "States the FY2024 total retail electric sales as 214,585 GWh from the Electric Utilities & Infrastructure segment.",
-          "operator": "correctness"
+          "content": "States the FY2024 total retail electric sales as 214,585 GWh from the Electric Utilities & Infrastructure segment."
         }
       ],
       "dependencies": []
@@ -100,8 +97,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Converts the 214,585 GWh to 214,585,000 MWh using a factor of 1,000.",
-          "operator": "correctness"
+          "content": "Converts the 214,585 GWh to 214,585,000 MWh using a factor of 1,000."
         }
       ],
       "dependencies": []
@@ -125,8 +121,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Calculates the unrounded implied average retail price per MWh as $114.60726.",
-          "operator": "correctness"
+          "content": "Calculates the unrounded implied average retail price per MWh as $114.60726."
         }
       ],
       "dependencies": []
@@ -150,8 +145,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Rounds the implied average retail price to two decimals and reports $114.61 per MWh as the final answer.",
-          "operator": "correctness"
+          "content": "Rounds the implied average retail price to two decimals and reports $114.61 per MWh as the final answer."
         }
       ],
       "dependencies": []

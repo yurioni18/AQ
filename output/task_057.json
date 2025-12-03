@@ -25,8 +25,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Pull NEE's FPL segment's fuel, purchased power, and interchange expense as $4188 million for 2024FY \n\n",
-          "operator": "correctness"
+          "content": "Pull NEE's FPL segment's fuel, purchased power, and interchange expense as $4188 million for 2024FY \n\n"
         }
       ],
       "dependencies": []
@@ -50,8 +49,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Find FPL's total energy sales as 141.9 TWh for 2024. \n",
-          "operator": "correctness"
+          "content": "Find FPL's total energy sales as 141.9 TWh for 2024. \n"
         }
       ],
       "dependencies": []
@@ -75,8 +73,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Convert FPL's total electricity sales (141.9 TWh) to MWh as 141.9x 1000000 =141900000 MWh",
-          "operator": "correctness"
+          "content": "Convert FPL's total electricity sales (141.9 TWh) to MWh as 141.9x 1000000 =141900000 MWh"
         }
       ],
       "dependencies": []
@@ -100,8 +97,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Calculate the fuel cost per MWh as 4188000000/141900000 = $29.5137 per MWh ",
-          "operator": "correctness"
+          "content": "Calculate the fuel cost per MWh as 4188000000/141900000 = $29.5137 per MWh "
         }
       ],
       "dependencies": []
@@ -125,8 +121,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Round the final answer to the nearest two decimals = $29.51/MWh",
-          "operator": "correctness"
+          "content": "Round the final answer to the nearest two decimals = $29.51/MWh"
         }
       ],
       "dependencies": []

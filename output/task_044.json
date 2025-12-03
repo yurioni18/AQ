@@ -25,8 +25,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Set up Q2 equation: 0.532 = 0.15M₃ + 0.85M₀",
-          "operator": "correctness"
+          "content": "Set up Q2 equation: 0.532 = 0.15M₃ + 0.85M₀"
         }
       ],
       "dependencies": []
@@ -50,8 +49,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Set up Q3 equation: 0.578 = 0.20M₃ + 0.80M₀",
-          "operator": "correctness"
+          "content": "Set up Q3 equation: 0.578 = 0.20M₃ + 0.80M₀"
         }
       ],
       "dependencies": []
@@ -75,8 +73,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Subtract the 2 equations Q2 from Q3: 0.578 − 0.532 = 0.046",
-          "operator": "correctness"
+          "content": "Subtract the 2 equations Q2 from Q3: 0.578 − 0.532 = 0.046"
         }
       ],
       "dependencies": []
@@ -100,8 +97,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Shows the combined-difference algebra as 0.05(M₃ − M₀) = 0.046",
-          "operator": "correctness"
+          "content": "Shows the combined-difference algebra as 0.05(M₃ − M₀) = 0.046"
         }
       ],
       "dependencies": []
@@ -125,8 +121,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Shows the solved difference M₃ − M₀ = 0.92",
-          "operator": "correctness"
+          "content": "Shows the solved difference M₃ − M₀ = 0.92"
         }
       ],
       "dependencies": []
@@ -150,8 +145,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Shows the solved Non‑N3 gross margin M₀ = 0.394",
-          "operator": "correctness"
+          "content": "Shows the solved Non‑N3 gross margin M₀ = 0.394"
         }
       ],
       "dependencies": []
@@ -175,8 +169,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Shows the implied N3 gross margin M₃ = 1.314",
-          "operator": "correctness"
+          "content": "Shows the implied N3 gross margin M₃ = 1.314"
         }
       ],
       "dependencies": []
@@ -200,8 +193,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Q2’24 gross margin: 53.2% (0.532)",
-          "operator": "correctness"
+          "content": "Q2’24 gross margin: 53.2% (0.532)"
         }
       ],
       "dependencies": []
@@ -225,8 +217,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Q3’24 gross margin: 57.8% (0.578)",
-          "operator": "correctness"
+          "content": "Q3’24 gross margin: 57.8% (0.578)"
         }
       ],
       "dependencies": []
@@ -250,8 +241,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Convert answer into percentage = 131.4%",
-          "operator": "correctness"
+          "content": "Convert answer into percentage = 131.4%"
         }
       ],
       "dependencies": []
@@ -275,8 +265,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Round to one decimal point = 131.4%",
-          "operator": "correctness"
+          "content": "Round to one decimal point = 131.4%"
         }
       ],
       "dependencies": []

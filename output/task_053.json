@@ -25,8 +25,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "The correct graph was identified from the 10-K document, labelled \"Comparison of Five-Year Cumulative Total Return for Meta Platforms, Inc\"\n\n",
-          "operator": "correctness"
+          "content": "The correct graph was identified from the 10-K document, labelled \"Comparison of Five-Year Cumulative Total Return for Meta Platforms, Inc\"\n\n"
         }
       ],
       "dependencies": []
@@ -50,8 +49,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "The Form 10-K presents the stock performance graph as an image without an accompanying numeric table.",
-          "operator": "correctness"
+          "content": "The Form 10-K presents the stock performance graph as an image without an accompanying numeric table."
         }
       ],
       "dependencies": []
@@ -75,8 +73,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Meta’s cumulative total return value at 12/31/2022 is $60.",
-          "operator": "correctness"
+          "content": "Meta’s cumulative total return value at 12/31/2022 is $60."
         }
       ],
       "dependencies": []
@@ -100,8 +97,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Meta’s cumulative total return value at 12/31/2024 is $290.",
-          "operator": "correctness"
+          "content": "Meta’s cumulative total return value at 12/31/2024 is $290."
         }
       ],
       "dependencies": []
@@ -125,8 +121,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Computed percentage-point increase from 12/31/2022 to 12/31/2024 is 290 − 60 = 230 percentage points.",
-          "operator": "correctness"
+          "content": "Computed percentage-point increase from 12/31/2022 to 12/31/2024 is 290 − 60 = 230 percentage points."
         }
       ],
       "dependencies": []

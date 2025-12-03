@@ -25,8 +25,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Q1 FY2025 net cash provided by operating activities increased $577 million year-over-year.",
-          "operator": "correctness"
+          "content": "Q1 FY2025 net cash provided by operating activities increased $577 million year-over-year."
         }
       ],
       "dependencies": []
@@ -50,8 +49,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Q1 FY2025 primary driver: $558 million (24%) increase in net income.",
-          "operator": "correctness"
+          "content": "Q1 FY2025 primary driver: $558 million (24%) increase in net income."
         }
       ],
       "dependencies": []
@@ -75,8 +73,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Q1 FY2025 increase was supported by an increase in adjustments for non-cash expenses.",
-          "operator": "correctness"
+          "content": "Q1 FY2025 increase was supported by an increase in adjustments for non-cash expenses."
         }
       ],
       "dependencies": []
@@ -100,8 +97,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Q1 FY2025 result was partially offset by unfavorable changes in working capital.",
-          "operator": "correctness"
+          "content": "Q1 FY2025 result was partially offset by unfavorable changes in working capital."
         }
       ],
       "dependencies": []
@@ -125,8 +121,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Q1 FY2025 result was partially offset by a $43 million increase in payments for content assets.",
-          "operator": "correctness"
+          "content": "Q1 FY2025 result was partially offset by a $43 million increase in payments for content assets."
         }
       ],
       "dependencies": []
@@ -150,8 +145,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Q2 FY2025 net cash provided by operating activities increased $1,132 million year-over-year.",
-          "operator": "correctness"
+          "content": "Q2 FY2025 net cash provided by operating activities increased $1,132 million year-over-year."
         }
       ],
       "dependencies": []
@@ -175,8 +169,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Q2 FY2025 primary driver: $978 million (46%) increase in net income.",
-          "operator": "correctness"
+          "content": "Q2 FY2025 primary driver: $978 million (46%) increase in net income."
         }
       ],
       "dependencies": []
@@ -200,8 +193,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Q2 FY2025 included a $366 million decrease in payments for content assets contributing to the increase.",
-          "operator": "correctness"
+          "content": "Q2 FY2025 included a $366 million decrease in payments for content assets contributing to the increase."
         }
       ],
       "dependencies": []
@@ -225,8 +217,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Q2 FY2025 included a $226 million increase in adjustments for non-cash expenses contributing to the increase.",
-          "operator": "correctness"
+          "content": "Q2 FY2025 included a $226 million increase in adjustments for non-cash expenses contributing to the increase."
         }
       ],
       "dependencies": []
@@ -250,8 +241,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Q2 FY2025 result was partially offset by $438 million of unfavorable changes in working capital.",
-          "operator": "correctness"
+          "content": "Q2 FY2025 result was partially offset by $438 million of unfavorable changes in working capital."
         }
       ],
       "dependencies": []
@@ -275,8 +265,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Q3 FY2025 net cash provided by operating activities increased $504 million year-over-year.",
-          "operator": "correctness"
+          "content": "Q3 FY2025 net cash provided by operating activities increased $504 million year-over-year."
         }
       ],
       "dependencies": []
@@ -300,8 +289,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Q3 FY2025 primary driver included a $454 million increase in adjustments for non-cash expenses.",
-          "operator": "correctness"
+          "content": "Q3 FY2025 primary driver included a $454 million increase in adjustments for non-cash expenses."
         }
       ],
       "dependencies": []
@@ -325,8 +313,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Q3 FY2025 included $396 million of favorable changes in working capital contributing to the increase.",
-          "operator": "correctness"
+          "content": "Q3 FY2025 included $396 million of favorable changes in working capital contributing to the increase."
         }
       ],
       "dependencies": []
@@ -350,8 +337,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Q3 FY2025 included a $183 million (8%) increase in net income.",
-          "operator": "correctness"
+          "content": "Q3 FY2025 included a $183 million (8%) increase in net income."
         }
       ],
       "dependencies": []
@@ -375,8 +361,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Q3 FY2025 result was partially offset by a $530 million increase in payments for content assets.",
-          "operator": "correctness"
+          "content": "Q3 FY2025 result was partially offset by a $530 million increase in payments for content assets."
         }
       ],
       "dependencies": []
@@ -400,8 +385,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Key difference summary mentions that Q1 was net-income-led growth with unfavorable working capital",
-          "operator": "correctness"
+          "content": "Key difference summary mentions that Q1 was net-income-led growth with unfavorable working capital"
         }
       ],
       "dependencies": []
@@ -425,8 +409,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Key difference summary includes Q2 was a net-income surge aided by sharply lower content spending",
-          "operator": "correctness"
+          "content": "Key difference summary includes Q2 was a net-income surge aided by sharply lower content spending"
         }
       ],
       "dependencies": []
@@ -450,8 +433,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Key difference summary includes Q3 was driven by non-cash adjustments and favorable working capital",
-          "operator": "correctness"
+          "content": "Key difference summary includes Q3 was driven by non-cash adjustments and favorable working capital"
         }
       ],
       "dependencies": []

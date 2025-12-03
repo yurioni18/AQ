@@ -25,8 +25,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Enterprise Value = Equity Value + Total Debt - Cash and Cash Equivalents",
-          "operator": "correctness"
+          "content": "Enterprise Value = Equity Value + Total Debt - Cash and Cash Equivalents"
         }
       ],
       "dependencies": []
@@ -50,8 +49,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Shares outstanding = 133,334,288",
-          "operator": "correctness"
+          "content": "Shares outstanding = 133,334,288"
         }
       ],
       "dependencies": []
@@ -75,8 +73,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Equity value = shares outstanding x $15 share price = 2,000,014,320 (or $2,000.014M)",
-          "operator": "correctness"
+          "content": "Equity value = shares outstanding x $15 share price = 2,000,014,320 (or $2,000.014M)"
         }
       ],
       "dependencies": []
@@ -100,8 +97,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "CMLTD (current portion of long term debt) = 2.5M",
-          "operator": "correctness"
+          "content": "CMLTD (current portion of long term debt) = 2.5M"
         }
       ],
       "dependencies": []
@@ -125,8 +121,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Long term debt (LTD) = 832.513M",
-          "operator": "correctness"
+          "content": "Long term debt (LTD) = 832.513M"
         }
       ],
       "dependencies": []
@@ -150,8 +145,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Total debt used in EV calculation by adding current portion and long term debt = 835.0M",
-          "operator": "correctness"
+          "content": "Total debt used in EV calculation by adding current portion and long term debt = 835.0M"
         }
       ],
       "dependencies": []
@@ -175,8 +169,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Cash and cash equivalents = 102.085M",
-          "operator": "correctness"
+          "content": "Cash and cash equivalents = 102.085M"
         }
       ],
       "dependencies": []
@@ -200,8 +193,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Enterprise Value calculated 2,000.014M + 835.013M - 102.085M = 2732.942M",
-          "operator": "correctness"
+          "content": "Enterprise Value calculated 2,000.014M + 835.013M - 102.085M = 2732.942M"
         }
       ],
       "dependencies": []
@@ -225,8 +217,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Q2 FY2025 last 6 months adjusted EBITDA = 123.777M",
-          "operator": "correctness"
+          "content": "Q2 FY2025 last 6 months adjusted EBITDA = 123.777M"
         }
       ],
       "dependencies": []
@@ -250,8 +241,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "FY2024 adjusted EBITDA = 142.496M",
-          "operator": "correctness"
+          "content": "FY2024 adjusted EBITDA = 142.496M"
         }
       ],
       "dependencies": []
@@ -275,8 +265,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Q2 FY2024 last 6 months adjusted EBITDA = 73.752M",
-          "operator": "correctness"
+          "content": "Q2 FY2024 last 6 months adjusted EBITDA = 73.752M"
         }
       ],
       "dependencies": []
@@ -300,8 +289,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "LTM Adjusted EBITDA (as of Q2 FY2025) = 123.777 + 142.496 - 73.752 = 192.521M",
-          "operator": "correctness"
+          "content": "LTM Adjusted EBITDA (as of Q2 FY2025) = 123.777 + 142.496 - 73.752 = 192.521M"
         }
       ],
       "dependencies": []
@@ -325,8 +313,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Divide Enterprise Value by LTM Adj. EBITDA = 14.196x",
-          "operator": "correctness"
+          "content": "Divide Enterprise Value by LTM Adj. EBITDA = 14.196x"
         }
       ],
       "dependencies": []
@@ -350,8 +337,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Round answer to two decimal points 14.20x",
-          "operator": "correctness"
+          "content": "Round answer to two decimal points 14.20x"
         }
       ],
       "dependencies": []

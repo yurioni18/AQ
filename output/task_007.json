@@ -25,8 +25,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "FY2023 net income = 4,368",
-          "operator": "correctness"
+          "content": "FY2023 net income = 4,368"
         }
       ],
       "dependencies": []
@@ -50,8 +49,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "FY2023 depreciation & amortisation = 1,544",
-          "operator": "correctness"
+          "content": "FY2023 depreciation & amortisation = 1,544"
         }
       ],
       "dependencies": []
@@ -75,8 +73,7 @@
       "messages": [
         {
           "type": "text",
-          "content": " FY2022 depreciation & amortisation = 1,174",
-          "operator": "correctness"
+          "content": " FY2022 depreciation & amortisation = 1,174"
         }
       ],
       "dependencies": []
@@ -100,8 +97,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "FY2024 depreciation & amortisation = 1,508",
-          "operator": "correctness"
+          "content": "FY2024 depreciation & amortisation = 1,508"
         }
       ],
       "dependencies": []
@@ -125,8 +121,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Interest Coverage Ratio formula: ICR = EBITDA / Interest Expense",
-          "operator": "correctness"
+          "content": "Interest Coverage Ratio formula: ICR = EBITDA / Interest Expense"
         }
       ],
       "dependencies": []
@@ -150,8 +145,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "EBITDA formula: EBITDA = net Income + income Tax expense + interest Expense + depreciation & amortisation",
-          "operator": "correctness"
+          "content": "EBITDA formula: EBITDA = net Income + income Tax expense + interest Expense + depreciation & amortisation"
         }
       ],
       "dependencies": []
@@ -175,8 +169,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Includes FY2024 EBITDA = 35,583",
-          "operator": "correctness"
+          "content": "Includes FY2024 EBITDA = 35,583"
         }
       ],
       "dependencies": []
@@ -200,8 +193,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "FY2024 ICR = 138.463",
-          "operator": "correctness"
+          "content": "FY2024 ICR = 138.463"
         }
       ],
       "dependencies": []
@@ -225,8 +217,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "FY2023 EBITDA = 5,987",
-          "operator": "correctness"
+          "content": "FY2023 EBITDA = 5,987"
         }
       ],
       "dependencies": []
@@ -250,8 +241,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "FY2023 ICR = 22.85",
-          "operator": "correctness"
+          "content": "FY2023 ICR = 22.85"
         }
       ],
       "dependencies": []
@@ -275,8 +265,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "FY2022 EBITDA = 11,351",
-          "operator": "correctness"
+          "content": "FY2022 EBITDA = 11,351"
         }
       ],
       "dependencies": []
@@ -300,8 +289,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "FY2022 ICR is 48.10",
-          "operator": "correctness"
+          "content": "FY2022 ICR is 48.10"
         }
       ],
       "dependencies": []
@@ -325,8 +313,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Identify 138.46 (FY 2024) as highest Interest Coverage Ratio ",
-          "operator": "correctness"
+          "content": "Identify 138.46 (FY 2024) as highest Interest Coverage Ratio "
         }
       ],
       "dependencies": []
@@ -350,8 +337,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Final answer : '2024 - 138.46'",
-          "operator": "correctness"
+          "content": "Final answer : '2024 - 138.46'"
         }
       ],
       "dependencies": []
@@ -375,8 +361,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "FY2023: income tax expense = -187",
-          "operator": "correctness"
+          "content": "FY2023: income tax expense = -187"
         }
       ],
       "dependencies": []
@@ -400,8 +385,7 @@
       "messages": [
         {
           "type": "text",
-          "content": " interest expense for FY2023 = 262",
-          "operator": "correctness"
+          "content": " interest expense for FY2023 = 262"
         }
       ],
       "dependencies": []
@@ -425,8 +409,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "FY2022 net income = 9,752",
-          "operator": "correctness"
+          "content": "FY2022 net income = 9,752"
         }
       ],
       "dependencies": []
@@ -450,8 +433,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "FY2022 income tax expense = 189",
-          "operator": "correctness"
+          "content": "FY2022 income tax expense = 189"
         }
       ],
       "dependencies": []
@@ -475,8 +457,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Include FY2022 interest expense = 236",
-          "operator": "correctness"
+          "content": "Include FY2022 interest expense = 236"
         }
       ],
       "dependencies": []
@@ -500,8 +481,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "FY2024 Net income = 29,760",
-          "operator": "correctness"
+          "content": "FY2024 Net income = 29,760"
         }
       ],
       "dependencies": []
@@ -525,8 +505,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "FY2024 income tax expense -> 4,058",
-          "operator": "correctness"
+          "content": "FY2024 income tax expense -> 4,058"
         }
       ],
       "dependencies": []
@@ -550,8 +529,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "includes FY2024 interest expense = 257",
-          "operator": "correctness"
+          "content": "includes FY2024 interest expense = 257"
         }
       ],
       "dependencies": []
@@ -575,8 +553,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Using inputs from NVIDIA’s FY2023,FY2022 and FY2024 Form 10-Ks (USD millions) ",
-          "operator": "correctness"
+          "content": "Using inputs from NVIDIA’s FY2023,FY2022 and FY2024 Form 10-Ks (USD millions) "
         }
       ],
       "dependencies": []

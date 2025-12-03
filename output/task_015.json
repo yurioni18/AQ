@@ -25,8 +25,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "The final percentage change in ROE is calculated to be -69.58%",
-          "operator": "correctness"
+          "content": "The final percentage change in ROE is calculated to be -69.58%"
         }
       ],
       "dependencies": []
@@ -50,8 +49,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "To calculate ROE, the formula that is used is: Net income attributable to Kimberly‑Clark Corporation ÷ average Kimberly‑Clark Corporation stockholders’ equity (beginning and ending of the fiscal year, excluding noncontrolling interests)",
-          "operator": "correctness"
+          "content": "To calculate ROE, the formula that is used is: Net income attributable to Kimberly‑Clark Corporation ÷ average Kimberly‑Clark Corporation stockholders’ equity (beginning and ending of the fiscal year, excluding noncontrolling interests)"
         }
       ],
       "dependencies": []
@@ -75,8 +73,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Percentage change formula: ((ROE 2023 − ROE 2020) ÷ ROE 2020) × 100",
-          "operator": "correctness"
+          "content": "Percentage change formula: ((ROE 2023 − ROE 2020) ÷ ROE 2020) × 100"
         }
       ],
       "dependencies": []
@@ -100,8 +97,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "FY 2020 net income attributable to Kimberly‑Clark Corporation = $2,352 million",
-          "operator": "correctness"
+          "content": "FY 2020 net income attributable to Kimberly‑Clark Corporation = $2,352 million"
         }
       ],
       "dependencies": []
@@ -125,8 +121,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "FY 2023 net income attributable to Kimberly‑Clark Corporation = $1,764 million",
-          "operator": "correctness"
+          "content": "FY 2023 net income attributable to Kimberly‑Clark Corporation = $1,764 million"
         }
       ],
       "dependencies": []
@@ -150,8 +145,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "FY 2019 stockholder's equity is -$33 million",
-          "operator": "correctness"
+          "content": "FY 2019 stockholder's equity is -$33 million"
         }
       ],
       "dependencies": []
@@ -175,8 +169,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "FY 2020 stockholder's equity is $626 million",
-          "operator": "correctness"
+          "content": "FY 2020 stockholder's equity is $626 million"
         }
       ],
       "dependencies": []
@@ -200,8 +193,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "FY 2022 stockholder's equity is $547 million",
-          "operator": "correctness"
+          "content": "FY 2022 stockholder's equity is $547 million"
         }
       ],
       "dependencies": []
@@ -225,8 +217,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "FY 2023 stockholder's equity is $915 million",
-          "operator": "correctness"
+          "content": "FY 2023 stockholder's equity is $915 million"
         }
       ],
       "dependencies": []
@@ -250,8 +241,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Average equity FY 2020 = $296.50 million ",
-          "operator": "correctness"
+          "content": "Average equity FY 2020 = $296.50 million "
         }
       ],
       "dependencies": []
@@ -275,8 +265,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "ROE 2020 = $2,352 ÷ $296.50 = 7.93",
-          "operator": "correctness"
+          "content": "ROE 2020 = $2,352 ÷ $296.50 = 7.93"
         }
       ],
       "dependencies": []
@@ -300,8 +289,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Average equity FY 2023 = $731.00 million",
-          "operator": "correctness"
+          "content": "Average equity FY 2023 = $731.00 million"
         }
       ],
       "dependencies": []
@@ -325,8 +313,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "ROE 2023 = 2.41",
-          "operator": "correctness"
+          "content": "ROE 2023 = 2.41"
         }
       ],
       "dependencies": []

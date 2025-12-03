@@ -25,8 +25,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Recognizes that FCF needs to be computed by subtracting CapEx from OCF.",
-          "operator": "correctness"
+          "content": "Recognizes that FCF needs to be computed by subtracting CapEx from OCF."
         }
       ],
       "dependencies": []
@@ -50,8 +49,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Recognizes that Q2 figures need to be obtained by differencing H1 and Q1",
-          "operator": "correctness"
+          "content": "Recognizes that Q2 figures need to be obtained by differencing H1 and Q1"
         }
       ],
       "dependencies": []
@@ -75,8 +73,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "FY2025 H1 OCF = 63,897",
-          "operator": "correctness"
+          "content": "FY2025 H1 OCF = 63,897"
         }
       ],
       "dependencies": []
@@ -100,8 +97,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "FY2025 H1 CapEx = 39,643",
-          "operator": "correctness"
+          "content": "FY2025 H1 CapEx = 39,643"
         }
       ],
       "dependencies": []
@@ -125,8 +121,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "FY2025 Q1 OCF = 36,150",
-          "operator": "correctness"
+          "content": "FY2025 Q1 OCF = 36,150"
         }
       ],
       "dependencies": []
@@ -150,8 +145,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "FY2025 Q1 CapEx = 17,197",
-          "operator": "correctness"
+          "content": "FY2025 Q1 CapEx = 17,197"
         }
       ],
       "dependencies": []
@@ -175,8 +169,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Q2-FY2025 OCF = 27,747",
-          "operator": "correctness"
+          "content": "Q2-FY2025 OCF = 27,747"
         }
       ],
       "dependencies": []
@@ -200,8 +193,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Q2-FY2025 CapEx = 22,446",
-          "operator": "correctness"
+          "content": "Q2-FY2025 CapEx = 22,446"
         }
       ],
       "dependencies": []
@@ -225,8 +217,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Q2-FY2025 FCF = 5,301",
-          "operator": "correctness"
+          "content": "Q2-FY2025 FCF = 5,301"
         }
       ],
       "dependencies": []
@@ -250,8 +241,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Q2-FY2025 Net income to common = 28,196",
-          "operator": "correctness"
+          "content": "Q2-FY2025 Net income to common = 28,196"
         }
       ],
       "dependencies": []
@@ -275,8 +265,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Q2-FY2025 FCF conversion = 18.80%",
-          "operator": "correctness"
+          "content": "Q2-FY2025 FCF conversion = 18.80%"
         }
       ],
       "dependencies": []
@@ -300,8 +289,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "FY2024 H1 OCF = 55,488",
-          "operator": "correctness"
+          "content": "FY2024 H1 OCF = 55,488"
         }
       ],
       "dependencies": []
@@ -325,8 +313,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "FY2024 H1 CapEx = 25,198",
-          "operator": "correctness"
+          "content": "FY2024 H1 CapEx = 25,198"
         }
       ],
       "dependencies": []
@@ -350,8 +337,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "FY2024 Q1 OCF = 28,848",
-          "operator": "correctness"
+          "content": "FY2024 Q1 OCF = 28,848"
         }
       ],
       "dependencies": []
@@ -375,8 +361,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "FY2024 Q1 CapEx = 12,012",
-          "operator": "correctness"
+          "content": "FY2024 Q1 CapEx = 12,012"
         }
       ],
       "dependencies": []
@@ -400,8 +385,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Q2-FY2024 OCF = 26,640",
-          "operator": "correctness"
+          "content": "Q2-FY2024 OCF = 26,640"
         }
       ],
       "dependencies": []
@@ -425,8 +409,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Q2-FY2024 CapEx = 13,186",
-          "operator": "correctness"
+          "content": "Q2-FY2024 CapEx = 13,186"
         }
       ],
       "dependencies": []
@@ -450,8 +433,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Q2-FY2024 FCF = 13,454",
-          "operator": "correctness"
+          "content": "Q2-FY2024 FCF = 13,454"
         }
       ],
       "dependencies": []
@@ -475,8 +457,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Q2-FY2024 Net income to common = 23,619",
-          "operator": "correctness"
+          "content": "Q2-FY2024 Net income to common = 23,619"
         }
       ],
       "dependencies": []
@@ -500,8 +481,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Q2-FY2024 FCF conversion = 56.96%",
-          "operator": "correctness"
+          "content": "Q2-FY2024 FCF conversion = 56.96%"
         }
       ],
       "dependencies": []
@@ -525,8 +505,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "YoY change in FCF conversion (Q2-25 − Q2-24) = −38.16 percentage points",
-          "operator": "correctness"
+          "content": "YoY change in FCF conversion (Q2-25 − Q2-24) = −38.16 percentage points"
         }
       ],
       "dependencies": []
@@ -550,8 +529,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Final conclusion: FCF conversion worsened YoY by 38.16%",
-          "operator": "correctness"
+          "content": "Final conclusion: FCF conversion worsened YoY by 38.16%"
         }
       ],
       "dependencies": []

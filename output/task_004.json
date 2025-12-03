@@ -25,8 +25,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Used correct formula for beat/miss: (Actual Figure/Guided Figure)-1, expressed as a percentage rounded to 2 decimal places",
-          "operator": "correctness"
+          "content": "Used correct formula for beat/miss: (Actual Figure/Guided Figure)-1, expressed as a percentage rounded to 2 decimal places"
         }
       ],
       "dependencies": []
@@ -50,8 +49,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Used correct formula for guidance midpoint: (upper bound of guidance + lower bound of guidance)/2",
-          "operator": "correctness"
+          "content": "Used correct formula for guidance midpoint: (upper bound of guidance + lower bound of guidance)/2"
         }
       ],
       "dependencies": []
@@ -75,8 +73,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Retrieved correct 1Q25 actual Total Base Capital Expenditures: $662",
-          "operator": "correctness"
+          "content": "Retrieved correct 1Q25 actual Total Base Capital Expenditures: $662"
         }
       ],
       "dependencies": []
@@ -100,8 +97,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Used correct formula and figures to calculate 1Q25 guided midpoint Total Base Capital Expenditures: $712.5, calculated as (675+750)/2",
-          "operator": "correctness"
+          "content": "Used correct formula and figures to calculate 1Q25 guided midpoint Total Base Capital Expenditures: $712.5, calculated as (675+750)/2"
         }
       ],
       "dependencies": []
@@ -125,8 +121,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Used correct formula and figures to calculate 1Q25 % Beat/Miss: -7.09% (7.09% Beat), calculation shown as 662/712.5-1",
-          "operator": "correctness"
+          "content": "Used correct formula and figures to calculate 1Q25 % Beat/Miss: -7.09% (7.09% Beat), calculation shown as 662/712.5-1"
         }
       ],
       "dependencies": []
@@ -150,8 +145,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Retrieved correct 2Q25 actual Total Base Capital Expenditures: $655",
-          "operator": "correctness"
+          "content": "Retrieved correct 2Q25 actual Total Base Capital Expenditures: $655"
         }
       ],
       "dependencies": []
@@ -175,8 +169,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Used correct formula and figures to calculate 2Q25 guided midpoint Total Base Capital Expenditures = $762.5, calculated as (725+800)/2",
-          "operator": "correctness"
+          "content": "Used correct formula and figures to calculate 2Q25 guided midpoint Total Base Capital Expenditures = $762.5, calculated as (725+800)/2"
         }
       ],
       "dependencies": []
@@ -200,8 +193,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Used correct formula and figures to calculate 2Q25 % Beat/Miss = -14.10% (14.10% Beat), calculation shown as 655/762.5-1",
-          "operator": "correctness"
+          "content": "Used correct formula and figures to calculate 2Q25 % Beat/Miss = -14.10% (14.10% Beat), calculation shown as 655/762.5-1"
         }
       ],
       "dependencies": []
@@ -225,8 +217,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Retrieved correct 3Q25 actual Total Base Capital Expenditures = $635",
-          "operator": "correctness"
+          "content": "Retrieved correct 3Q25 actual Total Base Capital Expenditures = $635"
         }
       ],
       "dependencies": []
@@ -250,8 +241,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Used correct formula and figures to calculate 3Q25 guided midpoint Total Base Capital Expenditures = $700, calculated as (660+740)/2",
-          "operator": "correctness"
+          "content": "Used correct formula and figures to calculate 3Q25 guided midpoint Total Base Capital Expenditures = $700, calculated as (660+740)/2"
         }
       ],
       "dependencies": []
@@ -275,8 +265,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Used correct formula and figures to calculate 3Q25 % Beat/Miss = -9.29% (9.29% Beat), calculation shown as 635/700-1",
-          "operator": "correctness"
+          "content": "Used correct formula and figures to calculate 3Q25 % Beat/Miss = -9.29% (9.29% Beat), calculation shown as 635/700-1"
         }
       ],
       "dependencies": []

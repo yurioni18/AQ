@@ -25,8 +25,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Clarifies that Pfizer's Business innovation segment revenues includes revenues from Pfizer CentreOne (PC1) and Pfizer Ignite",
-          "operator": "correctness"
+          "content": "Clarifies that Pfizer's Business innovation segment revenues includes revenues from Pfizer CentreOne (PC1) and Pfizer Ignite"
         }
       ],
       "dependencies": []
@@ -50,8 +49,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Finds Q3 2024 PC1 revenue: $285m",
-          "operator": "correctness"
+          "content": "Finds Q3 2024 PC1 revenue: $285m"
         }
       ],
       "dependencies": []
@@ -75,8 +73,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Finds Q3 2024 Ignite revenue: $25m",
-          "operator": "correctness"
+          "content": "Finds Q3 2024 Ignite revenue: $25m"
         }
       ],
       "dependencies": []
@@ -100,8 +97,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Finds Q3 2024 total revenue: $17,702m",
-          "operator": "correctness"
+          "content": "Finds Q3 2024 total revenue: $17,702m"
         }
       ],
       "dependencies": []
@@ -125,8 +121,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Calculates business innovation revenues as a percentage of total revenues using the formula: [(PC1 revenue + Ignite revenue)/total revenue] x 100",
-          "operator": "correctness"
+          "content": "Calculates business innovation revenues as a percentage of total revenues using the formula: [(PC1 revenue + Ignite revenue)/total revenue] x 100"
         }
       ],
       "dependencies": []
@@ -150,8 +145,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Calculates Q3 2024 business innovation revenues as a percentage of total revenues: [($285m + $25m)/ $17,702m] x 100 = 1.75121455% ",
-          "operator": "correctness"
+          "content": "Calculates Q3 2024 business innovation revenues as a percentage of total revenues: [($285m + $25m)/ $17,702m] x 100 = 1.75121455% "
         }
       ],
       "dependencies": []
@@ -175,8 +169,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Finds Q3 2023 PC1 revenue: $293m",
-          "operator": "correctness"
+          "content": "Finds Q3 2023 PC1 revenue: $293m"
         }
       ],
       "dependencies": []
@@ -200,8 +193,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Finds Q3 2023 Ignite revenue: $10m",
-          "operator": "correctness"
+          "content": "Finds Q3 2023 Ignite revenue: $10m"
         }
       ],
       "dependencies": []
@@ -225,8 +217,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Finds Q3 2023 total revenue: $13,491m",
-          "operator": "correctness"
+          "content": "Finds Q3 2023 total revenue: $13,491m"
         }
       ],
       "dependencies": []
@@ -250,8 +241,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Calculates Q3 2023 business innovation revenues as a percentage of total revenues: [($293m + $10m)/ $13,491m] x 100 = 2.24594174% ",
-          "operator": "correctness"
+          "content": "Calculates Q3 2023 business innovation revenues as a percentage of total revenues: [($293m + $10m)/ $13,491m] x 100 = 2.24594174% "
         }
       ],
       "dependencies": []
@@ -275,8 +265,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Calculates the percent change of the Q3 2024 ratio vs. the Q3 2023 ratio: [(1.75121455% − 2.24594174%) / 2.24594174%] × 100 = −22.0276%. ",
-          "operator": "correctness"
+          "content": "Calculates the percent change of the Q3 2024 ratio vs. the Q3 2023 ratio: [(1.75121455% − 2.24594174%) / 2.24594174%] × 100 = −22.0276%. "
         }
       ],
       "dependencies": []
@@ -300,8 +289,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Final answer is rounded to two decimal points of precision",
-          "operator": "correctness"
+          "content": "Final answer is rounded to two decimal points of precision"
         }
       ],
       "dependencies": []
@@ -325,8 +313,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Final answer includes the value \"−22.03%\", as this corresponds to the percent change of the Q3 2024 ratio vs. the Q3 2023 ratio",
-          "operator": "correctness"
+          "content": "Final answer includes the value \"−22.03%\", as this corresponds to the percent change of the Q3 2024 ratio vs. the Q3 2023 ratio"
         }
       ],
       "dependencies": []

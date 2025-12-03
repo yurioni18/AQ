@@ -25,8 +25,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Includes share price at year-end 2024 = €22.58 as an input",
-          "operator": "correctness"
+          "content": "Includes share price at year-end 2024 = €22.58 as an input"
         }
       ],
       "dependencies": []
@@ -50,8 +49,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Includes Free cash flow before new club capex per share = €2.36 as an input",
-          "operator": "correctness"
+          "content": "Includes Free cash flow before new club capex per share = €2.36 as an input"
         }
       ],
       "dependencies": []
@@ -75,8 +73,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Calculates the multiple by dividing share price by FCF per share: €22.58 / €2.36 = 9.567…",
-          "operator": "correctness"
+          "content": "Calculates the multiple by dividing share price by FCF per share: €22.58 / €2.36 = 9.567…"
         }
       ],
       "dependencies": []
@@ -100,8 +97,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Shows final Price to Pre-IFRS 16 Free Cash Flow multiple = 9.57 exactly with 2 decimal points of rounding",
-          "operator": "correctness"
+          "content": "Shows final Price to Pre-IFRS 16 Free Cash Flow multiple = 9.57 exactly with 2 decimal points of rounding"
         }
       ],
       "dependencies": []

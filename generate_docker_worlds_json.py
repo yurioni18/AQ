@@ -78,7 +78,6 @@ def read_csv_and_generate_json(csv_path, output_dir):
             rubrics = []
             for point_idx, point in enumerate(rubric_points, start=1):
                 criteria = point.get("criteria", f"Criterion {point_idx}")
-                operator = point.get("operator", "correctness")
 
                 rubric_entry = {
                     "name": criteria,
@@ -93,8 +92,7 @@ def read_csv_and_generate_json(csv_path, output_dir):
                     "messages": [
                         {
                             "type": "text",
-                            "content": criteria,
-                            "operator": operator
+                            "content": criteria
                         }
                     ],
                     "dependencies": []

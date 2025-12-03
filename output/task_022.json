@@ -25,8 +25,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Average restaurants computed as (current quarter EOP + prior quarter EOP) / 2",
-          "operator": "correctness"
+          "content": "Average restaurants computed as (current quarter EOP + prior quarter EOP) / 2"
         }
       ],
       "dependencies": []
@@ -50,8 +49,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "AUV, or average unit volume, computed by dividing segment sales (in USD thousands) by the average restaurant count",
-          "operator": "correctness"
+          "content": "AUV, or average unit volume, computed by dividing segment sales (in USD thousands) by the average restaurant count"
         }
       ],
       "dependencies": []
@@ -75,8 +73,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Q3 FY2024 (13 wks ended 2024-10-01) EOP company-owned The Cheesecake Factory restaurants = 215",
-          "operator": "correctness"
+          "content": "Q3 FY2024 (13 wks ended 2024-10-01) EOP company-owned The Cheesecake Factory restaurants = 215"
         }
       ],
       "dependencies": []
@@ -100,8 +97,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Q3 FY2024 (13 wks ended 2024-10-01) segment sales = $647.8M",
-          "operator": "correctness"
+          "content": "Q3 FY2024 (13 wks ended 2024-10-01) segment sales = $647.8M"
         }
       ],
       "dependencies": []
@@ -125,8 +121,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Q3 FY2024 (13 wks ended 2024-10-01) average restaurants = 216",
-          "operator": "correctness"
+          "content": "Q3 FY2024 (13 wks ended 2024-10-01) average restaurants = 216"
         }
       ],
       "dependencies": []
@@ -150,8 +145,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Q3 FY2024 (13 wks ended 2024-10-01) AUV = $2,998.9k",
-          "operator": "correctness"
+          "content": "Q3 FY2024 (13 wks ended 2024-10-01) AUV = $2,998.9k"
         }
       ],
       "dependencies": []
@@ -175,8 +169,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Q4 FY2024 (13 wks ended 2024-12-31) EOP company-owned The Cheesecake Factory restaurants = 215",
-          "operator": "correctness"
+          "content": "Q4 FY2024 (13 wks ended 2024-12-31) EOP company-owned The Cheesecake Factory restaurants = 215"
         }
       ],
       "dependencies": []
@@ -200,8 +193,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Q4 FY2024 (13 wks ended 2024-12-31) segment sales = $669.4M",
-          "operator": "correctness"
+          "content": "Q4 FY2024 (13 wks ended 2024-12-31) segment sales = $669.4M"
         }
       ],
       "dependencies": []
@@ -225,8 +217,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Q4 FY2024 (13 wks ended 2024-12-31) average restaurants = 215",
-          "operator": "correctness"
+          "content": "Q4 FY2024 (13 wks ended 2024-12-31) average restaurants = 215"
         }
       ],
       "dependencies": []
@@ -250,8 +241,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Q4 FY2024 (13 wks ended 2024-12-31) AUV = $3,113.4k",
-          "operator": "correctness"
+          "content": "Q4 FY2024 (13 wks ended 2024-12-31) AUV = $3,113.4k"
         }
       ],
       "dependencies": []
@@ -275,8 +265,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Q1 FY2025 (13 wks ended 2025-04-01) EOP company-owned The Cheesecake Factory restaurants = 215",
-          "operator": "correctness"
+          "content": "Q1 FY2025 (13 wks ended 2025-04-01) EOP company-owned The Cheesecake Factory restaurants = 215"
         }
       ],
       "dependencies": []
@@ -300,8 +289,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Q1 FY2025 (13 wks ended 2025-04-01) segment sales = $672.7M",
-          "operator": "correctness"
+          "content": "Q1 FY2025 (13 wks ended 2025-04-01) segment sales = $672.7M"
         }
       ],
       "dependencies": []
@@ -325,8 +313,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Q1 FY2025 (13 wks ended 2025-04-01) average restaurants = 215",
-          "operator": "correctness"
+          "content": "Q1 FY2025 (13 wks ended 2025-04-01) average restaurants = 215"
         }
       ],
       "dependencies": []
@@ -350,8 +337,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Q1 FY2025 (13 wks ended 2025-04-01) AUV = $3,129.0k",
-          "operator": "correctness"
+          "content": "Q1 FY2025 (13 wks ended 2025-04-01) AUV = $3,129.0k"
         }
       ],
       "dependencies": []
@@ -375,8 +361,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Q2 FY2025 (13 wks ended 2025-07-01) EOP company-owned The Cheesecake Factory restaurants = 216",
-          "operator": "correctness"
+          "content": "Q2 FY2025 (13 wks ended 2025-07-01) EOP company-owned The Cheesecake Factory restaurants = 216"
         }
       ],
       "dependencies": []
@@ -400,8 +385,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Q2 FY2025 (13 wks ended 2025-07-01) segment sales = $683.3M",
-          "operator": "correctness"
+          "content": "Q2 FY2025 (13 wks ended 2025-07-01) segment sales = $683.3M"
         }
       ],
       "dependencies": []
@@ -425,8 +409,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Q2 FY2025 (13 wks ended 2025-07-01) average restaurants = 215.5",
-          "operator": "correctness"
+          "content": "Q2 FY2025 (13 wks ended 2025-07-01) average restaurants = 215.5"
         }
       ],
       "dependencies": []
@@ -450,8 +433,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Q2 FY2025 (13 wks ended 2025-07-01) AUV = $3,170.6k",
-          "operator": "correctness"
+          "content": "Q2 FY2025 (13 wks ended 2025-07-01) AUV = $3,170.6k"
         }
       ],
       "dependencies": []

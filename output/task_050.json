@@ -25,8 +25,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Amounts are stated as retrieved from GE’s FY 2008 Form 10-K and presented in $M",
-          "operator": "correctness"
+          "content": "Amounts are stated as retrieved from GE’s FY 2008 Form 10-K and presented in $M"
         }
       ],
       "dependencies": []
@@ -50,8 +49,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Investment securities: $12,956.00M",
-          "operator": "correctness"
+          "content": "Investment securities: $12,956.00M"
         }
       ],
       "dependencies": []
@@ -75,8 +73,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Derivatives (assets): $1,142.00M",
-          "operator": "correctness"
+          "content": "Derivatives (assets): $1,142.00M"
         }
       ],
       "dependencies": []
@@ -100,8 +97,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Other assets (private equity investments and loans designated under the fair value option): $1,105.00M",
-          "operator": "correctness"
+          "content": "Other assets (private equity investments and loans designated under the fair value option): $1,105.00M"
         }
       ],
       "dependencies": []
@@ -125,8 +121,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Derivatives (liabilities): $166.00M",
-          "operator": "correctness"
+          "content": "Derivatives (liabilities): $166.00M"
         }
       ],
       "dependencies": []
@@ -150,8 +145,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Total Level 3 assets = $15,203.00M",
-          "operator": "correctness"
+          "content": "Total Level 3 assets = $15,203.00M"
         }
       ],
       "dependencies": []
@@ -175,8 +169,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Total Level 3 liabilities = $166.00M",
-          "operator": "correctness"
+          "content": "Total Level 3 liabilities = $166.00M"
         }
       ],
       "dependencies": []
@@ -200,8 +193,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Combined Level 3 (assets + liabilities) = $15,369.00M",
-          "operator": "correctness"
+          "content": "Combined Level 3 (assets + liabilities) = $15,369.00M"
         }
       ],
       "dependencies": []
@@ -225,8 +217,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "All amounts are expressed in $M and rounded to two decimal places",
-          "operator": "correctness"
+          "content": "All amounts are expressed in $M and rounded to two decimal places"
         }
       ],
       "dependencies": []

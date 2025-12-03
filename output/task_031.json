@@ -25,8 +25,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Operating Income (EBIT) = $1.304B",
-          "operator": "correctness"
+          "content": "Operating Income (EBIT) = $1.304B"
         }
       ],
       "dependencies": []
@@ -50,8 +49,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Depreciation and amortization = $7.780B",
-          "operator": "correctness"
+          "content": "Depreciation and amortization = $7.780B"
         }
       ],
       "dependencies": []
@@ -75,8 +73,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Use EBITDA formula: EBITDA = Operating income + D&A. EBITDA = $1.304B + $7.780B = $9.08B.",
-          "operator": "correctness"
+          "content": "Use EBITDA formula: EBITDA = Operating income + D&A. EBITDA = $1.304B + $7.780B = $9.08B."
         }
       ],
       "dependencies": []
@@ -100,8 +97,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Cash and equivalents = $7.041B",
-          "operator": "correctness"
+          "content": "Cash and equivalents = $7.041B"
         }
       ],
       "dependencies": []
@@ -125,8 +121,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Short-term investments = $1.065B",
-          "operator": "correctness"
+          "content": "Short-term investments = $1.065B"
         }
       ],
       "dependencies": []
@@ -150,8 +145,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Current debt = $0.431B",
-          "operator": "correctness"
+          "content": "Current debt = $0.431B"
         }
       ],
       "dependencies": []
@@ -175,8 +169,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Long-term debt = $12.966B",
-          "operator": "correctness"
+          "content": "Long-term debt = $12.966B"
         }
       ],
       "dependencies": []
@@ -200,8 +193,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Shares outstanding (as of August 29, 2024) = 1,109 million",
-          "operator": "correctness"
+          "content": "Shares outstanding (as of August 29, 2024) = 1,109 million"
         }
       ],
       "dependencies": []
@@ -225,8 +217,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Closing share price on August 29, 2024 = $96.24 per share (USD)",
-          "operator": "correctness"
+          "content": "Closing share price on August 29, 2024 = $96.24 per share (USD)"
         }
       ],
       "dependencies": []
@@ -250,8 +241,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Market capitalization = Equity value = price x shares = 1,109 million x 96.24 = $106.73B.",
-          "operator": "correctness"
+          "content": "Market capitalization = Equity value = price x shares = 1,109 million x 96.24 = $106.73B."
         }
       ],
       "dependencies": []
@@ -275,8 +265,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Total debt = $13.397B (sum of long-term and current debt)",
-          "operator": "correctness"
+          "content": "Total debt = $13.397B (sum of long-term and current debt)"
         }
       ],
       "dependencies": []
@@ -300,8 +289,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Cash + short-term investments = $8.106B (sum of cash and short-term investments)",
-          "operator": "correctness"
+          "content": "Cash + short-term investments = $8.106B (sum of cash and short-term investments)"
         }
       ],
       "dependencies": []
@@ -325,8 +313,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Enterprise Value (EV) = $112.02B (rounded to 2 decimals)",
-          "operator": "correctness"
+          "content": "Enterprise Value (EV) = $112.02B (rounded to 2 decimals)"
         }
       ],
       "dependencies": []
@@ -350,8 +337,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "EV/EBITDA = 12.34× (final reported value)",
-          "operator": "correctness"
+          "content": "EV/EBITDA = 12.34× (final reported value)"
         }
       ],
       "dependencies": []

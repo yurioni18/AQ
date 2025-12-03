@@ -25,8 +25,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Define the operating netback per BOE formula as Realized price/BOE - (production and operation expenses + taxes other than income taxes)/BOE",
-          "operator": "correctness"
+          "content": "Define the operating netback per BOE formula as Realized price/BOE - (production and operation expenses + taxes other than income taxes)/BOE"
         }
       ],
       "dependencies": []
@@ -50,8 +49,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Find FY 2024 Realized crude oil price as $76.74/bbl",
-          "operator": "correctness"
+          "content": "Find FY 2024 Realized crude oil price as $76.74/bbl"
         }
       ],
       "dependencies": []
@@ -75,8 +73,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Find the realized NGL price as $22.43/bbl",
-          "operator": "correctness"
+          "content": "Find the realized NGL price as $22.43/bbl"
         }
       ],
       "dependencies": []
@@ -100,8 +97,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Find the realized bitumen price as $47.92/bbl",
-          "operator": "correctness"
+          "content": "Find the realized bitumen price as $47.92/bbl"
         }
       ],
       "dependencies": []
@@ -125,8 +121,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Find the realized natural gas price as $2.61/mcf",
-          "operator": "correctness"
+          "content": "Find the realized natural gas price as $2.61/mcf"
         }
       ],
       "dependencies": []
@@ -150,8 +145,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Use the 6:1 mcf to BOE conversion ratio",
-          "operator": "correctness"
+          "content": "Use the 6:1 mcf to BOE conversion ratio"
         }
       ],
       "dependencies": []
@@ -175,8 +169,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Find the crude production rate as 969 MBD",
-          "operator": "correctness"
+          "content": "Find the crude production rate as 969 MBD"
         }
       ],
       "dependencies": []
@@ -200,8 +193,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Find the NGL production rate as 304 MBD",
-          "operator": "correctness"
+          "content": "Find the NGL production rate as 304 MBD"
         }
       ],
       "dependencies": []
@@ -225,8 +217,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Find the Bitumen production rate as 122 MBD",
-          "operator": "correctness"
+          "content": "Find the Bitumen production rate as 122 MBD"
         }
       ],
       "dependencies": []
@@ -250,8 +241,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Find the gas production rate as 2200 MMCFD",
-          "operator": "correctness"
+          "content": "Find the gas production rate as 2200 MMCFD"
         }
       ],
       "dependencies": []
@@ -275,8 +265,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Calculate the annual total BOE as (969+304+122+2200/6) * 366 = 644.77 million BOE",
-          "operator": "correctness"
+          "content": "Calculate the annual total BOE as (969+304+122+2200/6) * 366 = 644.77 million BOE"
         }
       ],
       "dependencies": []
@@ -300,8 +289,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Find the annual crude volume as 354,654 (mbbl)",
-          "operator": "correctness"
+          "content": "Find the annual crude volume as 354,654 (mbbl)"
         }
       ],
       "dependencies": []
@@ -325,8 +313,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Find the annual NGL volume as 111,264 (mbbl)",
-          "operator": "correctness"
+          "content": "Find the annual NGL volume as 111,264 (mbbl)"
         }
       ],
       "dependencies": []
@@ -350,8 +337,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Find the annual bitumen volume as 44,652 (mbbl)",
-          "operator": "correctness"
+          "content": "Find the annual bitumen volume as 44,652 (mbbl)"
         }
       ],
       "dependencies": []
@@ -375,8 +361,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Find the annual gas volume as 805,200 (mmcf units)",
-          "operator": "correctness"
+          "content": "Find the annual gas volume as 805,200 (mmcf units)"
         }
       ],
       "dependencies": []
@@ -400,8 +385,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Find the consolidated realized price per BOE (weighted) as $52.66/BOE",
-          "operator": "correctness"
+          "content": "Find the consolidated realized price per BOE (weighted) as $52.66/BOE"
         }
       ],
       "dependencies": []
@@ -425,8 +409,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Find the production & operating expenses as 8751",
-          "operator": "correctness"
+          "content": "Find the production & operating expenses as 8751"
         }
       ],
       "dependencies": []
@@ -450,8 +433,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Find the taxes other than income taxes as 2087",
-          "operator": "correctness"
+          "content": "Find the taxes other than income taxes as 2087"
         }
       ],
       "dependencies": []
@@ -475,8 +457,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Calculate the cost per BOE as (8751+2087)/644.77mm = $16.81/BOE",
-          "operator": "correctness"
+          "content": "Calculate the cost per BOE as (8751+2087)/644.77mm = $16.81/BOE"
         }
       ],
       "dependencies": []
@@ -500,8 +481,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Find the FY 2024 netback per BOE as 52.66 - 16.81 = $35.85/BOE",
-          "operator": "correctness"
+          "content": "Find the FY 2024 netback per BOE as 52.66 - 16.81 = $35.85/BOE"
         }
       ],
       "dependencies": []

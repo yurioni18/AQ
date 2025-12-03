@@ -25,8 +25,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Include Common shares outstanding = 1,074M as input",
-          "operator": "correctness"
+          "content": "Include Common shares outstanding = 1,074M as input"
         }
       ],
       "dependencies": []
@@ -50,8 +49,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Include Share price used = $169.2 as input",
-          "operator": "correctness"
+          "content": "Include Share price used = $169.2 as input"
         }
       ],
       "dependencies": []
@@ -75,8 +73,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Calculate Market capitalization = $169.2 * 1074 = $181,720.8M",
-          "operator": "correctness"
+          "content": "Calculate Market capitalization = $169.2 * 1074 = $181,720.8M"
         }
       ],
       "dependencies": []
@@ -100,8 +97,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Include Short-term debt = $0M as input",
-          "operator": "correctness"
+          "content": "Include Short-term debt = $0M as input"
         }
       ],
       "dependencies": []
@@ -125,8 +121,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Include Long-term debt = $14,811M as input",
-          "operator": "correctness"
+          "content": "Include Long-term debt = $14,811M as input"
         }
       ],
       "dependencies": []
@@ -150,8 +145,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Calculate Total debt = $14,811M ",
-          "operator": "correctness"
+          "content": "Calculate Total debt = $14,811M "
         }
       ],
       "dependencies": []
@@ -175,8 +169,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Include Cash and cash equivalents = $5,520M as input",
-          "operator": "correctness"
+          "content": "Include Cash and cash equivalents = $5,520M as input"
         }
       ],
       "dependencies": []
@@ -200,8 +193,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Calculate Enterprise Value (EV) = $181,720.8M + $14,811M - $5,520M = $191,011.8M",
-          "operator": "correctness"
+          "content": "Calculate Enterprise Value (EV) = $181,720.8M + $14,811M - $5,520M = $191,011.8M"
         }
       ],
       "dependencies": []
@@ -225,8 +217,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Include Net income = $5,541M as input",
-          "operator": "correctness"
+          "content": "Include Net income = $5,541M as input"
         }
       ],
       "dependencies": []
@@ -250,8 +241,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Include Interest = $664M as input",
-          "operator": "correctness"
+          "content": "Include Interest = $664M as input"
         }
       ],
       "dependencies": []
@@ -275,8 +265,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Include Tax = $7,122M as input",
-          "operator": "correctness"
+          "content": "Include Tax = $7,122M as input"
         }
       ],
       "dependencies": []
@@ -300,8 +289,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Include Depreciation & amortization = $1,602M as input",
-          "operator": "correctness"
+          "content": "Include Depreciation & amortization = $1,602M as input"
         }
       ],
       "dependencies": []
@@ -325,8 +313,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Subtract Investment and other income = $972M as input",
-          "operator": "correctness"
+          "content": "Subtract Investment and other income = $972M as input"
         }
       ],
       "dependencies": []
@@ -350,8 +337,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Calculate EBITDA = $13,957M (5,541 + 664 +7,122 + 1,602 - 972)",
-          "operator": "correctness"
+          "content": "Calculate EBITDA = $13,957M (5,541 + 664 +7,122 + 1,602 - 972)"
         }
       ],
       "dependencies": []
@@ -375,8 +361,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Calculate EV/EBITDA = 13.69×",
-          "operator": "correctness"
+          "content": "Calculate EV/EBITDA = 13.69×"
         }
       ],
       "dependencies": []
@@ -400,8 +385,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Include Revenue = $44,284M as input",
-          "operator": "correctness"
+          "content": "Include Revenue = $44,284M as input"
         }
       ],
       "dependencies": []
@@ -425,8 +409,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Calculate EV/Revenue = 4.31×",
-          "operator": "correctness"
+          "content": "Calculate EV/Revenue = 4.31×"
         }
       ],
       "dependencies": []
@@ -450,8 +433,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Round EV/EBITDA to two decimal points = 13.69x",
-          "operator": "correctness"
+          "content": "Round EV/EBITDA to two decimal points = 13.69x"
         }
       ],
       "dependencies": []
@@ -475,8 +457,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Round EV/Revenue to two decimal points = 4.31x",
-          "operator": "correctness"
+          "content": "Round EV/Revenue to two decimal points = 4.31x"
         }
       ],
       "dependencies": []

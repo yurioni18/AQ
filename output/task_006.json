@@ -25,8 +25,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Note-stated total intrinsic value of options exercised during 2008 = $90.10M",
-          "operator": "correctness"
+          "content": "Note-stated total intrinsic value of options exercised during 2008 = $90.10M"
         }
       ],
       "dependencies": []
@@ -50,8 +49,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "States approximation formula as: (number of options exercised in 2008) × (weighted-average exercise price of options exercised in 2008)",
-          "operator": "correctness"
+          "content": "States approximation formula as: (number of options exercised in 2008) × (weighted-average exercise price of options exercised in 2008)"
         }
       ],
       "dependencies": []
@@ -75,8 +73,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Number of options exercised in 2008 reported as 5862",
-          "operator": "correctness"
+          "content": "Number of options exercised in 2008 reported as 5862"
         }
       ],
       "dependencies": []
@@ -100,8 +97,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Calculates price difference 34.59 - 19.91 = 14.68",
-          "operator": "correctness"
+          "content": "Calculates price difference 34.59 - 19.91 = 14.68"
         }
       ],
       "dependencies": []
@@ -125,8 +121,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Approximate intrinsic value computed and reported as $86.05M",
-          "operator": "correctness"
+          "content": "Approximate intrinsic value computed and reported as $86.05M"
         }
       ],
       "dependencies": []

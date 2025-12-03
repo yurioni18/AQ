@@ -25,8 +25,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Three Operating Segments includes: Oil and Gas",
-          "operator": "correctness"
+          "content": "Three Operating Segments includes: Oil and Gas"
         }
       ],
       "dependencies": []
@@ -50,8 +49,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Three Operating Segments includes: Chemical",
-          "operator": "correctness"
+          "content": "Three Operating Segments includes: Chemical"
         }
       ],
       "dependencies": []
@@ -75,8 +73,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Three Operating Segments includes: Midstream and Marketing",
-          "operator": "correctness"
+          "content": "Three Operating Segments includes: Midstream and Marketing"
         }
       ],
       "dependencies": []
@@ -100,8 +97,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "CODM performance metric: Segment income (loss) from continuing operations before income taxes.",
-          "operator": "correctness"
+          "content": "CODM performance metric: Segment income (loss) from continuing operations before income taxes."
         }
       ],
       "dependencies": []
@@ -125,8 +121,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Corporate & Eliminations (items) includes: Income taxes",
-          "operator": "correctness"
+          "content": "Corporate & Eliminations (items) includes: Income taxes"
         }
       ],
       "dependencies": []
@@ -150,8 +145,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Corporate & Eliminations (items) includes: interest income",
-          "operator": "correctness"
+          "content": "Corporate & Eliminations (items) includes: interest income"
         }
       ],
       "dependencies": []
@@ -175,8 +169,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Corporate & Eliminations (items) includes: interest expense",
-          "operator": "correctness"
+          "content": "Corporate & Eliminations (items) includes: interest expense"
         }
       ],
       "dependencies": []
@@ -200,8 +193,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Corporate & Eliminations (items) includes: environmental remediation expenses",
-          "operator": "correctness"
+          "content": "Corporate & Eliminations (items) includes: environmental remediation expenses"
         }
       ],
       "dependencies": []
@@ -225,8 +217,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Corporate & Eliminations (items) includes: acquisition-related costs",
-          "operator": "correctness"
+          "content": "Corporate & Eliminations (items) includes: acquisition-related costs"
         }
       ],
       "dependencies": []
@@ -250,8 +241,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Corporate & Eliminations (items) includes: unallocated corporate expenses",
-          "operator": "correctness"
+          "content": "Corporate & Eliminations (items) includes: unallocated corporate expenses"
         }
       ],
       "dependencies": []

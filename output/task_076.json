@@ -25,8 +25,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Enterprise Value = Equity Value + Total Debt - Cash and Cash Equivalents",
-          "operator": "correctness"
+          "content": "Enterprise Value = Equity Value + Total Debt - Cash and Cash Equivalents"
         }
       ],
       "dependencies": []
@@ -50,8 +49,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Equity value = 3078.12M calculated using 101254 thousand shares and $30.4 per share",
-          "operator": "correctness"
+          "content": "Equity value = 3078.12M calculated using 101254 thousand shares and $30.4 per share"
         }
       ],
       "dependencies": []
@@ -75,8 +73,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Total debt = CMLTD 15.038M + LTD 5273.143M = 5288.18M",
-          "operator": "correctness"
+          "content": "Total debt = CMLTD 15.038M + LTD 5273.143M = 5288.18M"
         }
       ],
       "dependencies": []
@@ -100,8 +97,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Cash and cash equivalents = 107.386M",
-          "operator": "correctness"
+          "content": "Cash and cash equivalents = 107.386M"
         }
       ],
       "dependencies": []
@@ -125,8 +121,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Enterprise value = 3078.12M + 5288.18M - 107.39M = 8258.92M",
-          "operator": "correctness"
+          "content": "Enterprise value = 3078.12M + 5288.18M - 107.39M = 8258.92M"
         }
       ],
       "dependencies": []
@@ -150,8 +145,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Utilize that LT Adjusted EBITDA = Q2 FY25 6 months EBITDA + FY24 EBITDA - Q2 FY24 6 months EBITDA",
-          "operator": "correctness"
+          "content": "Utilize that LT Adjusted EBITDA = Q2 FY25 6 months EBITDA + FY24 EBITDA - Q2 FY24 6 months EBITDA"
         }
       ],
       "dependencies": []
@@ -175,8 +169,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "LTM Adjusted EBITDA = 71.828M + 875.291M - 108.284M = 838.835M",
-          "operator": "correctness"
+          "content": "LTM Adjusted EBITDA = 71.828M + 875.291M - 108.284M = 838.835M"
         }
       ],
       "dependencies": []
@@ -200,8 +193,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "EV/EBITDA = 8258.92M / 838.84M = 9.85x",
-          "operator": "correctness"
+          "content": "EV/EBITDA = 8258.92M / 838.84M = 9.85x"
         }
       ],
       "dependencies": []
@@ -225,8 +217,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Final Answer: 9.85x",
-          "operator": "correctness"
+          "content": "Final Answer: 9.85x"
         }
       ],
       "dependencies": []

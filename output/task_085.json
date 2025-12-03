@@ -25,8 +25,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Uses NVIDIA FY 2024 10-K link as source for gross margins.\n",
-          "operator": "correctness"
+          "content": "Uses NVIDIA FY 2024 10-K link as source for gross margins.\n"
         }
       ],
       "dependencies": []
@@ -50,8 +49,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Extracts FY 2024 gross margin as 72.7%.\n",
-          "operator": "correctness"
+          "content": "Extracts FY 2024 gross margin as 72.7%.\n"
         }
       ],
       "dependencies": []
@@ -75,8 +73,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Extracts FY 2023 gross margin as 56.9%.",
-          "operator": "correctness"
+          "content": "Extracts FY 2023 gross margin as 56.9%."
         }
       ],
       "dependencies": []
@@ -100,8 +97,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Uses FRED TWNNGDPDUSD link as source for Taiwan GDP.\n",
-          "operator": "correctness"
+          "content": "Uses FRED TWNNGDPDUSD link as source for Taiwan GDP.\n"
         }
       ],
       "dependencies": []
@@ -125,8 +121,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Extracts 2023 Taiwan GDP as 707,256,832,084.7.\n",
-          "operator": "correctness"
+          "content": "Extracts 2023 Taiwan GDP as 707,256,832,084.7.\n"
         }
       ],
       "dependencies": []
@@ -150,8 +145,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Extracts 2024 Taiwan GDP as 746,022,524,856.7.",
-          "operator": "correctness"
+          "content": "Extracts 2024 Taiwan GDP as 746,022,524,856.7."
         }
       ],
       "dependencies": []
@@ -175,8 +169,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Computes GDP growth as (GDP_2024 − GDP_2023) / GDP_2023.\n",
-          "operator": "correctness"
+          "content": "Computes GDP growth as (GDP_2024 − GDP_2023) / GDP_2023.\n"
         }
       ],
       "dependencies": []
@@ -200,8 +193,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "States GDP growth ≈ 0.0548 (5.48%).",
-          "operator": "correctness"
+          "content": "States GDP growth ≈ 0.0548 (5.48%)."
         }
       ],
       "dependencies": []
@@ -225,8 +217,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Defines FY 2023 Taiwan revenue as R2023.\n",
-          "operator": "correctness"
+          "content": "Defines FY 2023 Taiwan revenue as R2023.\n"
         }
       ],
       "dependencies": []
@@ -250,8 +241,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Sets FY 2024 Taiwan revenue as R2023 × 1.0548.",
-          "operator": "correctness"
+          "content": "Sets FY 2024 Taiwan revenue as R2023 × 1.0548."
         }
       ],
       "dependencies": []
@@ -275,8 +265,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Computes GP2023 = R2023 × 0.569.\n",
-          "operator": "correctness"
+          "content": "Computes GP2023 = R2023 × 0.569.\n"
         }
       ],
       "dependencies": []
@@ -300,8 +289,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Computes GP2024 = R2023 × 1.0548 × 0.727.",
-          "operator": "correctness"
+          "content": "Computes GP2024 = R2023 × 1.0548 × 0.727."
         }
       ],
       "dependencies": []
@@ -325,8 +313,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Forms ratio GP2024 / GP2023 = (R2023 × 1.0548 × 0.727) / (R2023 × 0.569).\n",
-          "operator": "correctness"
+          "content": "Forms ratio GP2024 / GP2023 = (R2023 × 1.0548 × 0.727) / (R2023 × 0.569).\n"
         }
       ],
       "dependencies": []
@@ -350,8 +337,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Cancels R2023 and simplifies to 1.0548 × (0.727 / 0.569).",
-          "operator": "correctness"
+          "content": "Cancels R2023 and simplifies to 1.0548 × (0.727 / 0.569)."
         }
       ],
       "dependencies": []
@@ -375,8 +361,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Computes 0.727 / 0.569 ≈ 1.2777.\n",
-          "operator": "correctness"
+          "content": "Computes 0.727 / 0.569 ≈ 1.2777.\n"
         }
       ],
       "dependencies": []
@@ -400,8 +385,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Computes gross profit factor ≈ 1.3477.",
-          "operator": "correctness"
+          "content": "Computes gross profit factor ≈ 1.3477."
         }
       ],
       "dependencies": []
@@ -425,8 +409,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Converts to YoY change as (1.3477 − 1) × 100%.\n",
-          "operator": "correctness"
+          "content": "Converts to YoY change as (1.3477 − 1) × 100%.\n"
         }
       ],
       "dependencies": []
@@ -450,8 +433,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "States final gross profit YoY change ≈ 34.77%.\n",
-          "operator": "correctness"
+          "content": "States final gross profit YoY change ≈ 34.77%.\n"
         }
       ],
       "dependencies": []
@@ -475,8 +457,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Rounds final answer to two decimal places as “34.77%”.",
-          "operator": "correctness"
+          "content": "Rounds final answer to two decimal places as “34.77%”."
         }
       ],
       "dependencies": []

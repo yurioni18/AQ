@@ -25,8 +25,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Find FY2020 non-pharmacy (front store and other) percentage = 23.1% (Retail/LTC predecessor per FY2020 10-K)",
-          "operator": "correctness"
+          "content": "Find FY2020 non-pharmacy (front store and other) percentage = 23.1% (Retail/LTC predecessor per FY2020 10-K)"
         }
       ],
       "dependencies": []
@@ -50,8 +49,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Find FY2024 non-pharmacy (front store and other) percentage = 19.1% (Pharmacy & Consumer Wellness per FY2024 10-K)",
-          "operator": "correctness"
+          "content": "Find FY2024 non-pharmacy (front store and other) percentage = 19.1% (Pharmacy & Consumer Wellness per FY2024 10-K)"
         }
       ],
       "dependencies": []
@@ -75,8 +73,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Computed the change as: -4.00% = (19.1% − 23.1%)",
-          "operator": "correctness"
+          "content": "Computed the change as: -4.00% = (19.1% − 23.1%)"
         }
       ],
       "dependencies": []
@@ -100,8 +97,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Final answer rounded to two decimal places",
-          "operator": "correctness"
+          "content": "Final answer rounded to two decimal places"
         }
       ],
       "dependencies": []

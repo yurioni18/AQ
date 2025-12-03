@@ -25,8 +25,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Common shares outstanding found on 10-K filing for the fiscal year ended October 27, 2024 = 818M shares",
-          "operator": "correctness"
+          "content": "Common shares outstanding found on 10-K filing for the fiscal year ended October 27, 2024 = 818M shares"
         }
       ],
       "dependencies": []
@@ -50,8 +49,7 @@
       "messages": [
         {
           "type": "text",
-          "content": " Closing share price from October 25, 2024 = $186.52",
-          "operator": "correctness"
+          "content": " Closing share price from October 25, 2024 = $186.52"
         }
       ],
       "dependencies": []
@@ -75,8 +73,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Include Short-term debt = $799M as input",
-          "operator": "correctness"
+          "content": "Include Short-term debt = $799M as input"
         }
       ],
       "dependencies": []
@@ -100,8 +97,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Include Long-term debt = $5,460M as input",
-          "operator": "correctness"
+          "content": "Include Long-term debt = $5,460M as input"
         }
       ],
       "dependencies": []
@@ -125,8 +121,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Calculate Total debt = $6,259M",
-          "operator": "correctness"
+          "content": "Calculate Total debt = $6,259M"
         }
       ],
       "dependencies": []
@@ -150,8 +145,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Include Cash and cash equivalents = $8,022M as input",
-          "operator": "correctness"
+          "content": "Include Cash and cash equivalents = $8,022M as input"
         }
       ],
       "dependencies": []
@@ -175,8 +169,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Include Short-term investments = $1,449M as input",
-          "operator": "correctness"
+          "content": "Include Short-term investments = $1,449M as input"
         }
       ],
       "dependencies": []
@@ -200,8 +193,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Calculate Market capitalization calculated as 818M × $186.52 = $152,573.36M",
-          "operator": "correctness"
+          "content": "Calculate Market capitalization calculated as 818M × $186.52 = $152,573.36M"
         }
       ],
       "dependencies": []
@@ -225,8 +217,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Calculate EV = $152,573.36M + $6,259M - $8,022M - $1,449M = $149,361.36M",
-          "operator": "correctness"
+          "content": "Calculate EV = $152,573.36M + $6,259M - $8,022M - $1,449M = $149,361.36M"
         }
       ],
       "dependencies": []
@@ -250,8 +241,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Convert answer to billions = $149.361B",
-          "operator": "correctness"
+          "content": "Convert answer to billions = $149.361B"
         }
       ],
       "dependencies": []
@@ -275,8 +265,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Round answer to two decimal points = $149.36B",
-          "operator": "correctness"
+          "content": "Round answer to two decimal points = $149.36B"
         }
       ],
       "dependencies": []

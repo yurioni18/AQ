@@ -25,8 +25,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Use R&D expense of 55,000 thousand for FY2023 as an input",
-          "operator": "correctness"
+          "content": "Use R&D expense of 55,000 thousand for FY2023 as an input"
         }
       ],
       "dependencies": []
@@ -50,8 +49,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Use R&D expense of 59,000 thousand for FY2024 as an input",
-          "operator": "correctness"
+          "content": "Use R&D expense of 59,000 thousand for FY2024 as an input"
         }
       ],
       "dependencies": []
@@ -75,8 +73,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Use Product Sales of 3,772,835 thousand for FY2023 as an input",
-          "operator": "correctness"
+          "content": "Use Product Sales of 3,772,835 thousand for FY2023 as an input"
         }
       ],
       "dependencies": []
@@ -100,8 +97,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Use Product Sales of 3,660,779 thousand for FY2024 as an input",
-          "operator": "correctness"
+          "content": "Use Product Sales of 3,660,779 thousand for FY2024 as an input"
         }
       ],
       "dependencies": []
@@ -125,8 +121,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Calculate FY2023 R&D as % of Product Sales using the formula: 55,000/3,772,835 = 1.4578%",
-          "operator": "correctness"
+          "content": "Calculate FY2023 R&D as % of Product Sales using the formula: 55,000/3,772,835 = 1.4578%"
         }
       ],
       "dependencies": []
@@ -150,8 +145,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Calculate FY2024 R&D as % of Product Sales using the formula: 59,000/3,660,779 = 1.6117%",
-          "operator": "correctness"
+          "content": "Calculate FY2024 R&D as % of Product Sales using the formula: 59,000/3,660,779 = 1.6117%"
         }
       ],
       "dependencies": []
@@ -175,8 +169,7 @@
       "messages": [
         {
           "type": "text",
-          "content": "Compute percentage growth of the ratio using the formula: ((1.6117% - 1.4578%) / 1.4578%) × 100 = 10.56%",
-          "operator": "correctness"
+          "content": "Compute percentage growth of the ratio using the formula: ((1.6117% - 1.4578%) / 1.4578%) × 100 = 10.56%"
         }
       ],
       "dependencies": []
