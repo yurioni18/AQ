@@ -1,0 +1,80 @@
+{
+  "id": "rocker_005",
+  "title": "Using EA (NASDAQ: EA) quarterly earnings reports, compute the absolute difference between the actual GAAP EPS CQGR (Compound Quarterly Growth Rate) and the estimated GAAP EPS CQGR of Q4 2025, Q1 2026 , Q2 2026. Use the midpoint of the GAAP EPS estimates for the estimated GAAP EPS CQGR . Give your answer as a percentage to two decimal places.",
+  "weight": 1,
+  "score_type": "discrete",
+  "outcomes": [
+    {
+      "label": "yes",
+      "value": 1
+    },
+    {
+      "label": "no",
+      "value": 0
+    }
+  ],
+  "docker": false,
+  "include_files": false,
+  "messages": [
+    {
+      "role": "system",
+      "content": [
+        {
+          "type": "text",
+          "text": "Use EA'S quarterly releases: Q4 FY2025 (three months ended Mar 31, 2025), Q1 FY2026 (three months ended Jun 30, 2025), Q2 FY2026 (three months ended Sep 30, 2025).",
+          "operator": "correctness"
+        },
+        {
+          "type": "text",
+          "text": "CQGR formula and period specification: CQGR = (Ending EPS / Beginning EPS)^(1/2) − 1 with n = 2 quarters.",
+          "operator": "correctness"
+        },
+        {
+          "type": "text",
+          "text": "Calculated actual GAAP EPS CQGR = −25.77% (per quarter), computed as ((0.54 / 0.98)^(1/2) − 1).",
+          "operator": "correctness"
+        },
+        {
+          "type": "text",
+          "text": "Calculated estimated GAAP EPS CQGR = −32.58% (per quarter), computed as ((0.375 / 0.825)^(1/2) − 1).",
+          "operator": "correctness"
+        },
+        {
+          "type": "text",
+          "text": "Absolute difference between actual and estimated CQGRs -> 6.81%",
+          "operator": "correctness"
+        },
+        {
+          "type": "text",
+          "text": "Actual GAAP diluted EPS Q1 FY2026 IS $0.79",
+          "operator": "correctness"
+        },
+        {
+          "type": "text",
+          "text": "Include Actual GAAP diluted EPS Q2 FY2026 = $0.54",
+          "operator": "correctness"
+        },
+        {
+          "type": "text",
+          "text": "Actual GAAP diluted EPS Q4 FY2025 is $0.98",
+          "operator": "correctness"
+        },
+        {
+          "type": "text",
+          "text": "Final answer reported to two decimal places - 6.81%",
+          "operator": "correctness"
+        },
+        {
+          "type": "text",
+          "text": "Estimated GAAP EPS guidance midpoint: Q4 FY2025 midpoint is $0.825 (range $0.65–$1.00)",
+          "operator": "correctness"
+        },
+        {
+          "type": "text",
+          "text": "Estimated GAAP EPS guidance midpoint: Q2 FY2026 midpoint is $0.375 (range $0.29–$0.46) ",
+          "operator": "correctness"
+        }
+      ]
+    }
+  ]
+}

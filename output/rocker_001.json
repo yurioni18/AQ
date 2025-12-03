@@ -1,0 +1,120 @@
+{
+  "id": "rocker_001",
+  "title": "Calculate the EV/EBITDA and EV/Revenue metrics for Qualcomm (QCOM) in FY 2025. Use the shares outstanding and share price at close from Sep 28, 2025 for the EV calculation. Express the answer using two decimal points of rounding.",
+  "weight": 1,
+  "score_type": "discrete",
+  "outcomes": [
+    {
+      "label": "yes",
+      "value": 1
+    },
+    {
+      "label": "no",
+      "value": 0
+    }
+  ],
+  "docker": false,
+  "include_files": false,
+  "messages": [
+    {
+      "role": "system",
+      "content": [
+        {
+          "type": "text",
+          "text": "Include Common shares outstanding = 1,074M as input",
+          "operator": "correctness"
+        },
+        {
+          "type": "text",
+          "text": "Include Share price used = $169.2 as input",
+          "operator": "correctness"
+        },
+        {
+          "type": "text",
+          "text": "Calculate Market capitalization = $169.2 * 1074 = $181,720.8M",
+          "operator": "correctness"
+        },
+        {
+          "type": "text",
+          "text": "Include Short-term debt = $0M as input",
+          "operator": "correctness"
+        },
+        {
+          "type": "text",
+          "text": "Include Long-term debt = $14,811M as input",
+          "operator": "correctness"
+        },
+        {
+          "type": "text",
+          "text": "Calculate Total debt = $14,811M ",
+          "operator": "correctness"
+        },
+        {
+          "type": "text",
+          "text": "Include Cash and cash equivalents = $5,520M as input",
+          "operator": "correctness"
+        },
+        {
+          "type": "text",
+          "text": "Calculate Enterprise Value (EV) = $181,720.8M + $14,811M - $5,520M = $191,011.8M",
+          "operator": "correctness"
+        },
+        {
+          "type": "text",
+          "text": "Include Net income = $5,541M as input",
+          "operator": "correctness"
+        },
+        {
+          "type": "text",
+          "text": "Include Interest = $664M as input",
+          "operator": "correctness"
+        },
+        {
+          "type": "text",
+          "text": "Include Tax = $7,122M as input",
+          "operator": "correctness"
+        },
+        {
+          "type": "text",
+          "text": "Include Depreciation & amortization = $1,602M as input",
+          "operator": "correctness"
+        },
+        {
+          "type": "text",
+          "text": "Subtract Investment and other income = $972M as input",
+          "operator": "correctness"
+        },
+        {
+          "type": "text",
+          "text": "Calculate EBITDA = $13,957M (5,541 + 664 +7,122 + 1,602 - 972)",
+          "operator": "correctness"
+        },
+        {
+          "type": "text",
+          "text": "Calculate EV/EBITDA = 13.69×",
+          "operator": "correctness"
+        },
+        {
+          "type": "text",
+          "text": "Include Revenue = $44,284M as input",
+          "operator": "correctness"
+        },
+        {
+          "type": "text",
+          "text": "Calculate EV/Revenue = 4.31×",
+          "operator": "correctness"
+        },
+        {
+          "type": "text",
+          "text": "Round EV/EBITDA to two decimal points = 13.69x",
+          "operator": "correctness"
+        },
+        {
+          "type": "text",
+          "text": "Round EV/Revenue to two decimal points = 4.31x",
+          "operator": "correctness"
+        }
+      ]
+    }
+  ]
+}

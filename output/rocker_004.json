@@ -1,0 +1,80 @@
+{
+  "id": "rocker_004",
+  "title": "How did Expand Energy Corporation's quarterly Capex figures (excluding the productive capacity program) compare to management guidance (at midpoint) for the last 3 quarters. Use guidance from the previous quarter's management guidance when comparing and format answer as % Beat or % Miss with a beat representing actual capex being lower and vice-versa for a miss. Round percentage to 2 decimal places.",
+  "weight": 1,
+  "score_type": "discrete",
+  "outcomes": [
+    {
+      "label": "yes",
+      "value": 1
+    },
+    {
+      "label": "no",
+      "value": 0
+    }
+  ],
+  "docker": false,
+  "include_files": false,
+  "messages": [
+    {
+      "role": "system",
+      "content": [
+        {
+          "type": "text",
+          "text": "Used correct formula for beat/miss: (Actual Figure/Guided Figure)-1, expressed as a percentage rounded to 2 decimal places",
+          "operator": "correctness"
+        },
+        {
+          "type": "text",
+          "text": "Used correct formula for guidance midpoint: (upper bound of guidance + lower bound of guidance)/2",
+          "operator": "correctness"
+        },
+        {
+          "type": "text",
+          "text": "Retrieved correct 1Q25 actual Total Base Capital Expenditures: $662",
+          "operator": "correctness"
+        },
+        {
+          "type": "text",
+          "text": "Used correct formula and figures to calculate 1Q25 guided midpoint Total Base Capital Expenditures: $712.5, calculated as (675+750)/2",
+          "operator": "correctness"
+        },
+        {
+          "type": "text",
+          "text": "Used correct formula and figures to calculate 1Q25 % Beat/Miss: -7.09% (7.09% Beat), calculation shown as 662/712.5-1",
+          "operator": "correctness"
+        },
+        {
+          "type": "text",
+          "text": "Retrieved correct 2Q25 actual Total Base Capital Expenditures: $655",
+          "operator": "correctness"
+        },
+        {
+          "type": "text",
+          "text": "Used correct formula and figures to calculate 2Q25 guided midpoint Total Base Capital Expenditures = $762.5, calculated as (725+800)/2",
+          "operator": "correctness"
+        },
+        {
+          "type": "text",
+          "text": "Used correct formula and figures to calculate 2Q25 % Beat/Miss = -14.10% (14.10% Beat), calculation shown as 655/762.5-1",
+          "operator": "correctness"
+        },
+        {
+          "type": "text",
+          "text": "Retrieved correct 3Q25 actual Total Base Capital Expenditures = $635",
+          "operator": "correctness"
+        },
+        {
+          "type": "text",
+          "text": "Used correct formula and figures to calculate 3Q25 guided midpoint Total Base Capital Expenditures = $700, calculated as (660+740)/2",
+          "operator": "correctness"
+        },
+        {
+          "type": "text",
+          "text": "Used correct formula and figures to calculate 3Q25 % Beat/Miss = -9.29% (9.29% Beat), calculation shown as 635/700-1",
+          "operator": "correctness"
+        }
+      ]
+    }
+  ]
+}
