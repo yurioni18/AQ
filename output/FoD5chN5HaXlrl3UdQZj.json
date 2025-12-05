@@ -1,0 +1,84 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "Calculate the percentage of Danaos Corporation's (NYSE:DAC) FY 2024 total comprehensive income that was attributable to unrealized fair-value movements on the Company’s investment in Star Bulk Carriers Corp. (NASDAQ: SBLK). Round to the nearest two decimals."
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "Find Danaos's FY2024 total comprehensive income as $510.622 million",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Find Danaos's FY2024 total comprehensive income as $510.622 million"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Find Danaos's FY2024 unrealized fair value movement on its SBLK investment as -$25.2 million",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Find Danaos's FY2024 unrealized fair value movement on its SBLK investment as -$25.2 million"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Calculated the percentage as (-$25.2 million / $510.622 million) * 100 = -4.94% ",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Calculated the percentage as (-$25.2 million / $510.622 million) * 100 = -4.94% "
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

@@ -1,0 +1,228 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "Give the answer to the following question as a percentage rounded to two decimals: What was Tesla’s total employee headcount as of December 31, 2024, and what percentage of employees were part of the manufacturing development program?"
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "Total Employee Headcount described as \"“employee headcount worldwide was 125,665”. ",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Total Employee Headcount described as \"“employee headcount worldwide was 125,665”. "
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Employee headcount number used in formula was 125,665 ",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Employee headcount number used in formula was 125,665 "
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Manufacturing Development Program hires described as 'hired over 800 graduates'",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Manufacturing Development Program hires described as 'hired over 800 graduates'"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Hires number used in formula was 800",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Hires number used in formula was 800"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "The formula stated to find the answer was Percentage = (Program Hires/Total Employees) × 100",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "The formula stated to find the answer was Percentage = (Program Hires/Total Employees) × 100"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "The raw answer was formatted as follows: 800 ÷ 125,665 × 100 = 0.6366%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "The raw answer was formatted as follows: 800 ÷ 125,665 × 100 = 0.6366%"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "The answer was a percentage ",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "The answer was a percentage "
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "The answer was rounded to two decimals",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "The answer was rounded to two decimals"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "The answer was 0.64%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "The answer was 0.64%"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

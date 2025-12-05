@@ -1,0 +1,252 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "Using Occidental Petroleum’s 2024 Form 10-K, answer the following exactly and in one line:\n \n 1. Segments: List the three operating segments OXY reports (use the precise segment names shown in Note 16).\n \n 2. CODM performance metric: State the measure the CODM uses to assess performance for all three segments.\n \n 3. Corporate & eliminations (items): List every category that OXY says is consolidated under “corporate and eliminations” instead of within segments (use the exact categories listed in Note 16)."
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "Three Operating Segments includes: Oil and Gas",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Three Operating Segments includes: Oil and Gas"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Three Operating Segments includes: Chemical",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Three Operating Segments includes: Chemical"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Three Operating Segments includes: Midstream and Marketing",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Three Operating Segments includes: Midstream and Marketing"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "CODM performance metric: Segment income (loss) from continuing operations before income taxes.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "CODM performance metric: Segment income (loss) from continuing operations before income taxes."
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Corporate & Eliminations (items) includes: Income taxes",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Corporate & Eliminations (items) includes: Income taxes"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Corporate & Eliminations (items) includes: interest income",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Corporate & Eliminations (items) includes: interest income"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Corporate & Eliminations (items) includes: interest expense",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Corporate & Eliminations (items) includes: interest expense"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Corporate & Eliminations (items) includes: environmental remediation expenses",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Corporate & Eliminations (items) includes: environmental remediation expenses"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Corporate & Eliminations (items) includes: acquisition-related costs",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Corporate & Eliminations (items) includes: acquisition-related costs"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Corporate & Eliminations (items) includes: unallocated corporate expenses",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Corporate & Eliminations (items) includes: unallocated corporate expenses"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

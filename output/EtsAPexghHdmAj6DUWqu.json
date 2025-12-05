@@ -1,0 +1,492 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "Calculate ConocoPhillips’ (NYSE: COP) netback per BOE in FY 2024. Round to the nearest two decimals."
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "Define the operating netback per BOE formula as Realized price/BOE - (production and operation expenses + taxes other than income taxes)/BOE",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Define the operating netback per BOE formula as Realized price/BOE - (production and operation expenses + taxes other than income taxes)/BOE"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Find FY 2024 Realized crude oil price as $76.74/bbl",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Find FY 2024 Realized crude oil price as $76.74/bbl"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Find the realized NGL price as $22.43/bbl",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Find the realized NGL price as $22.43/bbl"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Find the realized bitumen price as $47.92/bbl",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Find the realized bitumen price as $47.92/bbl"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Find the realized natural gas price as $2.61/mcf",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Find the realized natural gas price as $2.61/mcf"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Use the 6:1 mcf to BOE conversion ratio",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Use the 6:1 mcf to BOE conversion ratio"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Find the crude production rate as 969 MBD",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Find the crude production rate as 969 MBD"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Find the NGL production rate as 304 MBD",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Find the NGL production rate as 304 MBD"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Find the Bitumen production rate as 122 MBD",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Find the Bitumen production rate as 122 MBD"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Find the gas production rate as 2200 MMCFD",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Find the gas production rate as 2200 MMCFD"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Calculate the annual total BOE as (969+304+122+2200/6) * 366 = 644.77 million BOE",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Calculate the annual total BOE as (969+304+122+2200/6) * 366 = 644.77 million BOE"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Find the annual crude volume as 354,654 (mbbl)",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Find the annual crude volume as 354,654 (mbbl)"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Find the annual NGL volume as 111,264 (mbbl)",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Find the annual NGL volume as 111,264 (mbbl)"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Find the annual bitumen volume as 44,652 (mbbl)",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Find the annual bitumen volume as 44,652 (mbbl)"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Find the annual gas volume as 805,200 (mmcf units)",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Find the annual gas volume as 805,200 (mmcf units)"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Find the consolidated realized price per BOE (weighted) as $52.66/BOE",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Find the consolidated realized price per BOE (weighted) as $52.66/BOE"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Find the production & operating expenses as 8751",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Find the production & operating expenses as 8751"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Find the taxes other than income taxes as 2087",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Find the taxes other than income taxes as 2087"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Calculate the cost per BOE as (8751+2087)/644.77mm = $16.81/BOE",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Calculate the cost per BOE as (8751+2087)/644.77mm = $16.81/BOE"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Find the FY 2024 netback per BOE as 52.66 - 16.81 = $35.85/BOE",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Find the FY 2024 netback per BOE as 52.66 - 16.81 = $35.85/BOE"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

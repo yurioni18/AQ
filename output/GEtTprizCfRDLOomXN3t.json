@@ -1,0 +1,276 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "Using Nestlé S.A.’s 2024 consolidated financial statements,If interest paid, taxes paid, and dividends paid to non-controlling interests are treated as non-operating and non-recurring for valuation purposes, what would be the adjusted operating cash flow for 2024 (in CHF millions) after removing these items from reported operating cash flow?"
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "Reported operating cash flow for 2024 is CHF 16,675 million",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Reported operating cash flow for 2024 is CHF 16,675 million"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Interest paid of CHF 1,539 million identify ",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Interest paid of CHF 1,539 million identify "
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "it should then add back to operating cash flow when computing the adjusted operating cash flow",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "it should then add back to operating cash flow when computing the adjusted operating cash flow"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Taxes paid of CHF 2,411 million is identify ",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Taxes paid of CHF 2,411 million is identify "
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "it should then add back to operating cash flow when computing the adjusted operating cash flow",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "it should then add back to operating cash flow when computing the adjusted operating cash flow"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Dividends paid to non-controlling interests of CHF 174 million ",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Dividends paid to non-controlling interests of CHF 174 million "
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "it is financing activity item",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "it is financing activity item"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "should be added back to operating cash flow in order to identify what is attributed to parent company ",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "should be added back to operating cash flow in order to identify what is attributed to parent company "
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Calculate \n16,675 +1,539 + 2,411 +174 = 20,799",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Calculate \n16,675 +1,539 + 2,411 +174 = 20,799"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "7.\tFinal answer CHF 20,799 million",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "7.\tFinal answer CHF 20,799 million"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Final answer is in CHF millions",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Final answer is in CHF millions"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

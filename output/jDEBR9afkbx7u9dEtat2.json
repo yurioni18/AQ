@@ -1,0 +1,204 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "What is Microsoft’s (NASDAQ: MSFT) Adjusted EBITDA for the fiscal year ended June 30, 2025? Express the answer in $M rounded and express as a whole number."
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "Operating income extracted as $128,528M from the income statement",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Operating income extracted as $128,528M from the income statement"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Depreciation, amortization & other expense extracted as $34,153M from the cash flow statement",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Depreciation, amortization & other expense extracted as $34,153M from the cash flow statement"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "EBITDA calculation shown as $128,528M + $34,153M = $162,681M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "EBITDA calculation shown as $128,528M + $34,153M = $162,681M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Statement to look for non-GAAP adjustments such as stock-based compensation and non-cash investment gains/losses",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Statement to look for non-GAAP adjustments such as stock-based compensation and non-cash investment gains/losses"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Stock-based compensation extracted as $11,974M from the cash flow statement",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Stock-based compensation extracted as $11,974M from the cash flow statement"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Net recognized losses on investments & derivatives extracted as $609M from the cash flow statement",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Net recognized losses on investments & derivatives extracted as $609M from the cash flow statement"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Adjusted EBITDA calculation shown as $162,681M + $11,974M + $609M = $175,264M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Adjusted EBITDA calculation shown as $162,681M + $11,974M + $609M = $175,264M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Final Answer presented as $175,264 million",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Final Answer presented as $175,264 million"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

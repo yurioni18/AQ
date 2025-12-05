@@ -1,0 +1,300 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "In 2013, Apple invested in interest rate swaps and designated them as a hedge. Very specifically, what is AAPL hedging and what is the market value of these hedges at the end of FY2013? Express the answer to the nearest 1 decimal in M."
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "Interest rate swaps entered in Q3 FY2013",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Interest rate swaps entered in Q3 FY2013"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Notional amount of the swaps $3.0B",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Notional amount of the swaps $3.0B"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Swaps were designated as cash flow hedges",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Swaps were designated as cash flow hedges"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Hedged item: U.S. dollar floating‑rate note due 2016 with $1,000M face amount",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Hedged item: U.S. dollar floating‑rate note due 2016 with $1,000M face amount"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Hedged item: U.S. dollar floating‑rate note due 2018 with $2,000M face amount",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Hedged item: U.S. dollar floating‑rate note due 2018 with $2,000M face amount"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "2016 note bears interest at 3‑month LIBOR + 0.05%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "2016 note bears interest at 3‑month LIBOR + 0.05%"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "2018 note bears interest at 3‑month LIBOR + 0.25%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "2018 note bears interest at 3‑month LIBOR + 0.25%"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Hedge purpose: to hedge variability in cash flows and effectively convert the notes’ interest from floating to fixed",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Hedge purpose: to hedge variability in cash flows and effectively convert the notes’ interest from floating to fixed"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Derivative assets recorded at September 28, 2013: $44M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Derivative assets recorded at September 28, 2013: $44M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Derivative liabilities recorded at September 28, 2013: $0M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Derivative liabilities recorded at September 28, 2013: $0M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Net market value of the hedges at FY2013 year‑end: $44.0M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Net market value of the hedges at FY2013 year‑end: $44.0M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "In the swaps Apple receives floating‑rate cash flows and pays a fixed amount",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "In the swaps Apple receives floating‑rate cash flows and pays a fixed amount"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

@@ -1,0 +1,276 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "Retrieve CMG’s Q2-FY2025 end-of-period comparable restaurant base for the Chipotle restaurants segment. Assume none of the restaurants opened over the last four quarters were closed. Express your answer as a whole number."
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "Company-owned restaurants at end of Q2 FY2025 = 3,839 restaurants",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Company-owned restaurants at end of Q2 FY2025 = 3,839 restaurants"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Chipotle defines comparable company-owned restaurants as restaurants in operation at least 13 full calendar months",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Chipotle defines comparable company-owned restaurants as restaurants in operation at least 13 full calendar months"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Comparable base excludes units opened within the last four quarters",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Comparable base excludes units opened within the last four quarters"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Restaurants opened in Q3 FY2024 = 86",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Restaurants opened in Q3 FY2024 = 86"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Restaurants opened in Q4 FY2024 = 119",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Restaurants opened in Q4 FY2024 = 119"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Restaurants opened in Q1 FY2025 = 57",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Restaurants opened in Q1 FY2025 = 57"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Restaurants opened in Q2 FY2025 = 61",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Restaurants opened in Q2 FY2025 = 61"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Total openings over last 4 quarters = 323",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Total openings over last 4 quarters = 323"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Assume that none of the restaurants opened over the last four quarters were closed.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Assume that none of the restaurants opened over the last four quarters were closed."
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Recognize that the EOP comparable base is simply = EOP restaurants − restaurants opened over the last four quarters.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Recognize that the EOP comparable base is simply = EOP restaurants − restaurants opened over the last four quarters."
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Compute Q2 FY2025 EOP comparable restaurant base as 3,839 − 323 = 3,516 restaurants.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Compute Q2 FY2025 EOP comparable restaurant base as 3,839 − 323 = 3,516 restaurants."
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

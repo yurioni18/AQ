@@ -1,0 +1,540 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "What is the % change in EBITDA Margin from Q3 to Q4 rounded to 2 decimals for KLA Corporation (KLAC on Nasdaq) in FY 2024. Use the company filings 10-Q. Format your answer in % to 2 decimal places."
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "Uses KLA 10-Q filings for FY2024 Q3 (March 31, 2024), Q4 (June 30, 2024) and Q2 (ending December 31, 2023) as sources",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Uses KLA 10-Q filings for FY2024 Q3 (March 31, 2024), Q4 (June 30, 2024) and Q2 (ending December 31, 2023) as sources"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Net income for FY2024 Q3 = 601,541",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Net income for FY2024 Q3 = 601,541"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "FY2024 Q3 Provision for income taxes = 100,467",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "FY2024 Q3 Provision for income taxes = 100,467"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "FY2024 Q3 Interest expense = 79,981",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "FY2024 Q3 Interest expense = 79,981"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "FY2024 Q3 Total Revenue = 2,359,830",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "FY2024 Q3 Total Revenue = 2,359,830"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Depreciation and amortization (Nine months ended March 31, 2024) = 300,729",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Depreciation and amortization (Nine months ended March 31, 2024) = 300,729"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Depreciation and amortization (Six months ended December 31, 2023) = 201,466",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Depreciation and amortization (Six months ended December 31, 2023) = 201,466"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Depreciation and amortization (Three months ended March 31, 2024) calculated = Depreciation and amortization (Nine months ended March 31, 2024) 300,729 - Depreciation and amortization (Six months ended December 31, 2023) 201,466 = 99,263",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Depreciation and amortization (Three months ended March 31, 2024) calculated = Depreciation and amortization (Nine months ended March 31, 2024) 300,729 - Depreciation and amortization (Six months ended December 31, 2023) 201,466 = 99,263"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "FY2024 Q4 Net income = 836,446",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "FY2024 Q4 Net income = 836,446"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "FY2024 Q4 Provision for income taxes = 108,597",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "FY2024 Q4 Provision for income taxes = 108,597"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "FY2024 Q4 Interest expense = 82,836",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "FY2024 Q4 Interest expense = 82,836"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "FY2024 Q4 Depreciation & Amortization = 101,001",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "FY2024 Q4 Depreciation & Amortization = 101,001"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "FY2024 Q4 Total Revenue = 2,568,735",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "FY2024 Q4 Total Revenue = 2,568,735"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "EBITDA formula used: EBITDA = Net Income + Income Tax Expense + Interest Expense + Depreciation & Amortization",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "EBITDA formula used: EBITDA = Net Income + Income Tax Expense + Interest Expense + Depreciation & Amortization"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "EBITDA margin formula used: EBITDA Margin = (EBITDA / Total Revenue) x 100",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "EBITDA margin formula used: EBITDA Margin = (EBITDA / Total Revenue) x 100"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Percentage change formula used: ((Q4 EBITDA Margin - Q3 EBITDA Margin) / Q3 EBITDA Margin) x 100",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Percentage change formula used: ((Q4 EBITDA Margin - Q3 EBITDA Margin) / Q3 EBITDA Margin) x 100"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "FY2024 Q3 EBITDA calculated = 881,252",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "FY2024 Q3 EBITDA calculated = 881,252"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "FY2024 Q3 EBITDA margin calculated = 37.3439%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "FY2024 Q3 EBITDA margin calculated = 37.3439%"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "FY2024 Q4 EBITDA calculated = 1,128,880",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "FY2024 Q4 EBITDA calculated = 1,128,880"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "FY2024 Q4 EBITDA margin calculated = 43.94692%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "FY2024 Q4 EBITDA margin calculated = 43.94692%"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Percentage change between Q4 and Q3 calculated =(43.94692- 37.3439)/37.3439) X 100= 17.68166%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Percentage change between Q4 and Q3 calculated =(43.94692- 37.3439)/37.3439) X 100= 17.68166%"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "percentage change rounded to 2 decimal places and reported = 17.68%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "percentage change rounded to 2 decimal places and reported = 17.68%"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

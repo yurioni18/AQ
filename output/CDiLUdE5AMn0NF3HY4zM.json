@@ -1,0 +1,204 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "Calculate Danaos Corporation (NYSE:DAC) EV/EBITDA for fiscal year 2024 using their 2024 20F filing. Use $1.52B as Danaos's market cap on December 31st, 2024. Ignore lease liabilities and round to the nearest three decimals."
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "Report FY2024 EBITDA as $697.550 million",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Report FY2024 EBITDA as $697.550 million"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Report Cash and cash equivalents as $453.384 million",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Report Cash and cash equivalents as $453.384 million"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Report total debt outstanding as $744.546 million",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Report total debt outstanding as $744.546 million"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Report marketable securities as $60.850 million",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Report marketable securities as $60.850 million"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Report market capitalization as $1,520 million",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Report market capitalization as $1,520 million"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Calculate EV 1520 + 744.546 - 453.384 - 60.850 = $1750.312 million",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Calculate EV 1520 + 744.546 - 453.384 - 60.850 = $1750.312 million"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Calculate EV/EBITDA as 1750.312 / 697.550 = 2.509965",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Calculate EV/EBITDA as 1750.312 / 697.550 = 2.509965"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Round to 3 decimals = 2.510x",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Round to 3 decimals = 2.510x"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

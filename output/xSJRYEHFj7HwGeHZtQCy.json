@@ -1,0 +1,228 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "Calculate Six Flags' (FUN) Enterprise Value to EBITDA ratio at the end of Q2 FY2025 using a share price of $30.40 per share. Assume that leases are not factored into the value of debt calculation. Use LTM adjusted EBITDA for the multiple. Show the enterprise value and EBITDA calculation. Express your answer in the following format: 0.00x"
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "Enterprise Value = Equity Value + Total Debt - Cash and Cash Equivalents",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Enterprise Value = Equity Value + Total Debt - Cash and Cash Equivalents"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Equity value = 3078.12M calculated using 101254 thousand shares and $30.4 per share",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Equity value = 3078.12M calculated using 101254 thousand shares and $30.4 per share"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Total debt = CMLTD 15.038M + LTD 5273.143M = 5288.18M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Total debt = CMLTD 15.038M + LTD 5273.143M = 5288.18M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Cash and cash equivalents = 107.386M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Cash and cash equivalents = 107.386M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Enterprise value = 3078.12M + 5288.18M - 107.39M = 8258.92M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Enterprise value = 3078.12M + 5288.18M - 107.39M = 8258.92M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Utilize that LT Adjusted EBITDA = Q2 FY25 6 months EBITDA + FY24 EBITDA - Q2 FY24 6 months EBITDA",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Utilize that LT Adjusted EBITDA = Q2 FY25 6 months EBITDA + FY24 EBITDA - Q2 FY24 6 months EBITDA"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "LTM Adjusted EBITDA = 71.828M + 875.291M - 108.284M = 838.835M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "LTM Adjusted EBITDA = 71.828M + 875.291M - 108.284M = 838.835M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "EV/EBITDA = 8258.92M / 838.84M = 9.85x",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "EV/EBITDA = 8258.92M / 838.84M = 9.85x"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Final Answer: 9.85x",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Final Answer: 9.85x"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

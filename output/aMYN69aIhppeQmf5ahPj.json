@@ -1,0 +1,252 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "Using Mercer International's (MERC) 10k document for FY 2024, calculate the company's Return on Equity (ROE). Adjust net income by removing any restructuring charges and impairment charges reported in the FY 2024 Consolidated Statements of Operations and related footnotes. Report your final ROE as a percentage, rounded to 2 decimal places."
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "Net income(loss) is $(85,141,000)",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Net income(loss) is $(85,141,000)"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Goodwill impairment is $34,277,000",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Goodwill impairment is $34,277,000"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Inventory impairment is $9,000,000",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Inventory impairment is $9,000,000"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Restructuring charges stated as none, assumed $0.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Restructuring charges stated as none, assumed $0."
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Adjusted net income computed as -85,141,000 + 34,277,000 + 9,000,000 = -41,864,000",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Adjusted net income computed as -85,141,000 + 34,277,000 + 9,000,000 = -41,864,000"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Shareholders' equity at 12/31/2024: $429,775,000",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Shareholders' equity at 12/31/2024: $429,775,000"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Shareholders equity at 12/31/2023 is $635,410,000; ",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Shareholders equity at 12/31/2023 is $635,410,000; "
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Average shareholder's equity = (635,410,000+429,775,000)/2 = $532,592,500",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Average shareholder's equity = (635,410,000+429,775,000)/2 = $532,592,500"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Final Adjusted ROE = -41,864,000/532,592,500 = -7.86%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Final Adjusted ROE = -41,864,000/532,592,500 = -7.86%"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "The final answer is rounded to 2 decimal places.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "The final answer is rounded to 2 decimal places."
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

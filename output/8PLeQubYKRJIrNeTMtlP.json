@@ -1,0 +1,540 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "Which of Tapestry's (NYSE: TPR) brands (Coach, Kate Spade, Stuart Weitzman) saw the greatest growth in total square footage in NA from FY 2022 to FY 2024? Express the answer by stating the brand name and its corresponding growth, in square feet (ex: Stuart Weitzman; X sq ft)."
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "Retrieve Coach's average square footage for FY 2022: 4,839",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Retrieve Coach's average square footage for FY 2022: 4,839"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Retrieve Coach's average square footage for FY 2024: 4,905 ",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Retrieve Coach's average square footage for FY 2024: 4,905 "
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Retrieve Kate Spade's average square footage for FY 2022: 2,863",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Retrieve Kate Spade's average square footage for FY 2022: 2,863"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Retrieve Kate Spade's average square footage for FY 2024: 2,949",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Retrieve Kate Spade's average square footage for FY 2024: 2,949"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Retrieve Stuart Weitzman's average square footage for FY 2022: 1,919",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Retrieve Stuart Weitzman's average square footage for FY 2022: 1,919"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Retrieve Stuart Weitzman's average square footage for FY 2024: 1,938",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Retrieve Stuart Weitzman's average square footage for FY 2024: 1,938"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Retrieve Coach's store count for FY 2022: 343",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Retrieve Coach's store count for FY 2022: 343"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Retrieve Coach's store count for FY 2024: 324",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Retrieve Coach's store count for FY 2024: 324"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Retrieve Kate Spade's store count for FY 2022: 207",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Retrieve Kate Spade's store count for FY 2022: 207"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Retrieve Kate Spade's store count for FY 2024: 197",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Retrieve Kate Spade's store count for FY 2024: 197"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Retrieve Stuart Weitzman's store count for FY 2022: 39",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Retrieve Stuart Weitzman's store count for FY 2022: 39"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Retrieve Stuart Weitzman's store count for FY 2024: 34",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Retrieve Stuart Weitzman's store count for FY 2024: 34"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Calculate Coach's total square footage in FY 2022: 4,839 x 343 = 1,659,777",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Calculate Coach's total square footage in FY 2022: 4,839 x 343 = 1,659,777"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Calculate Coach's total square footage in FY 2024: 4,905 x 324 = 1,589,220",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Calculate Coach's total square footage in FY 2024: 4,905 x 324 = 1,589,220"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Calculate Kate Spade's total square footage in FY 2022: 2,863 x 207 = 592,641",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Calculate Kate Spade's total square footage in FY 2022: 2,863 x 207 = 592,641"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Calculate Kate Spade's total square footage in FY 2024: 2949 x 197 = 580,953",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Calculate Kate Spade's total square footage in FY 2024: 2949 x 197 = 580,953"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Calculate Stuart Weitzman's total square footage in FY 2022: 1,919 x 39 = 74,841",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Calculate Stuart Weitzman's total square footage in FY 2022: 1,919 x 39 = 74,841"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Calculate Stuart Weitzman's total square footage in FY 2024: 1,938 x 34 = 65,892",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Calculate Stuart Weitzman's total square footage in FY 2024: 1,938 x 34 = 65,892"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Calculate the difference in total square footage between FY 2022 and FY 2024 for Coach: 1,589,220 - 1,659,777 = - 70,557",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Calculate the difference in total square footage between FY 2022 and FY 2024 for Coach: 1,589,220 - 1,659,777 = - 70,557"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Calculate the difference in total square footage between FY 2022 and FY 2024 for Kate Spade: 580,953 - 592,641 = -11,688",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Calculate the difference in total square footage between FY 2022 and FY 2024 for Kate Spade: 580,953 - 592,641 = -11,688"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Calculate the difference in total square footage between FY 2022 and FY 2024 for Stuart Weitzman: 65,892 - 74,841 = -8,949",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Calculate the difference in total square footage between FY 2022 and FY 2024 for Stuart Weitzman: 65,892 - 74,841 = -8,949"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Identify Stuart Weitzman as the brand with the greatest growth in total square footage from FY 2022 to FY 2024. While none of the brands saw growth because they all faced a decline in total square footage, Stuart Weitzman experienced the least decline.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Identify Stuart Weitzman as the brand with the greatest growth in total square footage from FY 2022 to FY 2024. While none of the brands saw growth because they all faced a decline in total square footage, Stuart Weitzman experienced the least decline."
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

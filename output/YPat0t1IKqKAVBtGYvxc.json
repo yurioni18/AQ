@@ -1,0 +1,324 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "Calculate Snowflake Inc. (NYSE: SNOW)'s EV/Sales multiple for the Fiscal year ended January 31, 2025. Show the enterprise value build-up and do not just pull the EV figure. Use the stock price from March 7, 2025, to calculate equity value. Format the final answer as \"#.##x\"."
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "Shares outstanding are found to be 334,100,000",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Shares outstanding are found to be 334,100,000"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Share price used is $158.91",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Share price used is $158.91"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Equity value calculated = $53,091,831,000",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Equity value calculated = $53,091,831,000"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Operating lease liabilities, current = $35,923,000",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Operating lease liabilities, current = $35,923,000"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Operating lease liabilities, non-current = $377,818,000",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Operating lease liabilities, non-current = $377,818,000"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Convertible senior notes, net = $2,271,529,000",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Convertible senior notes, net = $2,271,529,000"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Cash and cash equivalents = $2,628,798,000",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Cash and cash equivalents = $2,628,798,000"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Short-term investments = $2,008,873,000",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Short-term investments = $2,008,873,000"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Long-term investments = $656,476,000",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Long-term investments = $656,476,000"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Enterprise Value (EV) computed = $50,489,668,000",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Enterprise Value (EV) computed = $50,489,668,000"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Sales for FY2025 = $3,626,396,000",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Sales for FY2025 = $3,626,396,000"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "EV/Sales calculated = 13.92x",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "EV/Sales calculated = 13.92x"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Answer is formatted as \"#.##x\"",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Answer is formatted as \"#.##x\""
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

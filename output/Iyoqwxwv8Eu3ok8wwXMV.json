@@ -1,0 +1,732 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "Using Waystar Holding Corp.’s Form 10-K for the year ended December 31, 2024, compute the following in one response:\n \n Non-GAAP operating performance bridge (2024): Reconcile GAAP operating income (loss) to Adjusted EBITDA by explicitly listing and summing all add-backs the company includes (e.g., D&A, share-based compensation, restructuring/transaction/IPO costs, impairment, etc.). Report Adjusted EBITDA margin in % (2 decimals).\n \n CFO before working capital (2024): From the cash flow statement reconciliation, compute Net cash provided by operating activities + (increase)/decrease in net working capital. Report the resulting CFO before WC in $M (2 decimals) and as % of revenue (2 decimals).\n \n Free cash flow & conversion (2024): FCF = CFO − Purchases of property and equipment (treat capex outflows as positive). Report FCF in $M (2 decimals) and FCF/Revenue in % (2 decimals).\n \n Rounding & units: All $ amounts in USD $M with strict trailing zeros to 2 decimals; percentages to 2 decimals with %; ratios in x to 2 decimals. Cite the exact 10-K sections you pull from (e.g., Item 7 MD&A, Item 8 statements, non-GAAP reconciliations, debt footnote, RPO/deferred revenue disclosures)."
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "Operating income (loss from operations) = $123.73M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Operating income (loss from operations) = $123.73M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Revenue = $943.55M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Revenue = $943.55M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Depreciation & amortization = $186.63M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Depreciation & amortization = $186.63M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Stock-based compensation = $54.44M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Stock-based compensation = $54.44M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Acquisition & integration costs = $0.86M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Acquisition & integration costs = $0.86M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Costs related to amended debt agreements = $14.14M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Costs related to amended debt agreements = $14.14M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "IPO-related costs = $2.14M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "IPO-related costs = $2.14M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Asset & lease impairments = $0.00M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Asset & lease impairments = $0.00M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Other (lease-related relocation costs) = $1.57M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Other (lease-related relocation costs) = $1.57M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Adjusted EBITDA (sum) = $383.50M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Adjusted EBITDA (sum) = $383.50M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Adjusted EBITDA margin = 40.64%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Adjusted EBITDA margin = 40.64%"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Net cash provided by operating activities (CFO) = $169.77M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Net cash provided by operating activities (CFO) = $169.77M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Change in accounts receivable = $(21.82)M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Change in accounts receivable = $(21.82)M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Change in income tax refundable = $3.97M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Change in income tax refundable = $3.97M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Change in prepaid expenses and other current assets = $(2.32)M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Change in prepaid expenses and other current assets = $(2.32)M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Change in deferred costs = $(16.50)M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Change in deferred costs = $(16.50)M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Change in other long-term assets = $(0.47)M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Change in other long-term assets = $(0.47)M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Change in accounts payable and accrued expenses = $18.23M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Change in accounts payable and accrued expenses = $18.23M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Change in deferred revenue = $(0.84)M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Change in deferred revenue = $(0.84)M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Change in operating lease ROU assets and lease liabilities = $(0.42)M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Change in operating lease ROU assets and lease liabilities = $(0.42)M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Change in other long-term liabilities = $0.00M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Change in other long-term liabilities = $0.00M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Net working capital change (sum of changes) = $(20.17)M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Net working capital change (sum of changes) = $(20.17)M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "CFO before working capital = $189.94M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "CFO before working capital = $189.94M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "CFO before working capital as % of revenue = 20.13%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "CFO before working capital as % of revenue = 20.13%"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Purchases of property and equipment (capex combined line) = $27.27M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Purchases of property and equipment (capex combined line) = $27.27M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Free cash flow (FCF) = $142.50M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Free cash flow (FCF) = $142.50M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "FCF/Revenue = 15.10%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "FCF/Revenue = 15.10%"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Answer cites Item 7 MD&A, Non‑GAAP financial measures—Adjusted EBITDA reconciliation for adjusted EBITDA add-backs",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Answer cites Item 7 MD&A, Non‑GAAP financial measures—Adjusted EBITDA reconciliation for adjusted EBITDA add-backs"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Answer cites Item 8 Consolidated Statements of Operations for GAAP operating income and revenue",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Answer cites Item 8 Consolidated Statements of Operations for GAAP operating income and revenue"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Answer cites Item 8 Consolidated Statements of Cash Flows (including investing activities) for CFO, working capital changes, and capex",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Answer cites Item 8 Consolidated Statements of Cash Flows (including investing activities) for CFO, working capital changes, and capex"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

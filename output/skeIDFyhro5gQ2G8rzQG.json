@@ -1,0 +1,348 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "Calculate Gogo's (GOGO) Enterprise Value to EBITDA ratio at the end of Q2 FY2025 using a share price of $15 per share. Assume that leases are not factored into the value of debt calculation. Use LTM adjusted EBITDA for the multiple. Show the enterprise value and EBITDA calculation. Express your answer in the following format: 0.00x"
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "Enterprise Value = Equity Value + Total Debt - Cash and Cash Equivalents",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Enterprise Value = Equity Value + Total Debt - Cash and Cash Equivalents"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Shares outstanding = 133,334,288",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Shares outstanding = 133,334,288"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Equity value = shares outstanding x $15 share price = 2,000,014,320 (or $2,000.014M)",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Equity value = shares outstanding x $15 share price = 2,000,014,320 (or $2,000.014M)"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "CMLTD (current portion of long term debt) = 2.5M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "CMLTD (current portion of long term debt) = 2.5M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Long term debt (LTD) = 832.513M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Long term debt (LTD) = 832.513M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Total debt used in EV calculation by adding current portion and long term debt = 835.0M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Total debt used in EV calculation by adding current portion and long term debt = 835.0M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Cash and cash equivalents = 102.085M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Cash and cash equivalents = 102.085M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Enterprise Value calculated 2,000.014M + 835.013M - 102.085M = 2732.942M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Enterprise Value calculated 2,000.014M + 835.013M - 102.085M = 2732.942M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Q2 FY2025 last 6 months adjusted EBITDA = 123.777M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Q2 FY2025 last 6 months adjusted EBITDA = 123.777M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "FY2024 adjusted EBITDA = 142.496M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "FY2024 adjusted EBITDA = 142.496M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Q2 FY2024 last 6 months adjusted EBITDA = 73.752M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Q2 FY2024 last 6 months adjusted EBITDA = 73.752M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "LTM Adjusted EBITDA (as of Q2 FY2025) = 123.777 + 142.496 - 73.752 = 192.521M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "LTM Adjusted EBITDA (as of Q2 FY2025) = 123.777 + 142.496 - 73.752 = 192.521M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Divide Enterprise Value by LTM Adj. EBITDA = 14.196x",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Divide Enterprise Value by LTM Adj. EBITDA = 14.196x"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Round answer to two decimal points 14.20x",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Round answer to two decimal points 14.20x"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

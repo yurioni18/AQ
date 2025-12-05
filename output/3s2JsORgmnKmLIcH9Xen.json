@@ -1,0 +1,348 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "Calculate DraftKing's (DKNG) Enterprise Value to EBITDA ratio at the end of Q2 FY2025 using a market cap of $17.00 billion. LTM Adjusted EBITDA should be used. Show the enterprise value calculation and LTM EBITDA calculation. Express your answer in the following format: 0.00x"
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "Determines that Enterprise Value formula is Equity Value + Total Debt - Cash and Cash Equivalents",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Determines that Enterprise Value formula is Equity Value + Total Debt - Cash and Cash Equivalents"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Determines that Equity Value is $17,000.00 million",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Determines that Equity Value is $17,000.00 million"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Determines that convertible notes of $1,257.75 million should be counted as debt",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Determines that convertible notes of $1,257.75 million should be counted as debt"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Determines that Term B loan of $578.50 million should be counted as debt",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Determines that Term B loan of $578.50 million should be counted as debt"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Calculates total debt of $1,836.25 million",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Calculates total debt of $1,836.25 million"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "States that Cash and Cash Equivalents = $1,261.97 million",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "States that Cash and Cash Equivalents = $1,261.97 million"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Calculates Enterprise Value of $17,574.28 million",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Calculates Enterprise Value of $17,574.28 million"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Q3 FY2024 Adjusted EBITDA = -$58.504 million",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Q3 FY2024 Adjusted EBITDA = -$58.504 million"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Q4 FY2024 Adjusted EBITDA = $89.454 million",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Q4 FY2024 Adjusted EBITDA = $89.454 million"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Q1 FY2025 Adjusted EBITDA = $102.630 million",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Q1 FY2025 Adjusted EBITDA = $102.630 million"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Q2 FY2025 Adjusted EBITDA = $300.644 million",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Q2 FY2025 Adjusted EBITDA = $300.644 million"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Determines that LTM Adjusted EBITDA is $434.224 million",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Determines that LTM Adjusted EBITDA is $434.224 million"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Divides enterprise value by LTM Adjusted EBITDA to find EV/EBITDA ratio",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Divides enterprise value by LTM Adjusted EBITDA to find EV/EBITDA ratio"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Final Answer = 40.47x",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Final Answer = 40.47x"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

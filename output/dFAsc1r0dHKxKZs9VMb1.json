@@ -1,0 +1,276 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "Calculate CAKE’s Q2-FY2025 end-of-period comparable restaurant base for the North Italia segment. Assume none of the restaurants opened over the last six quarters were closed. Express your answer as a whole number."
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "CAKE includes a restaurant in comps beginning in its 19th month of operation.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "CAKE includes a restaurant in comps beginning in its 19th month of operation."
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "North Italia restaurants open at Q2 FY2025 end-of-period: 46",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "North Italia restaurants open at Q2 FY2025 end-of-period: 46"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "North Italia openings Q1 FY2024: 2",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "North Italia openings Q1 FY2024: 2"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "North Italia openings Q2 FY2024: 1",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "North Italia openings Q2 FY2024: 1"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "North Italia openings Q3 FY2024: 0",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "North Italia openings Q3 FY2024: 0"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "North Italia openings Q4 FY2024: 3",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "North Italia openings Q4 FY2024: 3"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "North Italia openings Q1 FY2025: 3",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "North Italia openings Q1 FY2025: 3"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "North Italia openings Q2 FY2025: 1",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "North Italia openings Q2 FY2025: 1"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Total North Italia openings over the last six quarters: 10",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Total North Italia openings over the last six quarters: 10"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Compute Q2 FY2025 EOP comparable restaurants for North Italia as Q2 FY2025 EOP Open restaurants - Cumulative openings over the last 6 quarters",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Compute Q2 FY2025 EOP comparable restaurants for North Italia as Q2 FY2025 EOP Open restaurants - Cumulative openings over the last 6 quarters"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Q2 FY2025 end-of-period comparable North Italia restaurants: 36",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Q2 FY2025 end-of-period comparable North Italia restaurants: 36"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

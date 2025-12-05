@@ -1,0 +1,996 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "Using Fortrea’s FY2024 (FTRE) Form 10-K, analyze how the company’s business composition and working-capital profile have evolved:\n a) Compute revenue mix by geography (North America, Europe, Other) for 2022, 2023, 2024 and express each region’s % of total revenue.\n b) Compute each region’s percentage-point change in mix from 2022 → 2024.\n c) Compute the 2-year CAGR (2022→2024) for each region and total company.\n d) Using the contracts note, compute Fortrea’s net contract asset/(liability) position as a % of revenue for 2023 and 2024, where net = (Accounts receivable + Unbilled services − Allowance for credit losses − Unearned revenue).\n e) Compute an AR+Unbilled DSO equivalent (days) for 2023 and 2024: ((Accounts receivable + Unbilled services) / Revenue) × 365.\n f) Provide one sentence interpreting the mix and working-capital trend."
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "2022 North America revenue = $1,415.5M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "2022 North America revenue = $1,415.5M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "2022 Europe revenue =$841.9M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "2022 Europe revenue =$841.9M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "2022 Other revenue = $579.6M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "2022 Other revenue = $579.6M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "2022 Total revenue = $2,837.0M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "2022 Total revenue = $2,837.0M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "2023 North America revenue = $1,398.4M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "2023 North America revenue = $1,398.4M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "2023 Europe revenue = $827.5M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "2023 Europe revenue = $827.5M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "2023 Other revenue = $616.6M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "2023 Other revenue = $616.6M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "2023 Total revenue =$2,842.5M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "2023 Total revenue =$2,842.5M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "2024 North America revenue= $1,269.5M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "2024 North America revenue= $1,269.5M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "2024 Europe revenue =$800.0M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "2024 Europe revenue =$800.0M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "2024 Other revenue $626.9M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "2024 Other revenue $626.9M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "2024 Total revenue $2,696.4M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "2024 Total revenue $2,696.4M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "2022 North America mix 49.89%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "2022 North America mix 49.89%"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "2022 Europe mix 29.68%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "2022 Europe mix 29.68%"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "2022 Other mix 20.43%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "2022 Other mix 20.43%"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "2023 North America mix 49.20%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "2023 North America mix 49.20%"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "2023 Europe mix 29.11%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "2023 Europe mix 29.11%"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "2023 Other mix 21.69%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "2023 Other mix 21.69%"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "2024 North America mix 47.08%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "2024 North America mix 47.08%"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "2024 Europe mix 29.67%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "2024 Europe mix 29.67%"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "2024 Other mix 23.25%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "2024 Other mix 23.25%"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "North America mix change from 2022 to 2024 −2.81 percentage points",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "North America mix change from 2022 to 2024 −2.81 percentage points"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Europe mix change from 2022 to 2024 −0.01 percentage points",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Europe mix change from 2022 to 2024 −0.01 percentage points"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Other mix change from 2022 to 2024 +2.82 percentage points",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Other mix change from 2022 to 2024 +2.82 percentage points"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "North America 2‑year CAGR from 22 to 24 −5.30%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "North America 2‑year CAGR from 22 to 24 −5.30%"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Europe 2‑year CAGR from 22 to 24 −2.52%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Europe 2‑year CAGR from 22 to 24 −2.52%"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Other 2‑year CAGR from 2022 to 2024 +4.00%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Other 2‑year CAGR from 2022 to 2024 +4.00%"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Total company 2‑year CAGR (from 2022 to 2024) −2.51%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Total company 2‑year CAGR (from 2022 to 2024) −2.51%"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "2023 Accounts receivable = $420.2M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "2023 Accounts receivable = $420.2M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "2023 Unbilled services = $600.0M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "2023 Unbilled services = $600.0M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "2023 Allowance for credit losses= $31.7M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "2023 Allowance for credit losses= $31.7M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "2023 Unearned revenue = $214.2M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "2023 Unearned revenue = $214.2M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "2024 Accounts receivable = $156.5M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "2024 Accounts receivable = $156.5M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "2024 Unbilled services = $542.3M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "2024 Unbilled services = $542.3M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "2024 Allowance for credit losses = $39.3M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "2024 Allowance for credit losses = $39.3M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "2024 Unearned revenue= $353.3M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "2024 Unearned revenue= $353.3M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Net contract asset as (%age of revenue) 2023 27.24%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Net contract asset as (%age of revenue) 2023 27.24%"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Net contract asset as(%age of revenue) 2024 11.36%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Net contract asset as(%age of revenue) 2024 11.36%"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "AR+Unbilled DSO equivalent 2023 131.0 days",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "AR+Unbilled DSO equivalent 2023 131.0 days"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "AR+Unbilled DSO equivalent 2024 94.6 days",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "AR+Unbilled DSO equivalent 2024 94.6 days"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Final interpretation sentence states mix tilted away from North America toward Other while total revenue contracted modestly, and working‑capital intensity fell materially (net contract assets ~27.24% to ~11.36%, DSO down ~36 days), suggesting tighter billing/advance‑billing dynamics and a portfolio skew toward longer‑duration non‑NA studies burning down more efficiently.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Final interpretation sentence states mix tilted away from North America toward Other while total revenue contracted modestly, and working‑capital intensity fell materially (net contract assets ~27.24% to ~11.36%, DSO down ~36 days), suggesting tighter billing/advance‑billing dynamics and a portfolio skew toward longer‑duration non‑NA studies burning down more efficiently."
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

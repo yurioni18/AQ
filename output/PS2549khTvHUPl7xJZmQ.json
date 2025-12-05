@@ -1,0 +1,180 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "Calculate GOOGL's receivable days for Q2 FY2025. Use quarter-end figures."
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "Only applied quarter end figures ",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Only applied quarter end figures "
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Identifies June 30, 2025 as the quarter-end date for GOOGL's Quarter 2 FY2025.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Identifies June 30, 2025 as the quarter-end date for GOOGL's Quarter 2 FY2025."
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Identifies the quarter length as 91 days.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Identifies the quarter length as 91 days."
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "States GOOGL's reported Quarter 2 FY2025 accounts receivable as $55,048 million.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "States GOOGL's reported Quarter 2 FY2025 accounts receivable as $55,048 million."
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "States GOOGL's reported Quarter 2 FY2025 total revenues as $96,428 million.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "States GOOGL's reported Quarter 2 FY2025 total revenues as $96,428 million."
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Applies the DSO formula: Accounts receiveable / Revenues * Days, to get to the required figure.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Applies the DSO formula: Accounts receiveable / Revenues * Days, to get to the required figure."
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Calculates DSO as (55,048 / 96,428) * 91 = 5.95 = 52 days.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Calculates DSO as (55,048 / 96,428) * 91 = 5.95 = 52 days."
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

@@ -1,0 +1,228 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "Calculate Stride's (ticker: LRN) EV/Operating Income multiple for fiscal year 2025 using their latest 10-K filing. Assume share price = $130 and F/D S/O = 50 million. Show answer as a number (multiple) rounded to 1 decimal."
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "Income from operations (located in Income Statement)= $360.094 million.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Income from operations (located in Income Statement)= $360.094 million."
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Long-term debt (located in Balance Sheet)= $416.322 million.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Long-term debt (located in Balance Sheet)= $416.322 million."
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Current portion of finance lease liability (located in Balance Sheet) = $42.316 million.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Current portion of finance lease liability (located in Balance Sheet) = $42.316 million."
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Long-term finance lease liability (located in Balance Sheet) = $44.567 million.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Long-term finance lease liability (located in Balance Sheet) = $44.567 million."
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Cash and cash equivalents (located in Balance Sheet) = $782.497 million.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Cash and cash equivalents (located in Balance Sheet) = $782.497 million."
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Marketable Securities (located in Balance Sheet) = $202.769 million.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Marketable Securities (located in Balance Sheet) = $202.769 million."
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Equity value (Using stated in the promt assumptions) = Share Price × F/D/S/O = $130 × 50,000,000 = $6,500,000,000.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Equity value (Using stated in the promt assumptions) = Share Price × F/D/S/O = $130 × 50,000,000 = $6,500,000,000."
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Enterprise value (EV) = Market Cap + Long-term debt + Current portion of finance lease liability + Long-term finance lease liability - Cash and cash equivalents - Marketable Securities = $6,017,939,000.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Enterprise value (EV) = Market Cap + Long-term debt + Current portion of finance lease liability + Long-term finance lease liability - Cash and cash equivalents - Marketable Securities = $6,017,939,000."
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "EV/Operating Income multiple (rounded to 1 decimal) = 16.7x.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "EV/Operating Income multiple (rounded to 1 decimal) = 16.7x."
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

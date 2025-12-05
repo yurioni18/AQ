@@ -1,0 +1,228 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "What specific financial instruments does GE have classified as Level 3 in FY 2008? Separate the different instruments and the total amount. Express the answer in $M rounded to 2 decimal places of precision"
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "Amounts are stated as retrieved from GE’s FY 2008 Form 10-K and presented in $M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Amounts are stated as retrieved from GE’s FY 2008 Form 10-K and presented in $M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Investment securities: $12,956.00M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Investment securities: $12,956.00M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Derivatives (assets): $1,142.00M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Derivatives (assets): $1,142.00M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Other assets (private equity investments and loans designated under the fair value option): $1,105.00M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Other assets (private equity investments and loans designated under the fair value option): $1,105.00M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Derivatives (liabilities): $166.00M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Derivatives (liabilities): $166.00M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Total Level 3 assets = $15,203.00M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Total Level 3 assets = $15,203.00M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Total Level 3 liabilities = $166.00M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Total Level 3 liabilities = $166.00M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Combined Level 3 (assets + liabilities) = $15,369.00M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Combined Level 3 (assets + liabilities) = $15,369.00M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "All amounts are expressed in $M and rounded to two decimal places",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "All amounts are expressed in $M and rounded to two decimal places"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

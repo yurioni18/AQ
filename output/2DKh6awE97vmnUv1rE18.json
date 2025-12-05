@@ -1,0 +1,348 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "Using Micron Technology's (Ticker: MU) financials from its FY2024 Form 10-K, what is the company’s EV/EBITDA (rounded to 2 decimals) on August 29th, 2024, using Enterprise Value in $B (rounded to 2 decimals) and EBITDA in $B (rounded to 2 decimals)?"
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "Operating Income (EBIT) = $1.304B",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Operating Income (EBIT) = $1.304B"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Depreciation and amortization = $7.780B",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Depreciation and amortization = $7.780B"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Use EBITDA formula: EBITDA = Operating income + D&A. EBITDA = $1.304B + $7.780B = $9.08B.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Use EBITDA formula: EBITDA = Operating income + D&A. EBITDA = $1.304B + $7.780B = $9.08B."
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Cash and equivalents = $7.041B",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Cash and equivalents = $7.041B"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Short-term investments = $1.065B",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Short-term investments = $1.065B"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Current debt = $0.431B",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Current debt = $0.431B"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Long-term debt = $12.966B",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Long-term debt = $12.966B"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Shares outstanding (as of August 29, 2024) = 1,109 million",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Shares outstanding (as of August 29, 2024) = 1,109 million"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Closing share price on August 29, 2024 = $96.24 per share (USD)",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Closing share price on August 29, 2024 = $96.24 per share (USD)"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Market capitalization = Equity value = price x shares = 1,109 million x 96.24 = $106.73B.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Market capitalization = Equity value = price x shares = 1,109 million x 96.24 = $106.73B."
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Total debt = $13.397B (sum of long-term and current debt)",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Total debt = $13.397B (sum of long-term and current debt)"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Cash + short-term investments = $8.106B (sum of cash and short-term investments)",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Cash + short-term investments = $8.106B (sum of cash and short-term investments)"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Enterprise Value (EV) = $112.02B (rounded to 2 decimals)",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Enterprise Value (EV) = $112.02B (rounded to 2 decimals)"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "EV/EBITDA = 12.34× (final reported value)",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "EV/EBITDA = 12.34× (final reported value)"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

@@ -1,0 +1,180 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "How did S&P Global Inc (NYSE: SPGI)'s diluted GAAP EPS compare to management projections (at midpoint) on an annual basis in 2024? Format as % BEAT or MISS and express answer with two decimal points. Use guidance provided on an annual basis."
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "Find that the FY 2024 diluted GAAP EPS is $12.35 per share",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Find that the FY 2024 diluted GAAP EPS is $12.35 per share"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Find that the most recent guidance for FY 2024 is from Q3 2024 press release.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Find that the most recent guidance for FY 2024 is from Q3 2024 press release."
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Find that the FY 2024 annual GAAP diluted EPS guidance range reported in Q3 2024 is from $11.95 to $12.15",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Find that the FY 2024 annual GAAP diluted EPS guidance range reported in Q3 2024 is from $11.95 to $12.15"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Calculate the midpoint of the guidance to be $12.05 per share",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Calculate the midpoint of the guidance to be $12.05 per share"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Calculate the difference between actual guidance and the midpoint: (12.35/12.05)-1 = 2.49%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Calculate the difference between actual guidance and the midpoint: (12.35/12.05)-1 = 2.49%"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Since the difference is positive this is a BEAT",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Since the difference is positive this is a BEAT"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Round final answer to two decimal points and use given format: 2.49% BEAT",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Round final answer to two decimal points and use given format: 2.49% BEAT"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

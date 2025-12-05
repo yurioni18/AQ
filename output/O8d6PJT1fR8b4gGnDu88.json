@@ -1,0 +1,300 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "How did Stride's (ticker: LRN) adjusted operating income compare to management projections (at midpoint) on a quarterly basis in FY2025? Format as % BEAT or MISS. Use guidance provided on a quarterly basis. If the company did not provide guidance for one or more quarters, indicate this in the answer as \"no guidance.\" Format the answer as: \"[X]Q FY2025 [X.XX] % beat/miss / no guidance; ...\"."
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "Q1 FY2025 Actual AOI = $58.4M; ",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Q1 FY2025 Actual AOI = $58.4M; "
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Q2 FY2025 Actual AOI = $135.6M;",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Q2 FY2025 Actual AOI = $135.6M;"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Q3 FY2025 Actual AOI = $141.7M;",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Q3 FY2025 Actual AOI = $141.7M;"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Q4 FY2025 Actual AOI = $130.6M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Q4 FY2025 Actual AOI = $130.6M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Q1 FY2025: no guidance provided by company",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Q1 FY2025: no guidance provided by company"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Q2 FY2025 AOI guidance range $115–$125M with midpoint $120.0M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Q2 FY2025 AOI guidance range $115–$125M with midpoint $120.0M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Q3 FY2025 AOI guidance range $130–$140M with midpoint $135.0M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Q3 FY2025 AOI guidance range $130–$140M with midpoint $135.0M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Full FY2025 AOI guidance $455–$465M midpoint $460.0M -> Q4 AOI midpoint computed as $460.0M − $58.4M − $135.6M − $141.7M = $124.3M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Full FY2025 AOI guidance $455–$465M midpoint $460.0M -> Q4 AOI midpoint computed as $460.0M − $58.4M − $135.6M − $141.7M = $124.3M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Q2 FY2025 percent beat vs midpoint =13.00% BEAT",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Q2 FY2025 percent beat vs midpoint =13.00% BEAT"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Q3 FY2025 percent beat vs midpoint = 5.00% BEAT",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Q3 FY2025 percent beat vs midpoint = 5.00% BEAT"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Q4 FY2025 percent beat vs midpoint = 5.00% BEAT",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Q4 FY2025 percent beat vs midpoint = 5.00% BEAT"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Final formatted answer string present as: 1Q FY2025 no guidance; 2Q FY2025 13.00% BEAT; 3Q FY2025 5.00% BEAT; 4Q FY2025 5.00% BEAT.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Final formatted answer string present as: 1Q FY2025 no guidance; 2Q FY2025 13.00% BEAT; 3Q FY2025 5.00% BEAT; 4Q FY2025 5.00% BEAT."
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

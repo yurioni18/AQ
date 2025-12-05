@@ -1,0 +1,324 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "For the 2025 Fiscal Quarter ended June 27, 2025 (Q4'25), did Western Digital report operating income above or below its guided midpoint range, and what portion of this variation can be attributed to strength in higher-capacity drive sales and cost control?"
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "Guided revenue: 2.45B ± 0.15B",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Guided revenue: 2.45B ± 0.15B"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Guided non-GAAP gross margin range: 40.0% - 41.0% with midpoint 40.5%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Guided non-GAAP gross margin range: 40.0% - 41.0% with midpoint 40.5%"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Guided non-GAAP operating expenses: 330M - 340M with midpoint 335M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Guided non-GAAP operating expenses: 330M - 340M with midpoint 335M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Implied non-GAAP operating income midpoint = 657.25M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Implied non-GAAP operating income midpoint = 657.25M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Reported Q4 FY25 non-GAAP operating income = 732M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Reported Q4 FY25 non-GAAP operating income = 732M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Report Q4 FY25 non-GAAP Revenue as $2.605B.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Report Q4 FY25 non-GAAP Revenue as $2.605B."
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Reported Q4 FY25 non-GAAP gross margin = 41.3%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Reported Q4 FY25 non-GAAP gross margin = 41.3%"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Operating-income variance vs midpoint = +74.75M (732 - 657.25)",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Operating-income variance vs midpoint = +74.75M (732 - 657.25)"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Gross-margin rate beat vs midpoint = 0.8 percentage points (41.3% - 40.5%)",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Gross-margin rate beat vs midpoint = 0.8 percentage points (41.3% - 40.5%)"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Revenue used for incremental gross profit calculation = 2.605B",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Revenue used for incremental gross profit calculation = 2.605B"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Incremental gross profit from 0.8% rate beat = 20.84M (0.8% * 2.605B)",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Incremental gross profit from 0.8% rate beat = 20.84M (0.8% * 2.605B)"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Share of operating-income variance attributable to those factors = 27.9% (20.84M / 74.75M)",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Share of operating-income variance attributable to those factors = 27.9% (20.84M / 74.75M)"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Conclusion: non-GAAP operating income in Q4'25 beat midpoint guidance for the quarter by 74.75m. Additionally, we can attribute ~28% of non-GAAP operating income variance to increased higher-capacity drive sales and cost control",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Conclusion: non-GAAP operating income in Q4'25 beat midpoint guidance for the quarter by 74.75m. Additionally, we can attribute ~28% of non-GAAP operating income variance to increased higher-capacity drive sales and cost control"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

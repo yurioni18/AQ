@@ -1,0 +1,276 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "Calculate the Enterprise Value for Applied Materials (AMAT) in FY 2024. Use the shares outstanding and share price at close from Oct 27, 2024 and Oct 25, 2024 respectively for the EV calculation. Express the answer in billions of dollars using two decimal points of rounding."
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "Common shares outstanding found on 10-K filing for the fiscal year ended October 27, 2024 = 818M shares",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Common shares outstanding found on 10-K filing for the fiscal year ended October 27, 2024 = 818M shares"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": " Closing share price from October 25, 2024 = $186.52",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": " Closing share price from October 25, 2024 = $186.52"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Include Short-term debt = $799M as input",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Include Short-term debt = $799M as input"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Include Long-term debt = $5,460M as input",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Include Long-term debt = $5,460M as input"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Calculate Total debt = $6,259M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Calculate Total debt = $6,259M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Include Cash and cash equivalents = $8,022M as input",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Include Cash and cash equivalents = $8,022M as input"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Include Short-term investments = $1,449M as input",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Include Short-term investments = $1,449M as input"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Calculate Market capitalization calculated as 818M × $186.52 = $152,573.36M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Calculate Market capitalization calculated as 818M × $186.52 = $152,573.36M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Calculate EV = $152,573.36M + $6,259M - $8,022M - $1,449M = $149,361.36M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Calculate EV = $152,573.36M + $6,259M - $8,022M - $1,449M = $149,361.36M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Convert answer to billions = $149.361B",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Convert answer to billions = $149.361B"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Round answer to two decimal points = $149.36B",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Round answer to two decimal points = $149.36B"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

@@ -1,0 +1,276 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "For FY2024, calculate the research and development (R&D) expense as a percentage of revenue for Samsung Electronics Co., Ltd. (KRX:005930) and Taiwan Semiconductor Manufacturing Co., Ltd. (NYSE:TSM). Round each percentage to two decimal places. Discuss briefly what these R&D intensity values imply about each company’s strategic focus."
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "Samsung R&D in FY 2024 = 34,998,142 million KRW.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Samsung R&D in FY 2024 = 34,998,142 million KRW."
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Samsung Revenue in FY 2024 = 300,870,903 million KRW.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Samsung Revenue in FY 2024 = 300,870,903 million KRW."
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "TSMC R&D (NTD) in the FY 2024 = 204,181.8 million NTD.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "TSMC R&D (NTD) in the FY 2024 = 204,181.8 million NTD."
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "TSMC Revenue (NTD) in the FY 2024 = 2,894,307.7 million NTD.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "TSMC Revenue (NTD) in the FY 2024 = 2,894,307.7 million NTD."
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Calculate R&D as a percentage of revenue for Samsung = 11.6323%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Calculate R&D as a percentage of revenue for Samsung = 11.6323%"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Calculate R&D as a percentage of revenue for TSMC = 7.0546%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Calculate R&D as a percentage of revenue for TSMC = 7.0546%"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Round answer to two percentage points = 11.63%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Round answer to two percentage points = 11.63%"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Round answer to two percentage points = 7.05%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Round answer to two percentage points = 7.05%"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Determine Samsung has a higher R&D intensity than Samsung",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Determine Samsung has a higher R&D intensity than Samsung"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Provide a reason for Samsung's R&D intensity that includes an explanation that Samsung has a more diverse business model that operates a range of product lines, and thus needs more investment.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Provide a reason for Samsung's R&D intensity that includes an explanation that Samsung has a more diverse business model that operates a range of product lines, and thus needs more investment."
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Provide a reason for TSMC's lower R&D intensity that includes an explanation that discusses that TSMC has a larger revenue base than Samsung and more concentrated business operations which requires less overall R&D on an R&D to sales basis",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Provide a reason for TSMC's lower R&D intensity that includes an explanation that discusses that TSMC has a larger revenue base than Samsung and more concentrated business operations which requires less overall R&D on an R&D to sales basis"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

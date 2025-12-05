@@ -1,0 +1,156 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "What rate did Oracle use in calculating income tax expense associated with foreign income in fiscal 2010? Express the answer as a percentage with two decimal places."
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "Final Answer is 24.19%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Final Answer is 24.19%"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Foreign pretax income = $3,961 million",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Foreign pretax income = $3,961 million"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Foreign current income tax provision = $1,013 million",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Foreign current income tax provision = $1,013 million"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Foreign deferred income tax benefit = $55 million",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Foreign deferred income tax benefit = $55 million"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Total foreign income tax expense = $958 million computed as $1,013m − $55m",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Total foreign income tax expense = $958 million computed as $1,013m − $55m"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Final answer expressed as a percentage with two decimal places",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Final answer expressed as a percentage with two decimal places"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

@@ -1,0 +1,204 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "Based on the \"Comparison of 60 Months Cumulative Total Return\" graph of Tesla (TSLA) FY 2024, assume that that the common stock grows at CAGR from base period Dec-19 to Dec-24. What would be the cumulative return on Dec-28 based on the graph. Answer to the nearest whole number."
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "\nBase value at Dec -19 from the chart is $100.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "\nBase value at Dec -19 from the chart is $100."
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "\nEnd value at Dec-24 from the chart is 1447.97",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "\nEnd value at Dec-24 from the chart is 1447.97"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "\nThe CAGR formula is applied as: (1447.97 / 100)^(1/5) − 1",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "\nThe CAGR formula is applied as: (1447.97 / 100)^(1/5) − 1"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Calculated 5-year CAGR = 70.6680% per year",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Calculated 5-year CAGR = 70.6680% per year"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Projection formula used: Index_2028 = Index_2024 × (1 + CAGR)^4",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Projection formula used: Index_2028 = Index_2024 × (1 + CAGR)^4"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Projected Index_2028 = 12,284.84",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Projected Index_2028 = 12,284.84"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Computed cumulative return_2028 = 12,284.84 − 100 = 12,184.84%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Computed cumulative return_2028 = 12,284.84 − 100 = 12,184.84%"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Final reported cumulative return (rounded to nearest whole number): 12,185%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Final reported cumulative return (rounded to nearest whole number): 12,185%"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

@@ -1,0 +1,324 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "Using Trupanion (ticker: TRUP) FY2023 10-K calculate EV/Revenue multiple. Use diluted WASO for market cap calculation. Assume share price of $50. Show the answer rounded to 2 decimals."
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "FY2023 revenue = $1,108,605,000",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "FY2023 revenue = $1,108,605,000"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "FY2023 diluted WASO = 41,436,882 shares",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "FY2023 diluted WASO = 41,436,882 shares"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Assumed share price = $50",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Assumed share price = $50"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Market Cap = 41,436,882 × $50 = $2,071,844,100",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Market Cap = 41,436,882 × $50 = $2,071,844,100"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Cash and cash equivalents = $147,501,000",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Cash and cash equivalents = $147,501,000"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Short-term investments = $129,667,000",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Short-term investments = $129,667,000"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Long-term investments = $12,866,000",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Long-term investments = $12,866,000"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Long-term debt current portion = $1,350,000",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Long-term debt current portion = $1,350,000"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Long-term debt (noncurrent) = $127,580,000",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Long-term debt (noncurrent) = $127,580,000"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Preferred stock outstanding = $0",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Preferred stock outstanding = $0"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Enterprise value formula used = market cap + current portion of long-term debt + long-term debt (noncurrent) + preferred equity - cash and equivalents - short-term investments - long-term investments",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Enterprise value formula used = market cap + current portion of long-term debt + long-term debt (noncurrent) + preferred equity - cash and equivalents - short-term investments - long-term investments"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Enterprise value = $1,910,740,100",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Enterprise value = $1,910,740,100"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "EV/Revenue multiple (rounded to 2 decimals) = 1.72",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "EV/Revenue multiple (rounded to 2 decimals) = 1.72"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

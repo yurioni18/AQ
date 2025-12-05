@@ -1,0 +1,300 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "Using VF Corporations (NYSE: VFC)'s 10-K from 2025, calculate the return on equity (ROE) for FY 2025 if average shareholders equity grows at the same rate as the Productivity Growth Rate (Labor Productivity) as of 2024-12-31, assuming all other relevant inputs remain at their current level. Round your answer to 2 decimal points. Show your full solution; include formulas, calculations, intermediate steps, and assumptions."
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "ROE = Net income / Average stockholders’ equity",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "ROE = Net income / Average stockholders’ equity"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Assume net income held at its FY2025 level from VF Corporation's FY2025 10‑K",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Assume net income held at its FY2025 level from VF Corporation's FY2025 10‑K"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Assume FY2025 average stockholders’ equity is projected by growing FY2024 average equity at the Labor Productivity growth rate as of 2024-12-31",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Assume FY2025 average stockholders’ equity is projected by growing FY2024 average equity at the Labor Productivity growth rate as of 2024-12-31"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Amounts are stated in U.S. dollars and presented in thousands",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Amounts are stated in U.S. dollars and presented in thousands"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "FY2025 net income (loss) = $(189,716) thousand (negative $189.716 million) from Consolidated Statements of Operations for year ended March 29, 2025",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "FY2025 net income (loss) = $(189,716) thousand (negative $189.716 million) from Consolidated Statements of Operations for year ended March 29, 2025"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Total stockholders’ equity at FY2023 year‑end (March 2023) = $2,910,713 thousand",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Total stockholders’ equity at FY2023 year‑end (March 2023) = $2,910,713 thousand"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Total stockholders’ equity at FY2024 year‑end (March 2024) = $1,658,365 thousand",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Total stockholders’ equity at FY2024 year‑end (March 2024) = $1,658,365 thousand"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "FY2024 average stockholders’ equity = (2,910,713k + 1,658,365k) / 2 = 2,284,539k",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "FY2024 average stockholders’ equity = (2,910,713k + 1,658,365k) / 2 = 2,284,539k"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Labor Productivity growth rate used = 2.0% (Nonfarm business labor productivity change Q4 2023 to Q4 2024; BLS release March 6, 2025)",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Labor Productivity growth rate used = 2.0% (Nonfarm business labor productivity change Q4 2023 to Q4 2024; BLS release March 6, 2025)"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Projected average equity FY2025 = 2,284,539k × 1.02 = 2,330,229.78k",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Projected average equity FY2025 = 2,284,539k × 1.02 = 2,330,229.78k"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Computed FY2025 ROE = (−189,716k) / (2,330,229.78k) = −0.081415",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Computed FY2025 ROE = (−189,716k) / (2,330,229.78k) = −0.081415"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Final answer: −8.14% (rounded to two decimals)",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Final answer: −8.14% (rounded to two decimals)"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

@@ -1,0 +1,132 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "What was the YoY change expressed as a percentage in Elanco's (ELAN) adjusted EBITDA margin for 2Q2025 versus 2Q2024? Please round to two decimals"
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "Adjusted EBITDA Margin for 2Q2025 is 19.2%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Adjusted EBITDA Margin for 2Q2025 is 19.2%"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Adjusted EBITDA Margin for 2Q2024 is 23.2%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Adjusted EBITDA Margin for 2Q2024 is 23.2%"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Difference between 2Q2025 and 2Q2024 Adjusted EBITDA Margin is -4.00%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Difference between 2Q2025 and 2Q2024 Adjusted EBITDA Margin is -4.00%"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Percent change calculated by dividing the -4.00% difference by 23.2% and multiplying by 100",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Percent change calculated by dividing the -4.00% difference by 23.2% and multiplying by 100"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Final Answer (YoY percent change) is -17.24% (rounded to two decimals)",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Final Answer (YoY percent change) is -17.24% (rounded to two decimals)"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

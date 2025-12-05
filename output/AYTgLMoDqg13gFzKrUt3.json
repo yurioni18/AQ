@@ -1,0 +1,492 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "Calculate the EV/EBITDA and EV/Revenue metrics for Adobe (ADBE) in FY 2023. Use the shares outstanding and share price at close from Dec 1, 2023 for the EV calculation. Express the answer using two decimal points of rounding."
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "Include common shares outstanding = 455M as input",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Include common shares outstanding = 455M as input"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Include short-term debt = $0M as input",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Include short-term debt = $0M as input"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Include long-term debt = $3,634M as input",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Include long-term debt = $3,634M as input"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Calculate total debt = $3,634M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Calculate total debt = $3,634M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Include cash and cash equivalents = $7,141M as input",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Include cash and cash equivalents = $7,141M as input"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Include short-term investments = $701M as input",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Include short-term investments = $701M as input"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Calculate EV = $274,465.85M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Calculate EV = $274,465.85M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Include net income = $5,428M as input",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Include net income = $5,428M as input"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Include total non-operating income (expense) = $149M as input",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Include total non-operating income (expense) = $149M as input"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Include tax = $1,371M as input",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Include tax = $1,371M as input"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Include depreciation and amortization = $872M as input",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Include depreciation and amortization = $872M as input"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Calculate EBITDA = $7,522M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Calculate EBITDA = $7,522M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Calculate EV/EBITDA = 36.49x",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Calculate EV/EBITDA = 36.49x"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Include revenue = $19,409M as input",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Include revenue = $19,409M as input"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Calculate EV/Revenue = 14.14x",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Calculate EV/Revenue = 14.14x"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Round EV/EBITDA to two decimal points = 36.49x",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Round EV/EBITDA to two decimal points = 36.49x"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Round EV/Revenue to two decimal points = 14.14x",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Round EV/Revenue to two decimal points = 14.14x"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Total Cash and Investments = $7,842M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Total Cash and Investments = $7,842M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Share Price on December 1, 2023 is $612.47",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Share Price on December 1, 2023 is $612.47"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Market Capitalization calculated as share price x shares outstanding = $278,673.85M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Market Capitalization calculated as share price x shares outstanding = $278,673.85M"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

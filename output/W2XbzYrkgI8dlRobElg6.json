@@ -1,0 +1,204 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "Calculate Delta Airlines's (DAL) change in Revenue/ASM from 2014 FY to 2024 FY? What does that indicate about the competitiveness of the airline industry?"
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "Define Revenue/ASM (TRASM) as total revenue per available seat mile",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Define Revenue/ASM (TRASM) as total revenue per available seat mile"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Find the FY2014 TRASM as 16.84¢",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Find the FY2014 TRASM as 16.84¢"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Find the FY2024 TRASM as 21.37¢",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Find the FY2024 TRASM as 21.37¢"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Calculate the absolute increase in TRASM from 2014 to 2024 as 4.53¢",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Calculate the absolute increase in TRASM from 2014 to 2024 as 4.53¢"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Calculate the percentage increase in TRASM from 2014 to 2024 as ~26.90%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Calculate the percentage increase in TRASM from 2014 to 2024 as ~26.90%"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Interpret that the TRASM increase comes from improved unit monetization that was driven by premium, loyalty, and non‑ticket revenue",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Interpret that the TRASM increase comes from improved unit monetization that was driven by premium, loyalty, and non‑ticket revenue"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Note that the company's filings state that the US airline market remains highly competitive ",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Note that the company's filings state that the US airline market remains highly competitive "
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Note that carriers need to rely increasingly on diversified, non‑ticket revenue streams to increase TRASM",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Note that carriers need to rely increasingly on diversified, non‑ticket revenue streams to increase TRASM"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

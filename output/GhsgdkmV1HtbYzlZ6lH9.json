@@ -1,0 +1,396 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "Did UBER’s year-over-year TTM Adjusted EBITDA growth rate accelerate or decelerate QoQ in Q2-FY2025? By how much? Express your answer as a percentage, rounded to two decimal places."
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "Idenitfy Q2 FY2025 adj. EBITDA as = $2,119m",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Idenitfy Q2 FY2025 adj. EBITDA as = $2,119m"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Identify Q2 FY2024 adj. EBITDA as = $1,570m",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Identify Q2 FY2024 adj. EBITDA as = $1,570m"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Identify Q1 FY2025 adj. EBITDA as = $1,868m",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Identify Q1 FY2025 adj. EBITDA as = $1,868m"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Identify Q1 FY2024 adj. EBITDA as = $1,382m",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Identify Q1 FY2024 adj. EBITDA as = $1,382m"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Identify Q4 FY2024 adj. EBITDA as = $1,842m",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Identify Q4 FY2024 adj. EBITDA as = $1,842m"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Identify Q4 FY2023 adj. EBITDA as = $1,283m",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Identify Q4 FY2023 adj. EBITDA as = $1,283m"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Identify Q3-FY2024 adj. EBITDA as = $1,690m",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Identify Q3-FY2024 adj. EBITDA as = $1,690m"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Identify Q3-FY2023 adj. EBITDA as = $1,092m",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Identify Q3-FY2023 adj. EBITDA as = $1,092m"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Identify Q2 FY2023 adj. EBITDA as = $916m",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Identify Q2 FY2023 adj. EBITDA as = $916m"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Calculate TTM Q2-FY2025 adj. EBITDA as = $7,519m",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Calculate TTM Q2-FY2025 adj. EBITDA as = $7,519m"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Compute TTM Q2-FY2024 adj. EBITDA as = $5,327m",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Compute TTM Q2-FY2024 adj. EBITDA as = $5,327m"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Compute TTM Q1-FY2025 adj. EBITDA as = $6,970m",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Compute TTM Q1-FY2025 adj. EBITDA as = $6,970m"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Compute TTM Q1-FY2024 adj. EBITDA as = $4,673m",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Compute TTM Q1-FY2024 adj. EBITDA as = $4,673m"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Compute year over year TTM growth Q2-FY2025 as = 41.1488642763%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Compute year over year TTM growth Q2-FY2025 as = 41.1488642763%"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Compute year over year TTM growth Q1-FY2025 as = 49.1547185962%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Compute year over year TTM growth Q1-FY2025 as = 49.1547185962%"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Uber’s year over year TTM Q2-FY2025 Adjusted EBITDA growth rate decelerated quarter over quarter by 8.01%.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Uber’s year over year TTM Q2-FY2025 Adjusted EBITDA growth rate decelerated quarter over quarter by 8.01%."
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

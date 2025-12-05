@@ -1,0 +1,180 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "Using Stride, Inc, (ticker: LRN) 10-K for fiscal year ended June 30, 2025 calculate the year over year % change of enrollment per school (defined as enrollment for the year divided by number of schools where school-as-service offering was provided during corresponding school year) for Career Learning segment from FY2024 to FY2025. Show answer in % rounded to 2 decimals."
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "FY2025 Career Learning enrollment (data located in FY2025 10-K Enrollment Data table (MD&A section))= 96.3 thousand.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "FY2025 Career Learning enrollment (data located in FY2025 10-K Enrollment Data table (MD&A section))= 96.3 thousand."
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "FY2024 Career Learning enrollment (data located in FY2025 10-K Enrollment Data table (MD&A section))= 72.7 thousand.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "FY2024 Career Learning enrollment (data located in FY2025 10-K Enrollment Data table (MD&A section))= 72.7 thousand."
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Number of schools where School-as-a-Service offering was provided in the 2024–2025 school year (data located in ITEM 1. BUSINESS section of FY2025 10-k) for Career learning segment= 56.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Number of schools where School-as-a-Service offering was provided in the 2024–2025 school year (data located in ITEM 1. BUSINESS section of FY2025 10-k) for Career learning segment= 56."
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Number of schools where School-as-a-Service offering was provided in the 2023–2024 school year (data located in ITEM 1. BUSINESS section of FY2024 10-k) for Career learning segment= 56.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Number of schools where School-as-a-Service offering was provided in the 2023–2024 school year (data located in ITEM 1. BUSINESS section of FY2024 10-k) for Career learning segment= 56."
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Enrollment per school for FY2025 = 96,300 ÷ 56 = 1,719.64 students per school.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Enrollment per school for FY2025 = 96,300 ÷ 56 = 1,719.64 students per school."
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Computed enrollment per school for FY2024 = 72,700 ÷ 56 = 1,298.21 students per school.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Computed enrollment per school for FY2024 = 72,700 ÷ 56 = 1,298.21 students per school."
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Year-over-year percentage change in enrollment per school from FY2024 to FY2025 = [(1,719.64 − 1,298.21) ÷ 1,298.21] × 100 = 32.46%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Year-over-year percentage change in enrollment per school from FY2024 to FY2025 = [(1,719.64 − 1,298.21) ÷ 1,298.21] × 100 = 32.46%"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

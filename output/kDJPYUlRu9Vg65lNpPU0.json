@@ -1,0 +1,444 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "Based on CAKE’s 10-Ks, 10-Qs, and press releases, retrieve the end-of-period (EOP) number of company-owned The Cheesecake Factory restaurants for the last four quarters, along with the corresponding sales for that segment in each quarter. Finally, calculate the average unit volume (AUV) per restaurant for each quarter using the average number of company-owned The Cheesecake Factory stores. Express the number of stores as whole numbers, AUV in thousands of USD, and total sales in USD millions."
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "Average restaurants computed as (current quarter EOP + prior quarter EOP) / 2",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Average restaurants computed as (current quarter EOP + prior quarter EOP) / 2"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "AUV, or average unit volume, computed by dividing segment sales (in USD thousands) by the average restaurant count",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "AUV, or average unit volume, computed by dividing segment sales (in USD thousands) by the average restaurant count"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Q3 FY2024 (13 wks ended 2024-10-01) EOP company-owned The Cheesecake Factory restaurants = 215",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Q3 FY2024 (13 wks ended 2024-10-01) EOP company-owned The Cheesecake Factory restaurants = 215"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Q3 FY2024 (13 wks ended 2024-10-01) segment sales = $647.8M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Q3 FY2024 (13 wks ended 2024-10-01) segment sales = $647.8M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Q3 FY2024 (13 wks ended 2024-10-01) average restaurants = 216",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Q3 FY2024 (13 wks ended 2024-10-01) average restaurants = 216"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Q3 FY2024 (13 wks ended 2024-10-01) AUV = $2,998.9k",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Q3 FY2024 (13 wks ended 2024-10-01) AUV = $2,998.9k"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Q4 FY2024 (13 wks ended 2024-12-31) EOP company-owned The Cheesecake Factory restaurants = 215",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Q4 FY2024 (13 wks ended 2024-12-31) EOP company-owned The Cheesecake Factory restaurants = 215"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Q4 FY2024 (13 wks ended 2024-12-31) segment sales = $669.4M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Q4 FY2024 (13 wks ended 2024-12-31) segment sales = $669.4M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Q4 FY2024 (13 wks ended 2024-12-31) average restaurants = 215",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Q4 FY2024 (13 wks ended 2024-12-31) average restaurants = 215"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Q4 FY2024 (13 wks ended 2024-12-31) AUV = $3,113.4k",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Q4 FY2024 (13 wks ended 2024-12-31) AUV = $3,113.4k"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Q1 FY2025 (13 wks ended 2025-04-01) EOP company-owned The Cheesecake Factory restaurants = 215",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Q1 FY2025 (13 wks ended 2025-04-01) EOP company-owned The Cheesecake Factory restaurants = 215"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Q1 FY2025 (13 wks ended 2025-04-01) segment sales = $672.7M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Q1 FY2025 (13 wks ended 2025-04-01) segment sales = $672.7M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Q1 FY2025 (13 wks ended 2025-04-01) average restaurants = 215",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Q1 FY2025 (13 wks ended 2025-04-01) average restaurants = 215"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Q1 FY2025 (13 wks ended 2025-04-01) AUV = $3,129.0k",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Q1 FY2025 (13 wks ended 2025-04-01) AUV = $3,129.0k"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Q2 FY2025 (13 wks ended 2025-07-01) EOP company-owned The Cheesecake Factory restaurants = 216",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Q2 FY2025 (13 wks ended 2025-07-01) EOP company-owned The Cheesecake Factory restaurants = 216"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Q2 FY2025 (13 wks ended 2025-07-01) segment sales = $683.3M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Q2 FY2025 (13 wks ended 2025-07-01) segment sales = $683.3M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Q2 FY2025 (13 wks ended 2025-07-01) average restaurants = 215.5",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Q2 FY2025 (13 wks ended 2025-07-01) average restaurants = 215.5"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Q2 FY2025 (13 wks ended 2025-07-01) AUV = $3,170.6k",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Q2 FY2025 (13 wks ended 2025-07-01) AUV = $3,170.6k"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

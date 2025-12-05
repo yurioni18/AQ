@@ -1,0 +1,324 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "Using Kimberly-Clark Corporation (KMB) FY 2023 10-K and FY 2020 10-K, what was the percentage change in Return on Equity (ROE) between FY 2020 and FY 2023?\n Express your answer as a percentage rounded to 2 decimals."
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "The final percentage change in ROE is calculated to be -69.58%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "The final percentage change in ROE is calculated to be -69.58%"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "To calculate ROE, the formula that is used is: Net income attributable to Kimberly‑Clark Corporation ÷ average Kimberly‑Clark Corporation stockholders’ equity (beginning and ending of the fiscal year, excluding noncontrolling interests)",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "To calculate ROE, the formula that is used is: Net income attributable to Kimberly‑Clark Corporation ÷ average Kimberly‑Clark Corporation stockholders’ equity (beginning and ending of the fiscal year, excluding noncontrolling interests)"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Percentage change formula: ((ROE 2023 − ROE 2020) ÷ ROE 2020) × 100",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Percentage change formula: ((ROE 2023 − ROE 2020) ÷ ROE 2020) × 100"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "FY 2020 net income attributable to Kimberly‑Clark Corporation = $2,352 million",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "FY 2020 net income attributable to Kimberly‑Clark Corporation = $2,352 million"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "FY 2023 net income attributable to Kimberly‑Clark Corporation = $1,764 million",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "FY 2023 net income attributable to Kimberly‑Clark Corporation = $1,764 million"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "FY 2019 stockholder's equity is -$33 million",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "FY 2019 stockholder's equity is -$33 million"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "FY 2020 stockholder's equity is $626 million",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "FY 2020 stockholder's equity is $626 million"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "FY 2022 stockholder's equity is $547 million",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "FY 2022 stockholder's equity is $547 million"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "FY 2023 stockholder's equity is $915 million",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "FY 2023 stockholder's equity is $915 million"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Average equity FY 2020 = $296.50 million ",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Average equity FY 2020 = $296.50 million "
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "ROE 2020 = $2,352 ÷ $296.50 = 7.93",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "ROE 2020 = $2,352 ÷ $296.50 = 7.93"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Average equity FY 2023 = $731.00 million",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Average equity FY 2023 = $731.00 million"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "ROE 2023 = 2.41",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "ROE 2023 = 2.41"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

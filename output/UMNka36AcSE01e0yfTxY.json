@@ -1,0 +1,180 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "What is the percentage growth of VMI's R&D as a % of Product Sales from FY2023 to FY2024? Format answer as a % with two decimal places."
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "Use R&D expense of 55,000 thousand for FY2023 as an input",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Use R&D expense of 55,000 thousand for FY2023 as an input"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Use R&D expense of 59,000 thousand for FY2024 as an input",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Use R&D expense of 59,000 thousand for FY2024 as an input"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Use Product Sales of 3,772,835 thousand for FY2023 as an input",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Use Product Sales of 3,772,835 thousand for FY2023 as an input"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Use Product Sales of 3,660,779 thousand for FY2024 as an input",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Use Product Sales of 3,660,779 thousand for FY2024 as an input"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Calculate FY2023 R&D as % of Product Sales using the formula: 55,000/3,772,835 = 1.4578%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Calculate FY2023 R&D as % of Product Sales using the formula: 55,000/3,772,835 = 1.4578%"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Calculate FY2024 R&D as % of Product Sales using the formula: 59,000/3,660,779 = 1.6117%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Calculate FY2024 R&D as % of Product Sales using the formula: 59,000/3,660,779 = 1.6117%"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Compute percentage growth of the ratio using the formula: ((1.6117% - 1.4578%) / 1.4578%) × 100 = 10.56%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Compute percentage growth of the ratio using the formula: ((1.6117% - 1.4578%) / 1.4578%) × 100 = 10.56%"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

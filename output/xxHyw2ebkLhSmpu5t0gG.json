@@ -1,0 +1,180 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "What were the primary sources of synergies for Expand Energy Corp (NASDAQ: EXE)'s merger with Southwestern Energy, and how have the projected synergies changed over time since the announcement of the merger?"
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "Originally announced annual synergy target of approximately $400 M (run-rate)",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Originally announced annual synergy target of approximately $400 M (run-rate)"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Most recent October 2025 guidance update increased the annual synergy outlook to $600 M by the end of FY 2026",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Most recent October 2025 guidance update increased the annual synergy outlook to $600 M by the end of FY 2026"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Most recent October 2025 guidance indicated the deal was on track to hit $500 M in annual synergies by the end of FY 2025",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Most recent October 2025 guidance indicated the deal was on track to hit $500 M in annual synergies by the end of FY 2025"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Primary synergy sources includes: lower drilling and completion costs",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Primary synergy sources includes: lower drilling and completion costs"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Primary synergy sources includes: G&A reductions",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Primary synergy sources includes: G&A reductions"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Primary synergy sources includes: utilization of shared operational infrastructure",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Primary synergy sources includes: utilization of shared operational infrastructure"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Primary synergy sources includes: longer laterals",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Primary synergy sources includes: longer laterals"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

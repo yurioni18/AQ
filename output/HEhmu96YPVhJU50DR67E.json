@@ -1,0 +1,108 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "Calculate the difference between Adobe's (NYSE:ADBE) adjusted effective tax rate and its GAAP effective tax rate in FY 2024."
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "Identify the correct filing as the 2024 FY 10K for the year ended November 29th 2024. ",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Identify the correct filing as the 2024 FY 10K for the year ended November 29th 2024. "
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "State Adobe's GAAP effective tax rate as 20%.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "State Adobe's GAAP effective tax rate as 20%."
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "State Adobe's adjusted effective tax rate as 18.5%.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "State Adobe's adjusted effective tax rate as 18.5%."
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Find the difference between the adjusted and GAAP rates as 18.5%-20%=-1.5%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Find the difference between the adjusted and GAAP rates as 18.5%-20%=-1.5%"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

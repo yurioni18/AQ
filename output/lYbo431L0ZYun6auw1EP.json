@@ -1,0 +1,324 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "Is there any evidence that the depth (or thinness or activeness) of the markets for the\n financial instruments GE is invested in is getting worse in 2008? Explain."
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "GE attributed transfers into Level 3 to increased use of non-binding broker quotes that could not be validated due to continued deterioration in the credit markets.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "GE attributed transfers into Level 3 to increased use of non-binding broker quotes that could not be validated due to continued deterioration in the credit markets."
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Level 3 investment securities valued using non-binding broker quotes were $2,074 million at December 31, 2008.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Level 3 investment securities valued using non-binding broker quotes were $2,074 million at December 31, 2008."
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Level 3 retained interests in securitizations were $6,356 million at December 31, 2008.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Level 3 retained interests in securitizations were $6,356 million at December 31, 2008."
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Unrealized losses on GE’s investment securities rose to $5.7 billion at December 31, 2008.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Unrealized losses on GE’s investment securities rose to $5.7 billion at December 31, 2008."
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Of those unrealized losses, $3.5 billion were aged 12+ months.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Of those unrealized losses, $3.5 billion were aged 12+ months."
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "The answer states that these unrealized losses reflect broad stress in GE’s investment portfolio.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "The answer states that these unrealized losses reflect broad stress in GE’s investment portfolio."
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "The answer quotes GE citing “deterioration in current and expected real estate market liquidity” during 2008 as affecting asset values.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "The answer quotes GE citing “deterioration in current and expected real estate market liquidity” during 2008 as affecting asset values."
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "The answer states GE cited stressed or constrained securitization markets in 2008.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "The answer states GE cited stressed or constrained securitization markets in 2008."
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "The answer states that these fair-value disclosures are evidence that markets became thinner and less active in 2008.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "The answer states that these fair-value disclosures are evidence that markets became thinner and less active in 2008."
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "The answer links the increase in Level 3 measurements to reduced market depth and less observable pricing.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "The answer links the increase in Level 3 measurements to reduced market depth and less observable pricing."
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "The answer concludes that the overall market conditions for GE’s financial instruments worsened in 2008.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "The answer concludes that the overall market conditions for GE’s financial instruments worsened in 2008."
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Unrealized losses are described in the answer as having increased to about $5.7 billion in 2008.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Unrealized losses are described in the answer as having increased to about $5.7 billion in 2008."
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "The answer states that a net $1,032 million of instruments were transferred into Level 3.",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "The answer states that a net $1,032 million of instruments were transferred into Level 3."
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}

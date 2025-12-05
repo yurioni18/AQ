@@ -1,0 +1,108 @@
+{
+  "prompt": [
+    {
+      "type": "text",
+      "content": "What was the year-over-year percentage change in Deferred revenue for FY 2022 to FY 2023 for Apple (NASDAQ: AAPL)? Using Apple’s Form 10-K, express your answer as a % rounded to 2 decimal places."
+    }
+  ],
+  "rubrics": [
+    {
+      "name": "Deferred Revenue for FY 2023 = $8,061M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Deferred Revenue for FY 2023 = $8,061M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Deferred Revenue for FY 2022 = $7,912M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Deferred Revenue for FY 2022 = $7,912M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Deferred revenue 2023 - Deferred Revenue 2022 = $8,061M - $7,912M = $149M",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Deferred revenue 2023 - Deferred Revenue 2022 = $8,061M - $7,912M = $149M"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "Year-over-year percentage = ($149M/$7,912M)*100 = 1.88%",
+      "weight": 1.0,
+      "score": {
+        "type": "discrete",
+        "outcomes": [
+          {
+            "label": "yes",
+            "score": 1.0
+          },
+          {
+            "label": "no",
+            "score": 0.0
+          }
+        ]
+      },
+      "messages": [
+        {
+          "type": "text",
+          "content": "Year-over-year percentage = ($149M/$7,912M)*100 = 1.88%"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "include_files": false,
+  "use_docker": false
+}
